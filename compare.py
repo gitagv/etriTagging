@@ -17,10 +17,15 @@ for t2 in test2.find():
         if senNum <= 7:
             for morpNum, morp in enumerate(sentence['morp']):
                 dic2[str(senNum) + '_' + str(morpNum)] = morp['lemma'] + '_' + morp['type']
-cnt = 0
-
+allcnt = 0
+samecnt = 0
 for d in dic1:
+    allcnt +=1
     if dic1[d] == dic2[d]:
-        cnt += 1
+        samecnt += 1
     else:
-        print(dic1[d], dic2[d])
+        print(d)
+        print("기탁: %s, 정탁: %s" %(dic1[d], dic2[d]))
+
+print(samecnt/allcnt)
+
