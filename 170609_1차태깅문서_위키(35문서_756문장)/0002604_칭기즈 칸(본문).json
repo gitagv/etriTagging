@@ -10,7 +10,7 @@
 	"reserve_str" : "",
 	"text" : "칭기즈 칸",
 	"morp" : [
-		{"id" : 0, "lemma" : "칭기즈", "type" : "NNG", "position" : 0, "weight" : 0.9 },
+		{"id" : 0, "lemma" : "칭기즈", "type" : "NNP", "position" : 0, "weight" : 0.9 },
 		{"id" : 1, "lemma" : "칸", "type" : "NNG", "position" : 10, "weight" : 0.244413 }
 	],
 	"morp_eval" : [
