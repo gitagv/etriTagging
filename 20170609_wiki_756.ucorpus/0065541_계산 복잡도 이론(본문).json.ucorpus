@@ -1,0 +1,20 @@
+계산 복잡도 이론
+계산/NNG 복잡/NNG+도/JX 이론/NNG
+
+계산 복잡도 이론은 컴퓨터 과학에서 계산 이론의 분야로, 계산 문제를 푸는 알고리듬을 복잡도에 따라 분류하여 문제의 모임을 구성하는 방법을 연구한다.
+계산/NNG 복잡/NNG+도/JX 이론/NNG+은/JX 컴퓨터/NNG 과학/NNG+에서/JKB 계산/NNG 이론/NNG+의/JKG 분야/NNG+로/JKB+,/SP 계산/NNG 문제/NNG+를/JKO 풀/VV+는/ETM 알고리듬/NNG+을/JKO 복잡/NNG+도/XSN+에/JKB 따르/VV+아/EC 분류/NNG+하/XSV+어/EC 문제/NNG+의/JKG 모임/NNG+을/JKO 구성/NNG+하/XSV+는/ETM 방법/NNG+을/JKO 연구/NNG+하/XSV+ㄴ다/EF+./SF
+
+이 때 알고리듬의 수행은 실제 컴퓨터가 할 수 있지만, 평가하는 데에는 튜링 기계와 관련이 있는 정량화된 방법을 사용한다.
+이/MM 때/NNG 알고리듬/NNG+의/JKG 수행/NNG+은/JX 실제/MAG 컴퓨터/NNG+가/JKS 하/VV+ㄹ/ETM 수/NNB 있/VA+지만/EC+,/SP 평가/NNG+하/XSV+는/ETM 데/NNB+에/JKB+는/JX 튜링/NNP 기계/NNG+와/JC 관련/NNG+이/JKS 있/VA+는/ETM 정량/NNG+화/NNG+되/XSV+ㄴ/ETM 방법/NNG+을/JKO 사용/NNG+하/XSV+ㄴ다/EF+./SF
+
+복잡도의 기준은 알고리듬이 소모하는 소요 시간과 메모리 사용량 등의 자원이다.
+복잡/NNG+도/XSN+의/JKG 기준/NNG+은/JX 알고리듬/NNG+이/JKS 소모/NNG+하/XSV+는/ETM 소요/NNG 시간/NNG+과/JC 메모리/NNG 사용/NNG+량/NNG 등/NNB+의/JKG 자원/NNG+이/VCP+다/EF+./SF
+
+전자를 시간 복잡도, 후자를 공간 복잡도라 한다.
+전자/NNG+를/JKO 시간/NNG 복잡/NNG+도/JX+,/SP 후자/NNG+를/JKO 공간/NNG 복잡/NNG+도/XSN+이/VCP+라/EC 하/VV+ㄴ다/EF+./SF
+
+일반적으로 이와 같은 시공간 등의 자원은 입력의 크기에 의존하는 것으로 취급한다.
+일반/NNG+적/XSN+으로/JKB 이/NP+와/JKB 같/VA+은/ETM 시/NNG+공간/NNG 등/NNB+의/JKG 자원/NNG+은/JX 입력/NNG+의/JKG 크기/NNG+에/JKB 의존/NNG+하/XSV+는/ETM 것/NNB+으로/JKB 취급/NNG+하/XSV+ㄴ다/EF+./SF
+
+
+

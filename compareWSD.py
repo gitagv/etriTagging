@@ -29,5 +29,6 @@ for d in dic1:
         print("3: %s, 4: %s" %(dic1[d], dic2[d]))
 
 print(allcnt)
+samecnt -= 1
 print(samecnt/allcnt)
 
