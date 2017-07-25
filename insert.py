@@ -28,8 +28,11 @@ Group4 = ['20170120-0250002678055.txt', '20170522-4210002744977.txt', '20170608-
 # FILES = glob.glob(os.path.join('./170609_1차태깅문서_위키(35문서_756문장)', '*.json'))
 FILES = glob.glob(os.path.join('./20170714_news_300', '*.txt'))
 
+
 for FILE in FILES:
     f = FILE.split('\\')[1]
+    print(f.split('-')[0])
+
     text = open(FILE, 'r', encoding='utf-8').read()
     insertT = json.loads(text)
     # original.insert(insertT)
