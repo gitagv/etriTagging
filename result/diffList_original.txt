@@ -1,0 +1,43 @@
+하버드 대학교  1  10  NNP  NNG
+원나라  2  14  NNG  NNP
+원나라  10  33  NNP  NNG
+원나라  10  48  NNP  NNG
+원나라  10  49  NNP  VV
+원나라  10  50  NNP  ETM
+원나라  16  32  NNP  NNG
+원나라  18  10  NNG  NNP
+원나라  19  18  NNP  NNG
+원나라  19  43  NNP  NNG
+원나라  20  3  NNP  NNG
+시카고 대학교  28  12  NNP  VV
+시카고 대학교  28  13  NNP  EC
+시카고 대학교  28  27  NNP  NNG
+시카고 대학교  28  29  NNP  NNG
+시카고 대학교  29  58  NNP  NNG
+시카고 대학교  30  15  NNP  VV
+시카고 대학교  30  17  NNP  VX
+시카고 대학교  30  18  NNP  EC
+시카고 대학교  30  24  NNP  NNG
+시카고 대학교  30  50  NNP  NNG
+시카고 대학교  30  61  XSN  JKS
+시카고 대학교  31  11  NNP  NNG
+시카고 대학교  32  11  NNP  VA
+시카고 대학교  32  12  NNP  ETM
+시카고 대학교  32  20  NNP  NNG
+시카고 대학교  32  28  NNP  NNG
+시카고 대학교  33  11  NNP  NNG
+시카고 대학교  33  18  NNP  JKS
+시카고 대학교  33  19  NNP  VV
+시카고 대학교  33  25  NNP  NNG
+시카고 대학교  33  26  NNP  JC
+엽록체  5  32  NNG  NNP
+엽록체  5  39  NNG  NNP
+엽록체  14  2  NNG  NNP
+엽록체  16  17  NNG  NNP
+엽록체  20  32  NNG  NNP
+제국주의  4  23  NNP  NNG
+제국주의  6  8  XSN  NNG
+제국주의  22  21  NNP  NNG
+제국주의  28  40  NNG  NNP
+제국주의  28  48  MM  NNG
+제국주의  29  14  NNG  XSN
