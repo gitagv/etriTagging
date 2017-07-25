@@ -1,0 +1,190 @@
+하버드 대학교  4  4  XSV
+하버드 대학교  7  16  JKC
+하버드 대학교  10  10  NNG
+하버드 대학교  14  18  JX
+하버드 대학교  18  0  NNG
+하버드 대학교  18  1  NNG
+하버드 대학교  18  5  NR
+하버드 대학교  20  18  JC
+하버드 대학교  21  0  NNP
+하버드 대학교  24  36  NNG
+하버드 대학교  25  18  NNG
+하버드 대학교  26  35  NNB
+하버드 대학교  27  6  NNB
+하버드 대학교  28  5  NNG
+하버드 대학교  28  18  NNG
+하버드 대학교  28  19  NNG
+하버드 대학교  29  4  NNG
+하버드 대학교  30  1  NNG
+하버드 대학교  30  38  NNG
+하버드 대학교  30  52  NNG
+하버드 대학교  31  19  NNG
+하버드 대학교  31  33  NNG
+하버드 대학교  31  73  NNG
+하버드 대학교  32  2  NNG
+하버드 대학교  32  14  NNB
+하버드 대학교  33  14  NNG
+하버드 대학교  34  9  NNG
+하버드 대학교  34  10  JX
+원나라  0  0  NNP
+원나라  1  0  NNP
+원나라  3  5  NNP
+원나라  3  6  NNP
+원나라  3  16  VV  VA
+원나라  3  23  NNP  NNG
+원나라  4  0  NNP  NNG
+원나라  4  2  NNP  NNG
+원나라  5  3  NNP  NNG
+원나라  5  15  XSV  VV
+원나라  6  0  NNP  NNG
+원나라  6  20  NNG  NNP
+원나라  7  10  VV  NNG
+원나라  8  2  NNG  NNP
+원나라  8  25  XSN  NNG
+원나라  8  28  VV  NNG
+원나라  10  0  NNP  NNG
+원나라  10  6  NNP  NNG
+원나라  10  17  NNG  NNP
+원나라  10  23  NNP  NNG
+원나라  11  0  NNP  NNG
+원나라  12  4  XSN  NNG
+원나라  12  5  VV  XSV
+원나라  13  3  NNG  NNP
+원나라  13  17  VV  NNG
+원나라  14  0  NNP  NNG
+원나라  15  5  NNP  NNG
+원나라  15  18  NNG  NNP
+원나라  16  5  NNG  NNP
+원나라  16  56  NNG  NNP
+원나라  17  43  NNB  NNG
+원나라  17  60  SP  SW
+원나라  17  63  NNP  NNG
+원나라  17  70  NNG  NNP
+원나라  18  15  NNG  NNP
+원나라  19  20  NNG  NNP
+원나라  19  54  NNG  NNP
+원나라  20  1  JC  JKB
+원나라  22  5  NNP  NNG
+원나라  22  18  NNP  NNG
+원나라  22  24  NNP  NNG
+원나라  23  2  NNP  NNG
+원나라  23  20  NNP  NNG
+원나라  23  22  VV  NNG
+원나라  23  33  NNP  NNG
+원나라  24  17  NNP  NNG
+원나라  25  1  NNP  NNG
+원나라  25  8  NNG  NNP
+원나라  25  24  NNG  NNP
+원나라  25  27  NNG  NNP
+원나라  26  10  NNP  NNG
+원나라  26  18  NNP  NNG
+원나라  26  22  NNG  NNP
+원나라  26  24  NNP  NNG
+원나라  26  25  NNG  NNP
+원나라  26  36  NNP  NNG
+원나라  26  42  NNG  NNP
+원나라  28  10  NNP  NNG
+원나라  28  11  NNP  NNG
+원나라  28  34  SP  SW
+원나라  29  6  NNP  NNG
+원나라  29  60  NNP  NNG
+원나라  30  7  NNP  XPN
+원나라  31  17  NNG  NNP
+시카고 대학교  1  37  NNG  NNP
+시카고 대학교  1  45  NNP  NNG
+시카고 대학교  8  37  NNG  NNP
+시카고 대학교  9  17  XSN  NNG
+시카고 대학교  10  8  XSN  NNG
+시카고 대학교  10  31  NNP  NNG
+시카고 대학교  12  13  XSN  NNG
+시카고 대학교  14  30  NNG  NNP
+시카고 대학교  15  27  XSN  NNG
+시카고 대학교  15  29  NNP  NNG
+시카고 대학교  15  32  XSN  NNG
+시카고 대학교  26  1  NNP  NNG
+시카고 대학교  29  68  NNG  NNP
+시카고 대학교  29  72  NNP  NNG
+시카고 대학교  30  16  NNP  EC
+시카고 대학교  31  9  XSV  XSA
+시카고 대학교  32  16  XSN  NNG
+시카고 대학교  33  4  NNG  NNP
+시카고 대학교  33  8  XSV  XSA
+엽록체  4  16  NNG  NNP
+엽록체  5  6  NNP  NNG
+엽록체  5  7  NNP  NNG
+엽록체  5  37  NNP  NNG
+엽록체  5  48  NNP  NNG
+엽록체  6  18  NNP  NNG
+엽록체  6  27  NNP  NNG
+엽록체  6  28  NNP  XSN
+엽록체  6  34  NNG  XSN
+엽록체  6  37  NNP  NNG
+엽록체  7  0  NNP  NNG
+엽록체  7  1  NNP  NNG
+엽록체  7  5  NNP  XSN
+엽록체  7  7  NNP  NNG
+엽록체  7  10  NNP  NNG
+엽록체  8  0  NNP  NNG
+엽록체  8  1  NNP  XSN
+엽록체  8  5  NNP  NNG
+엽록체  8  7  NNP  NNG
+엽록체  8  8  NNP  NNG
+엽록체  8  10  NNP  NNG
+엽록체  8  11  NNP  XSN
+엽록체  8  22  NNP  NNG
+엽록체  8  23  NNP  XSN
+엽록체  8  31  NNP  XSN
+엽록체  9  1  NNP  XSN
+엽록체  10  24  NNP  XSN
+엽록체  11  3  NNP  NNG
+엽록체  12  6  NNP  XSN
+엽록체  15  4  NNP  XSN
+엽록체  16  4  NNP  XSN
+엽록체  17  3  NNG  NNP
+엽록체  17  10  NNP  NNG
+엽록체  17  15  NNG  NNP
+엽록체  18  0  NNG  NNP
+엽록체  18  14  NNG  XSN
+엽록체  18  20  NNG  NNP
+엽록체  19  1  NNP  XSN
+엽록체  19  4  NNP  NNG
+엽록체  20  20  NNP  NNG
+엽록체  20  25  NNP  NNG
+엽록체  21  11  NNP  NNG
+엽록체  22  8  NNP  XSN
+엽록체  23  1  NNP  XSN
+엽록체  23  4  NNG  VA
+엽록체  23  8  NNG  XSN
+엽록체  24  5  NNG  XSN
+엽록체  24  15  NNG  XSN
+엽록체  24  22  NNB  NNG
+엽록체  24  25  NNG  XSN
+엽록체  24  31  NNP  XSN
+엽록체  25  10  NNG  XSN
+엽록체  26  1  NNP  XSN
+엽록체  27  1  NNP  XSN
+엽록체  29  6  NP  JX
+엽록체  29  7  NNP  NNG
+엽록체  29  16  NNP  NNG
+엽록체  30  1  NNP  XSN
+엽록체  30  11  NNP  NNG
+제국주의  1  1  NNG  XSN
+제국주의  3  42  NNG  XSN
+제국주의  8  12  XSN  NNG
+제국주의  8  39  NNG  XSN
+제국주의  9  19  XSN  NNG
+제국주의  10  50  NNP  NNG
+제국주의  11  4  MAG  NNG
+제국주의  11  25  NNG  NNP
+제국주의  13  38  NNG  XSN
+제국주의  17  15  NNG  NNB
+제국주의  20  10  JKS  JKC
+제국주의  21  20  NNP  VA
+제국주의  22  26  NNG  NNP
+제국주의  24  19  VV  NNG
+제국주의  25  23  JKQ  VCP
+제국주의  25  24  JKQ  EC
+제국주의  25  57  NNG  XSN
+제국주의  27  32  NNP  NNG
+제국주의  28  8  VV  NNG
+제국주의  29  25  JKQ  JX
