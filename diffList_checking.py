@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient('mongodb://203.255.81.71:27017')
+client = MongoClient('mongodb://203.255.81.46:27017')
 
 db = client.etri
 submit_collection = db['submit']
@@ -13,7 +13,8 @@ Group4 = ['닥터 후', '건설', '증기 기관', '프레즈노', '아마존 �
 Group = Group2
 
 updateDat = []
-FILE = open('./result/crosschecking_update.txt' , 'r', encoding='utf-8').read().split('\n')
+# FILE = open('./result/crosschecking_update.txt' , 'r', encoding='utf-8').read().split('\n')
+FILE = open('./result/diffList_original.txt' , 'r', encoding='utf-8').read().split('\n')
 
 for l in Group:
     for s in submit_collection.find():
