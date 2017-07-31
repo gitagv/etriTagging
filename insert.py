@@ -1,6 +1,6 @@
 # # DB insert
 # # create by Kitak Park.
-
+import codecs
 import glob
 import json
 import os
@@ -11,11 +11,9 @@ connection = MongoClient('mongodb://root:nlp44342@203.255.81.46')
 # connection = MongoClient('mongodb://root:nlp44342@203.255.81.71')
 
 etri = connection.etri_news
-# original = etri.originalDB
-# submit = etri.submitDB
-# test = etri.testDB
-indexDB = etri.indexDB
-
+# original = etri.original
+# submit = etri.submit
+test = etri.test
 #
 # collection_1 = etri['1-희연']
 # collection_2 = etri['1-현진']
@@ -31,7 +29,8 @@ indexDB = etri.indexDB
 # Group3 = ['20170502-0050000988519.txt', '20170526-0230003283202.txt', '20170622-0030008026025.txt']
 # Group4 = ['20170120-0250002678055.txt', '20170522-4210002744977.txt', '20170608-0010009321581.txt']
 
-FILES = glob.glob(os.path.join('./170609_1차태깅문서_위키(35문서_756문장)_형태소 태깅 완료', '*.json'))
+FILES = glob.glob(os.path.join('./170609_1차태깅문서_위키(35문서_756문장)', '*.json'))
+# FILES = glob.glob(os.path.join('./test_json', '*.json'))
 # FILES = glob.glob(os.path.join('./20170714_news_300', '*.txt'))
 
 
@@ -39,12 +38,11 @@ for FILE in FILES:
     f = FILE.split('\\')[1]
     print(f.split('-')[0])
 
-    text = open(FILE, 'r', encoding='utf-8').read()
-    insertT = json.loads(text)
+    insertT = json.load(codecs.open(FILE, 'r', encoding='utf-8-sig'))
+
     # original.insert(insertT)
-    # test.insert(insertT)
+    test.insert(insertT)
     # submit.insert(insertT)
-    indexDB.insert()
     # if f in Group1:
     #     collection_1.insert(insertT)
     #     collection_2.insert(insertT)
