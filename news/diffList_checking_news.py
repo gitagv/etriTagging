@@ -31,6 +31,5 @@ for Gid in Group1_id:
                 morpType = f.split('  ')[4]
 
                 if title == Group1[Gindex]:
-                    print(s['sentence'][senNum]['morp'][morpNum])
                     s['sentence'][senNum]['morp'][morpNum].update({'type':morpType})
                     submit_collection.save(s)

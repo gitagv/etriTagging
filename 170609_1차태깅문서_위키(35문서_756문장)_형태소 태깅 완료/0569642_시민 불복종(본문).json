@@ -1,0 +1,6557 @@
+﻿{
+"metaInfo" : {},
+"category" : "항의 방법\t활동주의\t사회 운동\t시민 활동",
+"title" : {
+    "NE" : "AFW_DOCUMENT",
+    "text" : "시민 불복종"
+},
+"sentence" : [
+    {
+        "word" : [
+            {
+                "text" : "시민",
+                "begin" : 0,
+                "end" : 0,
+                "id" : 0,
+                "type" : ""
+            },
+            {
+                "text" : "불복종",
+                "begin" : 1,
+                "end" : 2,
+                "id" : 1,
+                "type" : ""
+            }
+        ],
+        "WSD" : [
+            {
+                "weight" : 0,
+                "end" : 0,
+                "type" : "NNG",
+                "position" : 0,
+                "text" : "시민",
+                "scode" : "00",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "end" : 2,
+                "type" : "NNG",
+                "position" : 7,
+                "text" : "불복종",
+                "scode" : "00",
+                "id" : 1,
+                "begin" : 1
+            }
+        ],
+        "relation" : [],
+        "id" : 0,
+        "morp" : [
+            {
+                "position" : 0,
+                "id" : 0,
+                "lemma" : "시민",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 7,
+                "id" : 1,
+                "lemma" : "불",
+                "weight" : 0.0001,
+                "type" : "XPN"
+            },
+            {
+                "position" : 10,
+                "id" : 2,
+                "lemma" : "복종",
+                "weight" : 0.466838,
+                "type" : "NNG"
+            }
+        ],
+        "SA" : [],
+        "dependency" : [
+            {
+                "weight" : 0.85606,
+                "mod" : [],
+                "id" : 0,
+                "label" : "NP",
+                "text" : "시민",
+                "head" : 1
+            },
+            {
+                "weight" : 0.675002,
+                "mod" : [
+                    0
+                ],
+                "id" : 1,
+                "label" : "NP",
+                "text" : "불복종",
+                "head" : -1
+            }
+        ],
+        "phrase_dependency" : [
+            {
+                "weight" : 0,
+                "head_phrase" : -1,
+                "end" : 1,
+                "element" : [],
+                "id" : 0,
+                "text" : "시민 불복종",
+                "sub_phrase" : [],
+                "label" : "NP",
+                "key_begin" : 0,
+                "begin" : 0
+            }
+        ],
+        "chunk" : [],
+        "ZA" : [],
+        "SRL" : [],
+        "NE" : [
+            {
+                "weight" : 1,
+                "end" : 2,
+                "common_noun" : 0,
+                "type" : "AFW_DOCUMENT",
+                "text" : "시민 불복종",
+                "id" : 0,
+                "begin" : 0
+            }
+        ],
+        "morp_eval" : [
+            {
+                "result" : "시민/NNG",
+                "target" : "시민",
+                "m_end" : 0,
+                "id" : 0,
+                "word_id" : 0,
+                "m_begin" : 0
+            },
+            {
+                "result" : "불복종/NNG",
+                "target" : "불복종",
+                "m_end" : 2,
+                "id" : 1,
+                "word_id" : 1,
+                "m_begin" : 1
+            }
+        ],
+        "text" : "시민 불복종",
+        "reserve_str" : ""
+    },
+    {
+        "word" : [
+            {
+                "text" : "시민",
+                "begin" : 0,
+                "end" : 0,
+                "id" : 0,
+                "type" : ""
+            },
+            {
+                "text" : "불복종(市民不服従)은",
+                "begin" : 1,
+                "end" : 6,
+                "id" : 1,
+                "type" : ""
+            },
+            {
+                "text" : "국가의",
+                "begin" : 7,
+                "end" : 8,
+                "id" : 2,
+                "type" : ""
+            },
+            {
+                "text" : "법이나",
+                "begin" : 9,
+                "end" : 10,
+                "id" : 3,
+                "type" : ""
+            },
+            {
+                "text" : "정부",
+                "begin" : 11,
+                "end" : 11,
+                "id" : 4,
+                "type" : ""
+            },
+            {
+                "text" : "내지",
+                "begin" : 12,
+                "end" : 12,
+                "id" : 5,
+                "type" : ""
+            },
+            {
+                "text" : "지배",
+                "begin" : 13,
+                "end" : 13,
+                "id" : 6,
+                "type" : ""
+            },
+            {
+                "text" : "권력의",
+                "begin" : 14,
+                "end" : 15,
+                "id" : 7,
+                "type" : ""
+            },
+            {
+                "text" : "명령",
+                "begin" : 16,
+                "end" : 16,
+                "id" : 8,
+                "type" : ""
+            },
+            {
+                "text" : "등이",
+                "begin" : 17,
+                "end" : 18,
+                "id" : 9,
+                "type" : ""
+            },
+            {
+                "text" : "부당하다고",
+                "begin" : 19,
+                "end" : 21,
+                "id" : 10,
+                "type" : ""
+            },
+            {
+                "text" : "판단했을",
+                "begin" : 22,
+                "end" : 25,
+                "id" : 11,
+                "type" : ""
+            },
+            {
+                "text" : "때,",
+                "begin" : 26,
+                "end" : 27,
+                "id" : 12,
+                "type" : ""
+            },
+            {
+                "text" : "이를",
+                "begin" : 28,
+                "end" : 29,
+                "id" : 13,
+                "type" : ""
+            },
+            {
+                "text" : "공개적으로",
+                "begin" : 30,
+                "end" : 32,
+                "id" : 14,
+                "type" : ""
+            },
+            {
+                "text" : "거부하는",
+                "begin" : 33,
+                "end" : 35,
+                "id" : 15,
+                "type" : ""
+            },
+            {
+                "text" : "행위를",
+                "begin" : 36,
+                "end" : 37,
+                "id" : 16,
+                "type" : ""
+            },
+            {
+                "text" : "말한다.",
+                "begin" : 38,
+                "end" : 41,
+                "id" : 17,
+                "type" : ""
+            }
+        ],
+        "WSD" : [
+            {
+                "weight" : 0,
+                "end" : 0,
+                "type" : "NNG",
+                "position" : 16,
+                "text" : "시민",
+                "scode" : "00",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "end" : 2,
+                "type" : "NNG",
+                "position" : 23,
+                "text" : "불복종",
+                "scode" : "00",
+                "id" : 1,
+                "begin" : 1
+            },
+            {
+                "weight" : 1,
+                "end" : 3,
+                "type" : "SS",
+                "position" : 32,
+                "text" : "(",
+                "scode" : "00",
+                "id" : 2,
+                "begin" : 3
+            },
+            {
+                "weight" : 1,
+                "end" : 4,
+                "type" : "SH",
+                "position" : 33,
+                "text" : "市民不服従",
+                "scode" : "00",
+                "id" : 3,
+                "begin" : 4
+            },
+            {
+                "weight" : 1,
+                "end" : 5,
+                "type" : "SS",
+                "position" : 48,
+                "text" : ")",
+                "scode" : "00",
+                "id" : 4,
+                "begin" : 5
+            },
+            {
+                "weight" : 1,
+                "end" : 6,
+                "type" : "JX",
+                "position" : 49,
+                "text" : "은",
+                "scode" : "00",
+                "id" : 5,
+                "begin" : 6
+            },
+            {
+                "weight" : 6.6,
+                "end" : 7,
+                "type" : "NNG",
+                "position" : 53,
+                "text" : "국가",
+                "scode" : "01",
+                "id" : 6,
+                "begin" : 7
+            },
+            {
+                "weight" : 1,
+                "end" : 8,
+                "type" : "JKG",
+                "position" : 59,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 7,
+                "begin" : 8
+            },
+            {
+                "weight" : 5.2,
+                "end" : 9,
+                "type" : "NNG",
+                "position" : 63,
+                "text" : "법",
+                "scode" : "01",
+                "id" : 8,
+                "begin" : 9
+            },
+            {
+                "weight" : 1,
+                "end" : 10,
+                "type" : "JC",
+                "position" : 66,
+                "text" : "이나",
+                "scode" : "00",
+                "id" : 9,
+                "begin" : 10
+            },
+            {
+                "weight" : 6.4,
+                "end" : 11,
+                "type" : "NNG",
+                "position" : 73,
+                "text" : "정부",
+                "scode" : "08",
+                "id" : 10,
+                "begin" : 11
+            },
+            {
+                "weight" : 4,
+                "end" : 12,
+                "type" : "MAG",
+                "position" : 80,
+                "text" : "내지",
+                "scode" : "01",
+                "id" : 11,
+                "begin" : 12
+            },
+            {
+                "weight" : 5.4,
+                "end" : 13,
+                "type" : "NNG",
+                "position" : 87,
+                "text" : "지배",
+                "scode" : "01",
+                "id" : 12,
+                "begin" : 13
+            },
+            {
+                "weight" : 4.2,
+                "end" : 14,
+                "type" : "NNG",
+                "position" : 94,
+                "text" : "권력",
+                "scode" : "02",
+                "id" : 13,
+                "begin" : 14
+            },
+            {
+                "weight" : 1,
+                "end" : 15,
+                "type" : "JKG",
+                "position" : 100,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 14,
+                "begin" : 15
+            },
+            {
+                "weight" : 1,
+                "end" : 16,
+                "type" : "NNG",
+                "position" : 104,
+                "text" : "명령",
+                "scode" : "01",
+                "id" : 15,
+                "begin" : 16
+            },
+            {
+                "weight" : 5.2,
+                "end" : 17,
+                "type" : "NNB",
+                "position" : 111,
+                "text" : "등",
+                "scode" : "05",
+                "id" : 16,
+                "begin" : 17
+            },
+            {
+                "weight" : 1,
+                "end" : 18,
+                "type" : "JKS",
+                "position" : 114,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 17,
+                "begin" : 18
+            },
+            {
+                "weight" : 0,
+                "end" : 20,
+                "type" : "VA",
+                "position" : 118,
+                "text" : "부당하",
+                "scode" : "00",
+                "id" : 18,
+                "begin" : 19
+            },
+            {
+                "weight" : 1,
+                "end" : 21,
+                "type" : "EC",
+                "position" : 127,
+                "text" : "다고",
+                "scode" : "00",
+                "id" : 19,
+                "begin" : 21
+            },
+            {
+                "weight" : 0,
+                "end" : 23,
+                "type" : "VV",
+                "position" : 134,
+                "text" : "판단하",
+                "scode" : "00",
+                "id" : 20,
+                "begin" : 22
+            },
+            {
+                "weight" : 1,
+                "end" : 24,
+                "type" : "EP",
+                "position" : 140,
+                "text" : "었",
+                "scode" : "00",
+                "id" : 21,
+                "begin" : 24
+            },
+            {
+                "weight" : 1,
+                "end" : 25,
+                "type" : "ETM",
+                "position" : 143,
+                "text" : "을",
+                "scode" : "00",
+                "id" : 22,
+                "begin" : 25
+            },
+            {
+                "weight" : 5.35833,
+                "end" : 26,
+                "type" : "NNG",
+                "position" : 147,
+                "text" : "때",
+                "scode" : "01",
+                "id" : 23,
+                "begin" : 26
+            },
+            {
+                "weight" : 1,
+                "end" : 27,
+                "type" : "SP",
+                "position" : 150,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 24,
+                "begin" : 27
+            },
+            {
+                "weight" : 5.2,
+                "end" : 28,
+                "type" : "NP",
+                "position" : 152,
+                "text" : "이",
+                "scode" : "05",
+                "id" : 25,
+                "begin" : 28
+            },
+            {
+                "weight" : 1,
+                "end" : 29,
+                "type" : "JKO",
+                "position" : 155,
+                "text" : "를",
+                "scode" : "00",
+                "id" : 26,
+                "begin" : 29
+            },
+            {
+                "weight" : 0,
+                "end" : 31,
+                "type" : "NNG",
+                "position" : 159,
+                "text" : "공개적",
+                "scode" : "00",
+                "id" : 27,
+                "begin" : 30
+            },
+            {
+                "weight" : 1,
+                "end" : 32,
+                "type" : "JKB",
+                "position" : 168,
+                "text" : "으로",
+                "scode" : "00",
+                "id" : 28,
+                "begin" : 32
+            },
+            {
+                "weight" : 0,
+                "end" : 34,
+                "type" : "VV",
+                "position" : 175,
+                "text" : "거부하",
+                "scode" : "00",
+                "id" : 29,
+                "begin" : 33
+            },
+            {
+                "weight" : 1,
+                "end" : 35,
+                "type" : "ETM",
+                "position" : 184,
+                "text" : "는",
+                "scode" : "00",
+                "id" : 30,
+                "begin" : 35
+            },
+            {
+                "weight" : 0,
+                "end" : 36,
+                "type" : "NNG",
+                "position" : 188,
+                "text" : "행위",
+                "scode" : "00",
+                "id" : 31,
+                "begin" : 36
+            },
+            {
+                "weight" : 1,
+                "end" : 37,
+                "type" : "JKO",
+                "position" : 194,
+                "text" : "를",
+                "scode" : "00",
+                "id" : 32,
+                "begin" : 37
+            },
+            {
+                "weight" : 0,
+                "end" : 39,
+                "type" : "VV",
+                "position" : 198,
+                "text" : "말하",
+                "scode" : "00",
+                "id" : 33,
+                "begin" : 38
+            },
+            {
+                "weight" : 1,
+                "end" : 40,
+                "type" : "EF",
+                "position" : 201,
+                "text" : "ㄴ다",
+                "scode" : "00",
+                "id" : 34,
+                "begin" : 40
+            },
+            {
+                "weight" : 1,
+                "end" : 41,
+                "type" : "SF",
+                "position" : 207,
+                "text" : ".",
+                "scode" : "00",
+                "id" : 35,
+                "begin" : 41
+            }
+        ],
+        "relation" : [],
+        "id" : 1,
+        "morp" : [
+            {
+                "position" : 16,
+                "id" : 0,
+                "lemma" : "시민",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 23,
+                "id" : 1,
+                "lemma" : "불",
+                "weight" : 0.0001,
+                "type" : "XPN"
+            },
+            {
+                "position" : 26,
+                "id" : 2,
+                "lemma" : "복종",
+                "weight" : 0.466838,
+                "type" : "NNG"
+            },
+            {
+                "position" : 32,
+                "id" : 3,
+                "lemma" : "(",
+                "weight" : 1,
+                "type" : "SS"
+            },
+            {
+                "position" : 33,
+                "id" : 4,
+                "lemma" : "市民不服従",
+                "weight" : 1,
+                "type" : "SH"
+            },
+            {
+                "position" : 48,
+                "id" : 5,
+                "lemma" : ")",
+                "weight" : 1,
+                "type" : "SS"
+            },
+            {
+                "position" : 49,
+                "id" : 6,
+                "lemma" : "은",
+                "weight" : 0.0128817,
+                "type" : "JX"
+            },
+            {
+                "position" : 53,
+                "id" : 7,
+                "lemma" : "국가",
+                "weight" : 0.324884,
+                "type" : "NNG"
+            },
+            {
+                "position" : 59,
+                "id" : 8,
+                "lemma" : "의",
+                "weight" : 0.06942130000000001,
+                "type" : "JKG"
+            },
+            {
+                "position" : 63,
+                "id" : 9,
+                "lemma" : "법",
+                "weight" : 0.550477,
+                "type" : "NNG"
+            },
+            {
+                "position" : 66,
+                "id" : 10,
+                "lemma" : "이나",
+                "weight" : 0.0238189,
+                "type" : "JC"
+            },
+            {
+                "position" : 73,
+                "id" : 11,
+                "lemma" : "정부",
+                "weight" : 0.802965,
+                "type" : "NNG"
+            },
+            {
+                "position" : 80,
+                "id" : 12,
+                "lemma" : "내지",
+                "weight" : 0.00462302,
+                "type" : "MAG"
+            },
+            {
+                "position" : 87,
+                "id" : 13,
+                "lemma" : "지배",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 94,
+                "id" : 14,
+                "lemma" : "권력",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 100,
+                "id" : 15,
+                "lemma" : "의",
+                "weight" : 0.06942130000000001,
+                "type" : "JKG"
+            },
+            {
+                "position" : 104,
+                "id" : 16,
+                "lemma" : "명령",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 111,
+                "id" : 17,
+                "lemma" : "등",
+                "weight" : 0.0146757,
+                "type" : "NNB"
+            },
+            {
+                "position" : 114,
+                "id" : 18,
+                "lemma" : "이",
+                "weight" : 0.0376169,
+                "type" : "JKS"
+            },
+            {
+                "position" : 118,
+                "id" : 19,
+                "lemma" : "부당",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 124,
+                "id" : 20,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSA"
+            },
+            {
+                "position" : 127,
+                "id" : 21,
+                "lemma" : "다고",
+                "weight" : 0.358092,
+                "type" : "EC"
+            },
+            {
+                "position" : 134,
+                "id" : 22,
+                "lemma" : "판단",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 140,
+                "id" : 23,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 140,
+                "id" : 24,
+                "lemma" : "었",
+                "weight" : 0.9,
+                "type" : "EP"
+            },
+            {
+                "position" : 143,
+                "id" : 25,
+                "lemma" : "을",
+                "weight" : 0.00734398,
+                "type" : "ETM"
+            },
+            {
+                "position" : 147,
+                "id" : 26,
+                "lemma" : "때",
+                "weight" : 0.6565220000000001,
+                "type" : "NNG"
+            },
+            {
+                "position" : 150,
+                "id" : 27,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 152,
+                "id" : 28,
+                "lemma" : "이",
+                "weight" : 0.00125759,
+                "type" : "NP"
+            },
+            {
+                "position" : 155,
+                "id" : 29,
+                "lemma" : "를",
+                "weight" : 0.0808985,
+                "type" : "JKO"
+            },
+            {
+                "position" : 159,
+                "id" : 30,
+                "lemma" : "공개",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 165,
+                "id" : 31,
+                "lemma" : "적",
+                "weight" : 0.0168756,
+                "type" : "XSN"
+            },
+            {
+                "position" : 168,
+                "id" : 32,
+                "lemma" : "으로",
+                "weight" : 0.121717,
+                "type" : "JKB"
+            },
+            {
+                "position" : 175,
+                "id" : 33,
+                "lemma" : "거부",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 181,
+                "id" : 34,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 184,
+                "id" : 35,
+                "lemma" : "는",
+                "weight" : 0.238503,
+                "type" : "ETM"
+            },
+            {
+                "position" : 188,
+                "id" : 36,
+                "lemma" : "행위",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 194,
+                "id" : 37,
+                "lemma" : "를",
+                "weight" : 0.137686,
+                "type" : "JKO"
+            },
+            {
+                "position" : 198,
+                "id" : 38,
+                "lemma" : "말",
+                "weight" : 0.0814073,
+                "type" : "NNG"
+            },
+            {
+                "position" : 201,
+                "id" : 39,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 201,
+                "id" : 40,
+                "lemma" : "ㄴ다",
+                "weight" : 0.0449045,
+                "type" : "EF"
+            },
+            {
+                "position" : 207,
+                "id" : 41,
+                "lemma" : ".",
+                "weight" : 1,
+                "type" : "SF"
+            }
+        ],
+        "SA" : [],
+        "dependency" : [
+            {
+                "weight" : 0.7677540000000001,
+                "mod" : [],
+                "id" : 0,
+                "label" : "NP",
+                "text" : "시민",
+                "head" : 1
+            },
+            {
+                "weight" : 0.77966,
+                "mod" : [
+                    0
+                ],
+                "id" : 1,
+                "label" : "NP_SBJ",
+                "text" : "불복종(市民不服従)은",
+                "head" : 17
+            },
+            {
+                "weight" : 0.294988,
+                "mod" : [],
+                "id" : 2,
+                "label" : "NP_MOD",
+                "text" : "국가의",
+                "head" : 3
+            },
+            {
+                "weight" : 0.662053,
+                "mod" : [
+                    2
+                ],
+                "id" : 3,
+                "label" : "NP_CNJ",
+                "text" : "법이나",
+                "head" : 8
+            },
+            {
+                "weight" : 0.0269755,
+                "mod" : [],
+                "id" : 4,
+                "label" : "NP",
+                "text" : "정부",
+                "head" : 7
+            },
+            {
+                "weight" : 0.333253,
+                "mod" : [],
+                "id" : 5,
+                "label" : "AP",
+                "text" : "내지",
+                "head" : 7
+            },
+            {
+                "weight" : 0.771744,
+                "mod" : [],
+                "id" : 6,
+                "label" : "NP",
+                "text" : "지배",
+                "head" : 7
+            },
+            {
+                "weight" : 0.579497,
+                "mod" : [
+                    4,
+                    5,
+                    6
+                ],
+                "id" : 7,
+                "label" : "NP_MOD",
+                "text" : "권력의",
+                "head" : 8
+            },
+            {
+                "weight" : 0.6972390000000001,
+                "mod" : [
+                    3,
+                    7
+                ],
+                "id" : 8,
+                "label" : "NP",
+                "text" : "명령",
+                "head" : 9
+            },
+            {
+                "weight" : 0.3973,
+                "mod" : [
+                    8
+                ],
+                "id" : 9,
+                "label" : "NP_SBJ",
+                "text" : "등이",
+                "head" : 10
+            },
+            {
+                "weight" : 0.735129,
+                "mod" : [
+                    9
+                ],
+                "id" : 10,
+                "label" : "VP_CMP",
+                "text" : "부당하다고",
+                "head" : 11
+            },
+            {
+                "weight" : 0.728275,
+                "mod" : [
+                    10
+                ],
+                "id" : 11,
+                "label" : "VP_MOD",
+                "text" : "판단했을",
+                "head" : 12
+            },
+            {
+                "weight" : 0.0685812,
+                "mod" : [
+                    11
+                ],
+                "id" : 12,
+                "label" : "NP_AJT",
+                "text" : "때,",
+                "head" : 15
+            },
+            {
+                "weight" : 0.769466,
+                "mod" : [],
+                "id" : 13,
+                "label" : "NP_OBJ",
+                "text" : "이를",
+                "head" : 15
+            },
+            {
+                "weight" : 0.787168,
+                "mod" : [],
+                "id" : 14,
+                "label" : "NP_AJT",
+                "text" : "공개적으로",
+                "head" : 15
+            },
+            {
+                "weight" : 0.8483770000000001,
+                "mod" : [
+                    12,
+                    13,
+                    14
+                ],
+                "id" : 15,
+                "label" : "VP_MOD",
+                "text" : "거부하는",
+                "head" : 16
+            },
+            {
+                "weight" : 0.8707160000000001,
+                "mod" : [
+                    15
+                ],
+                "id" : 16,
+                "label" : "NP_OBJ",
+                "text" : "행위를",
+                "head" : 17
+            },
+            {
+                "weight" : 1.91322e-006,
+                "mod" : [
+                    1,
+                    16
+                ],
+                "id" : 17,
+                "label" : "VP",
+                "text" : "말한다.",
+                "head" : -1
+            }
+        ],
+        "phrase_dependency" : [
+            {
+                "weight" : 0,
+                "head_phrase" : 9,
+                "end" : 1,
+                "element" : [],
+                "id" : 0,
+                "text" : "시민 불복종(市民不服従)은",
+                "sub_phrase" : [],
+                "label" : "NP_SBJ",
+                "key_begin" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 2,
+                "end" : 9,
+                "element" : [
+                    {
+                        "text" : "국가의 법",
+                        "label" : "NP_SBJ",
+                        "end" : 9,
+                        "ne_type" : "",
+                        "begin" : 7
+                    },
+                    {
+                        "text" : "정부 내지 지배 권력의 명령",
+                        "label" : "NP_SBJ",
+                        "end" : 16,
+                        "ne_type" : "",
+                        "begin" : 11
+                    }
+                ],
+                "id" : 1,
+                "text" : "국가의 법이나 정부 내지 지배 권력의 명령 등이",
+                "sub_phrase" : [],
+                "label" : "NP_SBJ",
+                "key_begin" : 2,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 3,
+                "end" : 10,
+                "element" : [],
+                "id" : 2,
+                "text" : "P#1@SBJ이 부당하다고",
+                "sub_phrase" : [
+                    1
+                ],
+                "label" : "S_CMP",
+                "key_begin" : 10,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 4,
+                "end" : 11,
+                "element" : [],
+                "id" : 3,
+                "text" : "S#2@CMP다고 판단했을",
+                "sub_phrase" : [
+                    2
+                ],
+                "label" : "S_MOD",
+                "key_begin" : 11,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 12,
+                "element" : [],
+                "id" : 4,
+                "text" : "S#3@MOD을 때,",
+                "sub_phrase" : [
+                    3
+                ],
+                "label" : "NP_AJT",
+                "key_begin" : 12,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 13,
+                "element" : [],
+                "id" : 5,
+                "text" : "이를",
+                "sub_phrase" : [],
+                "label" : "NP_OBJ",
+                "key_begin" : 13,
+                "begin" : 13
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 14,
+                "element" : [],
+                "id" : 6,
+                "text" : "공개적으로",
+                "sub_phrase" : [],
+                "label" : "NP_AJT",
+                "key_begin" : 14,
+                "begin" : 14
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 8,
+                "end" : 15,
+                "element" : [],
+                "id" : 7,
+                "text" : "P#4@AJT때, P#5@OBJ를 P#6@AJT으로 거부하는",
+                "sub_phrase" : [
+                    4,
+                    5,
+                    6
+                ],
+                "label" : "VP_MOD",
+                "key_begin" : 15,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 9,
+                "end" : 16,
+                "element" : [],
+                "id" : 8,
+                "text" : "P#7@MOD는 행위를",
+                "sub_phrase" : [
+                    7
+                ],
+                "label" : "NP_OBJ",
+                "key_begin" : 16,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : -1,
+                "end" : 17,
+                "element" : [],
+                "id" : 9,
+                "text" : "P#0@SBJ은 P#8@OBJ를 말한다.",
+                "sub_phrase" : [
+                    0,
+                    8
+                ],
+                "label" : "S",
+                "key_begin" : 17,
+                "begin" : 0
+            }
+        ],
+        "chunk" : [],
+        "ZA" : [],
+        "SRL" : [
+            {
+                "verb" : "부당",
+                "argument" : [
+                    {
+                        "text" : "등이",
+                        "word_id" : 9,
+                        "weight" : 0.295422,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 10,
+                "weight" : 0.295422,
+                "sense" : 1
+            },
+            {
+                "verb" : "판단",
+                "argument" : [
+                    {
+                        "text" : "부당하다고",
+                        "word_id" : 10,
+                        "weight" : 0.240622,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 11,
+                "weight" : 0.240622,
+                "sense" : 1
+            },
+            {
+                "verb" : "거부",
+                "argument" : [
+                    {
+                        "text" : "이를",
+                        "word_id" : 13,
+                        "weight" : 0.463259,
+                        "type" : "ARG1"
+                    },
+                    {
+                        "text" : "공개적으로",
+                        "word_id" : 14,
+                        "weight" : 0.223321,
+                        "type" : "ARGM-MNR"
+                    }
+                ],
+                "word_id" : 15,
+                "weight" : 0.34329,
+                "sense" : 1
+            },
+            {
+                "verb" : "말",
+                "argument" : [
+                    {
+                        "text" : "행위를",
+                        "word_id" : 16,
+                        "weight" : 0.272797,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 17,
+                "weight" : 0.272797,
+                "sense" : 1
+            }
+        ],
+        "NE" : [
+            {
+                "weight" : 0.173125,
+                "end" : 2,
+                "common_noun" : 0,
+                "type" : "AFW_DOCUMENT",
+                "text" : "시민 불복종",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0.304626,
+                "end" : 11,
+                "common_noun" : 0,
+                "type" : "OGG_POLITICS",
+                "text" : "정부",
+                "id" : 1,
+                "begin" : 11
+            }
+        ],
+        "morp_eval" : [
+            {
+                "result" : "시민/NNG",
+                "target" : "시민",
+                "m_end" : 0,
+                "id" : 0,
+                "word_id" : 0,
+                "m_begin" : 0
+            },
+            {
+                "result" : "불복종/NNG+(/SS+市民不服従/SH+)/SS+은/JX",
+                "target" : "불복종(市民不服従)은",
+                "m_end" : 6,
+                "id" : 1,
+                "word_id" : 1,
+                "m_begin" : 1
+            },
+            {
+                "result" : "국가/NNG+의/JKG",
+                "target" : "국가의",
+                "m_end" : 8,
+                "id" : 2,
+                "word_id" : 2,
+                "m_begin" : 7
+            },
+            {
+                "result" : "법/NNG+이나/JC",
+                "target" : "법이나",
+                "m_end" : 10,
+                "id" : 3,
+                "word_id" : 3,
+                "m_begin" : 9
+            },
+            {
+                "result" : "정부/NNG",
+                "target" : "정부",
+                "m_end" : 11,
+                "id" : 4,
+                "word_id" : 4,
+                "m_begin" : 11
+            },
+            {
+                "result" : "내지/MAG",
+                "target" : "내지",
+                "m_end" : 12,
+                "id" : 5,
+                "word_id" : 5,
+                "m_begin" : 12
+            },
+            {
+                "result" : "지배/NNG",
+                "target" : "지배",
+                "m_end" : 13,
+                "id" : 6,
+                "word_id" : 6,
+                "m_begin" : 13
+            },
+            {
+                "result" : "권력/NNG+의/JKG",
+                "target" : "권력의",
+                "m_end" : 15,
+                "id" : 7,
+                "word_id" : 7,
+                "m_begin" : 14
+            },
+            {
+                "result" : "명령/NNG",
+                "target" : "명령",
+                "m_end" : 16,
+                "id" : 8,
+                "word_id" : 8,
+                "m_begin" : 16
+            },
+            {
+                "result" : "등/NNB+이/JKS",
+                "target" : "등이",
+                "m_end" : 18,
+                "id" : 9,
+                "word_id" : 9,
+                "m_begin" : 17
+            },
+            {
+                "result" : "부당하/VA+다고/EC",
+                "target" : "부당하다고",
+                "m_end" : 21,
+                "id" : 10,
+                "word_id" : 10,
+                "m_begin" : 19
+            },
+            {
+                "result" : "판단하/VV+었/EP+을/ETM",
+                "target" : "판단했을",
+                "m_end" : 25,
+                "id" : 11,
+                "word_id" : 11,
+                "m_begin" : 22
+            },
+            {
+                "result" : "때/NNG+,/SP",
+                "target" : "때,",
+                "m_end" : 27,
+                "id" : 12,
+                "word_id" : 12,
+                "m_begin" : 26
+            },
+            {
+                "result" : "이/NP+를/JKO",
+                "target" : "이를",
+                "m_end" : 29,
+                "id" : 13,
+                "word_id" : 13,
+                "m_begin" : 28
+            },
+            {
+                "result" : "공개적/NNG+으로/JKB",
+                "target" : "공개적으로",
+                "m_end" : 32,
+                "id" : 14,
+                "word_id" : 14,
+                "m_begin" : 30
+            },
+            {
+                "result" : "거부하/VV+는/ETM",
+                "target" : "거부하는",
+                "m_end" : 35,
+                "id" : 15,
+                "word_id" : 15,
+                "m_begin" : 33
+            },
+            {
+                "result" : "행위/NNG+를/JKO",
+                "target" : "행위를",
+                "m_end" : 37,
+                "id" : 16,
+                "word_id" : 16,
+                "m_begin" : 36
+            },
+            {
+                "result" : "말하/VV+ㄴ다/EF+./SF",
+                "target" : "말한다.",
+                "m_end" : 41,
+                "id" : 17,
+                "word_id" : 17,
+                "m_begin" : 38
+            }
+        ],
+        "text" : "시민 불복종(市民不服従)은 국가의 법이나 정부 내지 지배 권력의 명령 등이 부당하다고 판단했을 때, 이를 공개적으로 거부하는 행위를 말한다.",
+        "reserve_str" : ""
+    },
+    {
+        "word" : [
+            {
+                "text" : "대개",
+                "begin" : 0,
+                "end" : 0,
+                "id" : 0,
+                "type" : ""
+            },
+            {
+                "text" : "비폭력",
+                "begin" : 1,
+                "end" : 2,
+                "id" : 1,
+                "type" : ""
+            },
+            {
+                "text" : "수단을",
+                "begin" : 3,
+                "end" : 4,
+                "id" : 2,
+                "type" : ""
+            },
+            {
+                "text" : "사용한",
+                "begin" : 5,
+                "end" : 7,
+                "id" : 3,
+                "type" : ""
+            },
+            {
+                "text" : "저항이지만",
+                "begin" : 8,
+                "end" : 10,
+                "id" : 4,
+                "type" : ""
+            },
+            {
+                "text" : "꼭",
+                "begin" : 11,
+                "end" : 11,
+                "id" : 5,
+                "type" : ""
+            },
+            {
+                "text" : "그렇지",
+                "begin" : 12,
+                "end" : 13,
+                "id" : 6,
+                "type" : ""
+            },
+            {
+                "text" : "않을",
+                "begin" : 14,
+                "end" : 15,
+                "id" : 7,
+                "type" : ""
+            },
+            {
+                "text" : "수도",
+                "begin" : 16,
+                "end" : 17,
+                "id" : 8,
+                "type" : ""
+            },
+            {
+                "text" : "있다.",
+                "begin" : 18,
+                "end" : 20,
+                "id" : 9,
+                "type" : ""
+            }
+        ],
+        "WSD" : [
+            {
+                "weight" : 1,
+                "end" : 0,
+                "type" : "MAG",
+                "position" : 208,
+                "text" : "대개",
+                "scode" : "03",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 4,
+                "end" : 1,
+                "type" : "XPN",
+                "position" : 215,
+                "text" : "비",
+                "scode" : "32",
+                "id" : 1,
+                "begin" : 1
+            },
+            {
+                "weight" : 0,
+                "end" : 2,
+                "type" : "NNG",
+                "position" : 218,
+                "text" : "폭력",
+                "scode" : "00",
+                "id" : 2,
+                "begin" : 2
+            },
+            {
+                "weight" : 3.2,
+                "end" : 3,
+                "type" : "NNG",
+                "position" : 225,
+                "text" : "수단",
+                "scode" : "01",
+                "id" : 3,
+                "begin" : 3
+            },
+            {
+                "weight" : 1,
+                "end" : 4,
+                "type" : "JKO",
+                "position" : 231,
+                "text" : "을",
+                "scode" : "00",
+                "id" : 4,
+                "begin" : 4
+            },
+            {
+                "weight" : 7.6,
+                "end" : 6,
+                "type" : "VV",
+                "position" : 235,
+                "text" : "사용하",
+                "scode" : "03",
+                "id" : 5,
+                "begin" : 5
+            },
+            {
+                "weight" : 1,
+                "end" : 7,
+                "type" : "ETM",
+                "position" : 241,
+                "text" : "ㄴ",
+                "scode" : "00",
+                "id" : 6,
+                "begin" : 7
+            },
+            {
+                "weight" : 0,
+                "end" : 8,
+                "type" : "NNG",
+                "position" : 245,
+                "text" : "저항",
+                "scode" : "00",
+                "id" : 7,
+                "begin" : 8
+            },
+            {
+                "weight" : 1,
+                "end" : 9,
+                "type" : "VCP",
+                "position" : 251,
+                "text" : "이",
+                "scode" : "01",
+                "id" : 8,
+                "begin" : 9
+            },
+            {
+                "weight" : 1,
+                "end" : 10,
+                "type" : "EC",
+                "position" : 254,
+                "text" : "지만",
+                "scode" : "00",
+                "id" : 9,
+                "begin" : 10
+            },
+            {
+                "weight" : 4.2,
+                "end" : 11,
+                "type" : "MAG",
+                "position" : 261,
+                "text" : "꼭",
+                "scode" : "03",
+                "id" : 10,
+                "begin" : 11
+            },
+            {
+                "weight" : 0,
+                "end" : 12,
+                "type" : "VA",
+                "position" : 265,
+                "text" : "그렇",
+                "scode" : "00",
+                "id" : 11,
+                "begin" : 12
+            },
+            {
+                "weight" : 1,
+                "end" : 13,
+                "type" : "EC",
+                "position" : 271,
+                "text" : "지",
+                "scode" : "00",
+                "id" : 12,
+                "begin" : 13
+            },
+            {
+                "weight" : 0,
+                "end" : 14,
+                "type" : "VX",
+                "position" : 275,
+                "text" : "않",
+                "scode" : "00",
+                "id" : 13,
+                "begin" : 14
+            },
+            {
+                "weight" : 1,
+                "end" : 15,
+                "type" : "ETM",
+                "position" : 278,
+                "text" : "을",
+                "scode" : "00",
+                "id" : 14,
+                "begin" : 15
+            },
+            {
+                "weight" : 4.39923,
+                "end" : 16,
+                "type" : "NNB",
+                "position" : 282,
+                "text" : "수",
+                "scode" : "02",
+                "id" : 15,
+                "begin" : 16
+            },
+            {
+                "weight" : 1,
+                "end" : 17,
+                "type" : "JX",
+                "position" : 285,
+                "text" : "도",
+                "scode" : "00",
+                "id" : 16,
+                "begin" : 17
+            },
+            {
+                "weight" : 1,
+                "end" : 18,
+                "type" : "VA",
+                "position" : 289,
+                "text" : "있",
+                "scode" : "01",
+                "id" : 17,
+                "begin" : 18
+            },
+            {
+                "weight" : 1,
+                "end" : 19,
+                "type" : "EF",
+                "position" : 292,
+                "text" : "다",
+                "scode" : "00",
+                "id" : 18,
+                "begin" : 19
+            },
+            {
+                "weight" : 1,
+                "end" : 20,
+                "type" : "SF",
+                "position" : 295,
+                "text" : ".",
+                "scode" : "00",
+                "id" : 19,
+                "begin" : 20
+            }
+        ],
+        "relation" : [],
+        "id" : 2,
+        "morp" : [
+            {
+                "position" : 208,
+                "id" : 0,
+                "lemma" : "대개",
+                "weight" : 0.0510695,
+                "type" : "MAG"
+            },
+            {
+                "position" : 215,
+                "id" : 1,
+                "lemma" : "비",
+                "weight" : 0.000221456,
+                "type" : "XPN"
+            },
+            {
+                "position" : 218,
+                "id" : 2,
+                "lemma" : "폭력",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 225,
+                "id" : 3,
+                "lemma" : "수단",
+                "weight" : 0.180612,
+                "type" : "NNG"
+            },
+            {
+                "position" : 231,
+                "id" : 4,
+                "lemma" : "을",
+                "weight" : 0.129611,
+                "type" : "JKO"
+            },
+            {
+                "position" : 235,
+                "id" : 5,
+                "lemma" : "사용",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 241,
+                "id" : 6,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 241,
+                "id" : 7,
+                "lemma" : "ㄴ",
+                "weight" : 0.392321,
+                "type" : "ETM"
+            },
+            {
+                "position" : 245,
+                "id" : 8,
+                "lemma" : "저항",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 251,
+                "id" : 9,
+                "lemma" : "이",
+                "weight" : 0.0177525,
+                "type" : "VCP"
+            },
+            {
+                "position" : 254,
+                "id" : 10,
+                "lemma" : "지만",
+                "weight" : 0.247025,
+                "type" : "EC"
+            },
+            {
+                "position" : 261,
+                "id" : 11,
+                "lemma" : "꼭",
+                "weight" : 0.9,
+                "type" : "MAG"
+            },
+            {
+                "position" : 265,
+                "id" : 12,
+                "lemma" : "그렇",
+                "weight" : 0.133271,
+                "type" : "VA"
+            },
+            {
+                "position" : 271,
+                "id" : 13,
+                "lemma" : "지",
+                "weight" : 0.224836,
+                "type" : "EC"
+            },
+            {
+                "position" : 275,
+                "id" : 14,
+                "lemma" : "않",
+                "weight" : 0.256301,
+                "type" : "VX"
+            },
+            {
+                "position" : 278,
+                "id" : 15,
+                "lemma" : "을",
+                "weight" : 0.0215632,
+                "type" : "ETM"
+            },
+            {
+                "position" : 282,
+                "id" : 16,
+                "lemma" : "수",
+                "weight" : 0.215617,
+                "type" : "NNB"
+            },
+            {
+                "position" : 285,
+                "id" : 17,
+                "lemma" : "도",
+                "weight" : 0.103448,
+                "type" : "JX"
+            },
+            {
+                "position" : 289,
+                "id" : 18,
+                "lemma" : "있",
+                "weight" : 0.0558599,
+                "type" : "VA"
+            },
+            {
+                "position" : 292,
+                "id" : 19,
+                "lemma" : "다",
+                "weight" : 0.132573,
+                "type" : "EF"
+            },
+            {
+                "position" : 295,
+                "id" : 20,
+                "lemma" : ".",
+                "weight" : 1,
+                "type" : "SF"
+            }
+        ],
+        "SA" : [],
+        "dependency" : [
+            {
+                "weight" : 0.805222,
+                "mod" : [],
+                "id" : 0,
+                "label" : "AP",
+                "text" : "대개",
+                "head" : 3
+            },
+            {
+                "weight" : 0.812759,
+                "mod" : [],
+                "id" : 1,
+                "label" : "NP",
+                "text" : "비폭력",
+                "head" : 2
+            },
+            {
+                "weight" : 0.808152,
+                "mod" : [
+                    1
+                ],
+                "id" : 2,
+                "label" : "NP_OBJ",
+                "text" : "수단을",
+                "head" : 3
+            },
+            {
+                "weight" : 0.803715,
+                "mod" : [
+                    0,
+                    2
+                ],
+                "id" : 3,
+                "label" : "VP_MOD",
+                "text" : "사용한",
+                "head" : 4
+            },
+            {
+                "weight" : 0.6492,
+                "mod" : [
+                    3
+                ],
+                "id" : 4,
+                "label" : "VNP",
+                "text" : "저항이지만",
+                "head" : 9
+            },
+            {
+                "weight" : 0.550883,
+                "mod" : [],
+                "id" : 5,
+                "label" : "AP",
+                "text" : "꼭",
+                "head" : 6
+            },
+            {
+                "weight" : 0.756888,
+                "mod" : [
+                    5
+                ],
+                "id" : 6,
+                "label" : "VP",
+                "text" : "그렇지",
+                "head" : 7
+            },
+            {
+                "weight" : 0.835768,
+                "mod" : [
+                    6
+                ],
+                "id" : 7,
+                "label" : "VP_MOD",
+                "text" : "않을",
+                "head" : 8
+            },
+            {
+                "weight" : 0.717723,
+                "mod" : [
+                    7
+                ],
+                "id" : 8,
+                "label" : "NP_SBJ",
+                "text" : "수도",
+                "head" : 9
+            },
+            {
+                "weight" : 0.0479934,
+                "mod" : [
+                    4,
+                    8
+                ],
+                "id" : 9,
+                "label" : "VP",
+                "text" : "있다.",
+                "head" : -1
+            }
+        ],
+        "phrase_dependency" : [
+            {
+                "weight" : 0,
+                "head_phrase" : 2,
+                "end" : 0,
+                "element" : [],
+                "id" : 0,
+                "text" : "대개",
+                "sub_phrase" : [],
+                "label" : "AP",
+                "key_begin" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 2,
+                "end" : 2,
+                "element" : [],
+                "id" : 1,
+                "text" : "비폭력 수단을",
+                "sub_phrase" : [],
+                "label" : "NP_OBJ",
+                "key_begin" : 1,
+                "begin" : 1
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 3,
+                "end" : 3,
+                "element" : [],
+                "id" : 2,
+                "text" : "P#0@AP대개 P#1@OBJ을 사용한",
+                "sub_phrase" : [
+                    0,
+                    1
+                ],
+                "label" : "VP_MOD",
+                "key_begin" : 3,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 4,
+                "element" : [
+                    {
+                        "text" : "저항",
+                        "label" : "NP",
+                        "end" : 8,
+                        "ne_type" : "",
+                        "begin" : 8
+                    },
+                    {
+                        "text" : "이지만",
+                        "label" : "VP",
+                        "end" : 10,
+                        "ne_type" : "",
+                        "begin" : 9
+                    }
+                ],
+                "id" : 3,
+                "text" : "P#2@MODㄴ 저항이지만",
+                "sub_phrase" : [
+                    2
+                ],
+                "label" : "VNP",
+                "key_begin" : 4,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 5,
+                "end" : 5,
+                "element" : [],
+                "id" : 4,
+                "text" : "꼭",
+                "sub_phrase" : [],
+                "label" : "AP",
+                "key_begin" : 5,
+                "begin" : 5
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 6,
+                "end" : 7,
+                "element" : [],
+                "id" : 5,
+                "text" : "P#4@AP꼭 그렇지 않을",
+                "sub_phrase" : [
+                    4
+                ],
+                "label" : "VP_MOD",
+                "key_begin" : 6,
+                "begin" : 5
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 8,
+                "element" : [],
+                "id" : 6,
+                "text" : "P#5@MOD을 수도",
+                "sub_phrase" : [
+                    5
+                ],
+                "label" : "NP_SBJ",
+                "key_begin" : 8,
+                "begin" : 5
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : -1,
+                "end" : 9,
+                "element" : [],
+                "id" : 7,
+                "text" : "P#3@VNP지만 P#6@SBJ도 있다.",
+                "sub_phrase" : [
+                    3,
+                    6
+                ],
+                "label" : "S",
+                "key_begin" : 9,
+                "begin" : 0
+            }
+        ],
+        "chunk" : [],
+        "ZA" : [
+            {
+                "ant_wid" : -1,
+                "verb_wid" : 6,
+                "type" : "s",
+                "id" : 0,
+                "istitle" : 0,
+                "ant_sid" : -1,
+                "weight" : 0.966571
+            }
+        ],
+        "SRL" : [
+            {
+                "verb" : "사용",
+                "argument" : [
+                    {
+                        "text" : "수단을",
+                        "word_id" : 2,
+                        "weight" : 0.402741,
+                        "type" : "ARG1"
+                    },
+                    {
+                        "text" : "저항이지만",
+                        "word_id" : 4,
+                        "weight" : 0.166165,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 3,
+                "weight" : 0.284453,
+                "sense" : 1
+            },
+            {
+                "verb" : "그렇",
+                "argument" : [
+                    {
+                        "text" : "꼭",
+                        "word_id" : 5,
+                        "weight" : 1,
+                        "type" : "ARGM-ADV"
+                    },
+                    {
+                        "text" : "않을",
+                        "word_id" : 7,
+                        "weight" : 0.636438,
+                        "type" : "ARGM-NEG"
+                    }
+                ],
+                "word_id" : 6,
+                "weight" : 0.437418,
+                "sense" : 1
+            }
+        ],
+        "NE" : [],
+        "morp_eval" : [
+            {
+                "result" : "대개/MAG",
+                "target" : "대개",
+                "m_end" : 0,
+                "id" : 0,
+                "word_id" : 0,
+                "m_begin" : 0
+            },
+            {
+                "result" : "비폭력/NNG",
+                "target" : "비폭력",
+                "m_end" : 2,
+                "id" : 1,
+                "word_id" : 1,
+                "m_begin" : 1
+            },
+            {
+                "result" : "수단/NNG+을/JKO",
+                "target" : "수단을",
+                "m_end" : 4,
+                "id" : 2,
+                "word_id" : 2,
+                "m_begin" : 3
+            },
+            {
+                "result" : "사용하/VV+ㄴ/ETM",
+                "target" : "사용한",
+                "m_end" : 7,
+                "id" : 3,
+                "word_id" : 3,
+                "m_begin" : 5
+            },
+            {
+                "result" : "저항/NNG+이/VCP+지만/EC",
+                "target" : "저항이지만",
+                "m_end" : 10,
+                "id" : 4,
+                "word_id" : 4,
+                "m_begin" : 8
+            },
+            {
+                "result" : "꼭/MAG",
+                "target" : "꼭",
+                "m_end" : 11,
+                "id" : 5,
+                "word_id" : 5,
+                "m_begin" : 11
+            },
+            {
+                "result" : "그렇/VA+지/EC",
+                "target" : "그렇지",
+                "m_end" : 13,
+                "id" : 6,
+                "word_id" : 6,
+                "m_begin" : 12
+            },
+            {
+                "result" : "않/VX+을/ETM",
+                "target" : "않을",
+                "m_end" : 15,
+                "id" : 7,
+                "word_id" : 7,
+                "m_begin" : 14
+            },
+            {
+                "result" : "수/NNB+도/JX",
+                "target" : "수도",
+                "m_end" : 17,
+                "id" : 8,
+                "word_id" : 8,
+                "m_begin" : 16
+            },
+            {
+                "result" : "있/VA+다/EF+./SF",
+                "target" : "있다.",
+                "m_end" : 20,
+                "id" : 9,
+                "word_id" : 9,
+                "m_begin" : 18
+            }
+        ],
+        "text" : "대개 비폭력 수단을 사용한 저항이지만 꼭 그렇지 않을 수도 있다.",
+        "reserve_str" : ""
+    },
+    {
+        "word" : [
+            {
+                "text" : "시민불복종을",
+                "begin" : 0,
+                "end" : 3,
+                "id" : 0,
+                "type" : ""
+            },
+            {
+                "text" : "할",
+                "begin" : 4,
+                "end" : 5,
+                "id" : 1,
+                "type" : ""
+            },
+            {
+                "text" : "때에는",
+                "begin" : 6,
+                "end" : 8,
+                "id" : 2,
+                "type" : ""
+            },
+            {
+                "text" : "처벌을",
+                "begin" : 9,
+                "end" : 10,
+                "id" : 3,
+                "type" : ""
+            },
+            {
+                "text" : "반드시",
+                "begin" : 11,
+                "end" : 11,
+                "id" : 4,
+                "type" : ""
+            },
+            {
+                "text" : "감수하여야",
+                "begin" : 12,
+                "end" : 14,
+                "id" : 5,
+                "type" : ""
+            },
+            {
+                "text" : "한다.",
+                "begin" : 15,
+                "end" : 17,
+                "id" : 6,
+                "type" : ""
+            }
+        ],
+        "WSD" : [
+            {
+                "weight" : 0,
+                "end" : 0,
+                "type" : "NNG",
+                "position" : 296,
+                "text" : "시민",
+                "scode" : "00",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "end" : 2,
+                "type" : "NNG",
+                "position" : 302,
+                "text" : "불복종",
+                "scode" : "00",
+                "id" : 1,
+                "begin" : 1
+            },
+            {
+                "weight" : 1,
+                "end" : 3,
+                "type" : "JKO",
+                "position" : 311,
+                "text" : "을",
+                "scode" : "00",
+                "id" : 2,
+                "begin" : 3
+            },
+            {
+                "weight" : 7.6,
+                "end" : 4,
+                "type" : "VV",
+                "position" : 315,
+                "text" : "하",
+                "scode" : "01",
+                "id" : 3,
+                "begin" : 4
+            },
+            {
+                "weight" : 1,
+                "end" : 5,
+                "type" : "ETM",
+                "position" : 315,
+                "text" : "ㄹ",
+                "scode" : "00",
+                "id" : 4,
+                "begin" : 5
+            },
+            {
+                "weight" : 7.59513,
+                "end" : 6,
+                "type" : "NNG",
+                "position" : 319,
+                "text" : "때",
+                "scode" : "01",
+                "id" : 5,
+                "begin" : 6
+            },
+            {
+                "weight" : 1,
+                "end" : 7,
+                "type" : "JKB",
+                "position" : 322,
+                "text" : "에",
+                "scode" : "00",
+                "id" : 6,
+                "begin" : 7
+            },
+            {
+                "weight" : 1,
+                "end" : 8,
+                "type" : "JX",
+                "position" : 325,
+                "text" : "는",
+                "scode" : "00",
+                "id" : 7,
+                "begin" : 8
+            },
+            {
+                "weight" : 0,
+                "end" : 9,
+                "type" : "NNG",
+                "position" : 329,
+                "text" : "처벌",
+                "scode" : "00",
+                "id" : 8,
+                "begin" : 9
+            },
+            {
+                "weight" : 1,
+                "end" : 10,
+                "type" : "JKO",
+                "position" : 335,
+                "text" : "을",
+                "scode" : "00",
+                "id" : 9,
+                "begin" : 10
+            },
+            {
+                "weight" : 0,
+                "end" : 11,
+                "type" : "MAG",
+                "position" : 339,
+                "text" : "반드시",
+                "scode" : "00",
+                "id" : 10,
+                "begin" : 11
+            },
+            {
+                "weight" : 1,
+                "end" : 13,
+                "type" : "VV",
+                "position" : 349,
+                "text" : "감수하",
+                "scode" : "01",
+                "id" : 11,
+                "begin" : 12
+            },
+            {
+                "weight" : 1,
+                "end" : 14,
+                "type" : "EC",
+                "position" : 358,
+                "text" : "어야",
+                "scode" : "00",
+                "id" : 12,
+                "begin" : 14
+            },
+            {
+                "weight" : 4.4,
+                "end" : 15,
+                "type" : "VX",
+                "position" : 365,
+                "text" : "하",
+                "scode" : "01",
+                "id" : 13,
+                "begin" : 15
+            },
+            {
+                "weight" : 1,
+                "end" : 16,
+                "type" : "EF",
+                "position" : 365,
+                "text" : "ㄴ다",
+                "scode" : "00",
+                "id" : 14,
+                "begin" : 16
+            },
+            {
+                "weight" : 1,
+                "end" : 17,
+                "type" : "SF",
+                "position" : 371,
+                "text" : ".",
+                "scode" : "00",
+                "id" : 15,
+                "begin" : 17
+            }
+        ],
+        "relation" : [],
+        "id" : 3,
+        "morp" : [
+            {
+                "position" : 296,
+                "id" : 0,
+                "lemma" : "시민",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 302,
+                "id" : 1,
+                "lemma" : "불",
+                "weight" : 0.0001,
+                "type" : "XPN"
+            },
+            {
+                "position" : 305,
+                "id" : 2,
+                "lemma" : "복종",
+                "weight" : 0.466838,
+                "type" : "NNG"
+            },
+            {
+                "position" : 311,
+                "id" : 3,
+                "lemma" : "을",
+                "weight" : 0.129611,
+                "type" : "JKO"
+            },
+            {
+                "position" : 315,
+                "id" : 4,
+                "lemma" : "하",
+                "weight" : 0.48169,
+                "type" : "VV"
+            },
+            {
+                "position" : 315,
+                "id" : 5,
+                "lemma" : "ㄹ",
+                "weight" : 0.300746,
+                "type" : "ETM"
+            },
+            {
+                "position" : 319,
+                "id" : 6,
+                "lemma" : "때",
+                "weight" : 0.6565220000000001,
+                "type" : "NNG"
+            },
+            {
+                "position" : 322,
+                "id" : 7,
+                "lemma" : "에",
+                "weight" : 0.153364,
+                "type" : "JKB"
+            },
+            {
+                "position" : 325,
+                "id" : 8,
+                "lemma" : "는",
+                "weight" : 0.0387928,
+                "type" : "JX"
+            },
+            {
+                "position" : 329,
+                "id" : 9,
+                "lemma" : "처벌",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 335,
+                "id" : 10,
+                "lemma" : "을",
+                "weight" : 0.129611,
+                "type" : "JKO"
+            },
+            {
+                "position" : 339,
+                "id" : 11,
+                "lemma" : "반드시",
+                "weight" : 0.9,
+                "type" : "MAG"
+            },
+            {
+                "position" : 349,
+                "id" : 12,
+                "lemma" : "감수",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 355,
+                "id" : 13,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 358,
+                "id" : 14,
+                "lemma" : "어야",
+                "weight" : 0.371703,
+                "type" : "EC"
+            },
+            {
+                "position" : 365,
+                "id" : 15,
+                "lemma" : "하",
+                "weight" : 0.08992210000000001,
+                "type" : "VX"
+            },
+            {
+                "position" : 365,
+                "id" : 16,
+                "lemma" : "ㄴ다",
+                "weight" : 0.184394,
+                "type" : "EF"
+            },
+            {
+                "position" : 371,
+                "id" : 17,
+                "lemma" : ".",
+                "weight" : 1,
+                "type" : "SF"
+            }
+        ],
+        "SA" : [],
+        "dependency" : [
+            {
+                "weight" : 0.595743,
+                "mod" : [],
+                "id" : 0,
+                "label" : "NP_OBJ",
+                "text" : "시민불복종을",
+                "head" : 1
+            },
+            {
+                "weight" : 0.634922,
+                "mod" : [
+                    0
+                ],
+                "id" : 1,
+                "label" : "VP_MOD",
+                "text" : "할",
+                "head" : 2
+            },
+            {
+                "weight" : 0.755737,
+                "mod" : [
+                    1
+                ],
+                "id" : 2,
+                "label" : "NP_AJT",
+                "text" : "때에는",
+                "head" : 5
+            },
+            {
+                "weight" : 0.744441,
+                "mod" : [],
+                "id" : 3,
+                "label" : "NP_OBJ",
+                "text" : "처벌을",
+                "head" : 5
+            },
+            {
+                "weight" : 0.620761,
+                "mod" : [],
+                "id" : 4,
+                "label" : "AP",
+                "text" : "반드시",
+                "head" : 5
+            },
+            {
+                "weight" : 0.791291,
+                "mod" : [
+                    2,
+                    3,
+                    4
+                ],
+                "id" : 5,
+                "label" : "VP",
+                "text" : "감수하여야",
+                "head" : 6
+            },
+            {
+                "weight" : 0.08993520000000001,
+                "mod" : [
+                    5
+                ],
+                "id" : 6,
+                "label" : "VP",
+                "text" : "한다.",
+                "head" : -1
+            }
+        ],
+        "phrase_dependency" : [
+            {
+                "weight" : 0,
+                "head_phrase" : 1,
+                "end" : 0,
+                "element" : [],
+                "id" : 0,
+                "text" : "시민불복종을",
+                "sub_phrase" : [],
+                "label" : "NP_OBJ",
+                "key_begin" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 2,
+                "end" : 1,
+                "element" : [],
+                "id" : 1,
+                "text" : "P#0@OBJ을 할",
+                "sub_phrase" : [
+                    0
+                ],
+                "label" : "VP_MOD",
+                "key_begin" : 1,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 5,
+                "end" : 2,
+                "element" : [],
+                "id" : 2,
+                "text" : "P#1@MODㄹ 때에는",
+                "sub_phrase" : [
+                    1
+                ],
+                "label" : "NP_AJT",
+                "key_begin" : 2,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 5,
+                "end" : 3,
+                "element" : [],
+                "id" : 3,
+                "text" : "처벌을",
+                "sub_phrase" : [],
+                "label" : "NP_OBJ",
+                "key_begin" : 3,
+                "begin" : 3
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 5,
+                "end" : 4,
+                "element" : [],
+                "id" : 4,
+                "text" : "반드시",
+                "sub_phrase" : [],
+                "label" : "AP",
+                "key_begin" : 4,
+                "begin" : 4
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : -1,
+                "end" : 6,
+                "element" : [],
+                "id" : 5,
+                "text" : "P#2@AJT는 P#3@OBJ을 P#4@AP반드시 감수하여야 한다.",
+                "sub_phrase" : [
+                    2,
+                    3,
+                    4
+                ],
+                "label" : "VP",
+                "key_begin" : 5,
+                "begin" : 0
+            }
+        ],
+        "chunk" : [],
+        "ZA" : [
+            {
+                "ant_wid" : -1,
+                "verb_wid" : 5,
+                "type" : "s",
+                "id" : 0,
+                "istitle" : 0,
+                "ant_sid" : -1,
+                "weight" : 0.969004
+            }
+        ],
+        "SRL" : [
+            {
+                "verb" : "하",
+                "argument" : [
+                    {
+                        "text" : "시민불복종을",
+                        "word_id" : 0,
+                        "weight" : 0.347642,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 1,
+                "weight" : 0.347642,
+                "sense" : 1
+            },
+            {
+                "verb" : "감수",
+                "argument" : [
+                    {
+                        "text" : "때에는",
+                        "word_id" : 2,
+                        "weight" : 0.476547,
+                        "type" : "ARGM-TMP"
+                    },
+                    {
+                        "text" : "처벌을",
+                        "word_id" : 3,
+                        "weight" : 0.311229,
+                        "type" : "ARG1"
+                    },
+                    {
+                        "text" : "반드시",
+                        "word_id" : 4,
+                        "weight" : 0.098034,
+                        "type" : "ARGM-MNR"
+                    },
+                    {
+                        "text" : "한다.",
+                        "word_id" : 6,
+                        "weight" : 0.602787,
+                        "type" : "AUX"
+                    }
+                ],
+                "word_id" : 5,
+                "weight" : 0.37215,
+                "sense" : 1
+            }
+        ],
+        "NE" : [
+            {
+                "weight" : 0.104361,
+                "end" : 2,
+                "common_noun" : 0,
+                "type" : "AFW_DOCUMENT",
+                "text" : "시민불복종",
+                "id" : 0,
+                "begin" : 0
+            }
+        ],
+        "morp_eval" : [
+            {
+                "result" : "시민불복종/NNG+을/JKO",
+                "target" : "시민불복종을",
+                "m_end" : 3,
+                "id" : 0,
+                "word_id" : 0,
+                "m_begin" : 0
+            },
+            {
+                "result" : "하/VV+ㄹ/ETM",
+                "target" : "할",
+                "m_end" : 5,
+                "id" : 1,
+                "word_id" : 1,
+                "m_begin" : 4
+            },
+            {
+                "result" : "때/NNG+에/JKB+는/JX",
+                "target" : "때에는",
+                "m_end" : 8,
+                "id" : 2,
+                "word_id" : 2,
+                "m_begin" : 6
+            },
+            {
+                "result" : "처벌/NNG+을/JKO",
+                "target" : "처벌을",
+                "m_end" : 10,
+                "id" : 3,
+                "word_id" : 3,
+                "m_begin" : 9
+            },
+            {
+                "result" : "반드시/MAG",
+                "target" : "반드시",
+                "m_end" : 11,
+                "id" : 4,
+                "word_id" : 4,
+                "m_begin" : 11
+            },
+            {
+                "result" : "감수하/VV+어야/EC",
+                "target" : "감수하여야",
+                "m_end" : 14,
+                "id" : 5,
+                "word_id" : 5,
+                "m_begin" : 12
+            },
+            {
+                "result" : "하/VX+ㄴ다/EF+./SF",
+                "target" : "한다.",
+                "m_end" : 17,
+                "id" : 6,
+                "word_id" : 6,
+                "m_begin" : 15
+            }
+        ],
+        "text" : "시민불복종을 할 때에는 처벌을 반드시 감수하여야 한다.",
+        "reserve_str" : ""
+    },
+    {
+        "word" : [
+            {
+                "text" : "인도의",
+                "begin" : 0,
+                "end" : 1,
+                "id" : 0,
+                "type" : ""
+            },
+            {
+                "text" : "비폭력",
+                "begin" : 2,
+                "end" : 3,
+                "id" : 1,
+                "type" : ""
+            },
+            {
+                "text" : "저항",
+                "begin" : 4,
+                "end" : 4,
+                "id" : 2,
+                "type" : ""
+            },
+            {
+                "text" : "운동(모한다스",
+                "begin" : 5,
+                "end" : 7,
+                "id" : 3,
+                "type" : ""
+            },
+            {
+                "text" : "카람찬드",
+                "begin" : 8,
+                "end" : 8,
+                "id" : 4,
+                "type" : ""
+            },
+            {
+                "text" : "간디의",
+                "begin" : 9,
+                "end" : 10,
+                "id" : 5,
+                "type" : ""
+            },
+            {
+                "text" : "사회",
+                "begin" : 11,
+                "end" : 11,
+                "id" : 6,
+                "type" : ""
+            },
+            {
+                "text" : "복지",
+                "begin" : 12,
+                "end" : 12,
+                "id" : 7,
+                "type" : ""
+            },
+            {
+                "text" : "운동,",
+                "begin" : 13,
+                "end" : 14,
+                "id" : 8,
+                "type" : ""
+            },
+            {
+                "text" : "영국으로부터의",
+                "begin" : 15,
+                "end" : 17,
+                "id" : 9,
+                "type" : ""
+            },
+            {
+                "text" : "독립",
+                "begin" : 18,
+                "end" : 18,
+                "id" : 10,
+                "type" : ""
+            },
+            {
+                "text" : "운동)과",
+                "begin" : 19,
+                "end" : 21,
+                "id" : 11,
+                "type" : ""
+            },
+            {
+                "text" : "남아프리카",
+                "begin" : 22,
+                "end" : 22,
+                "id" : 12,
+                "type" : ""
+            },
+            {
+                "text" : "공화국의",
+                "begin" : 23,
+                "end" : 25,
+                "id" : 13,
+                "type" : ""
+            },
+            {
+                "text" : "인종차별",
+                "begin" : 26,
+                "end" : 27,
+                "id" : 14,
+                "type" : ""
+            },
+            {
+                "text" : "반대",
+                "begin" : 28,
+                "end" : 28,
+                "id" : 15,
+                "type" : ""
+            },
+            {
+                "text" : "투쟁,",
+                "begin" : 29,
+                "end" : 30,
+                "id" : 16,
+                "type" : ""
+            },
+            {
+                "text" : "미국의",
+                "begin" : 31,
+                "end" : 32,
+                "id" : 17,
+                "type" : ""
+            },
+            {
+                "text" : "공민권운동",
+                "begin" : 33,
+                "end" : 35,
+                "id" : 18,
+                "type" : ""
+            },
+            {
+                "text" : "등이",
+                "begin" : 36,
+                "end" : 37,
+                "id" : 19,
+                "type" : ""
+            },
+            {
+                "text" : "대표적인",
+                "begin" : 38,
+                "end" : 41,
+                "id" : 20,
+                "type" : ""
+            },
+            {
+                "text" : "예이며,",
+                "begin" : 42,
+                "end" : 45,
+                "id" : 21,
+                "type" : ""
+            },
+            {
+                "text" : "소크라테스의",
+                "begin" : 46,
+                "end" : 47,
+                "id" : 22,
+                "type" : ""
+            },
+            {
+                "text" : "유명한",
+                "begin" : 48,
+                "end" : 50,
+                "id" : 23,
+                "type" : ""
+            },
+            {
+                "text" : "재판이",
+                "begin" : 51,
+                "end" : 52,
+                "id" : 24,
+                "type" : ""
+            },
+            {
+                "text" : "시민",
+                "begin" : 53,
+                "end" : 53,
+                "id" : 25,
+                "type" : ""
+            },
+            {
+                "text" : "불복종의",
+                "begin" : 54,
+                "end" : 56,
+                "id" : 26,
+                "type" : ""
+            },
+            {
+                "text" : "철학적",
+                "begin" : 57,
+                "end" : 58,
+                "id" : 27,
+                "type" : ""
+            },
+            {
+                "text" : "토대를",
+                "begin" : 59,
+                "end" : 60,
+                "id" : 28,
+                "type" : ""
+            },
+            {
+                "text" : "마련한",
+                "begin" : 61,
+                "end" : 63,
+                "id" : 29,
+                "type" : ""
+            },
+            {
+                "text" : "사건으로",
+                "begin" : 64,
+                "end" : 65,
+                "id" : 30,
+                "type" : ""
+            },
+            {
+                "text" : "간주된다.",
+                "begin" : 66,
+                "end" : 69,
+                "id" : 31,
+                "type" : ""
+            }
+        ],
+        "WSD" : [
+            {
+                "weight" : 1,
+                "end" : 0,
+                "type" : "NNP",
+                "position" : 372,
+                "text" : "인도",
+                "scode" : "08",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 1,
+                "end" : 1,
+                "type" : "JKG",
+                "position" : 378,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 1,
+                "begin" : 1
+            },
+            {
+                "weight" : 6.7,
+                "end" : 2,
+                "type" : "XPN",
+                "position" : 382,
+                "text" : "비",
+                "scode" : "32",
+                "id" : 2,
+                "begin" : 2
+            },
+            {
+                "weight" : 0,
+                "end" : 3,
+                "type" : "NNG",
+                "position" : 385,
+                "text" : "폭력",
+                "scode" : "00",
+                "id" : 3,
+                "begin" : 3
+            },
+            {
+                "weight" : 0,
+                "end" : 4,
+                "type" : "NNG",
+                "position" : 392,
+                "text" : "저항",
+                "scode" : "00",
+                "id" : 4,
+                "begin" : 4
+            },
+            {
+                "weight" : 7.7,
+                "end" : 5,
+                "type" : "NNG",
+                "position" : 399,
+                "text" : "운동",
+                "scode" : "02",
+                "id" : 5,
+                "begin" : 5
+            },
+            {
+                "weight" : 1,
+                "end" : 6,
+                "type" : "SS",
+                "position" : 405,
+                "text" : "(",
+                "scode" : "00",
+                "id" : 6,
+                "begin" : 6
+            },
+            {
+                "weight" : 0,
+                "end" : 7,
+                "type" : "NNP",
+                "position" : 406,
+                "text" : "모한다스",
+                "scode" : "00",
+                "id" : 7,
+                "begin" : 7
+            },
+            {
+                "weight" : 0,
+                "end" : 8,
+                "type" : "NNP",
+                "position" : 419,
+                "text" : "카람찬드",
+                "scode" : "00",
+                "id" : 8,
+                "begin" : 8
+            },
+            {
+                "weight" : 2.86667,
+                "end" : 9,
+                "type" : "NNP",
+                "position" : 432,
+                "text" : "간디",
+                "scode" : "02",
+                "id" : 9,
+                "begin" : 9
+            },
+            {
+                "weight" : 1,
+                "end" : 10,
+                "type" : "JKG",
+                "position" : 438,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 10,
+                "begin" : 10
+            },
+            {
+                "weight" : 4.4,
+                "end" : 11,
+                "type" : "NNG",
+                "position" : 442,
+                "text" : "사회",
+                "scode" : "07",
+                "id" : 11,
+                "begin" : 11
+            },
+            {
+                "weight" : 3.7,
+                "end" : 12,
+                "type" : "NNG",
+                "position" : 449,
+                "text" : "복지",
+                "scode" : "10",
+                "id" : 12,
+                "begin" : 12
+            },
+            {
+                "weight" : 7.7,
+                "end" : 13,
+                "type" : "NNG",
+                "position" : 456,
+                "text" : "운동",
+                "scode" : "02",
+                "id" : 13,
+                "begin" : 13
+            },
+            {
+                "weight" : 1,
+                "end" : 14,
+                "type" : "SP",
+                "position" : 462,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 14,
+                "begin" : 14
+            },
+            {
+                "weight" : 7.6,
+                "end" : 15,
+                "type" : "NNP",
+                "position" : 464,
+                "text" : "영국",
+                "scode" : "01",
+                "id" : 15,
+                "begin" : 15
+            },
+            {
+                "weight" : 1,
+                "end" : 16,
+                "type" : "JKB",
+                "position" : 470,
+                "text" : "으로부터",
+                "scode" : "00",
+                "id" : 16,
+                "begin" : 16
+            },
+            {
+                "weight" : 1,
+                "end" : 17,
+                "type" : "JKG",
+                "position" : 482,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 17,
+                "begin" : 17
+            },
+            {
+                "weight" : 0,
+                "end" : 18,
+                "type" : "NNG",
+                "position" : 486,
+                "text" : "독립",
+                "scode" : "00",
+                "id" : 18,
+                "begin" : 18
+            },
+            {
+                "weight" : 5.5,
+                "end" : 19,
+                "type" : "NNG",
+                "position" : 493,
+                "text" : "운동",
+                "scode" : "02",
+                "id" : 19,
+                "begin" : 19
+            },
+            {
+                "weight" : 1,
+                "end" : 20,
+                "type" : "SS",
+                "position" : 499,
+                "text" : ")",
+                "scode" : "00",
+                "id" : 20,
+                "begin" : 20
+            },
+            {
+                "weight" : 1,
+                "end" : 21,
+                "type" : "JC",
+                "position" : 500,
+                "text" : "과",
+                "scode" : "00",
+                "id" : 21,
+                "begin" : 21
+            },
+            {
+                "weight" : 0,
+                "end" : 22,
+                "type" : "NNP",
+                "position" : 504,
+                "text" : "남아프리카",
+                "scode" : "00",
+                "id" : 22,
+                "begin" : 22
+            },
+            {
+                "weight" : 7.3,
+                "end" : 24,
+                "type" : "NNG",
+                "position" : 520,
+                "text" : "공화국",
+                "scode" : "01",
+                "id" : 23,
+                "begin" : 23
+            },
+            {
+                "weight" : 1,
+                "end" : 25,
+                "type" : "JKG",
+                "position" : 529,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 24,
+                "begin" : 25
+            },
+            {
+                "weight" : 0,
+                "end" : 27,
+                "type" : "NNG",
+                "position" : 533,
+                "text" : "인종차별",
+                "scode" : "00",
+                "id" : 25,
+                "begin" : 26
+            },
+            {
+                "weight" : 7.7,
+                "end" : 28,
+                "type" : "NNG",
+                "position" : 546,
+                "text" : "반대",
+                "scode" : "03",
+                "id" : 26,
+                "begin" : 28
+            },
+            {
+                "weight" : 0,
+                "end" : 29,
+                "type" : "NNG",
+                "position" : 553,
+                "text" : "투쟁",
+                "scode" : "00",
+                "id" : 27,
+                "begin" : 29
+            },
+            {
+                "weight" : 1,
+                "end" : 30,
+                "type" : "SP",
+                "position" : 559,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 28,
+                "begin" : 30
+            },
+            {
+                "weight" : 4.4,
+                "end" : 31,
+                "type" : "NNP",
+                "position" : 561,
+                "text" : "미국",
+                "scode" : "03",
+                "id" : 29,
+                "begin" : 31
+            },
+            {
+                "weight" : 1,
+                "end" : 32,
+                "type" : "JKG",
+                "position" : 567,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 30,
+                "begin" : 32
+            },
+            {
+                "weight" : 0,
+                "end" : 35,
+                "type" : "NNG",
+                "position" : 571,
+                "text" : "공민권운동",
+                "scode" : "00",
+                "id" : 31,
+                "begin" : 33
+            },
+            {
+                "weight" : 8.699999999999999,
+                "end" : 36,
+                "type" : "NNB",
+                "position" : 587,
+                "text" : "등",
+                "scode" : "05",
+                "id" : 32,
+                "begin" : 36
+            },
+            {
+                "weight" : 1,
+                "end" : 37,
+                "type" : "JKS",
+                "position" : 590,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 33,
+                "begin" : 37
+            },
+            {
+                "weight" : 0,
+                "end" : 39,
+                "type" : "NNG",
+                "position" : 594,
+                "text" : "대표적",
+                "scode" : "00",
+                "id" : 34,
+                "begin" : 38
+            },
+            {
+                "weight" : 1,
+                "end" : 40,
+                "type" : "VCP",
+                "position" : 603,
+                "text" : "이",
+                "scode" : "01",
+                "id" : 35,
+                "begin" : 40
+            },
+            {
+                "weight" : 1,
+                "end" : 41,
+                "type" : "ETM",
+                "position" : 603,
+                "text" : "ㄴ",
+                "scode" : "00",
+                "id" : 36,
+                "begin" : 41
+            },
+            {
+                "weight" : 1.7,
+                "end" : 42,
+                "type" : "NNG",
+                "position" : 607,
+                "text" : "예",
+                "scode" : "01",
+                "id" : 37,
+                "begin" : 42
+            },
+            {
+                "weight" : 1,
+                "end" : 43,
+                "type" : "VCP",
+                "position" : 610,
+                "text" : "이",
+                "scode" : "01",
+                "id" : 38,
+                "begin" : 43
+            },
+            {
+                "weight" : 1,
+                "end" : 44,
+                "type" : "EC",
+                "position" : 613,
+                "text" : "며",
+                "scode" : "00",
+                "id" : 39,
+                "begin" : 44
+            },
+            {
+                "weight" : 1,
+                "end" : 45,
+                "type" : "SP",
+                "position" : 616,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 40,
+                "begin" : 45
+            },
+            {
+                "weight" : 0,
+                "end" : 46,
+                "type" : "NNP",
+                "position" : 618,
+                "text" : "소크라테스",
+                "scode" : "00",
+                "id" : 41,
+                "begin" : 46
+            },
+            {
+                "weight" : 1,
+                "end" : 47,
+                "type" : "JKG",
+                "position" : 633,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 42,
+                "begin" : 47
+            },
+            {
+                "weight" : 3.7,
+                "end" : 49,
+                "type" : "VA",
+                "position" : 637,
+                "text" : "유명하",
+                "scode" : "01",
+                "id" : 43,
+                "begin" : 48
+            },
+            {
+                "weight" : 1,
+                "end" : 50,
+                "type" : "ETM",
+                "position" : 643,
+                "text" : "ㄴ",
+                "scode" : "00",
+                "id" : 44,
+                "begin" : 50
+            },
+            {
+                "weight" : 1,
+                "end" : 51,
+                "type" : "NNG",
+                "position" : 647,
+                "text" : "재판",
+                "scode" : "06",
+                "id" : 45,
+                "begin" : 51
+            },
+            {
+                "weight" : 1,
+                "end" : 52,
+                "type" : "JKS",
+                "position" : 653,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 46,
+                "begin" : 52
+            },
+            {
+                "weight" : 0,
+                "end" : 53,
+                "type" : "NNG",
+                "position" : 657,
+                "text" : "시민",
+                "scode" : "00",
+                "id" : 47,
+                "begin" : 53
+            },
+            {
+                "weight" : 0,
+                "end" : 55,
+                "type" : "NNG",
+                "position" : 664,
+                "text" : "불복종",
+                "scode" : "00",
+                "id" : 48,
+                "begin" : 54
+            },
+            {
+                "weight" : 1,
+                "end" : 56,
+                "type" : "JKG",
+                "position" : 673,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 49,
+                "begin" : 56
+            },
+            {
+                "weight" : 0,
+                "end" : 58,
+                "type" : "NNG",
+                "position" : 677,
+                "text" : "철학적",
+                "scode" : "00",
+                "id" : 50,
+                "begin" : 57
+            },
+            {
+                "weight" : 0,
+                "end" : 59,
+                "type" : "NNG",
+                "position" : 687,
+                "text" : "토대",
+                "scode" : "00",
+                "id" : 51,
+                "begin" : 59
+            },
+            {
+                "weight" : 1,
+                "end" : 60,
+                "type" : "JKO",
+                "position" : 693,
+                "text" : "를",
+                "scode" : "00",
+                "id" : 52,
+                "begin" : 60
+            },
+            {
+                "weight" : 0,
+                "end" : 62,
+                "type" : "VV",
+                "position" : 697,
+                "text" : "마련하",
+                "scode" : "00",
+                "id" : 53,
+                "begin" : 61
+            },
+            {
+                "weight" : 1,
+                "end" : 63,
+                "type" : "ETM",
+                "position" : 703,
+                "text" : "ㄴ",
+                "scode" : "00",
+                "id" : 54,
+                "begin" : 63
+            },
+            {
+                "weight" : 3.2,
+                "end" : 64,
+                "type" : "NNG",
+                "position" : 707,
+                "text" : "사건",
+                "scode" : "01",
+                "id" : 55,
+                "begin" : 64
+            },
+            {
+                "weight" : 1,
+                "end" : 65,
+                "type" : "JKB",
+                "position" : 713,
+                "text" : "으로",
+                "scode" : "00",
+                "id" : 56,
+                "begin" : 65
+            },
+            {
+                "weight" : 0,
+                "end" : 67,
+                "type" : "VV",
+                "position" : 720,
+                "text" : "간주되",
+                "scode" : "00",
+                "id" : 57,
+                "begin" : 66
+            },
+            {
+                "weight" : 1,
+                "end" : 68,
+                "type" : "EF",
+                "position" : 726,
+                "text" : "ㄴ다",
+                "scode" : "00",
+                "id" : 58,
+                "begin" : 68
+            },
+            {
+                "weight" : 1,
+                "end" : 69,
+                "type" : "SF",
+                "position" : 732,
+                "text" : ".",
+                "scode" : "00",
+                "id" : 59,
+                "begin" : 69
+            }
+        ],
+        "relation" : [],
+        "id" : 4,
+        "morp" : [
+            {
+                "position" : 372,
+                "id" : 0,
+                "lemma" : "인도",
+                "weight" : 0.0778543,
+                "type" : "NNP"
+            },
+            {
+                "position" : 378,
+                "id" : 1,
+                "lemma" : "의",
+                "weight" : 0.0987295,
+                "type" : "JKG"
+            },
+            {
+                "position" : 382,
+                "id" : 2,
+                "lemma" : "비",
+                "weight" : 0.000580966,
+                "type" : "XPN"
+            },
+            {
+                "position" : 385,
+                "id" : 3,
+                "lemma" : "폭력",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 392,
+                "id" : 4,
+                "lemma" : "저항",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 399,
+                "id" : 5,
+                "lemma" : "운동",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 405,
+                "id" : 6,
+                "lemma" : "(",
+                "weight" : 1,
+                "type" : "SS"
+            },
+            {
+                "position" : 406,
+                "id" : 7,
+                "lemma" : "모한다스",
+                "weight" : 0.6,
+                "type" : "NNP"
+            },
+            {
+                "position" : 419,
+                "id" : 8,
+                "lemma" : "카람찬드",
+                "weight" : 0.6,
+                "type" : "NNP"
+            },
+            {
+                "position" : 432,
+                "id" : 9,
+                "lemma" : "간디",
+                "weight" : 0.0751252,
+                "type" : "NNP"
+            },
+            {
+                "position" : 438,
+                "id" : 10,
+                "lemma" : "의",
+                "weight" : 0.0987295,
+                "type" : "JKG"
+            },
+            {
+                "position" : 442,
+                "id" : 11,
+                "lemma" : "사회",
+                "weight" : 0.871282,
+                "type" : "NNG"
+            },
+            {
+                "position" : 449,
+                "id" : 12,
+                "lemma" : "복지",
+                "weight" : 0.184683,
+                "type" : "NNG"
+            },
+            {
+                "position" : 456,
+                "id" : 13,
+                "lemma" : "운동",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 462,
+                "id" : 14,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 464,
+                "id" : 15,
+                "lemma" : "영국",
+                "weight" : 0.9,
+                "type" : "NNP"
+            },
+            {
+                "position" : 470,
+                "id" : 16,
+                "lemma" : "으로부터",
+                "weight" : 0.9,
+                "type" : "JKB"
+            },
+            {
+                "position" : 482,
+                "id" : 17,
+                "lemma" : "의",
+                "weight" : 0.00917577,
+                "type" : "JKG"
+            },
+            {
+                "position" : 486,
+                "id" : 18,
+                "lemma" : "독립",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 493,
+                "id" : 19,
+                "lemma" : "운동",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 499,
+                "id" : 20,
+                "lemma" : ")",
+                "weight" : 1,
+                "type" : "SS"
+            },
+            {
+                "position" : 500,
+                "id" : 21,
+                "lemma" : "과",
+                "weight" : 0.00441114,
+                "type" : "JC"
+            },
+            {
+                "position" : 504,
+                "id" : 22,
+                "lemma" : "남아프리카",
+                "weight" : 0.9,
+                "type" : "NNP"
+            },
+            {
+                "position" : 520,
+                "id" : 23,
+                "lemma" : "공화",
+                "weight" : 0.0894119,
+                "type" : "NNG"
+            },
+            {
+                "position" : 526,
+                "id" : 24,
+                "lemma" : "국",
+                "weight" : 0.0205107,
+                "type" : "XSN"
+            },
+            {
+                "position" : 529,
+                "id" : 25,
+                "lemma" : "의",
+                "weight" : 0.120732,
+                "type" : "JKG"
+            },
+            {
+                "position" : 533,
+                "id" : 26,
+                "lemma" : "인종",
+                "weight" : 0.745567,
+                "type" : "NNG"
+            },
+            {
+                "position" : 539,
+                "id" : 27,
+                "lemma" : "차별",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 546,
+                "id" : 28,
+                "lemma" : "반대",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 553,
+                "id" : 29,
+                "lemma" : "투쟁",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 559,
+                "id" : 30,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 561,
+                "id" : 31,
+                "lemma" : "미국",
+                "weight" : 0.123794,
+                "type" : "NNP"
+            },
+            {
+                "position" : 567,
+                "id" : 32,
+                "lemma" : "의",
+                "weight" : 0.0987295,
+                "type" : "JKG"
+            },
+            {
+                "position" : 571,
+                "id" : 33,
+                "lemma" : "공민",
+                "weight" : 0.831831,
+                "type" : "NNG"
+            },
+            {
+                "position" : 577,
+                "id" : 34,
+                "lemma" : "권",
+                "weight" : 0.0140728,
+                "type" : "XSN"
+            },
+            {
+                "position" : 580,
+                "id" : 35,
+                "lemma" : "운동",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 587,
+                "id" : 36,
+                "lemma" : "등",
+                "weight" : 0.0146757,
+                "type" : "NNB"
+            },
+            {
+                "position" : 590,
+                "id" : 37,
+                "lemma" : "이",
+                "weight" : 0.0376169,
+                "type" : "JKS"
+            },
+            {
+                "position" : 594,
+                "id" : 38,
+                "lemma" : "대표",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 600,
+                "id" : 39,
+                "lemma" : "적",
+                "weight" : 0.0168756,
+                "type" : "XSN"
+            },
+            {
+                "position" : 603,
+                "id" : 40,
+                "lemma" : "이",
+                "weight" : 0.0165001,
+                "type" : "VCP"
+            },
+            {
+                "position" : 603,
+                "id" : 41,
+                "lemma" : "ㄴ",
+                "weight" : 0.220712,
+                "type" : "ETM"
+            },
+            {
+                "position" : 607,
+                "id" : 42,
+                "lemma" : "예",
+                "weight" : 0.550366,
+                "type" : "NNG"
+            },
+            {
+                "position" : 610,
+                "id" : 43,
+                "lemma" : "이",
+                "weight" : 0.0177525,
+                "type" : "VCP"
+            },
+            {
+                "position" : 613,
+                "id" : 44,
+                "lemma" : "며",
+                "weight" : 0.250555,
+                "type" : "EC"
+            },
+            {
+                "position" : 616,
+                "id" : 45,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 618,
+                "id" : 46,
+                "lemma" : "소크라테스",
+                "weight" : 0.9,
+                "type" : "NNP"
+            },
+            {
+                "position" : 633,
+                "id" : 47,
+                "lemma" : "의",
+                "weight" : 0.0987295,
+                "type" : "JKG"
+            },
+            {
+                "position" : 637,
+                "id" : 48,
+                "lemma" : "유명",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 643,
+                "id" : 49,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSA"
+            },
+            {
+                "position" : 643,
+                "id" : 50,
+                "lemma" : "ㄴ",
+                "weight" : 0.488779,
+                "type" : "ETM"
+            },
+            {
+                "position" : 647,
+                "id" : 51,
+                "lemma" : "재판",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 653,
+                "id" : 52,
+                "lemma" : "이",
+                "weight" : 0.0360723,
+                "type" : "JKS"
+            },
+            {
+                "position" : 657,
+                "id" : 53,
+                "lemma" : "시민",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 664,
+                "id" : 54,
+                "lemma" : "불",
+                "weight" : 0.0001,
+                "type" : "XPN"
+            },
+            {
+                "position" : 667,
+                "id" : 55,
+                "lemma" : "복종",
+                "weight" : 0.466838,
+                "type" : "NNG"
+            },
+            {
+                "position" : 673,
+                "id" : 56,
+                "lemma" : "의",
+                "weight" : 0.06942130000000001,
+                "type" : "JKG"
+            },
+            {
+                "position" : 677,
+                "id" : 57,
+                "lemma" : "철학",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 683,
+                "id" : 58,
+                "lemma" : "적",
+                "weight" : 0.0168756,
+                "type" : "XSN"
+            },
+            {
+                "position" : 687,
+                "id" : 59,
+                "lemma" : "토대",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 693,
+                "id" : 60,
+                "lemma" : "를",
+                "weight" : 0.137686,
+                "type" : "JKO"
+            },
+            {
+                "position" : 697,
+                "id" : 61,
+                "lemma" : "마련",
+                "weight" : 0.0400296,
+                "type" : "NNG"
+            },
+            {
+                "position" : 703,
+                "id" : 62,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 703,
+                "id" : 63,
+                "lemma" : "ㄴ",
+                "weight" : 0.392321,
+                "type" : "ETM"
+            },
+            {
+                "position" : 707,
+                "id" : 64,
+                "lemma" : "사건",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 713,
+                "id" : 65,
+                "lemma" : "으로",
+                "weight" : 0.153406,
+                "type" : "JKB"
+            },
+            {
+                "position" : 720,
+                "id" : 66,
+                "lemma" : "간주",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 726,
+                "id" : 67,
+                "lemma" : "되",
+                "weight" : 0.000224177,
+                "type" : "XSV"
+            },
+            {
+                "position" : 726,
+                "id" : 68,
+                "lemma" : "ㄴ다",
+                "weight" : 0.0449045,
+                "type" : "EF"
+            },
+            {
+                "position" : 732,
+                "id" : 69,
+                "lemma" : ".",
+                "weight" : 1,
+                "type" : "SF"
+            }
+        ],
+        "SA" : [],
+        "dependency" : [
+            {
+                "weight" : 0.675915,
+                "mod" : [],
+                "id" : 0,
+                "label" : "NP_MOD",
+                "text" : "인도의",
+                "head" : 3
+            },
+            {
+                "weight" : 0.418045,
+                "mod" : [],
+                "id" : 1,
+                "label" : "NP",
+                "text" : "비폭력",
+                "head" : 2
+            },
+            {
+                "weight" : 0.725125,
+                "mod" : [
+                    1
+                ],
+                "id" : 2,
+                "label" : "NP",
+                "text" : "저항",
+                "head" : 3
+            },
+            {
+                "weight" : 0.490537,
+                "mod" : [
+                    0,
+                    2
+                ],
+                "id" : 3,
+                "label" : "NP",
+                "text" : "운동(모한다스",
+                "head" : 5
+            },
+            {
+                "weight" : 0.824153,
+                "mod" : [],
+                "id" : 4,
+                "label" : "NP",
+                "text" : "카람찬드",
+                "head" : 5
+            },
+            {
+                "weight" : 0.577313,
+                "mod" : [
+                    3,
+                    4
+                ],
+                "id" : 5,
+                "label" : "NP_MOD",
+                "text" : "간디의",
+                "head" : 8
+            },
+            {
+                "weight" : 0.474648,
+                "mod" : [],
+                "id" : 6,
+                "label" : "NP",
+                "text" : "사회",
+                "head" : 7
+            },
+            {
+                "weight" : 0.773177,
+                "mod" : [
+                    6
+                ],
+                "id" : 7,
+                "label" : "NP",
+                "text" : "복지",
+                "head" : 8
+            },
+            {
+                "weight" : 0.0641876,
+                "mod" : [
+                    5,
+                    7
+                ],
+                "id" : 8,
+                "label" : "NP_CNJ",
+                "text" : "운동,",
+                "head" : 11
+            },
+            {
+                "weight" : 0.785428,
+                "mod" : [],
+                "id" : 9,
+                "label" : "NP_MOD",
+                "text" : "영국으로부터의",
+                "head" : 11
+            },
+            {
+                "weight" : 0.661197,
+                "mod" : [],
+                "id" : 10,
+                "label" : "NP",
+                "text" : "독립",
+                "head" : 11
+            },
+            {
+                "weight" : 0.647883,
+                "mod" : [
+                    8,
+                    9,
+                    10
+                ],
+                "id" : 11,
+                "label" : "NP_CNJ",
+                "text" : "운동)과",
+                "head" : 18
+            },
+            {
+                "weight" : 0.764289,
+                "mod" : [],
+                "id" : 12,
+                "label" : "NP",
+                "text" : "남아프리카",
+                "head" : 13
+            },
+            {
+                "weight" : 0.811784,
+                "mod" : [
+                    12
+                ],
+                "id" : 13,
+                "label" : "NP_MOD",
+                "text" : "공화국의",
+                "head" : 16
+            },
+            {
+                "weight" : 0.51595,
+                "mod" : [],
+                "id" : 14,
+                "label" : "NP",
+                "text" : "인종차별",
+                "head" : 15
+            },
+            {
+                "weight" : 0.704252,
+                "mod" : [
+                    14
+                ],
+                "id" : 15,
+                "label" : "NP",
+                "text" : "반대",
+                "head" : 16
+            },
+            {
+                "weight" : 0.335846,
+                "mod" : [
+                    13,
+                    15
+                ],
+                "id" : 16,
+                "label" : "NP_CNJ",
+                "text" : "투쟁,",
+                "head" : 18
+            },
+            {
+                "weight" : 0.616219,
+                "mod" : [],
+                "id" : 17,
+                "label" : "NP_MOD",
+                "text" : "미국의",
+                "head" : 18
+            },
+            {
+                "weight" : 0.6282140000000001,
+                "mod" : [
+                    11,
+                    16,
+                    17
+                ],
+                "id" : 18,
+                "label" : "NP",
+                "text" : "공민권운동",
+                "head" : 19
+            },
+            {
+                "weight" : 0.636545,
+                "mod" : [
+                    18
+                ],
+                "id" : 19,
+                "label" : "NP_SBJ",
+                "text" : "등이",
+                "head" : 20
+            },
+            {
+                "weight" : 0.72389,
+                "mod" : [
+                    19
+                ],
+                "id" : 20,
+                "label" : "VNP_MOD",
+                "text" : "대표적인",
+                "head" : 21
+            },
+            {
+                "weight" : 0.791109,
+                "mod" : [
+                    20
+                ],
+                "id" : 21,
+                "label" : "VNP",
+                "text" : "예이며,",
+                "head" : 31
+            },
+            {
+                "weight" : 0.727941,
+                "mod" : [],
+                "id" : 22,
+                "label" : "NP_MOD",
+                "text" : "소크라테스의",
+                "head" : 24
+            },
+            {
+                "weight" : 0.525462,
+                "mod" : [],
+                "id" : 23,
+                "label" : "VP_MOD",
+                "text" : "유명한",
+                "head" : 24
+            },
+            {
+                "weight" : 0.0778591,
+                "mod" : [
+                    22,
+                    23
+                ],
+                "id" : 24,
+                "label" : "NP_SBJ",
+                "text" : "재판이",
+                "head" : 29
+            },
+            {
+                "weight" : 0.679075,
+                "mod" : [],
+                "id" : 25,
+                "label" : "NP",
+                "text" : "시민",
+                "head" : 26
+            },
+            {
+                "weight" : 0.686646,
+                "mod" : [
+                    25
+                ],
+                "id" : 26,
+                "label" : "NP_MOD",
+                "text" : "불복종의",
+                "head" : 28
+            },
+            {
+                "weight" : 0.656455,
+                "mod" : [],
+                "id" : 27,
+                "label" : "NP",
+                "text" : "철학적",
+                "head" : 28
+            },
+            {
+                "weight" : 0.753136,
+                "mod" : [
+                    26,
+                    27
+                ],
+                "id" : 28,
+                "label" : "NP_OBJ",
+                "text" : "토대를",
+                "head" : 29
+            },
+            {
+                "weight" : 0.8120500000000001,
+                "mod" : [
+                    24,
+                    28
+                ],
+                "id" : 29,
+                "label" : "VP_MOD",
+                "text" : "마련한",
+                "head" : 30
+            },
+            {
+                "weight" : 0.8373580000000001,
+                "mod" : [
+                    29
+                ],
+                "id" : 30,
+                "label" : "NP_AJT",
+                "text" : "사건으로",
+                "head" : 31
+            },
+            {
+                "weight" : 1.71671e-008,
+                "mod" : [
+                    21,
+                    30
+                ],
+                "id" : 31,
+                "label" : "VP",
+                "text" : "간주된다.",
+                "head" : -1
+            }
+        ],
+        "phrase_dependency" : [
+            {
+                "weight" : 0,
+                "head_phrase" : 1,
+                "end" : 19,
+                "element" : [
+                    {
+                        "text" : "인도의 비폭력 저항 운동(모한다스 카람찬드 간디의 사회 복지 운동, 영국으로부터의 독립 운동)",
+                        "label" : "NP_SBJ",
+                        "end" : 20,
+                        "ne_type" : "",
+                        "begin" : 0
+                    },
+                    {
+                        "text" : "남아프리카 공화국의 인종차별 반대 투쟁",
+                        "label" : "NP_SBJ",
+                        "end" : 29,
+                        "ne_type" : "",
+                        "begin" : 22
+                    },
+                    {
+                        "text" : "미국의 공민권운동",
+                        "label" : "NP_SBJ",
+                        "end" : 35,
+                        "ne_type" : "",
+                        "begin" : 31
+                    }
+                ],
+                "id" : 0,
+                "text" : "인도의 비폭력 저항 운동(모한다스 카람찬드 간디의 사회 복지 운동, 영국으로부터의 독립 운동)과 남아프리카 공화국의 인종차별 반대 투쟁, 미국의 공민권운동 등이",
+                "sub_phrase" : [],
+                "label" : "NP_SBJ",
+                "key_begin" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 2,
+                "end" : 20,
+                "element" : [],
+                "id" : 1,
+                "text" : "P#0@SBJ이 대표적인",
+                "sub_phrase" : [
+                    0
+                ],
+                "label" : "S_MOD",
+                "key_begin" : 20,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 21,
+                "element" : [
+                    {
+                        "text" : "예",
+                        "label" : "NP",
+                        "end" : 42,
+                        "ne_type" : "",
+                        "begin" : 42
+                    },
+                    {
+                        "text" : "이며,",
+                        "label" : "VP",
+                        "end" : 45,
+                        "ne_type" : "",
+                        "begin" : 43
+                    }
+                ],
+                "id" : 2,
+                "text" : "S#1@MODㄴ 예이며,",
+                "sub_phrase" : [
+                    1
+                ],
+                "label" : "S",
+                "key_begin" : 21,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 5,
+                "end" : 24,
+                "element" : [],
+                "id" : 3,
+                "text" : "소크라테스의 유명한 재판이",
+                "sub_phrase" : [],
+                "label" : "NP_SBJ",
+                "key_begin" : 22,
+                "begin" : 22
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 5,
+                "end" : 28,
+                "element" : [],
+                "id" : 4,
+                "text" : "시민 불복종의 철학적 토대를",
+                "sub_phrase" : [],
+                "label" : "NP_OBJ",
+                "key_begin" : 25,
+                "begin" : 25
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 6,
+                "end" : 29,
+                "element" : [],
+                "id" : 5,
+                "text" : "P#3@SBJ이 P#4@OBJ를 마련한",
+                "sub_phrase" : [
+                    3,
+                    4
+                ],
+                "label" : "S_MOD",
+                "key_begin" : 29,
+                "begin" : 22
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 7,
+                "end" : 30,
+                "element" : [],
+                "id" : 6,
+                "text" : "S#5@MODㄴ 사건으로",
+                "sub_phrase" : [
+                    5
+                ],
+                "label" : "NP_AJT",
+                "key_begin" : 30,
+                "begin" : 22
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : -1,
+                "end" : 31,
+                "element" : [],
+                "id" : 7,
+                "text" : "S#2@S며, P#6@AJT으로 간주된다.",
+                "sub_phrase" : [
+                    2,
+                    6
+                ],
+                "label" : "S",
+                "key_begin" : 31,
+                "begin" : 0
+            }
+        ],
+        "chunk" : [],
+        "ZA" : [
+            {
+                "ant_wid" : -1,
+                "verb_wid" : 31,
+                "type" : "s",
+                "id" : 0,
+                "istitle" : 0,
+                "ant_sid" : -1,
+                "weight" : 0.883281
+            }
+        ],
+        "SRL" : [
+            {
+                "verb" : "유명",
+                "argument" : [
+                    {
+                        "text" : "재판이",
+                        "word_id" : 24,
+                        "weight" : 0.643465,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 23,
+                "weight" : 0.643465,
+                "sense" : 1
+            },
+            {
+                "verb" : "마련",
+                "argument" : [
+                    {
+                        "text" : "재판이",
+                        "word_id" : 24,
+                        "weight" : 0.461806,
+                        "type" : "ARG0"
+                    },
+                    {
+                        "text" : "토대를",
+                        "word_id" : 28,
+                        "weight" : 0.308995,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 29,
+                "weight" : 0.3854,
+                "sense" : 1
+            },
+            {
+                "verb" : "간주",
+                "argument" : [
+                    {
+                        "text" : "사건으로",
+                        "word_id" : 30,
+                        "weight" : 0.135184,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 31,
+                "weight" : 0.135184,
+                "sense" : 1
+            }
+        ],
+        "NE" : [
+            {
+                "weight" : 0.597146,
+                "end" : 0,
+                "common_noun" : 0,
+                "type" : "LCP_COUNTRY",
+                "text" : "인도",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0.223341,
+                "end" : 9,
+                "common_noun" : 0,
+                "type" : "PS_NAME",
+                "text" : "모한다스 카람찬드 간디",
+                "id" : 1,
+                "begin" : 7
+            },
+            {
+                "weight" : 0.647654,
+                "end" : 15,
+                "common_noun" : 0,
+                "type" : "LCP_COUNTRY",
+                "text" : "영국",
+                "id" : 2,
+                "begin" : 15
+            },
+            {
+                "weight" : 0.817424,
+                "end" : 24,
+                "common_noun" : 0,
+                "type" : "LCP_COUNTRY",
+                "text" : "남아프리카 공화국",
+                "id" : 3,
+                "begin" : 22
+            },
+            {
+                "weight" : 1,
+                "end" : 26,
+                "common_noun" : 0,
+                "type" : "PS_NAME",
+                "text" : "인종",
+                "id" : 4,
+                "begin" : 26
+            },
+            {
+                "weight" : 0.8236830000000001,
+                "end" : 31,
+                "common_noun" : 0,
+                "type" : "LCP_COUNTRY",
+                "text" : "미국",
+                "id" : 5,
+                "begin" : 31
+            },
+            {
+                "weight" : 1,
+                "end" : 34,
+                "common_noun" : 0,
+                "type" : "CV_LAW",
+                "text" : "공민권",
+                "id" : 6,
+                "begin" : 33
+            },
+            {
+                "weight" : 0.517607,
+                "end" : 46,
+                "common_noun" : 0,
+                "type" : "PS_NAME",
+                "text" : "소크라테스",
+                "id" : 7,
+                "begin" : 46
+            },
+            {
+                "weight" : 0.102446,
+                "end" : 55,
+                "common_noun" : 0,
+                "type" : "AFW_DOCUMENT",
+                "text" : "시민 불복종",
+                "id" : 8,
+                "begin" : 53
+            }
+        ],
+        "morp_eval" : [
+            {
+                "result" : "인도/NNG+의/JKG",
+                "target" : "인도의",
+                "m_end" : 1,
+                "id" : 0,
+                "word_id" : 0,
+                "m_begin" : 0
+            },
+            {
+                "result" : "비폭력/NNG",
+                "target" : "비폭력",
+                "m_end" : 3,
+                "id" : 1,
+                "word_id" : 1,
+                "m_begin" : 2
+            },
+            {
+                "result" : "저항/NNG",
+                "target" : "저항",
+                "m_end" : 4,
+                "id" : 2,
+                "word_id" : 2,
+                "m_begin" : 4
+            },
+            {
+                "result" : "운동/NNG+(/SS+모한다스/NNG",
+                "target" : "운동(모한다스",
+                "m_end" : 7,
+                "id" : 3,
+                "word_id" : 3,
+                "m_begin" : 5
+            },
+            {
+                "result" : "카람찬드/NNG",
+                "target" : "카람찬드",
+                "m_end" : 8,
+                "id" : 4,
+                "word_id" : 4,
+                "m_begin" : 8
+            },
+            {
+                "result" : "간디/NNG+의/JKG",
+                "target" : "간디의",
+                "m_end" : 10,
+                "id" : 5,
+                "word_id" : 5,
+                "m_begin" : 9
+            },
+            {
+                "result" : "사회/NNG",
+                "target" : "사회",
+                "m_end" : 11,
+                "id" : 6,
+                "word_id" : 6,
+                "m_begin" : 11
+            },
+            {
+                "result" : "복지/NNG",
+                "target" : "복지",
+                "m_end" : 12,
+                "id" : 7,
+                "word_id" : 7,
+                "m_begin" : 12
+            },
+            {
+                "result" : "운동/NNG+,/SP",
+                "target" : "운동,",
+                "m_end" : 14,
+                "id" : 8,
+                "word_id" : 8,
+                "m_begin" : 13
+            },
+            {
+                "result" : "영국/NNG+으로부터/JKB+의/JKG",
+                "target" : "영국으로부터의",
+                "m_end" : 17,
+                "id" : 9,
+                "word_id" : 9,
+                "m_begin" : 15
+            },
+            {
+                "result" : "독립/NNG",
+                "target" : "독립",
+                "m_end" : 18,
+                "id" : 10,
+                "word_id" : 10,
+                "m_begin" : 18
+            },
+            {
+                "result" : "운동/NNG+)/SS+과/JC",
+                "target" : "운동)과",
+                "m_end" : 21,
+                "id" : 11,
+                "word_id" : 11,
+                "m_begin" : 19
+            },
+            {
+                "result" : "남아프리카/NNG",
+                "target" : "남아프리카",
+                "m_end" : 22,
+                "id" : 12,
+                "word_id" : 12,
+                "m_begin" : 22
+            },
+            {
+                "result" : "공화국/NNG+의/JKG",
+                "target" : "공화국의",
+                "m_end" : 25,
+                "id" : 13,
+                "word_id" : 13,
+                "m_begin" : 23
+            },
+            {
+                "result" : "인종차별/NNG",
+                "target" : "인종차별",
+                "m_end" : 27,
+                "id" : 14,
+                "word_id" : 14,
+                "m_begin" : 26
+            },
+            {
+                "result" : "반대/NNG",
+                "target" : "반대",
+                "m_end" : 28,
+                "id" : 15,
+                "word_id" : 15,
+                "m_begin" : 28
+            },
+            {
+                "result" : "투쟁/NNG+,/SP",
+                "target" : "투쟁,",
+                "m_end" : 30,
+                "id" : 16,
+                "word_id" : 16,
+                "m_begin" : 29
+            },
+            {
+                "result" : "미국/NNG+의/JKG",
+                "target" : "미국의",
+                "m_end" : 32,
+                "id" : 17,
+                "word_id" : 17,
+                "m_begin" : 31
+            },
+            {
+                "result" : "공민권운동/NNG",
+                "target" : "공민권운동",
+                "m_end" : 35,
+                "id" : 18,
+                "word_id" : 18,
+                "m_begin" : 33
+            },
+            {
+                "result" : "등/NNB+이/JKS",
+                "target" : "등이",
+                "m_end" : 37,
+                "id" : 19,
+                "word_id" : 19,
+                "m_begin" : 36
+            },
+            {
+                "result" : "대표적/NNG+이/VCP+ㄴ/ETM",
+                "target" : "대표적인",
+                "m_end" : 41,
+                "id" : 20,
+                "word_id" : 20,
+                "m_begin" : 38
+            },
+            {
+                "result" : "예/NNG+이/VCP+며/EC+,/SP",
+                "target" : "예이며,",
+                "m_end" : 45,
+                "id" : 21,
+                "word_id" : 21,
+                "m_begin" : 42
+            },
+            {
+                "result" : "소크라테스/NNG+의/JKG",
+                "target" : "소크라테스의",
+                "m_end" : 47,
+                "id" : 22,
+                "word_id" : 22,
+                "m_begin" : 46
+            },
+            {
+                "result" : "유명하/VA+ㄴ/ETM",
+                "target" : "유명한",
+                "m_end" : 50,
+                "id" : 23,
+                "word_id" : 23,
+                "m_begin" : 48
+            },
+            {
+                "result" : "재판/NNG+이/JKS",
+                "target" : "재판이",
+                "m_end" : 52,
+                "id" : 24,
+                "word_id" : 24,
+                "m_begin" : 51
+            },
+            {
+                "result" : "시민/NNG",
+                "target" : "시민",
+                "m_end" : 53,
+                "id" : 25,
+                "word_id" : 25,
+                "m_begin" : 53
+            },
+            {
+                "result" : "불복종/NNG+의/JKG",
+                "target" : "불복종의",
+                "m_end" : 56,
+                "id" : 26,
+                "word_id" : 26,
+                "m_begin" : 54
+            },
+            {
+                "result" : "철학적/NNG",
+                "target" : "철학적",
+                "m_end" : 58,
+                "id" : 27,
+                "word_id" : 27,
+                "m_begin" : 57
+            },
+            {
+                "result" : "토대/NNG+를/JKO",
+                "target" : "토대를",
+                "m_end" : 60,
+                "id" : 28,
+                "word_id" : 28,
+                "m_begin" : 59
+            },
+            {
+                "result" : "마련하/VV+ㄴ/ETM",
+                "target" : "마련한",
+                "m_end" : 63,
+                "id" : 29,
+                "word_id" : 29,
+                "m_begin" : 61
+            },
+            {
+                "result" : "사건/NNG+으로/JKB",
+                "target" : "사건으로",
+                "m_end" : 65,
+                "id" : 30,
+                "word_id" : 30,
+                "m_begin" : 64
+            },
+            {
+                "result" : "간주되/VV+ㄴ다/EF+./SF",
+                "target" : "간주된다.",
+                "m_end" : 69,
+                "id" : 31,
+                "word_id" : 31,
+                "m_begin" : 66
+            }
+        ],
+        "text" : "인도의 비폭력 저항 운동(모한다스 카람찬드 간디의 사회 복지 운동, 영국으로부터의 독립 운동)과 남아프리카 공화국의 인종차별 반대 투쟁, 미국의 공민권운동 등이 대표적인 예이며, 소크라테스의 유명한 재판이 시민 불복종의 철학적 토대를 마련한 사건으로 간주된다.",
+        "reserve_str" : ""
+    },
+    {
+        "word" : [
+            {
+                "text" : "시민불복종이",
+                "begin" : 0,
+                "end" : 3,
+                "id" : 0,
+                "type" : ""
+            },
+            {
+                "text" : "정당화되기",
+                "begin" : 4,
+                "end" : 7,
+                "id" : 1,
+                "type" : ""
+            },
+            {
+                "text" : "위한",
+                "begin" : 8,
+                "end" : 9,
+                "id" : 2,
+                "type" : ""
+            },
+            {
+                "text" : "조건에는",
+                "begin" : 10,
+                "end" : 12,
+                "id" : 3,
+                "type" : ""
+            },
+            {
+                "text" : "비폭력적이여야",
+                "begin" : 13,
+                "end" : 15,
+                "id" : 4,
+                "type" : ""
+            },
+            {
+                "text" : "함,최후의",
+                "begin" : 16,
+                "end" : 20,
+                "id" : 5,
+                "type" : ""
+            },
+            {
+                "text" : "수단이",
+                "begin" : 21,
+                "end" : 22,
+                "id" : 6,
+                "type" : ""
+            },
+            {
+                "text" : "되어야",
+                "begin" : 23,
+                "end" : 24,
+                "id" : 7,
+                "type" : ""
+            },
+            {
+                "text" : "함,",
+                "begin" : 25,
+                "end" : 27,
+                "id" : 8,
+                "type" : ""
+            },
+            {
+                "text" : "처벌을",
+                "begin" : 28,
+                "end" : 29,
+                "id" : 9,
+                "type" : ""
+            },
+            {
+                "text" : "감수해야",
+                "begin" : 30,
+                "end" : 32,
+                "id" : 10,
+                "type" : ""
+            },
+            {
+                "text" : "함,",
+                "begin" : 33,
+                "end" : 35,
+                "id" : 11,
+                "type" : ""
+            },
+            {
+                "text" : "목적이",
+                "begin" : 36,
+                "end" : 37,
+                "id" : 12,
+                "type" : ""
+            },
+            {
+                "text" : "정당해야",
+                "begin" : 38,
+                "end" : 39,
+                "id" : 13,
+                "type" : ""
+            },
+            {
+                "text" : "함이",
+                "begin" : 40,
+                "end" : 42,
+                "id" : 14,
+                "type" : ""
+            },
+            {
+                "text" : "있다.",
+                "begin" : 43,
+                "end" : 45,
+                "id" : 15,
+                "type" : ""
+            }
+        ],
+        "WSD" : [
+            {
+                "weight" : 0,
+                "end" : 0,
+                "type" : "NNG",
+                "position" : 733,
+                "text" : "시민",
+                "scode" : "00",
+                "id" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "end" : 2,
+                "type" : "NNG",
+                "position" : 739,
+                "text" : "불복종",
+                "scode" : "00",
+                "id" : 1,
+                "begin" : 1
+            },
+            {
+                "weight" : 1,
+                "end" : 3,
+                "type" : "JKS",
+                "position" : 748,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 2,
+                "begin" : 3
+            },
+            {
+                "weight" : 0,
+                "end" : 6,
+                "type" : "VV",
+                "position" : 752,
+                "text" : "정당화되",
+                "scode" : "00",
+                "id" : 3,
+                "begin" : 4
+            },
+            {
+                "weight" : 1,
+                "end" : 7,
+                "type" : "ETN",
+                "position" : 764,
+                "text" : "기",
+                "scode" : "00",
+                "id" : 4,
+                "begin" : 7
+            },
+            {
+                "weight" : 5.4,
+                "end" : 8,
+                "type" : "VV",
+                "position" : 768,
+                "text" : "위하",
+                "scode" : "01",
+                "id" : 5,
+                "begin" : 8
+            },
+            {
+                "weight" : 1,
+                "end" : 9,
+                "type" : "ETM",
+                "position" : 771,
+                "text" : "ㄴ",
+                "scode" : "00",
+                "id" : 6,
+                "begin" : 9
+            },
+            {
+                "weight" : 3.2,
+                "end" : 10,
+                "type" : "NNG",
+                "position" : 775,
+                "text" : "조건",
+                "scode" : "02",
+                "id" : 7,
+                "begin" : 10
+            },
+            {
+                "weight" : 1,
+                "end" : 11,
+                "type" : "JKB",
+                "position" : 781,
+                "text" : "에",
+                "scode" : "00",
+                "id" : 8,
+                "begin" : 11
+            },
+            {
+                "weight" : 1,
+                "end" : 12,
+                "type" : "JX",
+                "position" : 784,
+                "text" : "는",
+                "scode" : "00",
+                "id" : 9,
+                "begin" : 12
+            },
+            {
+                "weight" : 0,
+                "end" : 13,
+                "type" : "NNP",
+                "position" : 788,
+                "text" : "비폭력적",
+                "scode" : "00",
+                "id" : 10,
+                "begin" : 13
+            },
+            {
+                "weight" : 1,
+                "end" : 14,
+                "type" : "VCP",
+                "position" : 800,
+                "text" : "이",
+                "scode" : "01",
+                "id" : 11,
+                "begin" : 14
+            },
+            {
+                "weight" : 1,
+                "end" : 15,
+                "type" : "EC",
+                "position" : 803,
+                "text" : "여야",
+                "scode" : "00",
+                "id" : 12,
+                "begin" : 15
+            },
+            {
+                "weight" : 7.6,
+                "end" : 16,
+                "type" : "VX",
+                "position" : 810,
+                "text" : "하",
+                "scode" : "01",
+                "id" : 13,
+                "begin" : 16
+            },
+            {
+                "weight" : 1,
+                "end" : 17,
+                "type" : "ETN",
+                "position" : 810,
+                "text" : "ㅁ",
+                "scode" : "00",
+                "id" : 14,
+                "begin" : 17
+            },
+            {
+                "weight" : 1,
+                "end" : 18,
+                "type" : "SP",
+                "position" : 813,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 15,
+                "begin" : 18
+            },
+            {
+                "weight" : 0,
+                "end" : 19,
+                "type" : "NNG",
+                "position" : 814,
+                "text" : "최후",
+                "scode" : "00",
+                "id" : 16,
+                "begin" : 19
+            },
+            {
+                "weight" : 1,
+                "end" : 20,
+                "type" : "JKG",
+                "position" : 820,
+                "text" : "의",
+                "scode" : "00",
+                "id" : 17,
+                "begin" : 20
+            },
+            {
+                "weight" : 4.4,
+                "end" : 21,
+                "type" : "NNG",
+                "position" : 824,
+                "text" : "수단",
+                "scode" : "01",
+                "id" : 18,
+                "begin" : 21
+            },
+            {
+                "weight" : 1,
+                "end" : 22,
+                "type" : "JKC",
+                "position" : 830,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 19,
+                "begin" : 22
+            },
+            {
+                "weight" : 6.6,
+                "end" : 23,
+                "type" : "VV",
+                "position" : 834,
+                "text" : "되",
+                "scode" : "01",
+                "id" : 20,
+                "begin" : 23
+            },
+            {
+                "weight" : 1,
+                "end" : 24,
+                "type" : "EC",
+                "position" : 837,
+                "text" : "어야",
+                "scode" : "00",
+                "id" : 21,
+                "begin" : 24
+            },
+            {
+                "weight" : 8.6,
+                "end" : 25,
+                "type" : "VX",
+                "position" : 844,
+                "text" : "하",
+                "scode" : "01",
+                "id" : 22,
+                "begin" : 25
+            },
+            {
+                "weight" : 1,
+                "end" : 26,
+                "type" : "ETN",
+                "position" : 844,
+                "text" : "ㅁ",
+                "scode" : "00",
+                "id" : 23,
+                "begin" : 26
+            },
+            {
+                "weight" : 1,
+                "end" : 27,
+                "type" : "SP",
+                "position" : 847,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 24,
+                "begin" : 27
+            },
+            {
+                "weight" : 0,
+                "end" : 28,
+                "type" : "NNG",
+                "position" : 849,
+                "text" : "처벌",
+                "scode" : "00",
+                "id" : 25,
+                "begin" : 28
+            },
+            {
+                "weight" : 1,
+                "end" : 29,
+                "type" : "JKO",
+                "position" : 855,
+                "text" : "을",
+                "scode" : "00",
+                "id" : 26,
+                "begin" : 29
+            },
+            {
+                "weight" : 1,
+                "end" : 31,
+                "type" : "VV",
+                "position" : 859,
+                "text" : "감수하",
+                "scode" : "01",
+                "id" : 27,
+                "begin" : 30
+            },
+            {
+                "weight" : 1,
+                "end" : 32,
+                "type" : "EC",
+                "position" : 865,
+                "text" : "어야",
+                "scode" : "00",
+                "id" : 28,
+                "begin" : 32
+            },
+            {
+                "weight" : 8.800000000000001,
+                "end" : 33,
+                "type" : "VX",
+                "position" : 872,
+                "text" : "하",
+                "scode" : "01",
+                "id" : 29,
+                "begin" : 33
+            },
+            {
+                "weight" : 1,
+                "end" : 34,
+                "type" : "ETN",
+                "position" : 872,
+                "text" : "ㅁ",
+                "scode" : "00",
+                "id" : 30,
+                "begin" : 34
+            },
+            {
+                "weight" : 1,
+                "end" : 35,
+                "type" : "SP",
+                "position" : 875,
+                "text" : ",",
+                "scode" : "00",
+                "id" : 31,
+                "begin" : 35
+            },
+            {
+                "weight" : 2.2,
+                "end" : 36,
+                "type" : "NNG",
+                "position" : 877,
+                "text" : "목적",
+                "scode" : "03",
+                "id" : 32,
+                "begin" : 36
+            },
+            {
+                "weight" : 1,
+                "end" : 37,
+                "type" : "JKS",
+                "position" : 883,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 33,
+                "begin" : 37
+            },
+            {
+                "weight" : 4.4,
+                "end" : 38,
+                "type" : "VA",
+                "position" : 887,
+                "text" : "정당하",
+                "scode" : "01",
+                "id" : 34,
+                "begin" : 38
+            },
+            {
+                "weight" : 1,
+                "end" : 39,
+                "type" : "EC",
+                "position" : 893,
+                "text" : "어야",
+                "scode" : "00",
+                "id" : 35,
+                "begin" : 39
+            },
+            {
+                "weight" : 6.6,
+                "end" : 40,
+                "type" : "VX",
+                "position" : 900,
+                "text" : "하",
+                "scode" : "01",
+                "id" : 36,
+                "begin" : 40
+            },
+            {
+                "weight" : 1,
+                "end" : 41,
+                "type" : "ETN",
+                "position" : 900,
+                "text" : "ㅁ",
+                "scode" : "00",
+                "id" : 37,
+                "begin" : 41
+            },
+            {
+                "weight" : 1,
+                "end" : 42,
+                "type" : "JKS",
+                "position" : 903,
+                "text" : "이",
+                "scode" : "00",
+                "id" : 38,
+                "begin" : 42
+            },
+            {
+                "weight" : 2.2,
+                "end" : 43,
+                "type" : "VA",
+                "position" : 907,
+                "text" : "있",
+                "scode" : "01",
+                "id" : 39,
+                "begin" : 43
+            },
+            {
+                "weight" : 1,
+                "end" : 44,
+                "type" : "EF",
+                "position" : 910,
+                "text" : "다",
+                "scode" : "00",
+                "id" : 40,
+                "begin" : 44
+            },
+            {
+                "weight" : 1,
+                "end" : 45,
+                "type" : "SF",
+                "position" : 913,
+                "text" : ".",
+                "scode" : "00",
+                "id" : 41,
+                "begin" : 45
+            }
+        ],
+        "relation" : [],
+        "id" : 5,
+        "morp" : [
+            {
+                "position" : 733,
+                "id" : 0,
+                "lemma" : "시민",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 739,
+                "id" : 1,
+                "lemma" : "불",
+                "weight" : 0.0001,
+                "type" : "XPN"
+            },
+            {
+                "position" : 742,
+                "id" : 2,
+                "lemma" : "복종",
+                "weight" : 0.466838,
+                "type" : "NNG"
+            },
+            {
+                "position" : 748,
+                "id" : 3,
+                "lemma" : "이",
+                "weight" : 0.0360723,
+                "type" : "JKS"
+            },
+            {
+                "position" : 752,
+                "id" : 4,
+                "lemma" : "정당화",
+                "weight" : 1,
+                "type" : "NNG"
+            },
+            {
+                "position" : 761,
+                "id" : 6,
+                "lemma" : "되",
+                "weight" : 0.000260989,
+                "type" : "XSV"
+            },
+            {
+                "position" : 764,
+                "id" : 7,
+                "lemma" : "기",
+                "weight" : 0.0556099,
+                "type" : "ETN"
+            },
+            {
+                "position" : 768,
+                "id" : 8,
+                "lemma" : "위하",
+                "weight" : 0.176484,
+                "type" : "VV"
+            },
+            {
+                "position" : 771,
+                "id" : 9,
+                "lemma" : "ㄴ",
+                "weight" : 0.304215,
+                "type" : "ETM"
+            },
+            {
+                "position" : 775,
+                "id" : 10,
+                "lemma" : "조건",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 781,
+                "id" : 11,
+                "lemma" : "에",
+                "weight" : 0.153364,
+                "type" : "JKB"
+            },
+            {
+                "position" : 784,
+                "id" : 12,
+                "lemma" : "는",
+                "weight" : 0.0387928,
+                "type" : "JX"
+            },
+            {
+                "position" : 788,
+                "id" : 13,
+                "lemma" : "비",
+                "weight" : 1,
+                "type" : "XPN"
+            },
+{
+                "position" : 788,
+                "id" : 13,
+                "lemma" : "폭력",
+                "weight" : 1,
+                "type" : "NNG"
+            },
+{
+                "position" : 788,
+                "id" : 13,
+                "lemma" : "적",
+                "weight" : 1,
+                "type" : "XSN"
+            },
+            {
+                "position" : 800,
+                "id" : 14,
+                "lemma" : "이",
+                "weight" : 0.00359898,
+                "type" : "VCP"
+            },
+            {
+                "position" : 803,
+                "id" : 15,
+                "lemma" : "여야",
+                "weight" : 0.0118876,
+                "type" : "EC"
+            },
+            {
+                "position" : 810,
+                "id" : 16,
+                "lemma" : "하",
+                "weight" : 0.08992210000000001,
+                "type" : "VX"
+            },
+            {
+                "position" : 810,
+                "id" : 17,
+                "lemma" : "ㅁ",
+                "weight" : 0.028142,
+                "type" : "ETN"
+            },
+            {
+                "position" : 813,
+                "id" : 18,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 814,
+                "id" : 19,
+                "lemma" : "최후",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 820,
+                "id" : 20,
+                "lemma" : "의",
+                "weight" : 0.06942130000000001,
+                "type" : "JKG"
+            },
+            {
+                "position" : 824,
+                "id" : 21,
+                "lemma" : "수단",
+                "weight" : 0.8515120000000001,
+                "type" : "NNG"
+            },
+            {
+                "lemma" : "이",
+                "type" : "JKC",
+                "position" : 830,
+                "id" : 22,
+                "weight" : 0.000287945
+            },
+            {
+                "position" : 834,
+                "id" : 23,
+                "lemma" : "되",
+                "weight" : 0.5424060000000001,
+                "type" : "VV"
+            },
+            {
+                "position" : 837,
+                "id" : 24,
+                "lemma" : "어야",
+                "weight" : 0.430323,
+                "type" : "EC"
+            },
+            {
+                "position" : 844,
+                "id" : 25,
+                "lemma" : "하",
+                "weight" : 0.08992210000000001,
+                "type" : "VX"
+            },
+            {
+                "position" : 844,
+                "id" : 26,
+                "lemma" : "ㅁ",
+                "weight" : 0.028142,
+                "type" : "ETN"
+            },
+            {
+                "position" : 847,
+                "id" : 27,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 849,
+                "id" : 28,
+                "lemma" : "처벌",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 855,
+                "id" : 29,
+                "lemma" : "을",
+                "weight" : 0.129611,
+                "type" : "JKO"
+            },
+            {
+                "position" : 859,
+                "id" : 30,
+                "lemma" : "감수",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 865,
+                "id" : 31,
+                "lemma" : "하",
+                "weight" : 0.0001,
+                "type" : "XSV"
+            },
+            {
+                "position" : 865,
+                "id" : 32,
+                "lemma" : "어야",
+                "weight" : 0.371703,
+                "type" : "EC"
+            },
+            {
+                "position" : 872,
+                "id" : 33,
+                "lemma" : "하",
+                "weight" : 0.08992210000000001,
+                "type" : "VX"
+            },
+            {
+                "position" : 872,
+                "id" : 34,
+                "lemma" : "ㅁ",
+                "weight" : 0.028142,
+                "type" : "ETN"
+            },
+            {
+                "position" : 875,
+                "id" : 35,
+                "lemma" : ",",
+                "weight" : 1,
+                "type" : "SP"
+            },
+            {
+                "position" : 877,
+                "id" : 36,
+                "lemma" : "목적",
+                "weight" : 0.9,
+                "type" : "NNG"
+            },
+            {
+                "position" : 883,
+                "id" : 37,
+                "lemma" : "이",
+                "weight" : 0.0360723,
+                "type" : "JKS"
+            },
+            {
+                "position" : 887,
+                "id" : 38,
+                "lemma" : "정당하",
+                "weight" : 0.9,
+                "type" : "VA"
+            },
+            {
+                "position" : 893,
+                "id" : 39,
+                "lemma" : "어야",
+                "weight" : 0.320539,
+                "type" : "EC"
+            },
+            {
+                "position" : 900,
+                "id" : 40,
+                "lemma" : "하",
+                "weight" : 0.08992210000000001,
+                "type" : "VX"
+            },
+            {
+                "position" : 900,
+                "id" : 41,
+                "lemma" : "ㅁ",
+                "weight" : 0.028142,
+                "type" : "ETN"
+            },
+            {
+                "position" : 903,
+                "id" : 42,
+                "lemma" : "이",
+                "weight" : 0.0146231,
+                "type" : "JKS"
+            },
+            {
+                "position" : 907,
+                "id" : 43,
+                "lemma" : "있",
+                "weight" : 0.12767,
+                "type" : "VA"
+            },
+            {
+                "position" : 910,
+                "id" : 44,
+                "lemma" : "다",
+                "weight" : 0.132573,
+                "type" : "EF"
+            },
+            {
+                "position" : 913,
+                "id" : 45,
+                "lemma" : ".",
+                "weight" : 1,
+                "type" : "SF"
+            }
+        ],
+        "SA" : [],
+        "dependency" : [
+            {
+                "weight" : 0.674638,
+                "mod" : [],
+                "id" : 0,
+                "label" : "NP_SBJ",
+                "text" : "시민불복종이",
+                "head" : 1
+            },
+            {
+                "weight" : 0.660268,
+                "mod" : [
+                    0
+                ],
+                "id" : 1,
+                "label" : "VP_OBJ",
+                "text" : "정당화되기",
+                "head" : 2
+            },
+            {
+                "weight" : 0.666914,
+                "mod" : [
+                    1
+                ],
+                "id" : 2,
+                "label" : "VP_MOD",
+                "text" : "위한",
+                "head" : 3
+            },
+            {
+                "weight" : 0.364603,
+                "mod" : [
+                    2
+                ],
+                "id" : 3,
+                "label" : "NP_AJT",
+                "text" : "조건에는",
+                "head" : 4
+            },
+            {
+                "weight" : 0.742487,
+                "mod" : [
+                    3
+                ],
+                "id" : 4,
+                "label" : "VNP",
+                "text" : "비폭력적이여야",
+                "head" : 7
+            },
+            {
+                "weight" : 0.385403,
+                "mod" : [],
+                "id" : 5,
+                "label" : "NP_MOD",
+                "text" : "함,최후의",
+                "head" : 6
+            },
+            {
+                "weight" : 0.751679,
+                "mod" : [
+                    5
+                ],
+                "id" : 6,
+                "label" : "NP_CMP",
+                "text" : "수단이",
+                "head" : 7
+            },
+            {
+                "weight" : 0.778956,
+                "mod" : [
+                    4,
+                    6
+                ],
+                "id" : 7,
+                "label" : "VP",
+                "text" : "되어야",
+                "head" : 8
+            },
+            {
+                "weight" : 0.646238,
+                "mod" : [
+                    7
+                ],
+                "id" : 8,
+                "label" : "VP",
+                "text" : "함,",
+                "head" : 10
+            },
+            {
+                "weight" : 0.734059,
+                "mod" : [],
+                "id" : 9,
+                "label" : "NP_OBJ",
+                "text" : "처벌을",
+                "head" : 10
+            },
+            {
+                "weight" : 0.770764,
+                "mod" : [
+                    8,
+                    9
+                ],
+                "id" : 10,
+                "label" : "VP",
+                "text" : "감수해야",
+                "head" : 11
+            },
+            {
+                "weight" : 0.492794,
+                "mod" : [
+                    10
+                ],
+                "id" : 11,
+                "label" : "VP",
+                "text" : "함,",
+                "head" : 13
+            },
+            {
+                "weight" : 0.720669,
+                "mod" : [],
+                "id" : 12,
+                "label" : "NP_SBJ",
+                "text" : "목적이",
+                "head" : 13
+            },
+            {
+                "weight" : 0.772199,
+                "mod" : [
+                    11,
+                    12
+                ],
+                "id" : 13,
+                "label" : "VP",
+                "text" : "정당해야",
+                "head" : 14
+            },
+            {
+                "weight" : 0.610367,
+                "mod" : [
+                    13
+                ],
+                "id" : 14,
+                "label" : "VP_SBJ",
+                "text" : "함이",
+                "head" : 15
+            },
+            {
+                "weight" : 0.000945373,
+                "mod" : [
+                    14
+                ],
+                "id" : 15,
+                "label" : "VP",
+                "text" : "있다.",
+                "head" : -1
+            }
+        ],
+        "phrase_dependency" : [
+            {
+                "weight" : 0,
+                "head_phrase" : 1,
+                "end" : 0,
+                "element" : [],
+                "id" : 0,
+                "text" : "시민불복종이",
+                "sub_phrase" : [],
+                "label" : "NP_SBJ",
+                "key_begin" : 0,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 2,
+                "end" : 1,
+                "element" : [],
+                "id" : 1,
+                "text" : "P#0@SBJ이 정당화되기",
+                "sub_phrase" : [
+                    0
+                ],
+                "label" : "S_OBJ",
+                "key_begin" : 1,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 3,
+                "end" : 2,
+                "element" : [],
+                "id" : 2,
+                "text" : "S#1@OBJ기 위한",
+                "sub_phrase" : [
+                    1
+                ],
+                "label" : "S_MOD",
+                "key_begin" : 2,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 4,
+                "end" : 3,
+                "element" : [],
+                "id" : 3,
+                "text" : "S#2@MODㄴ 조건에는",
+                "sub_phrase" : [
+                    2
+                ],
+                "label" : "NP_AJT",
+                "key_begin" : 3,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 6,
+                "end" : 4,
+                "element" : [
+                    {
+                        "text" : "비폭력적",
+                        "label" : "NP",
+                        "end" : 13,
+                        "ne_type" : "",
+                        "begin" : 13
+                    },
+                    {
+                        "text" : "이여야",
+                        "label" : "VP",
+                        "end" : 15,
+                        "ne_type" : "",
+                        "begin" : 14
+                    }
+                ],
+                "id" : 4,
+                "text" : "P#3@AJT는 비폭력적이여야",
+                "sub_phrase" : [
+                    3
+                ],
+                "label" : "VNP",
+                "key_begin" : 4,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 6,
+                "end" : 6,
+                "element" : [],
+                "id" : 5,
+                "text" : "함,최후의 수단이",
+                "sub_phrase" : [],
+                "label" : "NP_CMP",
+                "key_begin" : 5,
+                "begin" : 5
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 8,
+                "end" : 8,
+                "element" : [],
+                "id" : 6,
+                "text" : "P#4@VNP여야 P#5@CMP이 되어야 함,",
+                "sub_phrase" : [
+                    4,
+                    5
+                ],
+                "label" : "VP",
+                "key_begin" : 7,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 8,
+                "end" : 9,
+                "element" : [],
+                "id" : 7,
+                "text" : "처벌을",
+                "sub_phrase" : [],
+                "label" : "NP_OBJ",
+                "key_begin" : 9,
+                "begin" : 9
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 10,
+                "end" : 11,
+                "element" : [],
+                "id" : 8,
+                "text" : "P#6@VPㅁ, P#7@OBJ을 감수해야 함,",
+                "sub_phrase" : [
+                    6,
+                    7
+                ],
+                "label" : "VP",
+                "key_begin" : 10,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 10,
+                "end" : 12,
+                "element" : [],
+                "id" : 9,
+                "text" : "목적이",
+                "sub_phrase" : [],
+                "label" : "NP_SBJ",
+                "key_begin" : 12,
+                "begin" : 12
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : 11,
+                "end" : 14,
+                "element" : [],
+                "id" : 10,
+                "text" : "P#8@VPㅁ, P#9@SBJ이 정당해야 함이",
+                "sub_phrase" : [
+                    8,
+                    9
+                ],
+                "label" : "S_SBJ",
+                "key_begin" : 13,
+                "begin" : 0
+            },
+            {
+                "weight" : 0,
+                "head_phrase" : -1,
+                "end" : 15,
+                "element" : [],
+                "id" : 11,
+                "text" : "S#10@SBJ이 있다.",
+                "sub_phrase" : [
+                    10
+                ],
+                "label" : "S",
+                "key_begin" : 15,
+                "begin" : 0
+            }
+        ],
+        "chunk" : [],
+        "ZA" : [
+            {
+                "ant_wid" : -1,
+                "verb_wid" : 10,
+                "type" : "s",
+                "id" : 0,
+                "istitle" : 0,
+                "ant_sid" : -1,
+                "weight" : 0.898039
+            }
+        ],
+        "SRL" : [
+            {
+                "verb" : "정당",
+                "argument" : [
+                    {
+                        "text" : "시민불복종이",
+                        "word_id" : 0,
+                        "weight" : 0.351598,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 1,
+                "weight" : 0.351598,
+                "sense" : 1
+            },
+            {
+                "verb" : "위하",
+                "argument" : [
+                    {
+                        "text" : "정당화되기",
+                        "word_id" : 1,
+                        "weight" : 0.237968,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 2,
+                "weight" : 0.237968,
+                "sense" : 1
+            },
+            {
+                "verb" : "되",
+                "argument" : [
+                    {
+                        "text" : "수단이",
+                        "word_id" : 6,
+                        "weight" : 0.7073890000000001,
+                        "type" : "ARG2"
+                    }
+                ],
+                "word_id" : 7,
+                "weight" : 0.7073890000000001,
+                "sense" : 1
+            },
+            {
+                "verb" : "감수",
+                "argument" : [
+                    {
+                        "text" : "처벌을",
+                        "word_id" : 9,
+                        "weight" : 0.312855,
+                        "type" : "ARG1"
+                    },
+                    {
+                        "text" : "함,",
+                        "word_id" : 11,
+                        "weight" : 0.490278,
+                        "type" : "AUX"
+                    }
+                ],
+                "word_id" : 10,
+                "weight" : 0.401566,
+                "sense" : 1
+            },
+            {
+                "verb" : "정당하",
+                "argument" : [
+                    {
+                        "text" : "목적이",
+                        "word_id" : 12,
+                        "weight" : 0.323711,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 13,
+                "weight" : 0.323711,
+                "sense" : 1
+            },
+            {
+                "verb" : "있",
+                "argument" : [
+                    {
+                        "text" : "함이",
+                        "word_id" : 14,
+                        "weight" : 0.339514,
+                        "type" : "ARG1"
+                    }
+                ],
+                "word_id" : 15,
+                "weight" : 0.339514,
+                "sense" : 1
+            }
+        ],
+        "NE" : [
+            {
+                "weight" : 0.121693,
+                "end" : 2,
+                "common_noun" : 0,
+                "type" : "AFW_VIDEO",
+                "text" : "시민불복종",
+                "id" : 0,
+                "begin" : 0
+            }
+        ],
+        "morp_eval" : [
+            {
+                "result" : "시민불복종/NNG+이/JKS",
+                "target" : "시민불복종이",
+                "m_end" : 3,
+                "id" : 0,
+                "word_id" : 0,
+                "m_begin" : 0
+            },
+            {
+                "result" : "정당화되/VV+기/ETN",
+                "target" : "정당화되기",
+                "m_end" : 7,
+                "id" : 1,
+                "word_id" : 1,
+                "m_begin" : 4
+            },
+            {
+                "result" : "위하/VV+ㄴ/ETM",
+                "target" : "위한",
+                "m_end" : 9,
+                "id" : 2,
+                "word_id" : 2,
+                "m_begin" : 8
+            },
+            {
+                "result" : "조건/NNG+에/JKB+는/JX",
+                "target" : "조건에는",
+                "m_end" : 12,
+                "id" : 3,
+                "word_id" : 3,
+                "m_begin" : 10
+            },
+            {
+                "result" : "비폭력적/NNG+이/VCP+여야/EC",
+                "target" : "비폭력적이여야",
+                "m_end" : 15,
+                "id" : 4,
+                "word_id" : 4,
+                "m_begin" : 13
+            },
+            {
+                "result" : "하/VX+ㅁ/ETN+,/SP+최후/NNG+의/JKG",
+                "target" : "함,최후의",
+                "m_end" : 20,
+                "id" : 5,
+                "word_id" : 5,
+                "m_begin" : 16
+            },
+            {
+                "result" : "수단/NNG+이/JKC",
+                "target" : "수단이",
+                "m_end" : 22,
+                "id" : 6,
+                "word_id" : 6,
+                "m_begin" : 21
+            },
+            {
+                "result" : "되/VV+어야/EC",
+                "target" : "되어야",
+                "m_end" : 24,
+                "id" : 7,
+                "word_id" : 7,
+                "m_begin" : 23
+            },
+            {
+                "result" : "하/VX+ㅁ/ETN+,/SP",
+                "target" : "함,",
+                "m_end" : 27,
+                "id" : 8,
+                "word_id" : 8,
+                "m_begin" : 25
+            },
+            {
+                "result" : "처벌/NNG+을/JKO",
+                "target" : "처벌을",
+                "m_end" : 29,
+                "id" : 9,
+                "word_id" : 9,
+                "m_begin" : 28
+            },
+            {
+                "result" : "감수하/VV+어야/EC",
+                "target" : "감수해야",
+                "m_end" : 32,
+                "id" : 10,
+                "word_id" : 10,
+                "m_begin" : 30
+            },
+            {
+                "result" : "하/VX+ㅁ/ETN+,/SP",
+                "target" : "함,",
+                "m_end" : 35,
+                "id" : 11,
+                "word_id" : 11,
+                "m_begin" : 33
+            },
+            {
+                "result" : "목적/NNG+이/JKS",
+                "target" : "목적이",
+                "m_end" : 37,
+                "id" : 12,
+                "word_id" : 12,
+                "m_begin" : 36
+            },
+            {
+                "result" : "정당하/VA+어야/EC",
+                "target" : "정당해야",
+                "m_end" : 39,
+                "id" : 13,
+                "word_id" : 13,
+                "m_begin" : 38
+            },
+            {
+                "result" : "하/VX+ㅁ/ETN+이/JKS",
+                "target" : "함이",
+                "m_end" : 42,
+                "id" : 14,
+                "word_id" : 14,
+                "m_begin" : 40
+            },
+            {
+                "result" : "있/VA+다/EF+./SF",
+                "target" : "있다.",
+                "m_end" : 45,
+                "id" : 15,
+                "word_id" : 15,
+                "m_begin" : 43
+            }
+        ],
+        "text" : "시민불복종이 정당화되기 위한 조건에는 비폭력적이여야 함,최후의 수단이 되어야 함, 처벌을 감수해야 함, 목적이 정당해야 함이 있다.",
+        "reserve_str" : ""
+    }
+],
+"entity" : [],
+"DCT" : "20170127",
+"doc_id" : "056964200000000",
+"category_weight" : 0
+}
