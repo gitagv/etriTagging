@@ -31,6 +31,7 @@ test = etri.test
 
 FILES = glob.glob(os.path.join('./170609_1차태깅문서_위키(35문서_756문장)', '*.json'))
 # FILES = glob.glob(os.path.join('./test_json', '*.json'))
+FILES = glob.glob(os.path.join('./170609_1차태깅문서_위키(35문서_756문장)', '*.json'))
 # FILES = glob.glob(os.path.join('./20170714_news_300', '*.txt'))
 
 

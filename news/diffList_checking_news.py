@@ -8,7 +8,6 @@ submit_collection = db['submit']
 
 Group1 = ['file01', 'file03', 'file05']
 Group1_id = ['59789454e908906ac86ba79f', '59789456e908906ac86ba7a1', '59789457e908906ac86ba7a3']
-# Group1_Ob_id = ['ObjectId("59789454e908906ac86ba79f")', 'ObjectId("59789456e908906ac86ba7a1")', 'ObjectId("59789457e908906ac86ba7a3")']
 # Group2 = ['file08', 'file10', 'file11']
 # Group3 = ['file04', 'file07', 'file12']
 # Group4 = ['file02', 'file06', 'file09']
