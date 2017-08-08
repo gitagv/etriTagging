@@ -1,0 +1,532 @@
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "계산 복잡도 이론",
+	"morp" : [
+		{"id" : 0, "lemma" : "계산", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "복잡", "type" : "NNG", "position" : 7, "weight" : 0 },
+		{"id" : 2, "lemma" : "도", "type" : "NNG", "position" : 13, "weight" : 0 },
+		{"id" : 3, "lemma" : "이론", "type" : "NNG", "position" : 17, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "계산", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 3, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "이론", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 17, "begin" : 3, "end" : 3}
+	],
+	"word" : [
+		{"id" : 0, "text" : "계산", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "복잡도", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "이론", "type" : "", "begin" : 3, "end" : 3}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "계산 복잡도 이론", "type" : "TR_OTHERS", "begin" : 0, "end" : 3, "weight" : 1, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : "계산 복잡도 이론은 컴퓨터 과학에서 계산 이론의 분야로, 계산 문제를 푸는 알고리듬을 복잡도에 따라 분류하여 문제의 모임을 구성하는 방법을 연구한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "계산", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "복잡", "type" : "NNG", "position" : 7, "weight" : 0 },
+		{"id" : 2, "lemma" : "도", "type" : "NNG", "position" : 13, "weight" : 0 },
+		{"id" : 3, "lemma" : "이론", "type" : "NNG", "position" : 17, "weight" : 0 },
+		{"id" : 4, "lemma" : "은", "type" : "JX", "position" : 23, "weight" : 0 },
+		{"id" : 5, "lemma" : "컴퓨터", "type" : "NNG", "position" : 27, "weight" : 0 },
+		{"id" : 6, "lemma" : "과학", "type" : "NNG", "position" : 37, "weight" : 0 },
+		{"id" : 7, "lemma" : "에서", "type" : "JKB", "position" : 43, "weight" : 0 },
+		{"id" : 8, "lemma" : "계산", "type" : "NNG", "position" : 50, "weight" : 0 },
+		{"id" : 9, "lemma" : "이론", "type" : "NNG", "position" : 57, "weight" : 0 },
+		{"id" : 10, "lemma" : "의", "type" : "JKG", "position" : 63, "weight" : 0 },
+		{"id" : 11, "lemma" : "분야", "type" : "NNG", "position" : 67, "weight" : 0 },
+		{"id" : 12, "lemma" : "로", "type" : "JKB", "position" : 73, "weight" : 0 },
+		{"id" : 13, "lemma" : ",", "type" : "SP", "position" : 76, "weight" : 0 },
+		{"id" : 14, "lemma" : "계산", "type" : "NNG", "position" : 78, "weight" : 0 },
+		{"id" : 15, "lemma" : "문제", "type" : "NNG", "position" : 85, "weight" : 0 },
+		{"id" : 16, "lemma" : "를", "type" : "JKO", "position" : 91, "weight" : 0 },
+		{"id" : 17, "lemma" : "풀", "type" : "VV", "position" : 95, "weight" : 0 },
+		{"id" : 18, "lemma" : "는", "type" : "ETM", "position" : 98, "weight" : 0 },
+		{"id" : 19, "lemma" : "알고리듬", "type" : "NNG", "position" : 102, "weight" : 0 },
+		{"id" : 20, "lemma" : "을", "type" : "JKO", "position" : 114, "weight" : 0 },
+		{"id" : 21, "lemma" : "복잡", "type" : "NNG", "position" : 118, "weight" : 0 },
+		{"id" : 22, "lemma" : "도", "type" : "NNG", "position" : 124, "weight" : 0 },
+		{"id" : 23, "lemma" : "에", "type" : "JKB", "position" : 127, "weight" : 0 },
+		{"id" : 24, "lemma" : "따르", "type" : "VV", "position" : 131, "weight" : 0 },
+		{"id" : 25, "lemma" : "아", "type" : "EC", "position" : 131, "weight" : 0 },
+		{"id" : 26, "lemma" : "분류", "type" : "NNG", "position" : 138, "weight" : 0 },
+		{"id" : 27, "lemma" : "하", "type" : "XSV", "position" : 144, "weight" : 0 },
+		{"id" : 28, "lemma" : "어", "type" : "EC", "position" : 144, "weight" : 0 },
+		{"id" : 29, "lemma" : "문제", "type" : "NNG", "position" : 151, "weight" : 0 },
+		{"id" : 30, "lemma" : "의", "type" : "JKG", "position" : 157, "weight" : 0 },
+		{"id" : 31, "lemma" : "모임", "type" : "NNG", "position" : 161, "weight" : 0 },
+		{"id" : 32, "lemma" : "을", "type" : "JKO", "position" : 167, "weight" : 0 },
+		{"id" : 33, "lemma" : "구성", "type" : "NNG", "position" : 171, "weight" : 0 },
+		{"id" : 34, "lemma" : "하", "type" : "XSV", "position" : 177, "weight" : 0 },
+		{"id" : 35, "lemma" : "는", "type" : "ETM", "position" : 180, "weight" : 0 },
+		{"id" : 36, "lemma" : "방법", "type" : "NNG", "position" : 184, "weight" : 0 },
+		{"id" : 37, "lemma" : "을", "type" : "JKO", "position" : 190, "weight" : 0 },
+		{"id" : 38, "lemma" : "연구", "type" : "NNG", "position" : 194, "weight" : 0 },
+		{"id" : 39, "lemma" : "하", "type" : "XSV", "position" : 194, "weight" : 0 },
+		{"id" : 40, "lemma" : "ㄴ다", "type" : "EF", "position" : 194, "weight" : 0 },
+		{"id" : 41, "lemma" : ".", "type" : "SF", "position" : 206, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "계산", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 3.5, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "이론", "type" : "NNG", "scode" : "01", "weight" : 5.4, "position" : 17, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "컴퓨터", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "과학", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "계산", "type" : "NNG", "scode" : "01", "weight" : 6.6, "position" : 50, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "이론", "type" : "NNG", "scode" : "01", "weight" : 6.6, "position" : 57, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "분야", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "계산", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 78, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "문제", "type" : "NNG", "scode" : "06", "weight" : 6.6, "position" : 85, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "풀", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 95, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "알고리듬", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 102, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 2.41379, "position" : 124, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 127, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 10.9867, "position" : 131, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "분류하", "type" : "VV", "scode" : "02", "weight" : 3.2, "position" : 138, "begin" : 26, "end" : 27},
+		{"id" : 27, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : "문제", "type" : "NNG", "scode" : "06", "weight" : 6.4, "position" : 151, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "모임", "type" : "NNG", "scode" : "01", "weight" : 3, "position" : 161, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "구성하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 171, "begin" : 33, "end" : 34},
+		{"id" : 33, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 35, "end" : 35},
+		{"id" : 34, "text" : "방법", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 184, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 190, "begin" : 37, "end" : 37},
+		{"id" : 36, "text" : "연구하", "type" : "VV", "scode" : "02", "weight" : 2.2, "position" : 194, "begin" : 38, "end" : 39},
+		{"id" : 37, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 40, "end" : 40},
+		{"id" : 38, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 206, "begin" : 41, "end" : 41}
+	],
+	"word" : [
+		{"id" : 0, "text" : "계산", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "복잡도", "type" : "", "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "이론은", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 3, "text" : "컴퓨터", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "과학에서", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 5, "text" : "계산", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 6, "text" : "이론의", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 7, "text" : "분야로,", "type" : "", "begin" : 11, "end" : 13},
+		{"id" : 8, "text" : "계산", "type" : "", "begin" : 14, "end" : 14},
+		{"id" : 9, "text" : "문제를", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 10, "text" : "푸는", "type" : "", "begin" : 17, "end" : 18},
+		{"id" : 11, "text" : "알고리듬을", "type" : "", "begin" : 19, "end" : 20},
+		{"id" : 12, "text" : "복잡도에", "type" : "", "begin" : 21, "end" : 23},
+		{"id" : 13, "text" : "따라", "type" : "", "begin" : 24, "end" : 25},
+		{"id" : 14, "text" : "분류하여", "type" : "", "begin" : 26, "end" : 28},
+		{"id" : 15, "text" : "문제의", "type" : "", "begin" : 29, "end" : 30},
+		{"id" : 16, "text" : "모임을", "type" : "", "begin" : 31, "end" : 32},
+		{"id" : 17, "text" : "구성하는", "type" : "", "begin" : 33, "end" : 35},
+		{"id" : 18, "text" : "방법을", "type" : "", "begin" : 36, "end" : 37},
+		{"id" : 19, "text" : "연구한다.", "type" : "", "begin" : 38, "end" : 41}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "계산 복잡도 이론", "type" : "TR_SCIENCE", "begin" : 0, "end" : 3, "weight" : 0.23532, "common_noun" : 0},
+		{"id" : 1, "text" : "컴퓨터 과학", "type" : "FD_SCIENCE", "begin" : 5, "end" : 6, "weight" : 0.156378, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 2,
+	"reserve_str" : "",
+	"text" : "이 때 알고리듬의 수행은 실제 컴퓨터가 할 수 있지만, 평가하는 데에는 튜링 기계와 관련이 있는 정량화된 방법을 사용한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "이", "type" : "MM", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "때", "type" : "NNG", "position" : 4, "weight" : 0 },
+		{"id" : 2, "lemma" : "알고리듬", "type" : "NNG", "position" : 8, "weight" : 0 },
+		{"id" : 3, "lemma" : "의", "type" : "JKG", "position" : 20, "weight" : 0 },
+		{"id" : 4, "lemma" : "수행", "type" : "NNG", "position" : 24, "weight" : 0 },
+		{"id" : 5, "lemma" : "은", "type" : "JX", "position" : 30, "weight" : 0 },
+		{"id" : 6, "lemma" : "실제", "type" : "MAG", "position" : 34, "weight" : 0 },
+		{"id" : 7, "lemma" : "컴퓨터", "type" : "NNG", "position" : 41, "weight" : 0 },
+		{"id" : 8, "lemma" : "가", "type" : "JKS", "position" : 50, "weight" : 0 },
+		{"id" : 9, "lemma" : "하", "type" : "VV", "position" : 54, "weight" : 0 },
+		{"id" : 10, "lemma" : "ㄹ", "type" : "ETM", "position" : 54, "weight" : 0 },
+		{"id" : 11, "lemma" : "수", "type" : "NNB", "position" : 58, "weight" : 0 },
+		{"id" : 12, "lemma" : "있", "type" : "VA", "position" : 62, "weight" : 0 },
+		{"id" : 13, "lemma" : "지만", "type" : "EC", "position" : 65, "weight" : 0 },
+		{"id" : 14, "lemma" : ",", "type" : "SP", "position" : 71, "weight" : 0 },
+		{"id" : 15, "lemma" : "평가", "type" : "NNG", "position" : 73, "weight" : 0 },
+		{"id" : 16, "lemma" : "하", "type" : "XSV", "position" : 79, "weight" : 0 },
+		{"id" : 17, "lemma" : "는", "type" : "ETM", "position" : 82, "weight" : 0 },
+		{"id" : 18, "lemma" : "데", "type" : "NNB", "position" : 86, "weight" : 0 },
+		{"id" : 19, "lemma" : "에", "type" : "JKB", "position" : 89, "weight" : 0 },
+		{"id" : 20, "lemma" : "는", "type" : "JX", "position" : 92, "weight" : 0 },
+		{"id" : 21, "lemma" : "튜링", "type" : "NNP", "position" : 96, "weight" : 0 },
+		{"id" : 22, "lemma" : "기계", "type" : "NNG", "position" : 103, "weight" : 0 },
+		{"id" : 23, "lemma" : "와", "type" : "JC", "position" : 109, "weight" : 0 },
+		{"id" : 24, "lemma" : "관련", "type" : "NNG", "position" : 113, "weight" : 0 },
+		{"id" : 25, "lemma" : "이", "type" : "JKS", "position" : 119, "weight" : 0 },
+		{"id" : 26, "lemma" : "있", "type" : "VA", "position" : 123, "weight" : 0 },
+		{"id" : 27, "lemma" : "는", "type" : "ETM", "position" : 126, "weight" : 0 },
+		{"id" : 28, "lemma" : "정량", "type" : "NNG", "position" : 130, "weight" : 0 },
+		{"id" : 29, "lemma" : "화", "type" : "XSN", "position" : 136, "weight" : 0 },
+		{"id" : 30, "lemma" : "되", "type" : "XSV", "position" : 136, "weight" : 0 },
+		{"id" : 31, "lemma" : "ㄴ", "type" : "ETM", "position" : 136, "weight" : 0 },
+		{"id" : 32, "lemma" : "방법", "type" : "NNG", "position" : 143, "weight" : 0 },
+		{"id" : 33, "lemma" : "을", "type" : "JKO", "position" : 149, "weight" : 0 },
+		{"id" : 34, "lemma" : "사용", "type" : "NNG", "position" : 153, "weight" : 0 },
+		{"id" : 35, "lemma" : "하", "type" : "XSV", "position" : 153, "weight" : 0 },
+		{"id" : 36, "lemma" : "ㄴ다", "type" : "EF", "position" : 153, "weight" : 0 },
+		{"id" : 37, "lemma" : ".", "type" : "SF", "position" : 165, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "이", "type" : "MM", "scode" : "05", "weight" : 3.10573, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "때", "type" : "NNG", "scode" : "01", "weight" : 2.91522, "position" : 4, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "알고리듬", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 8, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "수행", "type" : "NNG", "scode" : "03", "weight" : 1.16667, "position" : 24, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "실제", "type" : "MAG", "scode" : "02", "weight" : 3.2, "position" : 34, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "컴퓨터", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 41, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 6.6, "position" : 54, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 8.59923, "position" : 58, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 4.4, "position" : 62, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "지만", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "평가하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 73, "begin" : 15, "end" : 16},
+		{"id" : 16, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "데", "type" : "NNB", "scode" : "01", "weight" : 6.6, "position" : 86, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "튜링", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 96, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "기계", "type" : "NNG", "scode" : "07", "weight" : 4.2, "position" : 103, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "관련", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 113, "begin" : 24, "end" : 24},
+		{"id" : 24, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 8.8, "position" : 123, "begin" : 26, "end" : 26},
+		{"id" : 26, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 126, "begin" : 27, "end" : 27},
+		{"id" : 27, "text" : "정량화", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 130, "begin" : 28, "end" : 29},
+		{"id" : 28, "text" : "되", "type" : "XSV", "scode" : "05", "weight" : 1, "position" : 136, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 136, "begin" : 31, "end" : 31},
+		{"id" : 30, "text" : "방법", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 143, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 149, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "사용하", "type" : "VV", "scode" : "03", "weight" : 2.2, "position" : 153, "begin" : 34, "end" : 35},
+		{"id" : 33, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 36, "end" : 36},
+		{"id" : 34, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 165, "begin" : 37, "end" : 37}
+	],
+	"word" : [
+		{"id" : 0, "text" : "이", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "때", "type" : "", "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "알고리듬의", "type" : "", "begin" : 2, "end" : 3},
+		{"id" : 3, "text" : "수행은", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "실제", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "컴퓨터가", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 6, "text" : "할", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 7, "text" : "수", "type" : "", "begin" : 11, "end" : 11},
+		{"id" : 8, "text" : "있지만,", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 9, "text" : "평가하는", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 10, "text" : "데에는", "type" : "", "begin" : 18, "end" : 20},
+		{"id" : 11, "text" : "튜링", "type" : "", "begin" : 21, "end" : 21},
+		{"id" : 12, "text" : "기계와", "type" : "", "begin" : 22, "end" : 23},
+		{"id" : 13, "text" : "관련이", "type" : "", "begin" : 24, "end" : 25},
+		{"id" : 14, "text" : "있는", "type" : "", "begin" : 26, "end" : 27},
+		{"id" : 15, "text" : "정량화된", "type" : "", "begin" : 28, "end" : 31},
+		{"id" : 16, "text" : "방법을", "type" : "", "begin" : 32, "end" : 33},
+		{"id" : 17, "text" : "사용한다.", "type" : "", "begin" : 34, "end" : 37}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "컴퓨터", "type" : "TMI_HW", "begin" : 7, "end" : 7, "weight" : 0.385365, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 3,
+	"reserve_str" : "",
+	"text" : "복잡도의 기준은 알고리듬이 소모하는 소요 시간과 메모리 사용량 등의 자원이다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "복잡", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "도", "type" : "NNG", "position" : 6, "weight" : 0 },
+		{"id" : 2, "lemma" : "의", "type" : "JKG", "position" : 9, "weight" : 0 },
+		{"id" : 3, "lemma" : "기준", "type" : "NNG", "position" : 13, "weight" : 0 },
+		{"id" : 4, "lemma" : "은", "type" : "JX", "position" : 19, "weight" : 0 },
+		{"id" : 5, "lemma" : "알고리듬", "type" : "NNG", "position" : 23, "weight" : 0 },
+		{"id" : 6, "lemma" : "이", "type" : "JKS", "position" : 35, "weight" : 0 },
+		{"id" : 7, "lemma" : "소모", "type" : "NNG", "position" : 39, "weight" : 0 },
+		{"id" : 8, "lemma" : "하", "type" : "XSV", "position" : 45, "weight" : 0 },
+		{"id" : 9, "lemma" : "는", "type" : "ETM", "position" : 48, "weight" : 0 },
+		{"id" : 10, "lemma" : "소요", "type" : "NNG", "position" : 52, "weight" : 0 },
+		{"id" : 11, "lemma" : "시간", "type" : "NNG", "position" : 59, "weight" : 0 },
+		{"id" : 12, "lemma" : "과", "type" : "JC", "position" : 65, "weight" : 0 },
+		{"id" : 13, "lemma" : "메모리", "type" : "NNG", "position" : 69, "weight" : 0 },
+		{"id" : 14, "lemma" : "사용", "type" : "NNG", "position" : 79, "weight" : 0 },
+		{"id" : 15, "lemma" : "량", "type" : "NNG", "position" : 85, "weight" : 0 },
+		{"id" : 16, "lemma" : "등", "type" : "NNB", "position" : 89, "weight" : 0 },
+		{"id" : 17, "lemma" : "의", "type" : "JKG", "position" : 92, "weight" : 0 },
+		{"id" : 18, "lemma" : "자원", "type" : "NNG", "position" : 96, "weight" : 0 },
+		{"id" : 19, "lemma" : "이", "type" : "VCP", "position" : 102, "weight" : 0 },
+		{"id" : 20, "lemma" : "다", "type" : "EF", "position" : 105, "weight" : 0 },
+		{"id" : 21, "lemma" : ".", "type" : "SF", "position" : 108, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 2.66667, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "기준", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 13, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "알고리듬", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "소모하", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 39, "begin" : 7, "end" : 8},
+		{"id" : 8, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "소요", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 52, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "시간", "type" : "NNG", "scode" : "04", "weight" : 5.2, "position" : 59, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "메모리", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 69, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "사용량", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 79, "begin" : 14, "end" : 15},
+		{"id" : 14, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 6.4, "position" : 89, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "자원", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 96, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 102, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 108, "begin" : 21, "end" : 21}
+	],
+	"word" : [
+		{"id" : 0, "text" : "복잡도의", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "기준은", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "알고리듬이", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "소모하는", "type" : "", "begin" : 7, "end" : 9},
+		{"id" : 4, "text" : "소요", "type" : "", "begin" : 10, "end" : 10},
+		{"id" : 5, "text" : "시간과", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 6, "text" : "메모리", "type" : "", "begin" : 13, "end" : 13},
+		{"id" : 7, "text" : "사용량", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 8, "text" : "등의", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 9, "text" : "자원이다.", "type" : "", "begin" : 18, "end" : 21}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "메모리", "type" : "TMI_HW", "begin" : 13, "end" : 13, "weight" : 0.303511, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 4,
+	"reserve_str" : "",
+	"text" : "전자를 시간 복잡도, 후자를 공간 복잡도라 한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "전자", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "를", "type" : "JKO", "position" : 6, "weight" : 0 },
+		{"id" : 2, "lemma" : "시간", "type" : "NNG", "position" : 10, "weight" : 0 },
+		{"id" : 3, "lemma" : "복잡", "type" : "NNG", "position" : 17, "weight" : 0 },
+		{"id" : 4, "lemma" : "도", "type" : "NNG", "position" : 23, "weight" : 0 },
+		{"id" : 5, "lemma" : ",", "type" : "SP", "position" : 26, "weight" : 0 },
+		{"id" : 6, "lemma" : "후자", "type" : "NNG", "position" : 28, "weight" : 0 },
+		{"id" : 7, "lemma" : "를", "type" : "JKO", "position" : 34, "weight" : 0 },
+		{"id" : 8, "lemma" : "공간", "type" : "NNG", "position" : 38, "weight" : 0 },
+		{"id" : 9, "lemma" : "복잡", "type" : "NNG", "position" : 45, "weight" : 0 },
+		{"id" : 10, "lemma" : "도", "type" : "NNG", "position" : 51, "weight" : 0 },
+		{"id" : 11, "lemma" : "이", "type" : "VCP", "position" : 51, "weight" : 0 },
+		{"id" : 12, "lemma" : "라", "type" : "EC", "position" : 54, "weight" : 0 },
+		{"id" : 13, "lemma" : "하", "type" : "VV", "position" : 58, "weight" : 0 },
+		{"id" : 14, "lemma" : "ㄴ다", "type" : "EF", "position" : 58, "weight" : 0 },
+		{"id" : 15, "lemma" : ".", "type" : "SF", "position" : 64, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "전자", "type" : "NNG", "scode" : "06", "weight" : 3.2, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "시간", "type" : "NNG", "scode" : "04", "weight" : 3.2, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 3.66667, "position" : 23, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "후자", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 28, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 34, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "공간", "type" : "NNG", "scode" : "05", "weight" : 2.2, "position" : 38, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 45, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 2.06061, "position" : 51, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 51, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "라", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 58, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 15, "end" : 15}
+	],
+	"word" : [
+		{"id" : 0, "text" : "전자를", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "시간", "type" : "", "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "복잡도,", "type" : "", "begin" : 3, "end" : 5},
+		{"id" : 3, "text" : "후자를", "type" : "", "begin" : 6, "end" : 7},
+		{"id" : 4, "text" : "공간", "type" : "", "begin" : 8, "end" : 8},
+		{"id" : 5, "text" : "복잡도라", "type" : "", "begin" : 9, "end" : 12},
+		{"id" : 6, "text" : "한다.", "type" : "", "begin" : 13, "end" : 15}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 5,
+	"reserve_str" : "",
+	"text" : "일반적으로 이와 같은 시공간 등의 자원은 입력의 크기에 의존하는 것으로 취급한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "일반", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "적", "type" : "XSN", "position" : 6, "weight" : 0 },
+		{"id" : 2, "lemma" : "으로", "type" : "JKB", "position" : 9, "weight" : 0 },
+		{"id" : 3, "lemma" : "이", "type" : "NP", "position" : 16, "weight" : 0 },
+		{"id" : 4, "lemma" : "와", "type" : "JKB", "position" : 19, "weight" : 0 },
+		{"id" : 5, "lemma" : "같", "type" : "VA", "position" : 23, "weight" : 0 },
+		{"id" : 6, "lemma" : "은", "type" : "ETM", "position" : 26, "weight" : 0 },
+		{"id" : 7, "lemma" : "시", "type" : "NNG", "position" : 30, "weight" : 0 },
+		{"id" : 8, "lemma" : "공간", "type" : "NNG", "position" : 33, "weight" : 0 },
+		{"id" : 9, "lemma" : "등", "type" : "NNB", "position" : 40, "weight" : 0 },
+		{"id" : 10, "lemma" : "의", "type" : "JKG", "position" : 43, "weight" : 0 },
+		{"id" : 11, "lemma" : "자원", "type" : "NNG", "position" : 47, "weight" : 0 },
+		{"id" : 12, "lemma" : "은", "type" : "JX", "position" : 53, "weight" : 0 },
+		{"id" : 13, "lemma" : "입력", "type" : "NNG", "position" : 57, "weight" : 0 },
+		{"id" : 14, "lemma" : "의", "type" : "JKG", "position" : 63, "weight" : 0 },
+		{"id" : 15, "lemma" : "크기", "type" : "NNG", "position" : 67, "weight" : 0 },
+		{"id" : 16, "lemma" : "에", "type" : "JKB", "position" : 73, "weight" : 0 },
+		{"id" : 17, "lemma" : "의존", "type" : "NNG", "position" : 77, "weight" : 0 },
+		{"id" : 18, "lemma" : "하", "type" : "XSV", "position" : 83, "weight" : 0 },
+		{"id" : 19, "lemma" : "는", "type" : "ETM", "position" : 86, "weight" : 0 },
+		{"id" : 20, "lemma" : "것", "type" : "NNB", "position" : 90, "weight" : 0 },
+		{"id" : 21, "lemma" : "으로", "type" : "JKB", "position" : 93, "weight" : 0 },
+		{"id" : 22, "lemma" : "취급", "type" : "NNG", "position" : 100, "weight" : 0 },
+		{"id" : 23, "lemma" : "하", "type" : "XSV", "position" : 100, "weight" : 0 },
+		{"id" : 24, "lemma" : "ㄴ다", "type" : "EF", "position" : 100, "weight" : 0 },
+		{"id" : 25, "lemma" : ".", "type" : "SF", "position" : 112, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "일반적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "이", "type" : "NP", "scode" : "05", "weight" : 8.8, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "시공간", "type" : "NNG", "scode" : "01", "weight" : 0.5, "position" : 30, "begin" : 7, "end" : 8},
+		{"id" : 7, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 8.93548, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "자원", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 47, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "입력", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "크기", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "의존하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 77, "begin" : 17, "end" : 18},
+		{"id" : 16, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 19, "end" : 19},
+		{"id" : 17, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 6.6, "position" : 90, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 21, "end" : 21},
+		{"id" : 19, "text" : "취급하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 100, "begin" : 22, "end" : 23},
+		{"id" : 20, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 24, "end" : 24},
+		{"id" : 21, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 25, "end" : 25}
+	],
+	"word" : [
+		{"id" : 0, "text" : "일반적으로", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "이와", "type" : "", "begin" : 3, "end" : 4},
+		{"id" : 2, "text" : "같은", "type" : "", "begin" : 5, "end" : 6},
+		{"id" : 3, "text" : "시공간", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "등의", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "자원은", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 6, "text" : "입력의", "type" : "", "begin" : 13, "end" : 14},
+		{"id" : 7, "text" : "크기에", "type" : "", "begin" : 15, "end" : 16},
+		{"id" : 8, "text" : "의존하는", "type" : "", "begin" : 17, "end" : 19},
+		{"id" : 9, "text" : "것으로", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 10, "text" : "취급한다.", "type" : "", "begin" : 22, "end" : 25}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+

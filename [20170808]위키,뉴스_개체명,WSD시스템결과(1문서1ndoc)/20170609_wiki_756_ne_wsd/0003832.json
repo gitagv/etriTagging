@@ -1,0 +1,283 @@
+{"doc_id" : "",
+ "DCT" : "",
+ "category" : "",
+ "category_weight" : 0,
+ "title" : {"text" : "", "NE" : ""},
+ "metaInfo" : { },
+ "sentence" : [
+	{
+	"id" : 0,
+	"reserve_str" : "",
+	"text" : "소수 (수론)",
+	"morp" : [
+		{"id" : 0, "lemma" : "소수", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "(", "type" : "SS", "position" : 7, "weight" : 0 },
+		{"id" : 2, "lemma" : "수론", "type" : "NNG", "position" : 8, "weight" : 0 },
+		{"id" : 3, "lemma" : ")", "type" : "SS", "position" : 14, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "소수", "type" : "NNG", "scode" : "08", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "수론", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 8, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 3, "end" : 3}
+	],
+	"word" : [
+		{"id" : 0, "text" : "소수", "type" : "", "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "(수론)", "type" : "", "begin" : 1, "end" : 3}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 1,
+	"reserve_str" : "",
+	"text" : "소수(素數, 발음: 소쑤)는 양의 약수가 1과 자기 자신 뿐인 1보다 큰 자연수로 정의된다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "소수", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "(", "type" : "SS", "position" : 6, "weight" : 0 },
+		{"id" : 2, "lemma" : "素數", "type" : "SH", "position" : 7, "weight" : 0 },
+		{"id" : 3, "lemma" : ",", "type" : "SP", "position" : 13, "weight" : 0 },
+		{"id" : 4, "lemma" : "발음", "type" : "NNG", "position" : 15, "weight" : 0 },
+		{"id" : 5, "lemma" : ":", "type" : "SP", "position" : 21, "weight" : 0 },
+		{"id" : 6, "lemma" : "소쑤", "type" : "NNG", "position" : 23, "weight" : 0 },
+		{"id" : 7, "lemma" : ")", "type" : "SS", "position" : 29, "weight" : 0 },
+		{"id" : 8, "lemma" : "는", "type" : "JX", "position" : 30, "weight" : 0 },
+		{"id" : 9, "lemma" : "양", "type" : "NNG", "position" : 34, "weight" : 0 },
+		{"id" : 10, "lemma" : "의", "type" : "JKG", "position" : 37, "weight" : 0 },
+		{"id" : 11, "lemma" : "약수", "type" : "NNG", "position" : 41, "weight" : 0 },
+		{"id" : 12, "lemma" : "가", "type" : "JKS", "position" : 47, "weight" : 0 },
+		{"id" : 13, "lemma" : "1", "type" : "SN", "position" : 51, "weight" : 0 },
+		{"id" : 14, "lemma" : "과", "type" : "JC", "position" : 52, "weight" : 0 },
+		{"id" : 15, "lemma" : "자기", "type" : "NP", "position" : 56, "weight" : 0 },
+		{"id" : 16, "lemma" : "자신", "type" : "NNG", "position" : 63, "weight" : 0 },
+		{"id" : 17, "lemma" : "뿐", "type" : "NNB", "position" : 70, "weight" : 0 },
+		{"id" : 18, "lemma" : "이", "type" : "VCP", "position" : 70, "weight" : 0 },
+		{"id" : 19, "lemma" : "ㄴ", "type" : "ETM", "position" : 70, "weight" : 0 },
+		{"id" : 20, "lemma" : "1", "type" : "SN", "position" : 77, "weight" : 0 },
+		{"id" : 21, "lemma" : "보다", "type" : "JKB", "position" : 78, "weight" : 0 },
+		{"id" : 22, "lemma" : "크", "type" : "VA", "position" : 85, "weight" : 0 },
+		{"id" : 23, "lemma" : "ㄴ", "type" : "ETM", "position" : 85, "weight" : 0 },
+		{"id" : 24, "lemma" : "자연수", "type" : "NNG", "position" : 89, "weight" : 0 },
+		{"id" : 25, "lemma" : "로", "type" : "JKB", "position" : 98, "weight" : 0 },
+		{"id" : 26, "lemma" : "정의", "type" : "NNG", "position" : 102, "weight" : 0 },
+		{"id" : 27, "lemma" : "되", "type" : "XSV", "position" : 102, "weight" : 0 },
+		{"id" : 28, "lemma" : "ㄴ다", "type" : "EF", "position" : 102, "weight" : 0 },
+		{"id" : 29, "lemma" : ".", "type" : "SF", "position" : 114, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "소수", "type" : "NNG", "scode" : "15", "weight" : 20, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "素數", "type" : "SH", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "발음", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 15, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "소쑤", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "양", "type" : "NNG", "scode" : "20", "weight" : 2.2, "position" : 34, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "약수", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 41, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 47, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "자기", "type" : "NP", "scode" : "04", "weight" : 2.2, "position" : 56, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "자신", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 63, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "뿐", "type" : "NNB", "scode" : "01", "weight" : 4.4, "position" : 70, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 70, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "보다", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : "크", "type" : "VA", "scode" : "01", "weight" : 2.2, "position" : 85, "begin" : 22, "end" : 22},
+		{"id" : 23, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 23, "end" : 23},
+		{"id" : 24, "text" : "자연수", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 89, "begin" : 24, "end" : 24},
+		{"id" : 25, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 25, "end" : 25},
+		{"id" : 26, "text" : "정의되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 102, "begin" : 26, "end" : 27},
+		{"id" : 27, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 28, "end" : 28},
+		{"id" : 28, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 29, "end" : 29}
+	],
+	"word" : [
+		{"id" : 0, "text" : "소수(素數,", "type" : "", "begin" : 0, "end" : 3},
+		{"id" : 1, "text" : "발음:", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 2, "text" : "소쑤)는", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 3, "text" : "양의", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 4, "text" : "약수가", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 5, "text" : "1과", "type" : "", "begin" : 13, "end" : 14},
+		{"id" : 6, "text" : "자기", "type" : "", "begin" : 15, "end" : 15},
+		{"id" : 7, "text" : "자신", "type" : "", "begin" : 16, "end" : 16},
+		{"id" : 8, "text" : "뿐인", "type" : "", "begin" : 17, "end" : 19},
+		{"id" : 9, "text" : "1보다", "type" : "", "begin" : 20, "end" : 21},
+		{"id" : 10, "text" : "큰", "type" : "", "begin" : 22, "end" : 23},
+		{"id" : 11, "text" : "자연수로", "type" : "", "begin" : 24, "end" : 25},
+		{"id" : 12, "text" : "정의된다.", "type" : "", "begin" : 26, "end" : 29}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "소쑤", "type" : "PS_NAME", "begin" : 6, "end" : 6, "weight" : 0.137338, "common_noun" : 0},
+		{"id" : 1, "text" : "1", "type" : "QT_OTHERS", "begin" : 13, "end" : 13, "weight" : 0.423418, "common_noun" : 0},
+		{"id" : 2, "text" : "1", "type" : "QT_OTHERS", "begin" : 20, "end" : 20, "weight" : 0.448774, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 2,
+	"reserve_str" : "",
+	"text" : "정수론에서 매우 중요한 역할을 담당한다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "정수", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "론", "type" : "XSN", "position" : 6, "weight" : 0 },
+		{"id" : 2, "lemma" : "에서", "type" : "JKB", "position" : 9, "weight" : 0 },
+		{"id" : 3, "lemma" : "매우", "type" : "MAG", "position" : 16, "weight" : 0 },
+		{"id" : 4, "lemma" : "중요", "type" : "NNG", "position" : 23, "weight" : 0 },
+		{"id" : 5, "lemma" : "하", "type" : "XSA", "position" : 23, "weight" : 0 },
+		{"id" : 6, "lemma" : "ㄴ", "type" : "ETM", "position" : 23, "weight" : 0 },
+		{"id" : 7, "lemma" : "역할", "type" : "NNG", "position" : 33, "weight" : 0 },
+		{"id" : 8, "lemma" : "을", "type" : "JKO", "position" : 39, "weight" : 0 },
+		{"id" : 9, "lemma" : "담당", "type" : "NNG", "position" : 43, "weight" : 0 },
+		{"id" : 10, "lemma" : "하", "type" : "XSV", "position" : 43, "weight" : 0 },
+		{"id" : 11, "lemma" : "ㄴ다", "type" : "EF", "position" : 43, "weight" : 0 },
+		{"id" : 12, "lemma" : ".", "type" : "SF", "position" : 55, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "정수론", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "매우", "type" : "MAG", "scode" : "01", "weight" : 4.4, "position" : 16, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "중요하", "type" : "VA", "scode" : "02", "weight" : 6.6, "position" : 23, "begin" : 4, "end" : 5},
+		{"id" : 4, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "역할", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "담당하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 43, "begin" : 9, "end" : 10},
+		{"id" : 8, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 11, "end" : 11},
+		{"id" : 9, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 12, "end" : 12}
+	],
+	"word" : [
+		{"id" : 0, "text" : "정수론에서", "type" : "", "begin" : 0, "end" : 2},
+		{"id" : 1, "text" : "매우", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 2, "text" : "중요한", "type" : "", "begin" : 4, "end" : 6},
+		{"id" : 3, "text" : "역할을", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 4, "text" : "담당한다.", "type" : "", "begin" : 9, "end" : 12}
+	],
+	"NE" : [
+		{"id" : 0, "text" : "정수론", "type" : "TR_SCIENCE", "begin" : 0, "end" : 1, "weight" : 0.22802, "common_noun" : 0}
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	},
+	{
+	"id" : 3,
+	"reserve_str" : "",
+	"text" : "현재에 와서는 암호 분야에서의 사용으로 그 중요성이 부각되고 있다.",
+	"morp" : [
+		{"id" : 0, "lemma" : "현재", "type" : "NNG", "position" : 0, "weight" : 0 },
+		{"id" : 1, "lemma" : "에", "type" : "JKB", "position" : 6, "weight" : 0 },
+		{"id" : 2, "lemma" : "오", "type" : "VV", "position" : 10, "weight" : 0 },
+		{"id" : 3, "lemma" : "아서", "type" : "EC", "position" : 10, "weight" : 0 },
+		{"id" : 4, "lemma" : "는", "type" : "JX", "position" : 16, "weight" : 0 },
+		{"id" : 5, "lemma" : "암호", "type" : "NNG", "position" : 20, "weight" : 0 },
+		{"id" : 6, "lemma" : "분야", "type" : "NNG", "position" : 27, "weight" : 0 },
+		{"id" : 7, "lemma" : "에서", "type" : "JKB", "position" : 33, "weight" : 0 },
+		{"id" : 8, "lemma" : "의", "type" : "JKG", "position" : 39, "weight" : 0 },
+		{"id" : 9, "lemma" : "사용", "type" : "NNG", "position" : 43, "weight" : 0 },
+		{"id" : 10, "lemma" : "으로", "type" : "JKB", "position" : 49, "weight" : 0 },
+		{"id" : 11, "lemma" : "그", "type" : "MM", "position" : 56, "weight" : 0 },
+		{"id" : 12, "lemma" : "중요", "type" : "NNG", "position" : 60, "weight" : 0 },
+		{"id" : 13, "lemma" : "성", "type" : "XSN", "position" : 66, "weight" : 0 },
+		{"id" : 14, "lemma" : "이", "type" : "JKS", "position" : 69, "weight" : 0 },
+		{"id" : 15, "lemma" : "부각", "type" : "NNG", "position" : 73, "weight" : 0 },
+		{"id" : 16, "lemma" : "되", "type" : "XSV", "position" : 79, "weight" : 0 },
+		{"id" : 17, "lemma" : "고", "type" : "EC", "position" : 82, "weight" : 0 },
+		{"id" : 18, "lemma" : "있", "type" : "VX", "position" : 86, "weight" : 0 },
+		{"id" : 19, "lemma" : "다", "type" : "EF", "position" : 89, "weight" : 0 },
+		{"id" : 20, "lemma" : ".", "type" : "SF", "position" : 92, "weight" : 0 }
+	],
+	"morp_eval" : [
+	],
+	"WSD" : [
+		{"id" : 0, "text" : "현재", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 2, "text" : "오", "type" : "VV", "scode" : "01", "weight" : 5.2, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 3, "text" : "아서", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "암호", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 5, "end" : 5},
+		{"id" : 6, "text" : "분야", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 6, "end" : 6},
+		{"id" : 7, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
+		{"id" : 9, "text" : "사용", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 43, "begin" : 9, "end" : 9},
+		{"id" : 10, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 10, "end" : 10},
+		{"id" : 11, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 7.6, "position" : 56, "begin" : 11, "end" : 11},
+		{"id" : 12, "text" : "중요성", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 12, "end" : 13},
+		{"id" : 13, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "부각되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 73, "begin" : 15, "end" : 16},
+		{"id" : 15, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 3.2, "position" : 86, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 20, "end" : 20}
+	],
+	"word" : [
+		{"id" : 0, "text" : "현재에", "type" : "", "begin" : 0, "end" : 1},
+		{"id" : 1, "text" : "와서는", "type" : "", "begin" : 2, "end" : 4},
+		{"id" : 2, "text" : "암호", "type" : "", "begin" : 5, "end" : 5},
+		{"id" : 3, "text" : "분야에서의", "type" : "", "begin" : 6, "end" : 8},
+		{"id" : 4, "text" : "사용으로", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 5, "text" : "그", "type" : "", "begin" : 11, "end" : 11},
+		{"id" : 6, "text" : "중요성이", "type" : "", "begin" : 12, "end" : 14},
+		{"id" : 7, "text" : "부각되고", "type" : "", "begin" : 15, "end" : 17},
+		{"id" : 8, "text" : "있다.", "type" : "", "begin" : 18, "end" : 20}
+	],
+	"NE" : [
+	],
+	"chunk" : [
+	],
+	"dependency" : [
+	],
+	"SRL" : [
+	],
+	"relation" : [
+	],
+	"SA" : [
+	],
+	"ZA" : [
+	]
+	}
+ ],
+ "entity" : [
+ ]
+}
+
