@@ -1,0 +1,849 @@
+케냐
+
+현진	케냐   LCP_COUNTRY      
+희연	케냐   LCP_COUNTRY      
+
+현진	케냐 공화국   LCP_COUNTRY      케냐   LCP_COUNTRY      Kenya   LCP_COUNTRY      동아프리카   LCG_CONTINENT      
+희연	케냐 공화국   LCP_COUNTRY      케냐   LCP_COUNTRY      Kenya   PS_NAME      동아프리카   LCG_CONTINENT      
+
+현진	인도양   LCG_OCEAN      북동쪽   TM_DIRECTION      소말리아   LCP_COUNTRY      북쪽   TM_DIRECTION      에티오피아   LCP_COUNTRY      남수단   LCP_COUNTRY      서쪽   TM_DIRECTION      우간다   LCP_COUNTRY      남쪽   TM_DIRECTION      탄자니아   LCP_COUNTRY      
+희연	인도양   LCG_OCEAN      북동쪽   TM_DIRECTION      쪽   TM_DIRECTION      소말리아   LCP_COUNTRY      북쪽   TM_DIRECTION      에티오피아   LCP_COUNTRY      남수단   LCP_COUNTRY      서쪽   TM_DIRECTION      우간다   LCP_COUNTRY      남쪽   TM_DIRECTION      탄자니아   LCP_COUNTRY      
+
+현진	나이로비   LCP_CAPITALCITY      영어   CV_LANGUAGE      스와힐리어   CV_LANGUAGE      
+희연	나이로비   LCP_CAPITALCITY      영어   CV_LANGUAGE      스와힐리어   CV_LANGUAGE      
+
+현진	케냐   LCP_COUNTRY      키쿠유족   CV_TRIBE      루히아족   CV_TRIBE      루오족   CV_TRIBE      칼렌진족   CV_TRIBE      캄바족   CV_TRIBE      
+희연	케냐   LCP_COUNTRY      키쿠유족   CV_TRIBE      루히아족   CV_TRIBE      루오족   CV_TRIBE      칼렌진족   CV_TRIBE      캄바족   CV_TRIBE      키시족   CV_TRIBE      메루족   CV_TRIBE      
+
+현진	백인   CV_TRIBE      인도인   CV_TRIBE      아랍인   CV_TRIBE      비아프리카계   CV_TRIBE      1%   QT_PERCENTAGE      
+희연	백인   CV_TRIBE      인도인   CV_TRIBE      아랍인   CV_TRIBE      비아프리카계   CV_TRIBE      1%   QT_PERCENTAGE      
+
+현진	4,403만 명   QT_MAN_COUNT      2013년 7월   DT_OTHERS      CIA   OGG_POLITICS      
+희연	4,403만 명   QT_MAN_COUNT      2013년 7월   DT_OTHERS      CIA   OGG_POLITICS      
+
+현진	동아프리카   LCG_CONTINENT      2백만 년 전   DT_OTHERS      
+희연	동아프리카   LCG_CONTINENT      2백만 년 전   DT_OTHERS      
+
+현진	투르카나 호   LCG_RIVER      호모 하빌리스   CV_TRIBE      Homo habilis   CV_TRIBE      호모 에렉투스   CV_TRIBE      Homo erectus   CV_TRIBE      호미니드인   CV_TRIBE      hominid   CV_TRIBE      260만 년 전   DT_OTHERS      
+희연	투르카나   LCG_RIVER      호모 하빌리스   CV_TRIBE      호모 에렉투스   CV_TRIBE      호미니드인   CV_TRIBE      260만 년 전   DT_OTHERS      
+
+현진	케냐   LCP_COUNTRY      식민 시대   DT_DYNASTY      1885년   DT_YEAR      독일   LCP_COUNTRY      잔지바르   LCG_ISLAND      탄자니아   LCP_COUNTRY      잔지바르 섬   LCG_ISLAND      술탄   CV_POSITION      케냐 해안 영토   LC_OTHERS      보호령   CV_LAW      
+희연	케냐   LCP_COUNTRY      식민 시대   DT_DYNASTY      1885년   DT_YEAR      독일   LCP_COUNTRY      잔지바르   LCP_COUNTRY      탄자니아   LCP_COUNTRY      잔지바르 섬   LCG_ISLAND      술탄   CV_POSITION      케냐   LCP_COUNTRY      
+
+현진	1888년   DT_YEAR      영국 동아프리카 회사   OG_OHTERS      ???
+희연	1888년   DT_YEAR      영국   LCP_COUNTRY      동아프리카   LCG_CONTINENT      
+
+현진	독일   LCP_COUNTRY      1890년   DT_YEAR      영국   LCP_COUNTRY      두 열강   QT_COUNT      
+희연	독일   LCP_COUNTRY      1890년   DT_YEAR      영국   LCP_COUNTRY      두 열강   QT_COUNT      
+
+현진	1952년 10월부터 1959년 12월까지   DT_DURATION      케냐   LCP_COUNTRY      영국   LCP_COUNTRY      마우마우 반란   EV_ACTIVITY      
+희연	1952년 10월부터 1959년 12월까지   DT_DURATION      케냐   LCP_COUNTRY      영국   LCP_COUNTRY      마우마우 반란   EV_WAR_REVOLUTION      
+
+현진	영국   LCP_COUNTRY      케냐   LCP_COUNTRY      
+희연	영국   LCP_COUNTRY      케냐   LCP_COUNTRY      
+
+현진	1957년   DT_YEAR      아프리카인   CV_TRIBE      피선거권   CV_LAW      입법 회의 직접 선거   EV_OTHERS      
+희연	1957년   DT_YEAR      아프리카인   CV_TRIBE      피선거권   CV_POLICY      입법 회의 직접 선거   EV_OTHERS      
+
+현진	영국   LCP_COUNTRY      조모 케냐타   PS_NAME      Jomo Kenyatta   PS_NAME      케냐 아프리카 국민연맹   OGG_POLITICS      KANU   OGG_POLITICS      Kenya African National Union   OGG_POLITICS      
+희연	영국   LCP_COUNTRY      조모 케냐타   PS_NAME      Jomo Kenyatta   PS_NAME      케냐 아프리카 국민연맹   OGG_POLITICS      KANU   OGG_POLITICS      Kenya African National Union   OGG_POLITICS      
+
+현진	1963년 12월 12일   DT_OTHERS      케냐   LCP_COUNTRY      
+희연	1963년 12월 12일   DT_OTHERS      케냐   LCP_COUNTRY      
+
+현진	1년 후   DT_OTHERS      케냐타   PS_NAME      케냐   LCP_COUNTRY      초대   QT_ORDER      대통령   CV_POSITION      
+희연	1년 후   DT_OTHERS      케냐타   PS_NAME      케냐   LCP_COUNTRY      초대 대통령   CV_POSITION      
+
+현진	케냐 인민연맹   OGG_POLITICS      KPU   OGG_POLITICS      1969년 이후   DT_OTHERS      KANU   OGG_POLITICS      
+희연	케냐 인민연맹   OGG_POLITICS      KPU   OGG_POLITICS      1969년   DT_YEAR      KANU   OGG_POLITICS      
+
+현진	1978년   DT_YEAR      케냐타   PS_NAME      부통령   CV_POSITION      대니얼 아랍 모이   PS_NAME      Daniel arap Moi   PS_NAME      케냐   LCP_COUNTRY      2대   QT_ORDER      대통령   CV_POSITION      
+희연	1978년   DT_YEAR      케냐타   PS_NAME      부통령   CV_POSITION      대니얼 아랍 모이   PS_NAME      Daniel arap Moi   PS_NAME      케냐   LCP_COUNTRY      2대   QT_ORDER      대통령   CV_POSITION      
+
+현진	1982년 6월   DT_OTHERS      케냐   LCP_COUNTRY      일당 체제   CV_POLICY      
+희연	1982년 6월   DT_OTHERS      케냐   LCP_COUNTRY      
+
+현진	1991년 12월   DT_OTHERS      국민   CV_POSITION      일당 체제   CV_POLICY      1992년   DT_YEAR      다당 선거   CV_POLICY      
+희연	1991년 12월   DT_OTHERS      국민   CV_POSITION      1992년   DT_YEAR      
+
+현진	KANU   OGG_POLITICS      과반수   QT_COUNT      모이   PS_NAME      야당   OGG_POLITICS      45%   QT_PERCENTAGE      
+희연	KANU   OGG_POLITICS      과반수   QT_PERCENTAGE      45%   QT_PERCENTAGE      
+
+현진	자유화   TR_SOCIAL_SCIENCE      1997년   DT_YEAR      선거   EV_OTHERS      모이   PS_NAME      야당   OGG_POLITICS      KANU   OGG_POLITICS      과반수   QT_COUNT      
+희연	1997년   DT_YEAR      KANU   OGG_POLITICS      과반수   QT_PERCENTAGE      
+
+현진	헌법   CV_LAW      모이   PS_NAME      2002년   DT_YEAR      야당   OGG_POLITICS      국민무지개 연립   OGG_POLITICS      National Rainbow Coalition   OGG_POLITICS      NARC   OGG_POLITICS      므와이 키바키   PS_NAME      대표   CV_POSITION      KANU   OGG_POLITICS      
+희연	헌법   CV_LAW      2002년   DT_YEAR      대선   EV_OTHERS      국민 무지개 연립   OGG_POLITICS      National Rainbow Coalition   OGG_POLITICS      NARC   OGG_POLITICS      므와이 키바키   PS_NAME      대표   CV_POSITION      KANU   OGG_POLITICS      
+
+현진	케냐   LCP_COUNTRY      국민 무지개 연립   OGG_POLITICS      2005년   DT_YEAR      므와이 키바키   PS_NAME      대통령   CV_POSITION      국민투표   CV_POLICY      
+희연	케냐   LCP_COUNTRY      국민   CV_POSITION      국민 무지개 연립   OGG_POLITICS      2005년   DT_YEAR      므와이 키바키   PS_NAME      대통령   CV_POSITION      국민투표   EV_OTHERS      
+
+칭기즈 칸 
+
+현진	칭기즈 칸   PS_NAME      
+희연	칭기즈 칸   PS_NAME      
+
+현진	칭기즈 칸   PS_NAME      1155/62/67년 4월 16일 ~ 1227년 8월 25일   DT_OTHERS      몽골 제국   LCP_COUNTRY      창업자   CV_POSITION      초대   QT_ORDER      카간   CV_POSITION      ???
+희연	칭기즈 칸   PS_NAME      1155/62/67년 4월 16일 ~ 1227년 8월 25일   DT_OTHERS      몽골 제국   LCP_COUNTRY      창업자   CV_POSITION      초대 카간   CV_POSITION      
+
+현진	보르지긴 태무진   PS_NAME      
+희연	보르지긴 테무진   PS_NAME      
+
+현진	몽골   LCP_COUNTRY      인사제도   CV_POLICY      능력주의   CV_POLICY      군사   CV_POSITION      정치지도자   CV_POSITION      
+희연	몽골   LCP_COUNTRY      능력주의   TR_SOCIAL_SCIENCE      정치지도자   CV_POSITION      
+
+현진	정복왕   CV_POSITION      한 사람   QT_MAN_COUNT      
+희연	정복왕   CV_POSITION      한 사람   QT_MAN_COUNT      
+
+현진	중국사   FD_SOCIAL_SCIENCE      원   CV_POSITION      元   CV_POSITION      태조   CV_POSITION      太祖   CV_POSITION      
+희연	중국   LCP_COUNTRY      원   LCP_COUNTRY      元   LCP_COUNTRY      태조   LCP_COUNTRY      太祖   PS_NAME      
+
+현진	오늘날   DT_DAY      몽골   LCP_COUNTRY      칭기즈 칸 국제공항   OG_OHTERS      
+희연	오늘날   DT_DAY      몽골   LCP_COUNTRY      칭기즈 칸 국제공항   LC_OTHERS      
+
+현진	칭기즈 칸   PS_NAME      1155년   DT_YEAR      1161년   DT_YEAR      1162년   DT_YEAR      1167년   DT_YEAR      정설   TR_OTHERS      
+희연	칭기즈 칸   PS_NAME      1155년   DT_YEAR      1161년   DT_YEAR      1162년   DT_YEAR      1167년   DT_YEAR      
+
+현진	현재   DT_OTHERS      몽골   LCP_COUNTRY      칭기즈 칸   PS_NAME      1162년 11월 14일   DT_OTHERS      
+희연	몽골   LCP_COUNTRY      칭기즈 칸   PS_NAME      1162년 11월 14일   DT_OTHERS      
+
+현진	테무진   PS_NAME      
+희연	테무진   PS_NAME      
+
+현진	칭기즈 칸   PS_NAME      아버지   CV_RELATION      예수게이   PS_NAME      타타르족   CV_TRIBE      직후   DT_OTHERS      
+희연	칭기즈 칸   PS_NAME      아버지   CV_RELATION      예수게이   PS_NAME      타타르족   CV_TRIBE      
+
+현진	손   AM_PART      고대 동방 사람   CV_TRIBE      한 움큼   QT_COUNT      
+희연	손   AM_PART      고대   DT_OTHERS      동방   LC_OTHERS      한 움큼   QT_COUNT      
+
+현진	예수게이   PS_NAME      타타르   CV_TRIBE      군주   CV_POSITION      테무 진 우게   PS_NAME      자식   CV_RELATION      테무친   PS_NAME      
+희연	예수게이   PS_NAME      타타르   CV_TRIBE      군주   CV_POSITION      테무 진우게   PS_NAME      테무 진우게   PS_NAME      자식   CV_RELATION      
+
+현진	칭기즈 칸   PS_NAME      테무친   PS_NAME      대장장이   CV_OCCUPATION      유목민   CV_TRIBE      쇠   MT_METAL      학자   CV_OCCUPATION      
+희연	칭기즈 칸   PS_NAME      테무친   PS_NAME      대장장이   CV_OCCUPATION      유목민   CV_TRIBE      쇠   MT_METAL      학자   CV_OCCUPATION      
+
+현진	
+희연	
+
+현진	9세 때   DT_OTHERS      몽골   LCP_COUNTRY      왕족   CV_POSITION      보르지긴족   CV_TRIBE      후예   CV_RELATION      아버지   CV_RELATION      예수게이   PS_NAME      타타르족   CV_TRIBE      
+희연	9세   QT_AGE      몽골   LCP_COUNTRY      왕족   CV_POSITION      보르지긴족   CV_TRIBE      아버지   CV_RELATION      예수게이   PS_NAME      타타르족   CV_TRIBE      
+
+현진	예수게이   PS_NAME      예수게이   PS_NAME      타이치우트   PS_NAME      예수게이   PS_NAME      미망인   CV_POSITION      미망인   CV_POSITION      호엘룬   PS_NAME      
+희연	예수게이   PS_NAME      예수게이   PS_NAME      타이치우트   PS_NAME      예수게이   PS_NAME      미망인   CV_POSITION      호엘룬   PS_NAME      자녀   CV_RELATION      
+
+현진	테무진   LCP_CITY      유목민   CV_TRIBE      양고기   CV_FOOD      우유   CV_DRINK      풀뿌리   PT_PART      생선   CV_FOOD      
+희연	테무진   PS_NAME      유목민   CV_TRIBE      양고기   CV_FOOD      우유   CV_DRINK      뿌리   PT_PART      생선   CV_FOOD      
+
+현진	테무진   PS_NAME      가족   CV_RELATION      보르지긴족   CV_TRIBE      왕족   CV_POSITION      
+희연	테무진   PS_NAME      가족   CV_RELATION      보르지긴족   CV_TRIBE      왕족   CV_POSITION      
+
+현진	아버지   CV_RELATION      예수게이   PS_NAME      아내   CV_RELATION      보르테   PS_NAME      
+희연	아버지   CV_RELATION      예수게이   PS_NAME      아내   CV_RELATION      보르테   PS_NAME      
+
+현진	몽골   LCP_COUNTRY      북방   LC_OTHERS      메르키트족   CV_TRIBE      예수게이   PS_NAME      호엘룬   PS_NAME      아내   CV_RELATION      테무진   PS_NAME      
+희연	몽골   LCP_COUNTRY      북방   TM_DIRECTION      메르키트족   CV_TRIBE      예수게이   PS_NAME      호엘룬   PS_NAME      아내   CV_RELATION      테무진   PS_NAME      
+
+현진	메르키트족   CV_TRIBE      테무진   PS_NAME      아내   CV_RELATION      보르테   PS_NAME      
+희연	메르키트족   CV_TRIBE      테무진   PS_NAME      아내   CV_RELATION      보르테   PS_NAME      
+
+현진	테무진   PS_NAME      아버지   CV_RELATION      예수게이   PS_NAME      의형제   CV_RELATION      케레이트족   CV_TRIBE      왕   CV_POSITION      토그릴 완 칸   PS_NAME      보르테   PS_NAME      
+희연	테무진   PS_NAME      아버지   CV_RELATION      예수게이   PS_NAME      의형제   CV_RELATION      케레이트족   CV_TRIBE      왕   CV_POSITION      토그릴 완 칸   PS_NAME      보르테   PS_NAME      
+
+현진	토그릴 완 칸   PS_NAME      몽골   LCP_COUNTRY      통치자   CV_POSITION      
+희연	토그릴 완 칸   PS_NAME      몽골   LCP_COUNTRY      통치자   CV_POSITION      
+
+현진	테무진   PS_NAME      모피   CV_CLOTHING      토그릴   PS_NAME      토그릴 완 칸   PS_NAME      테무진   PS_NAME      
+희연	테무진   PS_NAME      잘   CV_CLOTHING      모피   CV_CLOTHING      토그릴 완 칸   CV_TRIBE      테무진   PS_NAME      부족민   CV_TRIBE      
+
+현진	토그릴 완 칸   PS_NAME      테무진   PS_NAME      2만 명   QT_MAN_COUNT      테무진   PS_NAME      친구   CV_RELATION      쟈무카   PS_NAME      
+희연	토그릴 완 칸   PS_NAME      테무진   PS_NAME      2만 명   QT_MAN_COUNT      테무진   PS_NAME      친구   CV_RELATION      쟈무카   PS_NAME      
+
+현진	테무진   PS_NAME      이웃   CV_RELATION      왕   CV_POSITION      몽골 비사   AFW_DOCUMENT      원조비사   AFW_DOCUMENT      
+희연	테무진   PS_NAME      이웃   CV_RELATION      왕   CV_POSITION      몽골 비사   AFW_DOCUMENT      
+
+소수 (수론) 
+
+현진	소수   TR_SCIENCE      수론   TR_SCIENCE      
+희연	
+
+현진	소수   TR_SCIENCE      양의 약수   TR_SCIENCE      1   QT_OTHERS      1   QT_OTHERS      자연수   TR_SCIENCE      
+희연	소쑤   PS_NAME      1   QT_OTHERS      1   QT_OTHERS      
+
+현진	정수론   TR_SCIENCE      
+희연	정수론   TR_SCIENCE      
+
+현진	현재   DT_OTHERS      암호   TR_SCIENCE      
+희연	
+
+마르틴 루터 
+
+현진	마르틴 루터   PS_NAME      
+희연	마르틴 루터   PS_NAME      
+
+현진	마르틴 루터   PS_NAME      말틴 루터   PS_NAME      1483년 11월 10일~1546년 2월 18일   DT_DURATION      독일   LCP_COUNTRY      가톨릭   OGG_RELIGION      수사   CV_POSITION      사제   CV_POSITION      신학   FD_SOCIAL_SCIENCE      교수   CV_POSITION      종교개혁   EV_OTHERS      
+희연	마르틴 루터   PS_NAME      말틴 루터   PS_NAME      1483년 11월 10일~1546년 2월 18일   DT_DURATION      독일   LCP_COUNTRY      가톨릭   OGG_RELIGION      사제   CV_OCCUPATION      신학   FD_SOCIAL_SCIENCE      교수   CV_OCCUPATION      종교개혁   EV_OTHERS      
+
+현진	아우구스티노회   OGG_RELIGION      수사   OGG_RELIGION      루터   PS_NAME      로마 가톨릭교회   OGG_RELIGION      
+희연	아우구스티노회   OGG_RELIGION      수사   CV_POSITION      루터   PS_NAME      로마 가톨릭교회   OGG_RELIGION      
+
+현진	대사   TR_OTHERS      1517년   DT_YEAR      95개   QT_COUNT      도미니코회   OGG_RELIGION      수사   TR_OTHERS      대사령   CV_LAW      설교 담당자   CV_POSITION      요한 테첼   PS_NAME      
+희연	1517년   DT_YEAR      95개   QT_COUNT      도미니코회   OGG_RELIGION      대사령   CV_LAW      대사령   CV_LAW      설교 담당자   CV_POSITION      
+
+현진	1520년   DT_YEAR      교황   CV_POSITION      레오 10세   PS_NAME      
+희연	1520년   DT_YEAR      교황   CV_POSITION      레오 10세   PS_NAME      
+
+현진	1521년   DT_YEAR      보름스 회의   TR_OTHERS      신성 로마 제국   LCP_COUNTRY      카를 5세   PS_NAME      황제   CV_POSITION      교황   CV_POSITION      
+희연	1521년   DT_YEAR      보름스 회의   EV_OTHERS      신성 로마 제국   LCP_COUNTRY      카를 5세   PS_NAME      황제   CV_POSITION      교황   CV_POSITION      
+
+현진	황제   CV_POSITION      
+희연	황제   CV_POSITION      
+
+현진	마르틴 루터   PS_NAME      로마 가톨릭교회   OGG_RELIGION      사제   CV_POSITION      로마 가톨릭교회   OGG_RELIGION      가톨릭교회   OGG_RELIGION      성서   AFW_DOCUMENT      기독교   OGG_RELIGION      그리스도   CV_POSITION      하나님   PS_NAME      
+희연	마르틴 루터   PS_NAME      로마 가톨릭교회   OGG_RELIGION      사제   CV_OCCUPATION      로마 가톨릭교회   OGG_RELIGION      가톨릭교회   OGG_RELIGION      교리   CV_POSITION      기독교   OGG_RELIGION      그리스도   PS_NAME      하나님   PS_NAME      
+
+현진	성서   AFW_DOCUMENT      
+희연	
+
+현진	다섯 솔라   QT_OTHERS      루터   PS_NAME      종교 개혁   EV_OTHERS      종교 개혁   EV_OTHERS      하나님   PS_NAME      
+희연	다섯 솔라   TR_SOCIAL_SCIENCE      루터   PS_NAME      종교 개혁   EV_OTHERS      종교 개혁   EV_OTHERS      하나님   PS_NAME      
+
+현진	복음주의   TR_OTHERS      설교자   CV_POSITION      박사   CV_POSITION      교수   CV_POSITION      
+희연	복음주의자   TR_SOCIAL_SCIENCE      설교자   CV_POSITION      박사   CV_POSITION      교수   CV_OCCUPATION      
+
+현진	
+희연	
+
+현진	개신교   OGG_RELIGION      성서   CV_POSITION      
+희연	개신교   OGG_RELIGION      
+
+현진	대한민국   LCP_COUNTRY      기독교 한국 루터회   OGG_RELIGION      말틴 루터   PS_NAME      
+희연	대한민국   LCP_COUNTRY      기독교 한국 루터회   OGG_RELIGION      말틴 루터   PS_NAME      
+
+현진	루터   PS_NAME      1483년   DT_YEAR      독일   LCP_COUNTRY      작센안할트 주   LCP_PROVINCE      아이스레벤   LCP_CITY      Eisleben   LCP_CITY      아버지   CV_RELATION      한스 루터   PS_NAME      Hans Luther   PS_NAME      어머니   CV_RELATION      마가레테 린데만   PS_NAME      Margarethe Lindemann   PS_NAME      
+희연	루터   PS_NAME      1483년   DT_YEAR      독일   LCP_COUNTRY      작센안할트 주   LCP_PROVINCE      아이스레벤   LCP_COUNTRY      Eisleben   LCP_COUNTRY      아버지   CV_RELATION      한스 루터   PS_NAME      어머니   CV_RELATION      마가레테 린데만   PS_NAME      Margarethe Lindemann   PS_NAME      
+
+현진	모친   CV_RELATION      부인   CV_RELATION      
+희연	모친   CV_RELATION      부인   CV_RELATION      
+
+현진	부친   CV_RELATION      기독교인   CV_POSITION      
+희연	부친   CV_RELATION      교회   OGG_RELIGION      기독교인   CV_POSITION      
+
+현진	루터   PS_NAME      주기도문   AFW_DOCUMENT      아버지   CV_RELATION      아버지   CV_RELATION      
+희연	루터   PS_NAME      주기도문   AFW_DOCUMENT      아버지   CV_RELATION      아버지   CV_RELATION      
+
+현진	아버지   CV_RELATION      루터   PS_NAME      아버지   CV_RELATION      아들   CV_RELATION      법률가   CV_OCCUPATION      에르푸르트 대학교   OGG_EDUCATION      
+희연	아버지   CV_RELATION      루터   PS_NAME      아버지   CV_RELATION      아들   CV_RELATION      법률가   CV_OCCUPATION      에르푸르트 대학교   OGG_EDUCATION      
+
+현진	루터   PS_NAME      교양학   FD_OTHERS      삼학   FD_OTHERS      사학   FD_OTHERS      1502년 9월   DT_OTHERS      문학   FD_ART      학사   CV_POSITION      1505년 1월   DT_OTHERS      17명   QT_MAN_COUNT      차석   CV_POSITION      문학   FD_ART      석사   CV_POSITION      
+희연	루터   PS_NAME      교양학부   FD_SOCIAL_SCIENCE      삼학   FD_PHILOSOPHY      사학   FD_PHILOSOPHY      1502년 9월   DT_OTHERS      문학   FD_ART      학사   CV_POSITION      1505년 1월   DT_OTHERS      17명   QT_MAN_COUNT      문학   FD_ART      석사   CV_POSITION      
+
+현진	루터   PS_NAME      5월   DT_MONTH      
+희연	루터   PS_NAME      5월   DT_MONTH      
+
+현진	루터   PS_NAME      에르푸르트   LCP_CITY      
+희연	루터   PS_NAME      에르푸르트   LCP_CITY      
+
+현진	7월 2일   DT_OTHERS      슈토테르하임   LCP_CITY      루터   PS_NAME      광부   CV_OCCUPATION      
+희연	7월 2일   DT_OTHERS      슈토테르하임   LCP_CITY      루터   PS_NAME      광부   CV_OCCUPATION      수호성인   CV_POSITION      
+
+현진	루터   PS_NAME      하나님   PS_NAME      
+희연	루터   PS_NAME      하나님   PS_NAME      
+
+현진	루터   PS_NAME      아들   CV_RELATION      부친   CV_RELATION      7월 17일   DT_OTHERS      에르푸르트   LCP_CITY      아우구스티누스(어거스틴) 은둔자 수도회   OGG_RELIGION      검은 수도원   OGG_RELIGION      수사신부   CV_POSITION      
+희연	루터   PS_NAME      아들   CV_RELATION      부친   CV_RELATION      7월 17일   DT_OTHERS      에르푸르트   LCP_CITY      아우구스티누스(어거스틴) 은둔자 수도회   OGG_RELIGION      검은 수도원   OGG_RELIGION      수사신부   CV_POSITION      
+
+현진	루터   PS_NAME      하나님   PS_NAME      비텐베르크 대학교   OGG_EDUCATION      
+희연	루터   PS_NAME      하나님   PS_NAME      비텐베르크 대학교   OGG_EDUCATION      
+
+현진	비텐베르크 대학교   OGG_EDUCATION      요한 스타우피츠   PS_NAME      교수   CV_POSITION      루터   PS_NAME      성서   AFW_DOCUMENT      
+희연	비텐베르크 대학교   OGG_EDUCATION      요한 스타우피츠   PS_NAME      교수   CV_OCCUPATION      루터   PS_NAME      성서   AFW_DOCUMENT      
+
+현진	성서학   FD_SOCIAL_SCIENCE      교수사제   CV_POSITION      스타우피츠   PS_NAME      교수   CV_POSITION      루터   PS_NAME      
+희연	성서학   FD_SOCIAL_SCIENCE      교수사제   CV_OCCUPATION      스타우피츠   PS_NAME      교수   CV_OCCUPATION      루터   PS_NAME      
+
+현진	루터   PS_NAME      성서   AFW_DOCUMENT      창의론   TR_OTHERS      
+희연	루터   PS_NAME      성서   AFW_DOCUMENT      칭의론   TR_SOCIAL_SCIENCE      
+
+현진	창의론   TR_OTHERS      그리스도   CV_POSITION      
+희연	칭의론   TR_SOCIAL_SCIENCE      그리스도   PS_NAME      
+
+힘 (물리) 
+
+현진	물리   FD_SCIENCE      
+희연	
+
+현진	물리학   FD_SCIENCE      
+희연	물리학   FD_SCIENCE      
+
+현진	둘   QT_COUNT      
+희연	둘   QT_COUNT      
+
+현진	
+희연	
+
+현진	벡터   TR_SCIENCE      
+희연	
+
+현진	
+희연	
+
+현진	뉴턴 운동 법칙   TR_SCIENCE      제2법칙   QT_ORDER      알짜힘   TR_SCIENCE      
+희연	뉴턴 운동 법칙   TR_SCIENCE      제2법칙   QT_ORDER      
+
+현진	알짜힘   TR_SCIENCE      알짜힘   TR_SCIENCE      
+희연	
+
+현진	
+희연	
+
+현진	벡터량   TR_SCIENCE      
+희연	
+
+현진	
+희연	
+
+현진	추력   TR_SCIENCE      
+희연	
+
+현진	항력   TR_SCIENCE      
+희연	
+
+현진	돌림힘   TR_SCIENCE      각속도   TR_SCIENCE      
+희연	
+
+현진	
+희연	
+
+현진	변형력   TR_SCIENCE      
+희연	
+
+현진	압력   TR_SCIENCE      변형력   TR_SCIENCE      하나   QT_COUNT      
+희연	하나   QT_COUNT      
+
+현진	변형력   TR_SCIENCE      고체   TR_SCIENCE      액체   TR_SCIENCE      
+희연	
+
+현진	철학자   CV_OCCUPATION      정역학   FD_SCIENCE      동역학   FD_SCIENCE      사상가   CV_OCCUPATION      아르키메데스   PS_NAME      아리스토텔레스   PS_NAME      
+희연	고대   DT_OTHERS      철학자   FD_SCIENCE      정역학   FD_SCIENCE      정역학   FD_SCIENCE      동역학   FD_SCIENCE      사상가   CV_OCCUPATION      아르키메데스   PS_NAME      
+
+현진	마찰력   FD_SCIENCE      
+희연	
+
+현진	등속도   FD_SCIENCE      
+희연	
+
+현진	아이작 뉴턴   PS_NAME      
+희연	아이작 뉴턴   PS_NAME      
+
+현진	수학   FD_SCIENCE      뉴턴 운동 법칙   TR_SCIENCE      3백 년동안   DT_DURATION      
+희연	수학   FD_SCIENCE      뉴턴 운동 법칙   TR_SCIENCE      3백 년동안   DT_DURATION      
+
+현진	20세기 초반   DT_OTHERS      알버트 아인슈타인   PS_NAME      상대성 이론   TR_SCIENCE      운동량   TR_SCIENCE      중력   TR_SCIENCE      관성   TR_SCIENCE      
+희연	20세기 초반   DT_OTHERS      알버트 아인슈타인   PS_NAME      상대성 이론   TR_SCIENCE      
+
+현진	현대   DT_OTHERS      양자역학   FD_SCIENCE      입자물리학   FD_SCIENCE      
+희연	현대   DT_OTHERS      양자역학   FD_SCIENCE      입자물리학   FD_SCIENCE      
+
+현진	게이지 보손   TR_SCIENCE      
+희연	
+
+현진	4개   QT_COUNT      
+희연	4개   QT_COUNT      
+
+현진	
+희연	
+
+현진	상호작용   TR_SCIENCE      전자기력   TR_SCIENCE      상호작용   TR_SCIENCE      중력   TR_SCIENCE      
+희연	
+
+현진	고에너지 물리학   FD_SCIENCE      1970년대   DT_YEAR      80년대   DT_YEAR      상호작용   TR_SCIENCE      전자기력   TR_SCIENCE      상호작용   TR_SCIENCE      
+희연	고에너지 물리학   FD_SCIENCE      1970년대   DT_YEAR      80년대   DT_YEAR      
+
+라인 강 
+
+현진	라인 강   LCG_RIVER      
+희연	라인 강   LCG_RIVER      
+
+현진	라인 강   LCG_RIVER      유럽   LCG_CONTINENT      1,230km   QT_LENGTH      
+희연	라인 강   LCG_RIVER      유럽   LCG_CONTINENT      1,230km   QT_LENGTH      
+
+현진	라인 강   LCG_RIVER      켈트어   CV_LANGUAGE      
+희연	라인 강   LCG_RIVER      켈트어   CV_LANGUAGE      
+
+현진	원시인도유럽어   CV_LANGUAGE      PIE   CV_LANGUAGE      영어   CV_LANGUAGE      
+희연	원시인도유럽어   CV_LANGUAGE      영어   CV_LANGUAGE      
+
+현진	라인 강   LCG_RIVER      네덜란드   LCP_COUNTRY      북해   LCG_OCEAN      라인 강   LCG_RIVER      
+희연	라인 강   LCG_RIVER      네덜란드   LCP_COUNTRY      북해   LCG_OCEAN      라인 강   LCG_RIVER      
+
+현진	다뉴브 강   LCG_RIVER      로마 제국   LCP_COUNTRY      북쪽   TM_DIRECTION      
+희연	다뉴브 강   LCG_RIVER      로마 제국   LCP_COUNTRY      북쪽   TM_DIRECTION      
+
+현진	4세기 경   DT_YEAR      라인 강   LCG_RIVER      게르만족   CV_TRIBE      서로마   LCP_COUNTRY      
+희연	4세기 경   DT_OTHERS      라인 강   LCG_RIVER      게르만족   CV_TRIBE      서로마   LCP_COUNTRY      
+
+현진	라인 강   LCG_RIVER      유럽   LCG_CONTINENT      스위스 중부   LC_OTHERS      알프스   LCG_MOUNTAIN      1,320km   QT_LENGTH      북해   LCG_OCEAN      
+희연	라인 강   LCG_RIVER      유럽   LCG_CONTINENT      스위스   LCP_COUNTRY      중부   TM_DIRECTION      알프스   LCG_MOUNTAIN      1,320km   QT_LENGTH      북해   LCG_OCEAN      
+
+현진	포르더라인 강   LCG_RIVER      힌터라인 강   LCG_RIVER      알프스   LCG_MOUNTAIN      6월   DT_MONTH      7월   DT_MONTH      
+희연	포르더라인 강   LCG_RIVER      힌터라인 강   LCG_RIVER      알프스   LCG_MOUNTAIN      6월   DT_MONTH      7월   DT_MONTH      
+
+현진	라인 강   LCG_RIVER      북쪽   TM_DIRECTION      콘스탄츠 호   LCG_RIVER      
+희연	라인 강   LCG_RIVER      북쪽   TM_DIRECTION      콘스탄츠   LCG_RIVER      
+
+현진	콘스탄츠 호   LCG_RIVER      서쪽   TM_DIRECTION      서쪽   TM_DIRECTION      북부 스위스   LC_OTHERS      사프하우젠   LCP_CITY      30m   QT_LENGTH      라인 폭포   LC_TOUR      
+희연	콘스탄츠 호   LCG_RIVER      서쪽   TM_DIRECTION      서쪽   TM_DIRECTION      북부   TM_DIRECTION      스위스   LCP_COUNTRY      사프하우젠   LCP_PROVINCE      30m   QT_LENGTH      라인 폭포   LC_TOUR      
+
+현진	흑림지대   LCG_MOUNTAIN      슈바르츠발트   LC_TOUR      남쪽   TM_DIRECTION      바젤   LCP_CITY      북쪽   TM_DIRECTION      두 차례   QT_COUNT      
+희연	슈바르츠발트   LCG_MOUNTAIN      남쪽   TM_DIRECTION      바젤   LCP_CITY      북쪽   TM_DIRECTION      두 차례   QT_COUNT      
+
+현진	바젤   LCP_CITY      라인 강   LCG_RIVER      약 160km   QT_LENGTH      프랑스   LCP_COUNTRY      독일   LCP_COUNTRY      
+희연	바젤   LCP_CITY      라인 강   LCG_RIVER      약 160km   QT_LENGTH      프랑스   LCP_COUNTRY      독일   LCP_COUNTRY      
+
+현진	독일 영토   LC_OTHERS      지난 2세기 동안   DT_OTHERS      
+희연	독일   LCP_COUNTRY      지난 2세기   DT_OTHERS      
+
+현진	라인 지구대   OGG_POLITICS      32km   QT_LENGTH      
+희연	라인 지구대   LC_OTHERS      32km   QT_LENGTH      
+
+현진	서쪽   TM_DIRECTION      보주 산맥   LCG_MOUNTAIN      동쪽   TM_DIRECTION      슈바르츠발트 산맥   LCG_MOUNTAIN      
+희연	서쪽   TM_DIRECTION      보주 산맥   LCG_MOUNTAIN      동쪽   TM_DIRECTION      슈바르츠발트 산맥   LCG_MOUNTAIN      
+
+현진	마인츠   LCP_CITY      라인 강   LCG_RIVER      
+희연	마인츠   LCP_CITY      라인 강   LCG_RIVER      145km   QT_LENGTH      
+
+현진	서쪽   TM_DIRECTION      훈스뤼크 구릉지   LCG_MOUNTAIN      아이펠 구릉지   LCG_MOUNTAIN      동쪽   TM_DIRECTION      타우누스 구릉지   LCG_MOUNTAIN      베스트발트 구릉지   LCG_MOUNTAIN      
+희연	서쪽   TM_DIRECTION      훈스뤼크 구릉지   LC_OTHERS      아이펠 구릉지   LC_OTHERS      동쪽   TM_DIRECTION      타우누스 구릉지   LC_OTHERS      베스트발트 구릉지   LC_OTHERS      
+
+현진	수 백 년   DT_OTHERS      
+희연	
+
+현진	쾰른   LCP_CITY      뒤셀도르프   LCP_CITY      뒤스부르크   LCP_CITY      
+희연	본   LCP_CITY      쾰른   LCP_CITY      뒤셀도르프   LCP_CITY      뒤스부르크   LCP_CITY      
+
+현진	라인 강   LCG_RIVER      레버쿠젠   LCP_CITY      바이어 화학   OGG_ECONOMY      화물선   AF_TRANSPORT      
+희연	라인 강   LCG_RIVER      레버쿠젠   LCP_CITY      바이어 화학   OGG_ECONOMY      화물선   AF_TRANSPORT      
+
+현진	로테르담   LCP_CITY      쾰른   LCP_CITY      정부   OGG_POLITICS      
+희연	로테르담   LCP_CITY      쾰른   LCP_CITY      정부   OGG_POLITICS      
+
+현진	라인 강   LCG_RIVER      독일   LCP_COUNTRY      네덜란드   LCP_COUNTRY      엠머리치   LC_OTHERS      
+희연	라인 강   LCG_RIVER      독일   LCP_COUNTRY      네덜란드   LCP_COUNTRY      엠머리치   LCP_CITY      
+
+현진	네덜란드   LCP_COUNTRY      로테르담   LCP_CITY      북해   LCG_OCEAN      모이제 강   LCG_RIVER      라인 강   LCG_RIVER      북해   LCG_OCEAN      
+희연	네덜란드   LCP_COUNTRY      로테르담   LCP_CITY      모이제 강   LCG_RIVER      라인 강   LCG_RIVER      북해   LCG_OCEAN      
+
+현진	네덜란드어   CV_LANGUAGE      라인 강   LCG_RIVER      
+희연	네덜란드어   CV_LANGUAGE      라인 강   LCG_RIVER      
+
+현진	라인 강   LCG_RIVER      서쪽   TM_DIRECTION      네덜란드   LCP_COUNTRY      뫼즈 강   LCG_RIVER      스헬트 강   LCG_RIVER      
+희연	라인 강   LCG_RIVER      서쪽   TM_DIRECTION      네덜란드   LCP_COUNTRY      뫼즈 강   LCG_RIVER      스헬트 강   LCG_RIVER      
+
+현진	3개   QT_COUNT      서유럽   LCG_CONTINENT      
+희연	3개   QT_COUNT      서유럽   LCG_CONTINENT      
+
+현진	북쪽   TM_DIRECTION      
+희연	북쪽   TM_DIRECTION      
+
+현진	네덜란드   LCP_COUNTRY      
+희연	네덜란드   LCP_COUNTRY      
+
+현진	2~3개   QT_COUNT      서쪽   TM_DIRECTION      발 강   LCG_RIVER      Merwede강   LCG_RIVER      니우 멜위데   LCG_RIVER      뫼즈 강   LCG_RIVER      네덜란드   LCP_COUNTRY      북해   LCG_OCEAN      Diep   LC_OTHERS      Haringvliet estuaries   LC_OTHERS      
+희연	2~3개   QT_COUNT      서쪽   TM_DIRECTION      발 강   LCG_RIVER      Merwede강   LCG_RIVER      니우 멜위데   LC_TOUR      뫼즈 강   LCG_RIVER      네덜란드   LCP_COUNTRY      북해   LCG_OCEAN      
+
+현진	3개   QT_COUNT      아이셀 강   LCG_RIVER      Nederrijn   LC_OTHERS      
+희연	3개   QT_COUNT      아이셀강   LCG_RIVER      
+
+현진	서쪽   TM_DIRECTION      Noord강   LCG_RIVER      Nieuwe Maas   LC_OTHERS      북해   LCG_OCEAN      
+희연	서쪽   TM_DIRECTION      Noord강   LCG_RIVER      북해   LCG_OCEAN      
+
+아폴로 계획 
+
+현진	
+희연	
+
+현진	1961년부터 1972년까지   DT_DURATION      미국항공우주국   OGG_POLITICS      우주   LC_SPACE      
+희연	1961년부터 1972년까지   DT_DURATION      미국항공우주국   OGG_SCIENCE      우주   LC_SPACE      
+
+현진	1960년대   DT_YEAR      존 F. 케네디   PS_NAME      대통령   CV_POSITION      달   LC_SPACE      지구   LC_SPACE      
+희연	1960년대   DT_YEAR      존 F. 케네디   PS_NAME      대통령   CV_POSITION      달   LC_SPACE      지구   LC_SPACE      
+
+현진	1969년   DT_YEAR      아폴로 11호   AF_TRANSPORT      
+희연	1969년   DT_YEAR      아폴로 11호   AF_TRANSPORT      
+
+현진	1970년대 초반까지   DT_OTHERS      여섯 차례   QT_COUNT      달   LC_SPACE      
+희연	1970년대 초반까지   DT_OTHERS      여섯 차례   QT_COUNT      달   LC_SPACE      
+
+현진	스카이랩 계획   TMI_PROJECT      미국   LCP_COUNTRY      소련   LCP_COUNTRY      
+희연	스카이랩 계획   EV_OTHERS      미국   LCP_COUNTRY      소련   LCP_COUNTRY      아폴로-소유즈 시험 계획   EV_OTHERS      
+
+현진	여러 번   QT_OTHERS      두 차례   QT_COUNT      
+희연	여러 번   QT_COUNT      두 차례   QT_COUNT      
+
+현진	1967년 1월 27일   DT_OTHERS      아폴로 1호   AF_TRANSPORT      세 명   QT_MAN_COUNT      우주비행사   CV_OCCUPATION      
+희연	1967년 1월 27일   DT_OTHERS      아폴로 1호   AF_TRANSPORT      사령선   AF_TRANSPORT      세 명   QT_MAN_COUNT      우주비행사   CV_OCCUPATION      
+
+현진	1970년 4월 13일   DT_OTHERS      달   LC_SPACE      아폴로 13호   AF_TRANSPORT      달   LC_SPACE      지구   LC_SPACE      
+희연	1970년 4월 13일   DT_OTHERS      달   LC_SPACE      아폴로 13호   AF_TRANSPORT      달   LC_SPACE      지구   LC_SPACE      
+
+현진	드와이트 아이젠하워   PS_NAME      우주   LC_SPACE      
+희연	드와이트 아이젠하워   PS_NAME      우주   LC_SPACE      
+
+현진	한 명   QT_MAN_COUNT      우주비행사   CV_OCCUPATION      우주선   AF_TRANSPORT      지구   LC_SPACE      세명   QT_MAN_COUNT      우주비행사   CV_OCCUPATION      우주선   AF_TRANSPORT      달   LC_SPACE      
+희연	한 명   QT_MAN_COUNT      우주비행사   CV_OCCUPATION      우주선   AF_TRANSPORT      지구   LC_SPACE      세명   QT_MAN_COUNT      우주비행사   CV_OCCUPATION      우주선   AF_TRANSPORT      달   LC_SPACE      
+
+현진	아폴로   PS_NAME      미항공우주국   OGG_POLITICS      에이브 실버스테인   PS_NAME      고대 그리스   DT_DYNASTY      신   CV_POSITION      아폴론   PS_NAME      
+희연	아폴로   PS_NAME      미항공우주국   OGG_SCIENCE      에이브 실버스테인   PS_NAME      고대 그리스   DT_DYNASTY      신   CV_POSITION      아폴론   PS_NAME      
+
+현진	실버스테인   PS_NAME      우주선   AF_TRANSPORT      
+희연	실버스테인   PS_NAME      우주선   AF_TRANSPORT      
+
+현진	1960년 11월   DT_OTHERS      존 F 케네디   PS_NAME      미국   LCP_COUNTRY      신임 대통령   CV_POSITION      
+희연	1960년 11월   DT_OTHERS      존 F 케네디   PS_NAME      미국   LCP_COUNTRY      신임 대통령   CV_POSITION      
+
+현진	케네디   PS_NAME      우주   LC_SPACE      미사일   AF_WEAPON      소비에트 연방   LCP_COUNTRY      우주   LC_SPACE      미사일   AF_WEAPON      
+희연	케네디   PS_NAME      우주   LC_SPACE      미사일   AF_WEAPON      소비에트 연방   LCP_COUNTRY      우주   LC_SPACE      미사일   AF_WEAPON      
+
+현진	1961년 4월 12일   DT_OTHERS      유리 가가린   PS_NAME      우주   LC_SPACE      미국   LCP_COUNTRY      소비에트   LCP_COUNTRY      
+희연	1961년 4월 12일   DT_OTHERS      유리 가가린   PS_NAME      우주   LC_SPACE      미국   LCP_COUNTRY      소비에트   LCP_COUNTRY      
+
+현진	유리 가가린   PS_NAME      우주   LC_SPACE      다음날   DT_DAY      미국   LCP_COUNTRY      우주 과학 위원회   OGG_POLITICS      소련   LCP_COUNTRY      
+희연	유리 가가린   PS_NAME      우주   LC_SPACE      다음날   DT_DAY      미국   LCP_COUNTRY      우주 과학 위원회   OGG_SCIENCE      소련   LCP_COUNTRY      
+
+현진	1961년 4월 20일   DT_OTHERS      케네디   PS_NAME      부통령   CV_POSITION      린든 존슨   PS_NAME      미국   LCP_COUNTRY      우주   LC_SPACE      
+희연	1961년 4월 20일   DT_OTHERS      케네디   PS_NAME      부통령   CV_POSITION      린든 존슨   PS_NAME      미국   LCP_COUNTRY      우주   LC_SPACE      
+
+현진	린든 존슨   PS_NAME      케네디   PS_NAME      1966년에서 1967년 사이   DT_OTHERS      달   LC_SPACE      소비에트   LCP_COUNTY      우주   LC_SPACE      
+희연	린든 존슨   PS_NAME      케네디   PS_NAME      1966년   DT_YEAR      1967년   DT_YEAR      달   LC_SPACE      소비에트   OGG_POLITICS      우주   LC_SPACE      
+
+현진	1961년 5월 25일   DT_OTHERS      케네디   PS_NAME      미국 의회   OGG_POLITICS      
+희연	1961년 5월 25일   DT_OTHERS      케네디   PS_NAME      미국 의회   OGG_POLITICS      
+
+현진	케네디   PS_NAME      미국   LCP_COUNTRY      한 명   QT_MAN_COUNT      우주인   CV_OCCUPATION      지구   LC_SPACE      
+희연	케네디   PS_NAME      미국   LCP_COUNTRY      한 명   QT_MAN_COUNT      우주인   CV_OCCUPATION      지구   LC_SPACE      
+
+현진	미항공우주국   OGG_POLITICS      케네디   PS_NAME      
+희연	미항공우주국   OGG_SCIENCE      케네디   PS_NAME      
+
+현진	케네디   PS_NAME      지구   LC_SPACE      달   LC_SPACE      
+희연	케네디   PS_NAME      지구   LC_SPACE      달   LC_SPACE      
+
+현진	하나   QT_COUNT      우주선   AF_TRANSPORT      달   LC_SPACE      지구   LC_SPACE      노바 로켓   TMI_HW      
+희연	하나   QT_COUNT      우주선   AF_TRANSPORT      달   LC_SPACE      지구   LC_SPACE      노바 로켓   TMI_HW      
+
+현진	지구   LC_SPACE      달   LC_SPACE      착륙선   AF_TRANSPORT      로켓   TMI_HW      지구   LC_SPACE      하나   QT_COUNT      달   LC_SPACE      
+희연	지구   LC_SPACE      달   LC_SPACE      착륙선   AF_TRANSPORT      지구   LC_SPACE      하나   QT_COUNT      달   LC_SPACE      
+
+현진	달   LC_SPACE      무인 우주선   TMI_HW      달   LC_SPACE      유인 우주선   AF_TRANSPORT      달   LC_SPACE      무인 우주선   TMI_HW      
+희연	달   LC_SPACE      우주선   AF_TRANSPORT      달   LC_SPACE      우주선   AF_TRANSPORT      달   LC_SPACE      우주선   AF_TRANSPORT      
+
+현진	달   LC_SPACE      하나   QT_COUNT      로켓   TMI_HW      사령선   AF_TRANSPORT      착륙선   AF_TRANSPORT      지구   LC_SPACE      달 착륙선   AF_TRANSPORT      사령선   AF_TRANSPORT      달   LC_SPACE      달 착륙선   AF_TRANSPORT      달   LC_SPACE      달   LC_SPACE      사령선   AF_TRANSPORT      
+희연	달   LC_SPACE      하나   QT_COUNT      사령선   AF_TRANSPORT      착륙선   AF_TRANSPORT      지구   LC_SPACE      달   LC_SPACE      착륙선   AF_TRANSPORT      사령선   AF_TRANSPORT      달   LC_SPACE      달   LC_SPACE      착륙선   AF_TRANSPORT      달   LC_SPACE      달   LC_SPACE      사령선   AF_TRANSPORT      
+
+현진	달   LC_SPACE      
+희연	달   LC_SPACE      
+
+위그노 
+
+현진	위그노   CV_POSITION      
+희연	위그노   OGG_RELIGION      
+
+현진	위그노   CV_POSITION      프랑스   LCP_COUNTRY      개신교   OGG_RELIGION      신자   CV_POSITION      
+희연	위그노   OGG_RELIGION      프랑스   LCP_COUNTRY      개신교   OGG_RELIGION      신자   CV_POSITION      
+
+현진	칼뱅주의   TR_PHILOSOPHY      프랑스   LCP_COUNTRY      개신교   OGG_RELIGION      신자   CV_POSITION      스위스   LCP_COUNTRY      주네브   LCP_CITY      프라이부르크   LCP_CITY      베른   LCP_CAPITALCITY      제네바   LCP_CITY      위그노   CV_POSITION      
+희연	칼뱅주의   TR_PHILOSOPHY      프랑스   LCP_COUNTRY      개신교   OGG_RELIGION      신자   CV_POSITION      스위스   LCP_COUNTRY      주네브   LCP_CITY      프라이부르크   LCP_CITY      베른   LCP_CAPITALCITY      제네바   LCP_CITY      위그노   OGG_RELIGION      
+
+현진	프랑수아 1세   PS_NAME      위그노   CV_POSITION      
+희연	프랑수아 1세   PS_NAME      위그노   OGG_RELIGION      
+
+현진	앙리 2세   PS_NAME      위그노   CV_POSITION      
+희연	앙리 2세   PS_NAME      위그노   OGG_RELIGION      
+
+현진	정부   OGG_POLITICS      
+희연	정부   OGG_POLITICS      
+
+현진	가스파르 드 콜리니   PS_NAME      제독   CV_POSITION      나바라   LC_OTHERS      군주   CV_POSITION      앙투완   PS_NAME      위그노   CV_POSITION      
+희연	가스파르 드 콜리니   PS_NAME      제독   CV_POSITION      나바라   LC_OTHERS      군주   CV_POSITION      앙투완   PS_NAME      위그노   LC_OTHERS      
+
+현진	프랑스   LCP_COUNTRY      로마 가톨릭 교도   CV_POSITION      기즈 가족   CV_RELATION      프랑수아 2세   PS_NAME      위그노   CV_POSITION      
+희연	프랑스   LCP_COUNTRY      로마 가톨릭 교도   CV_POSITION      기즈   PS_NAME      가족   CV_RELATION      프랑수아 2세   PS_NAME      위그노   OGG_RELIGION      
+
+현진	1562년   DT_YEAR      위그노 전쟁   EV_WAR_REVOLUTION      1572년   DT_YEAR      성 바르톨로메오 축일 학살   EV_WAR_REVOLUTION      로마 가톨릭 교도   CV_POSITION      
+희연	1562년   DT_YEAR      위그노 전쟁   EV_WAR_REVOLUTION      1572년   DT_YEAR      성 바르톨로메오 축일 학살   EV_WAR_REVOLUTION      로마 가톨릭 교도   CV_POSITION      
+
+현진	칼뱅주의   TR_PHILOSOPHY      상공업자   CV_OCCUPATION      신도   CV_POSITION      
+희연	칼뱅주의   TR_PHILOSOPHY      상공업자   CV_OCCUPATION      신도   CV_POSITION      
+
+현진	프랑수아 2세   PS_NAME      1560년   DT_YEAR      샤를 9세   PS_NAME      황태후   CV_POSITION      카트린 드 메디시스   PS_NAME      정부   OGG_POLITICS      
+희연	프랑수아 2세   PS_NAME      1560년   DT_YEAR      샤를 9세   PS_NAME      황태후   CV_POSITION      카트린 드 메디시스   PS_NAME      정부   OGG_POLITICS      
+
+현진	카트린   PS_NAME      기즈   PS_NAME      공   CV_POSITION      위그노   CV_POSITION      
+희연	카트린   PS_NAME      기즈 공   PS_NAME      위그노   OGG_RELIGION      
+
+현진	두 교파   QT_COUNT      
+희연	두 교파   QT_COUNT      
+
+현진	성 바르톨로메오 축일   DT_DAY      프랑스   LCP_COUNTRY      가톨릭 교도   CV_POSITION      수천명   QT_COUNT      위그노   CV_POSITION      
+희연	성 바르톨로메오 축일   PS_NAME      프랑스   LCP_COUNTRY      가톨릭 교도   CV_POSITION      수천명   QT_MAN_COUNT      위그노   OGG_RELIGION      
+
+현진	앙리 3세   PS_NAME      나바라   LC_OTHERS      군주   CV_POSITION      앙리   PS_NAME      엔리케   PS_NAME      부르봉 왕조   DT_DYNASTY      앙리 4세   PS_NAME      왕위   CV_POSITION      
+희연	앙리 3세   PS_NAME      나바라   LC_OTHERS      군주   CV_POSITION      앙리   PS_NAME      엔리케   PS_NAME      부르봉 왕조   DT_DYNASTY      앙리 4세   PS_NAME      
+
+현진	개신교 신자   CV_POSITION      낭트 칙령   CV_LAW      위그노   CV_POSITION      
+희연	개신교   OGG_RELIGION      신자   CV_POSITION      낭트 칙령   CV_LAW      위그노   OGG_RELIGION      
+
+현진	루이 14세   PS_NAME      가톨릭   OGG_RELIGION      프랑스   LCP_COUNTRY      국교   CV_POSITION      낭트 칙령   CV_LAW      위그노   CV_POSITION      네덜란드   LCP_COUNTRY      영국   LCP_COUNTRY      프로이센   LCP_COUNTRY      
+희연	루이 14세   PS_NAME      가톨릭   OGG_RELIGION      프랑스   LCP_COUNTRY      낭트 칙령   CV_LAW      네덜란드   LCP_COUNTRY      영국   LCP_COUNTRY      프로이센   LCP_COUNTRY      
+
+현진	북아메리카   LCG_CONTINENT      현재   DT_OTHERS      뉴욕   LCP_CITY      캐롤라이나지역   LCP_PROVINCE      
+희연	북아메리카   LCG_CONTINENT      뉴욕   LCP_CITY      캐롤라이나지역   LCP_PROVINCE      
+
+현진	프랑스   LCP_COUNTRY      
+희연	프랑스   LCP_COUNTRY      
+
+현진	프랑스 대혁명   EV_WAR_REVOLUTION      
+희연	프랑스 대혁명   EV_WAR_REVOLUTION      
+
+현진	1802년 이후   DT_OTHERS      위그노   CV_POSITION      개신교 신자   CV_POSITION      
+희연	1802년   DT_YEAR      위그노   OGG_RELIGION      개신교   OGG_RELIGION      신자   CV_POSITION      
+
+file01 
+
+현진	13월   DT_MONTH      연말정산서비스   TMI_SERVICE      15일   DT_DAY      
+희연	13월   DT_MONTH      연말정산서비스   TMI_SERVICE      15일   DT_DAY      
+
+현진	지난해   DT_YEAR      연말정산 서비스   TMI_SERVICE      15일부터   DT_OTHERS      
+희연	지난해   DT_YEAR      연말정산 서비스   TMI_SERVICE      15일부터   DT_OTHERS      
+
+현진	올해부터   DT_OTHERS      4대   QT_COUNT      보험료   CV_TAX      홈택스   TMI_SERVICE      시력 보정용 안경   AF_WARES      근로자   CV_POSITION      13월   DT_MONTH      폭탄   AF_WEAPON      
+희연	올해부터   DT_OTHERS      4대   QT_COUNT      보험료   CV_TAX      홈택스   TMI_SERVICE      근로자   CV_POSITION      13월   DT_MONTH      
+
+현진	국세청   OGG_POLITICS      홈택스   TMI_SERVICE      www.hometax.go.kr   TMI_SITE      소득세액공제   CV_POLICY      연말정산 간소화 서비스   TMI_SERVICE      15일 오전 9시부터   DT_OTHERS      12일   DT_DAY      
+희연	국세청   OGG_POLITICS      홈택스   TMI_SERVICE      www.hometax.go.kr   TMI_SITE      세액공제   CV_TAX      연말정산 간소화 서비스   TMI_SERVICE      15일   DT_DAY      오전 9시부터   TI_OTHERS      12일   DT_DAY      
+
+현진	맞춤형 원천징수제도   CV_POLICY      80%   QT_PERCENTAGE      근로자   CV_POSITION      연말정산   DT_DURATION      
+희연	원천징수제도   CV_POLICY      원천징수세액   CV_TAX      80%   CV_POLICY      근로자   CV_POSITION      연말   DT_DURATION      
+
+현진	120%   QT_PERCENTAGE      연말정산   DT_DURATION      
+희연	120%   QT_PERCENTAGE      연말   DT_DURATION      
+
+현진	근로자   CV_POSITION      공인인증서   TMI_SERVICE      홈택스   TMI_SERVICE      연말정산 간소화 서비스   TMI_SERVICE      소득세액공제   CV_POLICY      14개   QT_COUNT      
+희연	근로자   CV_POSITION      공인인증서   TMI_SERVICE      홈택스   TMI_SERVICE      연말정산 간소화 서비스   TMI_SERVICE      보험료   CV_TAX      주택자금   CV_FUNDS      소득·세액공제   CV_TAX      14개   QT_COUNT      
+
+현진	올해부터   DT_OTHERS      국민연금   CV_FUNDS      4대   QT_COUNT      근로자   CV_POSITION      
+희연	올해부터   DT_OTHERS      국민연금   CV_FUNDS      건강보험료   CV_TAX      4대   QT_COUNT      보험료   CV_TAX      근로자   CV_POSITION      
+
+현진	보청기   AF_WARES      휠체어   AF_WARES      장애인   CV_POSITION      시력 보정용 안경   AF_WARES      콘택트렌즈   AF_WARES      
+희연	휠체어   AF_TRANSPORT      장애인   CV_POSITION      콘택트렌즈   AF_WARES      
+
+현진	근로자   CV_POSITION      
+희연	근로자   CV_POSITION      
+
+현진	연말정산간소화 서비스   TMI_SERVICE      17일까지   DT_OTHERS      홈택스   TMI_SERVICE      의료비 신고센터   TMI_SERVICE      ???
+희연	연말정산간소화 서비스   TMI_SERVICE      17일까지   DT_OTHERS      홈택스   TMI_SERVICE      
+
+현진	국세청   OGG_POLITICS      20일   DT_DAY      
+희연	국세청   OGG_POLITICS      20일   DT_DAY      
+
+현진	20일 이후   DT_OTHERS      근로자   CV_POSITION      
+희연	20일 이후   DT_OTHERS      근로자   CV_POSITION      
+
+현진	부양가족   CV_RELATION      연말정산   DT_DURATION      
+희연	부양가족   CV_RELATION      연말   DT_DURATION      
+
+현진	올해   DT_YEAR      온라인   TMI_SERVICE      부양가족   CV_RELATION      
+희연	올해   DT_YEAR      부양가족   CV_RELATION      
+
+현진	배우자   CV_RELATION      난임   TMM_DISEASE      
+희연	배우자   CV_RELATION      
+
+현진	근로자   CV_POSITION      난임   TMM_DISEASE      700만 원   QT_PRICE      
+희연	근로자   CV_POSITION      700만 원   QT_PRICE      
+
+현진	환자   CV_POSITION      
+희연	환자   CV_POSITION      
+
+현진	근로자   CV_POSITION      
+희연	근로자   CV_POSITION      
+
+현진	지난해   DT_YEAR      
+희연	지난해   DT_YEAR      
+
+현진	연말정산 간소화 서비스   TMI_SERVICE      
+희연	연말정산 간소화 서비스   TMI_SERVICE      
+
+현진	가산세   CV_TAX      
+희연	가산세   CV_TAX      
+
+현진	편리한 연말정산   TMI_SERVICE      18일부터   DT_OTHERS      
+희연	연말   DT_DURATION      18일부터   DT_OTHERS      
+
+현진	국세청   OGG_POLITICS      홈택스   TMI_SERVICE      연말정산 간소화 서비스   TMI_SERVICE      
+희연	국세청   OGG_POLITICS      홈택스   TMI_SERVICE      연말정산 간소화 서비스   TMI_SERVICE      
+
+현진	연말정산 간소화 서비스   TMI_SERVICE      근로자   CV_POSITION      
+희연	연말정산 간소화 서비스   TMI_SERVICE      근로자   CV_POSITION      
+
+현진	편리한 연말정산 서비스   TMI_SERVICE      
+희연	연말정산 서비스   TMI_SERVICE      
+
+현진	맞벌이 부부   CV_RELATION      근로자   CV_POSITION      
+희연	부부   CV_RELATION      근로자   CV_POSITION      
+
+현진	홈택스 스마트폰 애플리케이션   AF_WARES      연말정산   DT_DURATION      
+희연	홈택스   TMI_SERVICE      스마트폰   TMI_HW      애플리케이션   TMI_SW      연말   DT_DURATION      
+
+현진	연말정산 서비스   TMI_SERVICE      국세 상담센터   OGG_POLITICS      126   QT_PHONE      
+희연	연말정산 서비스   TMI_SERVICE      국세 상담센터   OGG_POLITICS      126   QT_PHONE      
+
+현진	국세청   OGG_POLITICS      16일   DT_DAY      18일   DT_DAY      부가가치세   CV_TAX      25일   DT_DAY      홈택스   TMI_SERVICE      
+희연	국세청   OGG_POLITICS      16일   DT_DAY      18일   DT_DAY      부가가치세   CV_TAX      25일   DT_DAY      홈택스   TMI_SERVICE      
+
+file03 
+
+현진	경찰   OGG_POLITICS      소래포구 어시장 화재   EV_OTHERS      목격자   CV_POSITION      3명   QT_MAN_COUNT      
+희연	경찰   CV_OCCUPATION      소래포구 어시장   LC_OTHERS      목격자   CV_POSITION      3명   QT_MAN_COUNT      
+
+현진	6억여 원   QT_PRICE      소방서   OGG_POLITICS      인천   LCP_CITY      소래포구 어시장 화재사고   EV_OTHERS      경찰   OGG_POLITICS      최초 목격자   CV_POSITION      
+희연	6억여 원   QT_PRICE      소방서   OGG_POLITICS      인천   EV_OTHERS      소래포구 어시장 화재사고   EV_OTHERS      경찰   OGG_POLITICS      목격자   CV_POSITION      
+
+현진	인천 남동 경찰서   OGG_POLITICS      18일   DT_DAY      인천시   LCP_CITY      남동구   LCP_COUNTY      논현동   LCP_COUNTY      소래포구 어시장 화재사고   EV_OTHERS      목격자   CV_POSITION      3명   QT_MAN_COUNT      19일   DT_DAY      
+희연	인천 남동 경찰서   OGG_POLITICS      18일   DT_DAY      인천시   LCP_CITY      남동구   LCP_COUNTY      논현동   LCP_COUNTY      소래포구 어시장 화재사고   EV_OTHERS      목격자   CV_POSITION      3명   QT_MAN_COUNT      19일   DT_DAY      
+
+현진	한 명   QT_MAN_COUNT      18일   DT_DAY      오전 1시 36분   TI_OTHERS      119   QT_PHONE      상인   CV_OCCUPATION      
+희연	한 명   QT_MAN_COUNT      18일   DT_DAY      오전 1시 36분   TI_OTHERS      119   QT_PHONE      상인   CV_OCCUPATION      
+
+현진	최초 목격자   CV_POSITION      4층   QT_ORDER      
+희연	목격자   CV_POSITION      상인   CV_OCCUPATION      4층   QT_ORDER      
+
+현진	상인   CV_OCCUPATION      경찰   OGG_POLITICS      
+희연	상인   CV_OCCUPATION      경찰   CV_OCCUPATION      
+
+현진	경찰   OGG_POLITICS      목격자   CV_POSITION      2명   QT_MAN_COUNT      운영자   CV_POSITION      어시장 상인회   OGG_ECONOMY      야간   TI_DURATION      경비원   CV_OCCUPATION      
+희연	경찰   OGG_POLITICS      목격자   CV_POSITION      2명   QT_MAN_COUNT      운영자   CV_POSITION      어시장 상인회   OG_OTHERS      야간   TI_DURATION      경비원   CV_OCCUPATION      
+
+현진	경비원   CV_OCCUPATION      경찰   OGG_POLITICS      
+희연	경비원   CV_OCCUPATION      경찰   CV_OCCUPATION      
+
+현진	경찰   OGG_POLITICS      국립과학수사연구원   OGG_POLITICS      요원   CV_POSITION      전날   DT_DAY      경찰   OGG_POLITICS      폐쇄회로(CC)TV   TMI_HW      
+희연	경찰   CV_OCCUPATION      국립과학수사연구원   OGG_POLITICS      요원   CV_POSITION      전날   DT_DAY      경찰   CV_OCCUPATION      CCTV   TMI_HW      
+
+현진	겨울철   DT_SEASON      경찰   OGG_POLITICS      
+희연	겨울철   DT_SEASON      경찰   CV_OCCUPATION      
+
+현진	경찰   OGG_POLITICS      전날   DT_DAY      60여 대   QT_COUNT      폐쇄회로(CC)TV   TMI_HW      
+희연	경찰   OGG_POLITICS      전날   DT_DAY      60여 대   QT_COUNT      CCTV   TMI_HW      
+
+현진	경찰   OGG_POLITICS      CCTV   TMI_HW      4개   QT_COUNT      332개   QT_COUNT      30% 이상   QT_PERCENTAGE      한 곳   QT_COUNT      
+희연	경찰   OGG_POLITICS      CCTV   TMI_HW      4개   QT_COUNT      332개   QT_COUNT      30%   QT_PERCENTAGE      한 곳   QT_COUNT      
+
+현진	경찰   OGG_POLITICS      국과수   OGG_POLITICS      이날   DT_DAY      오전부터   TI_OTHERS      2차   QT_ORDER      
+희연	경찰   CV_OCCUPATION      국과수   OGG_POLITICS      오전부터   TI_OTHERS      2차   QT_ORDER      
+
+현진	경찰   OGG_POLITICS      상인   CV_OCCUPATION      변압기   TMI_HW      
+희연	경찰   OGG_POLITICS      상인   CV_OCCUPATION      
+
+현진	한국전력공사   OGG_POLITICS      관계자   CV_POSITION      변압기   TMI_HW      
+희연	한국전력공사   OGG_ECONOMY      관계자   CV_POSITION      
+
+현진	경찰   OGG_POLITICS      관계자   CV_POSITION      목격자   CV_POSITION      3명   QT_MAN_COUNT      CCTV   TMI_HW      
+희연	경찰   OGG_POLITICS      목격자   CV_POSITION      3명   QT_MAN_COUNT      CCTV   TMI_HW      
+
+현진	전날   DT_DAY      오전 1시 36분   TI_OTHERS      소래포구 어시장   LC_OTHERS      2시간 30분   TI_OTHERS      
+희연	전날   DT_DAY      오전 1시 36분   TI_OTHERS      소래포구 어시장   LC_OTHERS      2시간 30분   TI_DURATION      
+
+현진	새벽   TI_DURATION      상인   CV_OCCUPATION      소래포구 어시장   LC_OTHERS      220여 개   QT_COUNT      20여 곳   QT_COUNT      
+희연	새벽   TI_DURATION      상인   CV_OCCUPATION      상인   CV_OCCUPATION      소래포구 어시장   LC_OTHERS      220여 개   QT_COUNT      
+
+현진	소방당국   OGG_POLITICS      현재까지   DT_OTHERS      6억5천만원   QT_PRICE      
+희연	소방당국   OGG_POLITICS      6억5천만원   QT_PRICE      
+
+file05 
+
+현진	文   PS_NAME      대통령   CV_POSITION      경제부총리   CV_POSITION      김동연   PS_NAME      외교부 장관   CV_POSITION      강경화   PS_NAME      
+희연	文   PS_NAME      대통령   CV_POSITION      경제부총리   CV_POSITION      김동연   PS_NAME      외교부   OGG_POLITICS      장관   CV_POSITION      강경화   PS_NAME      
+
+현진	문재인   PS_NAME      대통령   CV_POSITION      21일   DT_DAY      경제 사령탑   CV_POSITION      경제부   OGG_POLITICS      총리   CV_POSITION      기획재정부   OGG_POLITICS      장관 후보자   CV_POSITION      김동연   PS_NAME      60   QT_AGE      아주대   OGG_EDUCATION      총장   CV_POSITION      외교부   OGG_POLITICS      장관 후보자   CV_POSITION      강경화   PS_NAME      62   QT_AGE      유엔   OG_OHTERS      사무총장 정책특보   CV_POSITION      
+희연	문재인   PS_NAME      대통령   CV_POSITION      21일   DT_DAY      사령탑   CV_POSITION      경제부총리   CV_POSITION      기획재정부   OGG_POLITICS      장관   CV_POSITION      후보자   CV_POSITION      김동연   PS_NAME      60   QT_AGE      아주대   OGG_EDUCATION      총장   CV_POSITION      외교부   OGG_POLITICS      장관   CV_POSITION      후보자   CV_POSITION      강경화   PS_NAME      62   QT_AGE      유엔   OGG_POLITICS      사무총장 정책특보   CV_POSITION      
+
+현진	청와대   OGG_POLITICS      국가안보실장   CV_POSITION      정의용   PS_NAME      71   QT_AGE      아시아정당 국제회의   OGG_POLITICS      공동 상임위원장   CV_POSITION      정책실장   CV_POSITION      장하성   PS_NAME      64   QT_AGE      고려대 경영학과   OGG_EDUCATION      교수   CV_POSITION      
+희연	청와대   OGG_POLITICS      국가안보실장   CV_POSITION      정의용   PS_NAME      71   QT_AGE      아시아정당 국제회의   OGG_POLITICS      상임위원장   CV_POSITION      정책실장   CV_POSITION      장하성   PS_NAME      64   QT_AGE      고려대   OGG_EDUCATION      경영학과   OGG_EDUCATION      교수   CV_OCCUPATION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      이날   DT_DAY      청와대   OGG_POLITICS      춘추관   AF_BUILDING      정부   OGG_POLITICS      경제-외교안보 분야 인사   CV_POSITION      국민   CV_POSITION      인사   CV_POSITION      
+희연	문   PS_NAME      대통령   CV_POSITION      청와대   OGG_POLITICS      정부   OGG_POLITICS      국민   CV_POSITION      
+
+현진	외교안보실장   CV_POSITION      문정인   PS_NAME      66   QT_AGE      연세대   OGG_EDUCATION      명예특임 교수   CV_POSITION      대미 특사   CV_POSITION      홍석현   PS_NAME      68   QT_AGE      중앙일보   OGG_MEDIA      JTBC   OGG_MEDIA      사장   CV_POSITION      대통령   CV_POSITION      
+희연	외교안보실장   CV_POSITION      문정인   PS_NAME      66   QT_AGE      연세대   OGG_EDUCATION      교수   CV_OCCUPATION      대미 특사   QT_PRICE      홍석현   PS_NAME      68   QT_AGE      중앙일보   OGG_MEDIA      JTBC   OGG_MEDIA      사장   CV_POSITION      대통령   CV_POSITION      통일외교안보특보   QT_PRICE      
+
+현진	국민경제자문회   OGG_POLITICS      부의장   CV_POSITION      김광두   PS_NAME      70   QT_AGE      서강대 경제학과   OGG_EDUCATION      석과교수   CV_POSITION      
+희연	국민경제자문회   OGG_ECONOMY      부의장   CV_POSITION      김광두   PS_NAME      70   QT_AGE      서강대   OGG_EDUCATION      경제학과   OGG_EDUCATION      석좌교수   CV_POSITION      
+
+현진	김동연   PS_NAME      부총리 후보자   CV_POSITION      충북   LCP_PROVINCE      음성   LCP_COUNTY      
+희연	김동연   PS_NAME      부총리   CV_POSITION      후보자   CV_POSITION      충북   LCP_PROVINCE      음성   LCP_COUNTY      
+
+현진	덕수상고   OGG_EDUCATION      행정고시   CV_POLICY      입법고시   CV_POLICY      
+희연	덕수상고   OGG_EDUCATION      행정고시   CV_POLICY      입법고시   CV_POLICY      
+
+현진	문   PS_NAME      대통령   CV_POSITION      정부   OGG_POLITICS      
+희연	문   PS_NAME      대통령   CV_POSITION      정부   OGG_POLITICS      
+
+현진	김   PS_NAME      후보자   CV_POSITION      국민   CV_POSITION      기획예산처   OGG_POLITICS      재정부   OGG_POLITICS      적임자   CV_POSITION      
+희연	김   PS_NAME      후보자   CV_POSITION      국민   CV_POSITION      기획예산처   OGG_POLITICS      재정부   OGG_POLITICS      적임자   CV_POSITION      
+
+현진	강경화   PS_NAME      장관 후보자   CV_POSITION      서울   LCP_CAPITALCITY      이화여고   OGG_EDUCATION      매사추세츠대학   OGG_EDUCATION      커뮤니케이션   FD_OTHERS      박사   CV_POSITION      
+희연	강경화   PS_NAME      장관   CV_POSITION      후보자   CV_POSITION      서울   LCP_CAPITALCITY      이화여고   OGG_EDUCATION      매사추세츠대학   OGG_EDUCATION      박사   CV_POSITION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      강   PS_NAME      후보자   CV_POSITION      외무고시   CV_POLICY      외교부   OGG_POLITICS      첫   QT_ORDER      여성 국장   CV_POSITION      유엔 최고위직   CV_POSITION      한국   LCP_COUNTRY      2006년부터   DT_OTHERS      유엔   OGG_POLITICS      적임자   CV_POSITION      
+희연	문   PS_NAME      대통령   CV_POSITION      강   PS_NAME      후보자   CV_POSITION      외교부   OGG_POLITICS      첫   QT_ORDER      여성 국장   CV_POSITION      유엔   OGG_POLITICS      한국   LCP_COUNTRY      2006년부터   DT_OTHERS      유엔   OGG_POLITICS      적임자   CV_POSITION      
+
+현진	후보자   CV_POSITION      대한민국   LCP_COUNTRY      
+희연	후보자   CV_POSITION      대한민국   LCP_COUNTRY      
+
+현진	정의용   PS_NAME      신임 실장   CV_POSITION      서울   LCP_CAPITALCITY      서울고   OGG_EDUCATION      서울대 외교학과   OGG_EDUCATION      
+희연	정의용   PS_NAME      신임 실장   CV_POSITION      서울   LCP_CAPITALCITY      서울고   OGG_EDUCATION      서울대   OGG_EDUCATION      외교학과   OGG_EDUCATION      
+
+현진	아시아정당 국제회의   OGG_POLITICS      공동 상임위원장   CV_POSITION      
+희연	아시아정당 국제회의   OGG_POLITICS      상임위원장   CV_POSITION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      정상   CV_POSITION      
+희연	문   PS_NAME      대통령   CV_POSITION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      정부   OGG_POLITICS      
+희연	문   PS_NAME      대통령   CV_POSITION      정부   OGG_POLITICS      
+
+현진	핵   AF_WEAPON      
+희연	
+
+현진	핵   AF_WEAPON      사드   AF_WARES      THAAD   AF_WARES      하나   QT_COUNT      정   PS_NAME      실장   CV_POSITION      적임자   CV_POSITION      민생   CV_POLICY      국민   CV_POSITION      
+희연	북핵   AF_WEAPON      사드   AF_WEAPON      THAAD   AF_WEAPON      하나   QT_COUNT      정   PS_NAME      실장   CV_POSITION      적임자   CV_POSITION      국민   CV_POSITION      
+
+현진	장하성   PS_NAME      신임 실장   CV_POSITION      광주   LCP_CITY      경기고   OGG_EDUCATION      펜실베니아대   OGG_EDUCATION      경영학   FD_SOCIAL_SCIENCE      박사   CV_POSITION      
+희연	장하성   PS_NAME      신임 실장   CV_POSITION      광주   LCP_CITY      경기고   OGG_EDUCATION      펜실베니아대   OGG_EDUCATION      경영학   FD_SOCIAL_SCIENCE      박사   CV_POSITION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      장   PS_NAME      실장   CV_POSITION      한국   LCP_COUNTRY      경제학   FD_SOCIAL_SCIENCE      석학   CV_POSITION      운동가   CV_POSITION      국민   CV_POSITION      최고 적임자   CV_POLICY      
+희연	문   PS_NAME      대통령   CV_POSITION      장   PS_NAME      실장   CV_POSITION      한국   LCP_COUNTRY      경제학   FD_SOCIAL_SCIENCE      국민   CV_POSITION      적임자   CV_POSITION      
+
+현진	한국   LCP_COUNTRY      기업지배구조 개선운동   EV_ACTIVITY      한국   LCP_COUNTRY      공직   CV_OCCUPATION      정부   OGG_POLITICS      
+희연	한국   LCP_COUNTRY      기업지배구조 개선운동   EV_ACTIVITY      한국   LCP_COUNTRY      정부   OGG_POLITICS      
+
+현진	문정인   PS_NAME      신임 특보   CV_POSITION      제주   LCP_PROVINCE      오현고   OGG_EDUCATION      메릴랜드대   OGG_EDUCATION      정치학   FD_SOCIAL_SCIENCE      박사   CV_POSITION      
+희연	문정인   PS_NAME      신임 특보   CV_POSITION      제주   LCP_PROVINCE      오현고   OGG_EDUCATION      메릴랜드대   OGG_EDUCATION      정치학   FD_SOCIAL_SCIENCE      박사   CV_POSITION      
+
+현진	홍석현   PS_NAME      신임 특보   CV_POSITION      서울   LCP_CAPITALCITY      경기고   OGG_EDUCATION      스탠포드대   OGG_EDUCATION      
+희연	홍석현   PS_NAME      신임 특보   CV_POSITION      서울   LCP_CAPITALCITY      경기고   OGG_EDUCATION      스탠포드대   OGG_EDUCATION      
+
+현진	한국신문협회   OGG_MEDIA      고문   CV_POSITION      
+희연	한국신문협회   OGG_MEDIA      고문   CV_POSITION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      두 분   QT_MAN_COUNT      두 분   QT_MAN_COUNT      정부   OGG_POLITICS      
+희연	문   PS_NAME      대통령   CV_POSITION      두 분   QT_MAN_COUNT      두 분   QT_MAN_COUNT      정부   OGG_POLITICS      
+
+현진	김광두   PS_NAME      신임 부의장   CV_POSITION      전남   LCP_PROVINCE      나주   LCP_CITY      광주제일고   OGG_EDUCATION      하와이대   OGG_EDUCATION      경제학   FD_SOCIAL_SCIENCE      박사   CV_POSITION      
+희연	김광두   PS_NAME      부의장   CV_POSITION      전남   LCP_PROVINCE      나주   LCP_CITY      광주제일고   OGG_EDUCATION      하와이대   OGG_EDUCATION      경제학   FD_SOCIAL_SCIENCE      박사   CV_POSITION      
+
+현진	문   PS_NAME      대통령   CV_POSITION      헌법   CV_LAW      자문회의   OGG_LAW      김   PS_NAME      부의장   CV_POSITION      대한민국   LCP_COUNTRY      경제학자   CV_OCCUPATION      손   AM_PART      
+희연	문   PS_NAME      대통령   CV_POSITION      헌법   CV_LAW      자문회의   OGG_POLITICS      자문회의   OGG_POLITICS      김   PS_NAME      부의장   CV_POSITION      대한민국   LCP_COUNTRY      경제학자   CV_OCCUPATION      
+
+현진	이분법   TR_SOCIAL_SCIENCE      김   PS_NAME      김   PS_NAME      부의장   CV_POSITION      헌법   CV_LAW      
+희연	김   PS_NAME      부의장   CV_POSITION      헌법   CV_LAW      국민   CV_POSITION
