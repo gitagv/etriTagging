@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "엽록체", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -76,7 +76,7 @@
 		{"id" : 10, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "세포", "type" : "NNG", "scode" : "02", "weight" : 6.55, "position" : 63, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "소기관", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 70, "begin" : 13, "end" : 14},
-		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 79, "begin" : 15, "end" : 15},
+		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 17, "end" : 17}
 	],
@@ -253,13 +253,13 @@
 		{"id" : 9, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "함께", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 68, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "대표적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 75, "begin" : 12, "end" : 13},
-		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 81, "begin" : 14, "end" : 14},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "세포", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 88, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "내", "type" : "NNB", "scode" : "09", "weight" : 5.2, "position" : 94, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "공생", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 98, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "체", "type" : "XSN", "scode" : "10", "weight" : 4, "position" : 104, "begin" : 19, "end" : 19},
-		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 107, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 22, "end" : 22}
 	],
@@ -336,7 +336,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "독자적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 1, "begin" : 1, "end" : 2},
-		{"id" : 2, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 7, "begin" : 3, "end" : 3},
+		{"id" : 2, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "DNA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 6, "end" : 6},
@@ -349,7 +349,7 @@
 		{"id" : 12, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "현재", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 55, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 15, "end" : 15},
-		{"id" : 15, "text" : "남조", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 65, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "남조", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 65, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "균류", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 71, "begin" : 17, "end" : 18},
 		{"id" : 17, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "공통", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 20, "end" : 20},
@@ -380,7 +380,7 @@
 		{"id" : 11, "text" : "추측된다.)", "type" : "", "begin" : 28, "end" : 32}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "DNA", "type" : "TM_CELL_TISSUE", "begin" : 5, "end" : 5, "weight" : 0.362268, "common_noun" : 0},
+		{"id" : 0, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 5, "end" : 5, "weight" : 0.362268, "common_noun" : 0},
 		{"id" : 1, "text" : "리보솜", "type" : "TM_CELL_TISSUE", "begin" : 7, "end" : 7, "weight" : 0.394144, "common_noun" : 0},
 		{"id" : 2, "text" : "남조균류", "type" : "AM_TYPE", "begin" : 16, "end" : 18, "weight" : 0.181017, "common_noun" : 0}
 	],
@@ -433,14 +433,14 @@
 		{"id" : 28, "lemma" : "구조", "type" : "NNG", "position" : 135, "weight" : 0 },
 		{"id" : 29, "lemma" : ",", "type" : "SP", "position" : 141, "weight" : 0 },
 		{"id" : 30, "lemma" : "즉", "type" : "MAJ", "position" : 143, "weight" : 0 },
-		{"id" : 31, "lemma" : "틸라코이드", "type" : "NNP", "position" : 147, "weight" : 0 },
+		{"id" : 31, "lemma" : "틸라코이드", "type" : "NNG", "position" : 147, "weight" : 0 },
 		{"id" : 32, "lemma" : "(", "type" : "SS", "position" : 162, "weight" : 0 },
 		{"id" : 33, "lemma" : "내막", "type" : "NNG", "position" : 163, "weight" : 0 },
 		{"id" : 34, "lemma" : ")", "type" : "SS", "position" : 169, "weight" : 0 },
 		{"id" : 35, "lemma" : ",", "type" : "SP", "position" : 170, "weight" : 0 },
 		{"id" : 36, "lemma" : "그라나", "type" : "NNG", "position" : 172, "weight" : 0 },
 		{"id" : 37, "lemma" : "(", "type" : "SS", "position" : 181, "weight" : 0 },
-		{"id" : 38, "lemma" : "틸라코이드", "type" : "NNP", "position" : 182, "weight" : 0 },
+		{"id" : 38, "lemma" : "틸라코이드", "type" : "NNG", "position" : 182, "weight" : 0 },
 		{"id" : 39, "lemma" : "막", "type" : "NNG", "position" : 197, "weight" : 0 },
 		{"id" : 40, "lemma" : "이", "type" : "JKS", "position" : 191, "weight" : 0 },
 		{"id" : 41, "lemma" : "동전", "type" : "NNG", "position" : 204, "weight" : 0 },
@@ -482,28 +482,28 @@
 		{"id" : 11, "text" : "소기관", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 62, "begin" : 13, "end" : 14},
 		{"id" : 12, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 15, "end" : 15},
 		{"id" : 13, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 16, "end" : 16},
-		{"id" : 14, "text" : "내막", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 79, "begin" : 17, "end" : 17},
+		{"id" : 14, "text" : "내막", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 79, "begin" : 17, "end" : 17},
 		{"id" : 15, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "외막", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 89, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 20, "end" : 20},
 		{"id" : 18, "text" : "이루어지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 102, "begin" : 21, "end" : 21},
 		{"id" : 19, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 22, "end" : 22},
 		{"id" : 20, "text" : "특징적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 115, "begin" : 23, "end" : 24},
-		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 121, "begin" : 25, "end" : 25},
+		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 25, "end" : 25},
 		{"id" : 22, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 26, "end" : 26},
 		{"id" : 23, "text" : "내부", "type" : "NNG", "scode" : "04", "weight" : 3.2, "position" : 128, "begin" : 27, "end" : 27},
 		{"id" : 24, "text" : "구조", "type" : "NNG", "scode" : "08", "weight" : 2.2, "position" : 135, "begin" : 28, "end" : 28},
 		{"id" : 25, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 29, "end" : 29},
 		{"id" : 26, "text" : "즉", "type" : "MAJ", "scode" : "01", "weight" : 2, "position" : 143, "begin" : 30, "end" : 30},
-		{"id" : 27, "text" : "틸라코이드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 147, "begin" : 31, "end" : 31},
+		{"id" : 27, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 147, "begin" : 31, "end" : 31},
 		{"id" : 28, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 162, "begin" : 32, "end" : 32},
-		{"id" : 29, "text" : "내막", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 163, "begin" : 33, "end" : 33},
+		{"id" : 29, "text" : "내막", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 163, "begin" : 33, "end" : 33},
 		{"id" : 30, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 34, "end" : 34},
 		{"id" : 31, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : "그라나", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 172, "begin" : 36, "end" : 36},
 		{"id" : 33, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 181, "begin" : 37, "end" : 37},
-		{"id" : 34, "text" : "틸라코이드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 182, "begin" : 38, "end" : 38},
-		{"id" : 35, "text" : "막", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 197, "begin" : 39, "end" : 39},
+		{"id" : 34, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 182, "begin" : 38, "end" : 38},
+		{"id" : 35, "text" : "막", "type" : "NNG", "scode" : "06", "weight" : 1, "position" : 197, "begin" : 39, "end" : 39},
 		{"id" : 36, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 191, "begin" : 40, "end" : 40},
 		{"id" : 37, "text" : "동전", "type" : "NNG", "scode" : "05", "weight" : 2.2, "position" : 204, "begin" : 41, "end" : 41},
 		{"id" : 38, "text" : "처럼", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 210, "begin" : 42, "end" : 42},
@@ -514,7 +514,7 @@
 		{"id" : 43, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 231, "begin" : 47, "end" : 47},
 		{"id" : 44, "text" : "스트로마", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 233, "begin" : 48, "end" : 48},
 		{"id" : 45, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 245, "begin" : 49, "end" : 49},
-		{"id" : 46, "text" : "기질", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 246, "begin" : 50, "end" : 50},
+		{"id" : 46, "text" : "기질", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 246, "begin" : 50, "end" : 50},
 		{"id" : 47, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 252, "begin" : 51, "end" : 51},
 		{"id" : 48, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 253, "begin" : 52, "end" : 52},
 		{"id" : 49, "text" : "현미경", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 257, "begin" : 53, "end" : 53},
@@ -555,7 +555,7 @@
 		{"id" : 0, "text" : "포도당", "type" : "MT_CHEMICAL", "begin" : 6, "end" : 6, "weight" : 0.293703, "common_noun" : 0},
 		{"id" : 1, "text" : "틸라코이드", "type" : "TM_CELL_TISSUE", "begin" : 31, "end" : 31, "weight" : 0.227554, "common_noun" : 0},
 		{"id" : 2, "text" : "내막", "type" : "TM_CELL_TISSUE", "begin" : 33, "end" : 33, "weight" : 0.130806, "common_noun" : 0},
-		{"id" : 3, "text" : "그라나", "type" : "MT_CHEMICAL", "begin" : 36, "end" : 36, "weight" : 0.128158, "common_noun" : 0},
+		{"id" : 3, "text" : "그라나", "type" : "TM_CELL_TISSUE", "begin" : 36, "end" : 36, "weight" : 0.128158, "common_noun" : 0},
 		{"id" : 4, "text" : "틸라코", "type" : "TM_CELL_TISSUE", "begin" : 38, "end" : 39, "weight" : 0.401478, "common_noun" : 0},
 		{"id" : 5, "text" : "스트로마", "type" : "TM_CELL_TISSUE", "begin" : 48, "end" : 48, "weight" : 0.170023, "common_noun" : 0}
 	],
@@ -609,7 +609,7 @@
 		{"id" : 29, "lemma" : "지만", "type" : "EC", "position" : 120, "weight" : 0 },
 		{"id" : 30, "lemma" : "가시", "type" : "NNG", "position" : 127, "weight" : 0 },
 		{"id" : 31, "lemma" : "광선", "type" : "NNG", "position" : 133, "weight" : 0 },
-		{"id" : 32, "lemma" : "하", "type" : "NNG", "position" : 140, "weight" : 0 },
+		{"id" : 32, "lemma" : "하", "type" : "XSN", "position" : 140, "weight" : 0 },
 		{"id" : 33, "lemma" : "에서", "type" : "JKB", "position" : 143, "weight" : 0 },
 		{"id" : 34, "lemma" : "엽록소", "type" : "NNG", "position" : 150, "weight" : 0 },
 		{"id" : 35, "lemma" : "를", "type" : "JKO", "position" : 159, "weight" : 0 },
@@ -651,10 +651,10 @@
 		{"id" : 21, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 25, "end" : 25},
 		{"id" : 22, "text" : "백색체", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 107, "begin" : 26, "end" : 26},
 		{"id" : 23, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 116, "begin" : 27, "end" : 27},
-		{"id" : 24, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 117, "begin" : 28, "end" : 28},
+		{"id" : 24, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 117, "begin" : 28, "end" : 28},
 		{"id" : 25, "text" : "지만", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 120, "begin" : 29, "end" : 29},
 		{"id" : 26, "text" : "가시광선", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 127, "begin" : 30, "end" : 31},
-		{"id" : 27, "text" : "하", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 140, "begin" : 32, "end" : 32},
+		{"id" : 27, "text" : "하", "type" : "XSN", "scode" : "12", "weight" : 1, "position" : 140, "begin" : 32, "end" : 32},
 		{"id" : 28, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 33, "end" : 33},
 		{"id" : 29, "text" : "엽록소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 150, "begin" : 34, "end" : 34},
 		{"id" : 30, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 159, "begin" : 35, "end" : 35},
@@ -690,7 +690,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "엽록소", "type" : "MT_CHEMICAL", "begin" : 17, "end" : 17, "weight" : 0.311284, "common_noun" : 0},
 		{"id" : 1, "text" : "백색", "type" : "TM_COLOR", "begin" : 24, "end" : 24, "weight" : 0.702045, "common_noun" : 0},
-		{"id" : 2, "text" : "백색체", "type" : "TM_COLOR", "begin" : 26, "end" : 26, "weight" : 0.394234, "common_noun" : 0},
+		{"id" : 2, "text" : "백색체", "type" : "TM_CELL_TISSUE", "begin" : 26, "end" : 26, "weight" : 1, "common_noun" : 0},
 		{"id" : 3, "text" : "엽록소", "type" : "MT_CHEMICAL", "begin" : 34, "end" : 34, "weight" : 0.359154, "common_noun" : 0},
 		{"id" : 4, "text" : "녹색", "type" : "TM_COLOR", "begin" : 39, "end" : 39, "weight" : 0.834158, "common_noun" : 0}
 	],
@@ -758,8 +758,9 @@
 		{"id" : 6, "text" : "존재한다.", "type" : "", "begin" : 13, "end" : 16}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 4, "end" : 4, "weight" : 0.276812, "common_noun" : 0},
-		{"id" : 1, "text" : "색소체", "type" : "TM_CELL_TISSUE", "begin" : 10, "end" : 11, "weight" : 0.387335, "common_noun" : 0}
+		{"id" : 0, "text" : "유관속 식물", "type" : "PT_TYPE", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 4, "end" : 4, "weight" : 0.276812, "common_noun" : 0},
+		{"id" : 2, "text" : "색소체", "type" : "TM_CELL_TISSUE", "begin" : 10, "end" : 11, "weight" : 0.387335, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -846,7 +847,7 @@
 		{"id" : 19, "text" : "색소체", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 91, "begin" : 22, "end" : 23},
 		{"id" : 20, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 24, "end" : 24},
 		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 25, "end" : 25},
-		{"id" : 22, "text" : "이중막", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 105, "begin" : 26, "end" : 26},
+		{"id" : 22, "text" : "이중막", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 105, "begin" : 26, "end" : 26},
 		{"id" : 23, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 27, "end" : 27},
 		{"id" : 24, "text" : "둘러싸이", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 121, "begin" : 28, "end" : 28},
 		{"id" : 25, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 29, "end" : 29},
@@ -858,7 +859,7 @@
 		{"id" : 31, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 4.4, "position" : 161, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 36, "end" : 36},
 		{"id" : 33, "text" : "특징", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 168, "begin" : 37, "end" : 37},
-		{"id" : 34, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 174, "begin" : 38, "end" : 38},
+		{"id" : 34, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 174, "begin" : 38, "end" : 38},
 		{"id" : 35, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 39, "end" : 39},
 		{"id" : 36, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 40, "end" : 40}
 	],
@@ -883,10 +884,12 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "색소체", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 1, "weight" : 0.294284, "common_noun" : 0},
-		{"id" : 1, "text" : "녹말", "type" : "MT_CHEMICAL", "begin" : 5, "end" : 5, "weight" : 0.68892, "common_noun" : 0},
-		{"id" : 2, "text" : "백색체", "type" : "TM_CELL_TISSUE", "begin" : 11, "end" : 11, "weight" : 0.277262, "common_noun" : 0},
-		{"id" : 3, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 30, "end" : 30, "weight" : 0.445506, "common_noun" : 0},
-		{"id" : 4, "text" : "DNA", "type" : "TM_CELL_TISSUE", "begin" : 31, "end" : 31, "weight" : 0.165322, "common_noun" : 0}
+		{"id" : 1, "text" : "녹말체", "type" : "TM_CELL_TISSUE", "begin" : 5, "end" : 6, "weight" : 0.68892, "common_noun" : 0},
+		{"id" : 2, "text" : "잡색체", "type" : "TM_CELL_TISSUE", "begin" : 8, "end" : 9, "weight" : 0.68892, "common_noun" : 0},
+		{"id" : 3, "text" : "백색체", "type" : "TM_CELL_TISSUE", "begin" : 11, "end" : 11, "weight" : 0.277262, "common_noun" : 0},
+		{"id" : 4, "text" : "색소체", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 1, "weight" : 0.294284, "common_noun" : 0},
+		{"id" : 5, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 30, "end" : 30, "weight" : 0.445506, "common_noun" : 0},
+		{"id" : 6, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 31, "end" : 31, "weight" : 0.165322, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1070,7 +1073,8 @@
 		{"id" : 1, "text" : "해캄", "type" : "PT_OTHERS", "begin" : 9, "end" : 9, "weight" : 0.156196, "common_noun" : 0},
 		{"id" : 2, "text" : "Spirogyra", "type" : "PT_OTHERS", "begin" : 11, "end" : 11, "weight" : 0.0886105, "common_noun" : 0},
 		{"id" : 3, "text" : "원통형", "type" : "TM_SHAPE", "begin" : 14, "end" : 15, "weight" : 1, "common_noun" : 0},
-		{"id" : 4, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 23, "end" : 23, "weight" : 0.326439, "common_noun" : 0}
+		{"id" : 4, "text" : "나선 모양", "type" : "TM_SHAPE", "begin" : 20, "end" : 21, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 23, "end" : 23, "weight" : 0.326439, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1138,6 +1142,8 @@
 		{"id" : 7, "text" : "있다.", "type" : "", "begin" : 13, "end" : 15}
 	],
 	"NE" : [
+		{"id" : 0, "text" : "별모양", "type" : "TM_SHAPE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "판모양", "type" : "TM_SHAPE", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
 	],
 	"chunk" : [
 	],
@@ -1190,7 +1196,7 @@
 		{"id" : 9, "text" : "단순하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 9, "end" : 10},
 		{"id" : 10, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "원반상", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 58, "begin" : 12, "end" : 13},
-		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 67, "begin" : 14, "end" : 14},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 16, "end" : 16}
 	],
@@ -1204,7 +1210,7 @@
 		{"id" : 6, "text" : "원반상이다.", "type" : "", "begin" : 12, "end" : 16}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "종자", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.150844, "common_noun" : 0},
+		{"id" : 0, "text" : "종자 식물", "type" : "PT_TYPE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 5, "end" : 5, "weight" : 0.269961, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -1298,7 +1304,7 @@
 		{"id" : 28, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 4.4, "position" : 148, "begin" : 32, "end" : 32},
 		{"id" : 29, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 151, "begin" : 33, "end" : 33},
 		{"id" : 30, "text" : "때문", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 155, "begin" : 34, "end" : 34},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 161, "begin" : 35, "end" : 35},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 161, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 36, "end" : 36},
 		{"id" : 33, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 37, "end" : 37}
 	],
@@ -1322,10 +1328,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "약 5μm", "type" : "QT_LENGTH", "begin" : 3, "end" : 5, "weight" : 0.593185, "common_noun" : 0},
-		{"id" : 1, "text" : "세포", "type" : "TM_CELL_TISSUE", "begin" : 13, "end" : 13, "weight" : 0.205949, "common_noun" : 0},
-		{"id" : 2, "text" : "세포", "type" : "TM_CELL_TISSUE", "begin" : 22, "end" : 22, "weight" : 0.255128, "common_noun" : 0},
-		{"id" : 3, "text" : "중앙부", "type" : "TM_DIRECTION", "begin" : 24, "end" : 25, "weight" : 0.646458, "common_noun" : 0},
-		{"id" : 4, "text" : "액포", "type" : "TM_CELL_TISSUE", "begin" : 27, "end" : 27, "weight" : 0.294443, "common_noun" : 0}
+		{"id" : 1, "text" : "중앙부", "type" : "TM_DIRECTION", "begin" : 24, "end" : 25, "weight" : 0.646458, "common_noun" : 0},
+		{"id" : 2, "text" : "액포", "type" : "TM_CELL_TISSUE", "begin" : 27, "end" : 27, "weight" : 0.294443, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1347,7 +1351,7 @@
 	"morp" : [
 		{"id" : 0, "lemma" : "원형", "type" : "NNG", "position" : 0, "weight" : 0 },
 		{"id" : 1, "lemma" : "질", "type" : "NNG", "position" : 6, "weight" : 0 },
-		{"id" : 2, "lemma" : "유동", "type" : "NNP", "position" : 10, "weight" : 0 },
+		{"id" : 2, "lemma" : "유동", "type" : "NNG", "position" : 10, "weight" : 0 },
 		{"id" : 3, "lemma" : "에", "type" : "JKB", "position" : 16, "weight" : 0 },
 		{"id" : 4, "lemma" : "의하", "type" : "VV", "position" : 20, "weight" : 0 },
 		{"id" : 5, "lemma" : "어", "type" : "EC", "position" : 20, "weight" : 0 },
@@ -1367,7 +1371,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "원형질", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
-		{"id" : 1, "text" : "유동", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 1, "text" : "유동", "type" : "NNG", "scode" : "02", "weight" : 0, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 2, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "의하", "type" : "VV", "scode" : "01", "weight" : 6.6, "position" : 20, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
@@ -1437,7 +1441,7 @@
 		{"id" : 3, "text" : "엽록체", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 5, "end" : 5},
-		{"id" : 6, "text" : "내막", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 48, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "내막", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 48, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "생체", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 61, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "내", "type" : "NNB", "scode" : "09", "weight" : 6.6, "position" : 68, "begin" : 9, "end" : 9},
@@ -1459,7 +1463,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "미토콘드리아", "type" : "MT_CHEMICAL", "begin" : 0, "end" : 0, "weight" : 0.125751, "common_noun" : 0},
-		{"id" : 1, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 3, "weight" : 0.296587, "common_noun" : 0}
+		{"id" : 1, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 3, "weight" : 0.296587, "common_noun" : 0},
+		{"id" : 2, "text" : "내막", "type" : "TM_CELL_TISSUE", "begin" : 6, "end" : 6, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1495,7 +1500,7 @@
 		{"id" : 13, "lemma" : "이", "type" : "JKS", "position" : 65, "weight" : 0 },
 		{"id" : 14, "lemma" : "일어나", "type" : "VV", "position" : 69, "weight" : 0 },
 		{"id" : 15, "lemma" : "며", "type" : "EC", "position" : 78, "weight" : 0 },
-		{"id" : 16, "lemma" : "틸라코이드", "type" : "NNP", "position" : 82, "weight" : 0 },
+		{"id" : 16, "lemma" : "틸라코이드", "type" : "NNG", "position" : 82, "weight" : 0 },
 		{"id" : 17, "lemma" : "이", "type" : "VCP", "position" : 91, "weight" : 0 },
 		{"id" : 18, "lemma" : "라고", "type" : "EC", "position" : 97, "weight" : 0 },
 		{"id" : 19, "lemma" : "하", "type" : "VV", "position" : 104, "weight" : 0 },
@@ -1510,17 +1515,17 @@
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "엽록체", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 4, "end" : 4},
-		{"id" : 5, "text" : "내막", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 33, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "내막", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 33, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "실질적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 43, "begin" : 7, "end" : 8},
-		{"id" : 8, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 49, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "광합성", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 11, "end" : 12},
 		{"id" : 11, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "일어나", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 69, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 15, "end" : 15},
-		{"id" : 14, "text" : "틸라코이드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 82, "begin" : 16, "end" : 16},
-		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 91, "begin" : 17, "end" : 17},
+		{"id" : 14, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 82, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 104, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 20, "end" : 20},
@@ -1538,7 +1543,7 @@
 		{"id" : 8, "text" : "한다.", "type" : "", "begin" : 19, "end" : 21}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "종자", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.152553, "common_noun" : 0},
+		{"id" : 0, "text" : "종자 식물", "type" : "PT_TYPE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 3, "weight" : 0.297318, "common_noun" : 0},
 		{"id" : 2, "text" : "내막", "type" : "TM_CELL_TISSUE", "begin" : 5, "end" : 5, "weight" : 0.180294, "common_noun" : 0},
 		{"id" : 3, "text" : "틸라코이드", "type" : "TM_CELL_TISSUE", "begin" : 16, "end" : 16, "weight" : 0.376298, "common_noun" : 0}
@@ -1596,9 +1601,9 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "원반", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "형", "type" : "XSN", "scode" : "08", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "형", "type" : "XSN", "scode" : "07", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "틸라코이드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 13, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "겹겹이", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 32, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "쌓이", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 42, "begin" : 6, "end" : 6},
@@ -1606,11 +1611,11 @@
 		{"id" : 8, "text" : "구조", "type" : "NNG", "scode" : "08", "weight" : 4.31667, "position" : 49, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "그라나", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 59, "begin" : 10, "end" : 10},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 59, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 75, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 14, "end" : 14},
-		{"id" : 15, "text" : "틸라코이드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 82, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 82, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "내부", "type" : "NNG", "scode" : "04", "weight" : 4.12857, "position" : 98, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "비", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 108, "begin" : 18, "end" : 18},
@@ -1642,9 +1647,10 @@
 		{"id" : 12, "text" : "한다.", "type" : "", "begin" : 27, "end" : 29}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "틸라코이드", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 3, "weight" : 0.21998, "common_noun" : 0},
-		{"id" : 1, "text" : "틸라코이드", "type" : "TM_CELL_TISSUE", "begin" : 15, "end" : 15, "weight" : 0.195548, "common_noun" : 0},
-		{"id" : 2, "text" : "lumen", "type" : "MT_CHEMICAL", "begin" : 24, "end" : 24, "weight" : 0.123028, "common_noun" : 0}
+		{"id" : 0, "text" : "원반형", "type" : "TM_SHAPE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "틸라코이드", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 3, "weight" : 0.21998, "common_noun" : 0},
+		{"id" : 2, "text" : "그라나", "type" : "TM_CELL_TISSUE", "begin" : 10, "end" : 10, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "틸라코이드", "type" : "TM_CELL_TISSUE", "begin" : 15, "end" : 15, "weight" : 0.195548, "common_noun" : 0},
 	],
 	"chunk" : [
 	],
@@ -1710,7 +1716,7 @@
 		{"id" : 13, "text" : "엽록소", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 73, "begin" : 16, "end" : 16},
 		{"id" : 14, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 17, "end" : 17},
 		{"id" : 15, "text" : "함께", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 86, "begin" : 18, "end" : 18},
-		{"id" : 16, "text" : "틸라코이드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 93, "begin" : 19, "end" : 19},
+		{"id" : 16, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 93, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "막", "type" : "NNG", "scode" : "06", "weight" : 3.13333, "position" : 108, "begin" : 20, "end" : 20},
 		{"id" : 18, "text" : "위", "type" : "NNG", "scode" : "01", "weight" : 4.60061, "position" : 112, "begin" : 21, "end" : 21},
 		{"id" : 19, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 22, "end" : 22},
@@ -1732,9 +1738,8 @@
 		{"id" : 10, "text" : "있다.", "type" : "", "begin" : 23, "end" : 25}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 14, "end" : 14, "weight" : 0.647844, "common_noun" : 0},
-		{"id" : 1, "text" : "엽록소", "type" : "MT_CHEMICAL", "begin" : 16, "end" : 16, "weight" : 0.592616, "common_noun" : 0},
-		{"id" : 2, "text" : "틸라코이드막", "type" : "TM_CELL_TISSUE", "begin" : 19, "end" : 20, "weight" : 0.428007, "common_noun" : 0}
+		{"id" : 0, "text" : "엽록소", "type" : "MT_CHEMICAL", "begin" : 16, "end" : 16, "weight" : 0.592616, "common_noun" : 0},
+		{"id" : 1, "text" : "틸라코이드막", "type" : "TM_CELL_TISSUE", "begin" : 19, "end" : 20, "weight" : 0.428007, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1811,7 +1816,7 @@
 		{"id" : 13, "text" : "녹색", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 82, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "잘", "type" : "MAG", "scode" : "02", "weight" : 6.6, "position" : 92, "begin" : 17, "end" : 17},
-		{"id" : 16, "text" : "흡수하", "type" : "VV", "scode" : "01", "weight" : 2.51636, "position" : 96, "begin" : 18, "end" : 19},
+		{"id" : 16, "text" : "흡수하", "type" : "VV", "scode" : "02", "weight" : 2.51636, "position" : 96, "begin" : 18, "end" : 19},
 		{"id" : 17, "text" : "지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 20, "end" : 20},
 		{"id" : 18, "text" : "않", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 21, "end" : 21},
 		{"id" : 19, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 22, "end" : 22},
@@ -1907,7 +1912,7 @@
 		{"id" : 29, "lemma" : ":", "type" : "SP", "position" : 129, "weight" : 0 },
 		{"id" : 30, "lemma" : "크산토필", "type" : "NNG", "position" : 131, "weight" : 0 },
 		{"id" : 31, "lemma" : ",", "type" : "SP", "position" : 143, "weight" : 0 },
-		{"id" : 32, "lemma" : "카로테노이드", "type" : "NNP", "position" : 145, "weight" : 0 },
+		{"id" : 32, "lemma" : "카로테노이드", "type" : "NNG", "position" : 145, "weight" : 0 },
 		{"id" : 33, "lemma" : ")", "type" : "SS", "position" : 163, "weight" : 0 },
 		{"id" : 34, "lemma" : "의", "type" : "JKG", "position" : 164, "weight" : 0 },
 		{"id" : 35, "lemma" : "색", "type" : "NNG", "position" : 168, "weight" : 0 },
@@ -1956,7 +1961,7 @@
 		{"id" : 28, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "크산토필", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 131, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 31, "end" : 31},
-		{"id" : 31, "text" : "카로테노이드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 145, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "카로테노이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 145, "begin" : 32, "end" : 32},
 		{"id" : 32, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 163, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 34, "end" : 34},
 		{"id" : 34, "text" : "색", "type" : "NNG", "scode" : "03", "weight" : 5.20857, "position" : 168, "begin" : 35, "end" : 35},
@@ -1994,8 +1999,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "엽록소", "type" : "MT_CHEMICAL", "begin" : 19, "end" : 19, "weight" : 0.302765, "common_noun" : 0},
 		{"id" : 1, "text" : "크산토필", "type" : "MT_CHEMICAL", "begin" : 30, "end" : 30, "weight" : 0.150083, "common_noun" : 0},
-		{"id" : 2, "text" : "카로테노이드", "type" : "MT_CHEMICAL", "begin" : 32, "end" : 32, "weight" : 0.163839, "common_noun" : 0},
-		{"id" : 3, "text" : "잎", "type" : "PT_PART", "begin" : 39, "end" : 39, "weight" : 0.42974, "common_noun" : 0}
+		{"id" : 2, "text" : "카로테노이드", "type" : "MT_CHEMICAL", "begin" : 32, "end" : 32, "weight" : 0.163839, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2063,37 +2067,36 @@
 		{"id" : 3, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "경우", "type" : "NNG", "scode" : "03", "weight" : 4.4, "position" : 18, "begin" : 5, "end" : 5},
-		{"id" : 6, "text" : "육상", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 25, "begin" : 6, "end" : 6},
-		{"id" : 7, "text" : "식물", "type" : "NNG", "scode" : "02", "weight" : 7.6, "position" : 31, "begin" : 7, "end" : 7},
-		{"id" : 8, "text" : "과", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 8, "end" : 8},
-		{"id" : 9, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 9, "end" : 9},
-		{"id" : 10, "text" : "달리", "type" : "MAG", "scode" : "01", "weight" : 6.6, "position" : 44, "begin" : 10, "end" : 10},
-		{"id" : 11, "text" : "틸라코이드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 11, "end" : 11},
-		{"id" : 12, "text" : "수", "type" : "NNG", "scode" : "26", "weight" : 4.28333, "position" : 67, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 13, "end" : 13},
-		{"id" : 14, "text" : "적", "type" : "VA", "scode" : "02", "weight" : 6.6, "position" : 74, "begin" : 14, "end" : 14},
-		{"id" : 15, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 15, "end" : 15},
-		{"id" : 16, "text" : "많", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 16, "end" : 16},
-		{"id" : 17, "text" : "음", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 17, "end" : 17},
-		{"id" : 18, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 18, "end" : 18},
-		{"id" : 19, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 9.74118, "position" : 91, "begin" : 19, "end" : 19},
-		{"id" : 20, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 20, "end" : 20},
-		{"id" : 21, "text" : "황금색", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 21, "end" : 22},
-		{"id" : 22, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 23, "end" : 23},
-		{"id" : 23, "text" : "갈색", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 24, "end" : 24},
-		{"id" : 24, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 25, "end" : 25},
-		{"id" : 25, "text" : "적색", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 117, "begin" : 26, "end" : 26},
-		{"id" : 26, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 27, "end" : 27},
-		{"id" : 27, "text" : "색", "type" : "NNG", "scode" : "03", "weight" : 7.39524, "position" : 130, "begin" : 28, "end" : 28},
-		{"id" : 28, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 29, "end" : 29},
-		{"id" : 29, "text" : "다르", "type" : "VA", "scode" : "01", "weight" : 4.4, "position" : 137, "begin" : 30, "end" : 30},
-		{"id" : 30, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 31, "end" : 31},
-		{"id" : 31, "text" : "보이", "type" : "VV", "scode" : "01", "weight" : 3.88234, "position" : 147, "begin" : 32, "end" : 32},
-		{"id" : 32, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 33, "end" : 33},
-		{"id" : 33, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 156, "begin" : 34, "end" : 34},
-		{"id" : 34, "text" : "하", "type" : "VX", "scode" : "01", "weight" : 4.4, "position" : 160, "begin" : 35, "end" : 35},
-		{"id" : 35, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 160, "begin" : 36, "end" : 36},
-		{"id" : 36, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 166, "begin" : 37, "end" : 37}
+		{"id" : 6, "text" : "육상식물", "type" : "NNG", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 6, "end" : 7},
+		{"id" : 7, "text" : "과", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "달리", "type" : "MAG", "scode" : "01", "weight" : 6.6, "position" : 44, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "틸라코이드", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 51, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "수", "type" : "NNG", "scode" : "26", "weight" : 4.28333, "position" : 67, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "적", "type" : "VA", "scode" : "02", "weight" : 6.6, "position" : 74, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "많", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "음", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 9.74118, "position" : 91, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "황금색", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 21, "end" : 22},
+		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "갈색", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "적색", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 117, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "색", "type" : "NNG", "scode" : "03", "weight" : 7.39524, "position" : 130, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : "다르", "type" : "VA", "scode" : "01", "weight" : 4.4, "position" : 137, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 31, "end" : 31},
+		{"id" : 30, "text" : "보이", "type" : "VV", "scode" : "01", "weight" : 3.88234, "position" : 147, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 156, "begin" : 34, "end" : 34},
+		{"id" : 33, "text" : "하", "type" : "VX", "scode" : "01", "weight" : 4.4, "position" : 160, "begin" : 35, "end" : 35},
+		{"id" : 34, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 160, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 166, "begin" : 37, "end" : 37}
 	],
 	"word" : [
 		{"id" : 0, "text" : "조류(藻類)의", "type" : "", "begin" : 0, "end" : 4},
@@ -2166,7 +2169,7 @@
 		{"id" : 1, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "독자적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 19, "begin" : 3, "end" : 4},
-		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "엽록체", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 32, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "DNA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 8, "end" : 8},
@@ -2195,9 +2198,9 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "스트로마", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.109261, "common_noun" : 0},
-		{"id" : 1, "text" : "엽록체 DNA", "type" : "TM_CELL_TISSUE", "begin" : 7, "end" : 8, "weight" : 0.195319, "common_noun" : 0},
-		{"id" : 2, "text" : "chlorphyll", "type" : "TM_CELL_TISSUE", "begin" : 12, "end" : 12, "weight" : 0.185171, "common_noun" : 0},
-		{"id" : 3, "text" : "DNA", "type" : "TM_CELL_TISSUE", "begin" : 13, "end" : 13, "weight" : 0.399431, "common_noun" : 0},
+		{"id" : 1, "text" : "엽록체 DNA", "type" : "MT_CHEMICAL", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "cpDNA", "type" : "MT_CHEMICAL", "begin" : 10, "end" : 10, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "chlorphyll DNA", "type" : "MT_CHEMICAL", "begin" : 12, "end" : 13, "weight" : 1, "common_noun" : 0},
 		{"id" : 4, "text" : "리보솜", "type" : "TM_CELL_TISSUE", "begin" : 16, "end" : 16, "weight" : 0.404823, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -2253,7 +2256,7 @@
 		{"id" : 10, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 12, "end" : 12},
 		{"id" : 11, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "모양", "type" : "NNG", "scode" : "02", "weight" : 7.6, "position" : 67, "begin" : 14, "end" : 14},
-		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 73, "begin" : 15, "end" : 15},
+		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 17, "end" : 17}
 	],
@@ -2268,8 +2271,8 @@
 		{"id" : 7, "text" : "모양이다.", "type" : "", "begin" : 14, "end" : 17}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "엽록체 DNA", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 1, "weight" : 0.202522, "common_noun" : 0},
-		{"id" : 1, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 6, "end" : 6, "weight" : 0.58818, "common_noun" : 0}
+		{"id" : 0, "text" : "엽록체 DNA", "type" : "MT_CHEMICAL", "begin" : 0, "end" : 1, "weight" : 0.202522, "common_noun" : 0},
+		{"id" : 1, "text" : "세포핵", "type" : "TM_CELL_TISSUE", "begin" : 9, "end" : 10, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2333,7 +2336,7 @@
 		{"id" : 1, "text" : "DNA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 2, "text" : "결합", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 16, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "단백질", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 22, "begin" : 4, "end" : 4},
-		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 22, "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "히스티딘", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 35, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "이나", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 47, "begin" : 8, "end" : 8},
@@ -2383,15 +2386,16 @@
 		{"id" : 15, "text" : "않는다.", "type" : "", "begin" : 33, "end" : 35}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "진핵생물 DNA결합단", "type" : "TR_SCIENCE", "begin" : 0, "end" : 6, "weight" : 0.100293, "common_noun" : 0},
+		{"id" : 0, "text" : "DNA결합단백질", "type" : "MT_CHEMICAL", "begin" : 2, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "히스티딘", "type" : "MT_CHEMICAL", "begin" : 7, "end" : 7, "weight" : 0.200053, "common_noun" : 0},
-		{"id" : 2, "text" : "세균", "type" : "AM_TYPE", "begin" : 9, "end" : 9, "weight" : 0.389364, "common_noun" : 0},
+		{"id" : 2, "text" : "세균", "type" : "AM_OTHERS", "begin" : 9, "end" : 9, "weight" : 0.389364, "common_noun" : 0},
 		{"id" : 3, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 11, "end" : 11, "weight" : 0.506417, "common_noun" : 0},
 		{"id" : 4, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 13, "end" : 13, "weight" : 0.631361, "common_noun" : 0},
-		{"id" : 5, "text" : "DPS", "type" : "MT_CHEMICAL", "begin" : 19, "end" : 19, "weight" : 0.161758, "common_noun" : 0},
-		{"id" : 6, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 22, "end" : 22, "weight" : 0.555321, "common_noun" : 0},
-		{"id" : 7, "text" : "녹색", "type" : "TM_COLOR", "begin" : 24, "end" : 24, "weight" : 0.233569, "common_noun" : 0},
-		{"id" : 8, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 27, "end" : 27, "weight" : 0.26713, "common_noun" : 0}
+		{"id" : 5, "text" : "HU", "type" : "MT_CHEMICAL", "begin" : 17, "end" : 17, "weight" : 1, "common_noun" : 0},
+		{"id" : 6, "text" : "DPS", "type" : "MT_CHEMICAL", "begin" : 19, "end" : 19, "weight" : 0.161758, "common_noun" : 0},
+		{"id" : 7, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 22, "end" : 22, "weight" : 0.555321, "common_noun" : 0},
+		{"id" : 8, "text" : "녹색", "type" : "TM_COLOR", "begin" : 24, "end" : 24, "weight" : 0.233569, "common_noun" : 0},
+		{"id" : 9, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 27, "end" : 27, "weight" : 0.26713, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2460,8 +2464,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "아황산", "type" : "MT_CHEMICAL", "begin" : 2, "end" : 2, "weight" : 0.471929, "common_noun" : 0},
-		{"id" : 1, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 6, "end" : 6, "weight" : 0.682381, "common_noun" : 0},
-		{"id" : 2, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 8, "end" : 8, "weight" : 0.55911, "common_noun" : 0}
+		{"id" : 1, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 6, "end" : 6, "weight" : 0.682381, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2514,7 +2517,7 @@
 		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "전사", "type" : "NNG", "scode" : "14", "weight" : 5.4, "position" : 48, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 11, "end" : 11},
-		{"id" : 11, "text" : "번역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "번역", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 56, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "과정", "type" : "NNG", "scode" : "03", "weight" : 3.2, "position" : 62, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "일어나", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 72, "begin" : 15, "end" : 15},
@@ -2535,7 +2538,7 @@
 		{"id" : 0, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.299555, "common_noun" : 0},
 		{"id" : 1, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 1, "end" : 1, "weight" : 0.213289, "common_noun" : 0},
 		{"id" : 2, "text" : "세포핵", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 4, "weight" : 0.132241, "common_noun" : 0},
-		{"id" : 3, "text" : "DNA", "type" : "TM_CELL_TISSUE", "begin" : 6, "end" : 6, "weight" : 0.273631, "common_noun" : 0}
+		{"id" : 3, "text" : "DNA", "type" : "MT_CHEMICAL", "begin" : 6, "end" : 6, "weight" : 0.273631, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2609,9 +2612,7 @@
 		{"id" : 7, "text" : "있다.", "type" : "", "begin" : 17, "end" : 19}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.246638, "common_noun" : 0},
-		{"id" : 1, "text" : "식물세포", "type" : "TM_CELL_TISSUE", "begin" : 2, "end" : 3, "weight" : 0.146396, "common_noun" : 0},
-		{"id" : 2, "text" : "대사", "type" : "CV_POSITION", "begin" : 5, "end" : 5, "weight" : 1, "common_noun" : 0}
+		{"id" : 0, "text" : "엽록체", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.246638, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2694,7 +2695,6 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "질소", "type" : "MT_ELEMENT", "begin" : 4, "end" : 4, "weight" : 0.569492, "common_noun" : 0},
-		{"id" : 1, "text" : "대사", "type" : "CV_POSITION", "begin" : 5, "end" : 5, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "아미노산", "type" : "MT_CHEMICAL", "begin" : 7, "end" : 7, "weight" : 0.251643, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -2767,7 +2767,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "독자적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
-		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 6, "begin" : 2, "end" : 2},
+		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 2, "end" : 2},
 		{"id" : 2, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "게놈", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "DNA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
@@ -2780,7 +2780,7 @@
 		{"id" : 11, "text" : "는데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "이", "type" : "NP", "scode" : "05", "weight" : 3.2, "position" : 60, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 14, "end" : 14},
-		{"id" : 14, "text" : "진핵", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "진핵", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 67, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "광합성", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 74, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "생물", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 83, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 18, "end" : 18},
@@ -2799,7 +2799,7 @@
 		{"id" : 30, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 161, "begin" : 33, "end" : 33},
 		{"id" : 31, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 2.2, "position" : 165, "begin" : 34, "end" : 34},
 		{"id" : 32, "text" : "때문", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 169, "begin" : 35, "end" : 35},
-		{"id" : 33, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 169, "begin" : 36, "end" : 36},
+		{"id" : 33, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 36, "end" : 36},
 		{"id" : 34, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 37, "end" : 37},
 		{"id" : 35, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 2.2, "position" : 179, "begin" : 38, "end" : 38},
 		{"id" : 36, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 182, "begin" : 39, "end" : 39},

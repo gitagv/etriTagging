@@ -33,7 +33,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "한", "type" : "MM", "scode" : "01", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "달", "type" : "NNB", "scode" : "05", "weight" : 5.2, "position" : 4, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "새", "type" : "NNG", "scode" : "03", "weight" : 2.13103, "position" : 8, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "새", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 8, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "억", "type" : "NR", "scode" : "04", "weight" : 3, "position" : 13, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "껑충", "type" : "MAG", "scode" : "01", "weight" : 1, "position" : 17, "begin" : 5, "end" : 5},
@@ -41,10 +41,10 @@
 		{"id" : 7, "text" : "집값", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 7, "end" : 8},
 		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "과열", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 35, "begin" : 10, "end" : 10},
-		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 35, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "ㄴ가", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "회복", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 13, "end" : 13},
-		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 48, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "ㄴ가", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 16, "end" : 16}
 	],
@@ -192,7 +192,7 @@
 		{"id" : 15, "text" : "권", "type" : "XSN", "scode" : "07", "weight" : 3.94118, "position" : 101, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "거래량", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 105, "begin" : 19, "end" : 20},
 		{"id" : 17, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 21, "end" : 21},
-		{"id" : 18, "text" : "사상", "type" : "NNG", "scode" : "10", "weight" : 2.82, "position" : 118, "begin" : 22, "end" : 22},
+		{"id" : 18, "text" : "사상", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 118, "begin" : 22, "end" : 22},
 		{"id" : 19, "text" : "최고", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 125, "begin" : 23, "end" : 23},
 		{"id" : 20, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 24, "end" : 24},
 		{"id" : 21, "text" : "치솟", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 135, "begin" : 25, "end" : 25},
@@ -295,7 +295,7 @@
 		{"id" : 10, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "2008", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 6.3888, "position" : 50, "begin" : 13, "end" : 13},
-		{"id" : 13, "text" : "글로벌", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 54, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "글로벌", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 54, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "금융", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 64, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "위기", "type" : "NNG", "scode" : "01", "weight" : 5.4, "position" : 71, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "후", "type" : "NNG", "scode" : "08", "weight" : 5.2, "position" : 78, "begin" : 17, "end" : 17},
@@ -346,7 +346,8 @@
 		{"id" : 20, "text" : "있다.", "type" : "", "begin" : 39, "end" : 41}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "2008년", "type" : "DT_YEAR", "begin" : 12, "end" : 13, "weight" : 0.819032, "common_noun" : 0}
+		{"id" : 0, "text" : "2008년", "type" : "DT_YEAR", "begin" : 12, "end" : 13, "weight" : 0.819032, "common_noun" : 0},
+		{"id" : 1, "text" : "글로벌 금융 위기", "type" : "EV_OTHERS", "begin" : 14, "end" : 16, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -543,9 +544,9 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "대선", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "대선", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "직전", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 7, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 5.4, "position" : 18, "begin" : 5, "end" : 5},
@@ -563,7 +564,7 @@
 		{"id" : 17, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 18, "end" : 18},
 		{"id" : 18, "text" : "10", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 19, "end" : 19},
 		{"id" : 19, "text" : "배", "type" : "NNG", "scode" : "09", "weight" : 2.86667, "position" : 70, "begin" : 20, "end" : 20},
-		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 70, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 21, "end" : 21},
 		{"id" : 21, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 22, "end" : 22},
 		{"id" : 22, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 23, "end" : 23}
 	],
@@ -579,9 +580,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "대선", "type" : "EV_OTHERS", "begin" : 0, "end" : 0, "weight" : 0.732137, "common_noun" : 0},
-		{"id" : 1, "text" : "4월 28일 주간", "type" : "DT_DURATION", "begin" : 4, "end" : 8, "weight" : 0.755976, "common_noun" : 0},
-		{"id" : 2, "text" : "0.03%", "type" : "QT_PERCENTAGE", "begin" : 12, "end" : 13, "weight" : 0.740753, "common_noun" : 0},
-		{"id" : 3, "text" : "10배", "type" : "QT_PERCENTAGE", "begin" : 19, "end" : 21, "weight" : 0.428212, "common_noun" : 0}
+		{"id" : 1, "text" : "4월 28일", "type" : "DT_OTHERS", "begin" : 4, "end" : 7, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "주간", "type" : "DT_DURATION", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "0.03%", "type" : "QT_PERCENTAGE", "begin" : 12, "end" : 13, "weight" : 0.740753, "common_noun" : 0},
+		{"id" : 4, "text" : "10배", "type" : "QT_PERCENTAGE", "begin" : 19, "end" : 20, "weight" : 0.428212, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -686,7 +688,7 @@
 		{"id" : 0, "text" : "인터넷", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "부동산", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 1, "end" : 2},
 		{"id" : 2, "text" : "관련", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 3},
-		{"id" : 3, "text" : "카페", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "카페", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 27, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 7, "end" : 7},
@@ -794,7 +796,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "인터넷", "type" : "TMI_SERVICE", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
-		{"id" : 1, "text" : "계약금", "type" : "CV_LAW", "begin" : 20, "end" : 21, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "부동산 관련 카페", "type" : "TMI_SERVICE", "begin" : 1, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "4월", "type" : "DT_MONTH", "begin" : 31, "end" : 32, "weight" : 0.63354, "common_noun" : 0},
 		{"id" : 3, "text" : "1억 원", "type" : "QT_PRICE", "begin" : 43, "end" : 45, "weight" : 0.770297, "common_noun" : 0},
 		{"id" : 4, "text" : "눈", "type" : "AM_PART", "begin" : 73, "end" : 73, "weight" : 0.348467, "common_noun" : 0}
@@ -854,11 +856,11 @@
 		{"id" : 8, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 10, "end" : 10},
 		{"id" : 9, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 12, "end" : 12},
-		{"id" : 11, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 3, "position" : 47, "begin" : 13, "end" : 13},
+		{"id" : 11, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 47, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "재건축", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 54, "begin" : 14, "end" : 15},
 		{"id" : 13, "text" : "아파트", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 64, "begin" : 16, "end" : 16},
 		{"id" : 14, "text" : "단지", "type" : "NNG", "scode" : "08", "weight" : 3.19429, "position" : 74, "begin" : 17, "end" : 17},
-		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 74, "begin" : 18, "end" : 18},
+		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 83, "begin" : 20, "end" : 20},
 		{"id" : 18, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 21, "end" : 21}
@@ -925,7 +927,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "강동구", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "둔촌동", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "주공", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 20, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "주공", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 20, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "단지", "type" : "NNG", "scode" : "08", "weight" : 1, "position" : 28, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "전용면적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 35, "begin" : 5, "end" : 6},
@@ -1030,7 +1032,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 2.2, "position" : 1, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "초", "type" : "NNB", "scode" : "07", "weight" : 1.11429, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "초", "type" : "NNB", "scode" : "03", "weight" : 1, "position" : 5, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "ㄴ", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 5, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 12, "begin" : 5, "end" : 5},
@@ -1059,7 +1061,7 @@
 		{"id" : 28, "text" : "오르", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 115, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "셈", "type" : "NNB", "scode" : "01", "weight" : 3.2, "position" : 122, "begin" : 31, "end" : 31},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 125, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 32, "end" : 32},
 		{"id" : 32, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 34, "end" : 34}
 	],
@@ -1083,7 +1085,7 @@
 		{"id" : 16, "text" : "셈이다.", "type" : "", "begin" : 31, "end" : 34}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "4월 초", "type" : "DT_OTHERS", "begin" : 0, "end" : 4, "weight" : 0.553036, "common_noun" : 0},
+		{"id" : 0, "text" : "4월 초", "type" : "DT_OTHERS", "begin" : 0, "end" : 2, "weight" : 0.553036, "common_noun" : 0},
 		{"id" : 1, "text" : "7억 8700만 원", "type" : "QT_PRICE", "begin" : 10, "end" : 14, "weight" : 0.77956, "common_noun" : 0},
 		{"id" : 2, "text" : "한 달", "type" : "DT_DURATION", "begin" : 20, "end" : 21, "weight" : 0.764607, "common_noun" : 0},
 		{"id" : 3, "text" : "7000만 원", "type" : "QT_PRICE", "begin" : 25, "end" : 27, "weight" : 0.849912, "common_noun" : 0}
@@ -1136,7 +1138,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 3, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "서울", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강남구", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "삼성동", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "홍실", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 27, "begin" : 3, "end" : 3},
@@ -1307,7 +1309,7 @@
 		{"id" : 12, "text" : "오르", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 2.2, "position" : 46, "begin" : 14, "end" : 14},
-		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 49, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 17, "end" : 17}
 	],
@@ -1416,7 +1418,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "고종완", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "한국자산관리연구원", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "장", "type" : "NNG", "scode" : "25", "weight" : 1, "position" : 37, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "장", "type" : "NNG", "scode" : "14", "weight" : 1, "position" : 37, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "내년", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 45, "begin" : 5, "end" : 5},
@@ -1466,7 +1468,7 @@
 		{"id" : 49, "text" : "뛰", "type" : "VV", "scode" : "01", "weight" : 2, "position" : 273, "begin" : 53, "end" : 53},
 		{"id" : 50, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 276, "begin" : 54, "end" : 54},
 		{"id" : 51, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 280, "begin" : 55, "end" : 55},
-		{"id" : 52, "text" : "쌍끌이", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 281, "begin" : 56, "end" : 56},
+		{"id" : 52, "text" : "쌍끌이", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 281, "begin" : 56, "end" : 56},
 		{"id" : 53, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 280, "begin" : 57, "end" : 57},
 		{"id" : 54, "text" : "장세", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 292, "begin" : 58, "end" : 58},
 		{"id" : 55, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 298, "begin" : 59, "end" : 59},
@@ -1509,8 +1511,7 @@
 		{"id" : 0, "text" : "고종완", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.519877, "common_noun" : 0},
 		{"id" : 1, "text" : "한국자산관리연구원장", "type" : "CV_POSITION", "begin" : 1, "end" : 2, "weight" : 0.306364, "common_noun" : 0},
 		{"id" : 2, "text" : "내년부터", "type" : "DT_OTHERS", "begin" : 5, "end" : 6, "weight" : 0.722127, "common_noun" : 0},
-		{"id" : 3, "text" : "초과이익환수제", "type" : "CV_LAW", "begin" : 15, "end" : 18, "weight" : 0.275322, "common_noun" : 0},
-		{"id" : 4, "text" : "쌍끌이", "type" : "PS_NAME", "begin" : 56, "end" : 56, "weight" : 0.138181, "common_noun" : 0}
+		{"id" : 3, "text" : "초과이익환수제", "type" : "CV_LAW", "begin" : 15, "end" : 18, "weight" : 0.275322, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1594,7 +1595,7 @@
 		{"id" : 11, "text" : "대하", "type" : "VV", "scode" : "02", "weight" : 6.4, "position" : 69, "begin" : 16, "end" : 17},
 		{"id" : 12, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 18, "end" : 18},
 		{"id" : 13, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 19, "end" : 19},
-		{"id" : 14, "text" : "대선", "type" : "NNG", "scode" : "03", "weight" : 0.230769, "position" : 77, "begin" : 20, "end" : 20},
+		{"id" : 14, "text" : "대선", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 77, "begin" : 20, "end" : 20},
 		{"id" : 15, "text" : "이후", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 84, "begin" : 21, "end" : 21},
 		{"id" : 16, "text" : "정치적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 91, "begin" : 22, "end" : 23},
 		{"id" : 17, "text" : "불확실성", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 101, "begin" : 24, "end" : 26},
@@ -1751,7 +1752,7 @@
 		{"id" : 22, "text" : "않", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 120, "begin" : 26, "end" : 26},
 		{"id" : 23, "text" : "을", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 27, "end" : 27},
 		{"id" : 24, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 6.6, "position" : 127, "begin" : 28, "end" : 28},
-		{"id" : 25, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 130, "begin" : 29, "end" : 29},
+		{"id" : 25, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 29, "end" : 29},
 		{"id" : 26, "text" : "란", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 30, "end" : 30},
 		{"id" : 27, "text" : "기대감", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 137, "begin" : 31, "end" : 32},
 		{"id" : 28, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 33, "end" : 33},
@@ -1771,7 +1772,7 @@
 		{"id" : 42, "text" : "다는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 219, "begin" : 48, "end" : 48},
 		{"id" : 43, "text" : "전망", "type" : "NNG", "scode" : "03", "weight" : 2.2, "position" : 226, "begin" : 49, "end" : 49},
 		{"id" : 44, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 232, "begin" : 50, "end" : 50},
-		{"id" : 45, "text" : "매수", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 236, "begin" : 51, "end" : 51},
+		{"id" : 45, "text" : "매수", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 236, "begin" : 51, "end" : 51},
 		{"id" : 46, "text" : "심리", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 243, "begin" : 52, "end" : 52},
 		{"id" : 47, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 249, "begin" : 53, "end" : 53},
 		{"id" : 48, "text" : "끌어올리", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 253, "begin" : 54, "end" : 54},
@@ -1822,7 +1823,8 @@
 		{"id" : 1, "text" : "부동산114", "type" : "OGG_ECONOMY", "begin" : 1, "end" : 3, "weight" : 0.39784, "common_noun" : 0},
 		{"id" : 2, "text" : "책임연구원", "type" : "CV_POSITION", "begin" : 4, "end" : 6, "weight" : 0.704403, "common_noun" : 0},
 		{"id" : 3, "text" : "문재인", "type" : "PS_NAME", "begin" : 9, "end" : 9, "weight" : 0.397102, "common_noun" : 0},
-		{"id" : 4, "text" : "정부", "type" : "OGG_POLITICS", "begin" : 10, "end" : 10, "weight" : 0.489519, "common_noun" : 0}
+		{"id" : 4, "text" : "정부", "type" : "OGG_POLITICS", "begin" : 10, "end" : 10, "weight" : 0.489519, "common_noun" : 0},
+		{"id" : 5, "text" : "도시 재생 정책", "type" : "CV_LAW", "begin" : 35, "end" : 37, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1893,7 +1895,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "대형", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "건설사", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 2},
+		{"id" : 1, "text" : "건설사", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 7, "begin" : 1, "end" : 2},
 		{"id" : 2, "text" : "관계자", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 3, "end" : 4},
 		{"id" : 3, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 5, "end" : 5},
 		{"id" : 4, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 6, "end" : 6},
@@ -1956,8 +1958,9 @@
 		{"id" : 19, "text" : "말했다.", "type" : "", "begin" : 41, "end" : 45}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "서울", "type" : "LCP_CAPITALCITY", "begin" : 7, "end" : 7, "weight" : 0.526627, "common_noun" : 0},
-		{"id" : 1, "text" : "수도권", "type" : "LC_OTHERS", "begin" : 9, "end" : 10, "weight" : 0.733906, "common_noun" : 0}
+		{"id" : 0, "text" : "관계자", "type" : "CV_POSITION", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "서울", "type" : "LCP_CAPITALCITY", "begin" : 7, "end" : 7, "weight" : 0.526627, "common_noun" : 0},
+		{"id" : 2, "text" : "수도권", "type" : "LC_OTHERS", "begin" : 9, "end" : 10, "weight" : 0.733906, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2162,7 +2165,7 @@
 		{"id" : 8, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "부산", "type" : "NNP", "scode" : "02", "weight" : 6.5, "position" : 63, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 11, "end" : 11},
-		{"id" : 11, "text" : "세종", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 71, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "세종", "type" : "NNP", "scode" : "99", "weight" : 1, "position" : 71, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 21.3, "position" : 78, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "일부", "type" : "NNG", "scode" : "02", "weight" : 9.2, "position" : 82, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "지역", "type" : "NNG", "scode" : "03", "weight" : 5.4, "position" : 89, "begin" : 15, "end" : 15},
@@ -2183,9 +2186,9 @@
 		{"id" : 29, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 34, "end" : 34},
 		{"id" : 30, "text" : "부동산", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 178, "begin" : 35, "end" : 36},
 		{"id" : 31, "text" : "활황", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 188, "begin" : 37, "end" : 37},
-		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 194, "begin" : 38, "end" : 38},
+		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 38, "end" : 38},
 		{"id" : 33, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 197, "begin" : 39, "end" : 39},
-		{"id" : 34, "text" : "글로벌", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 201, "begin" : 40, "end" : 40},
+		{"id" : 34, "text" : "글로벌", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 201, "begin" : 40, "end" : 40},
 		{"id" : 35, "text" : "금융", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 211, "begin" : 41, "end" : 41},
 		{"id" : 36, "text" : "위기", "type" : "NNG", "scode" : "01", "weight" : 4.2, "position" : 218, "begin" : 42, "end" : 42},
 		{"id" : 37, "text" : "직전", "type" : "NNG", "scode" : "02", "weight" : 2, "position" : 225, "begin" : 43, "end" : 43},
@@ -2239,9 +2242,10 @@
 		{"id" : 2, "text" : "시장분석연구부장", "type" : "CV_POSITION", "begin" : 2, "end" : 5, "weight" : 0.720049, "common_noun" : 0},
 		{"id" : 3, "text" : "서울", "type" : "LCP_CAPITALCITY", "begin" : 8, "end" : 8, "weight" : 0.431421, "common_noun" : 0},
 		{"id" : 4, "text" : "부산", "type" : "LCP_CITY", "begin" : 10, "end" : 10, "weight" : 0.341455, "common_noun" : 0},
-		{"id" : 5, "text" : "세종", "type" : "PS_NAME", "begin" : 12, "end" : 12, "weight" : 0.406467, "common_noun" : 0},
+		{"id" : 5, "text" : "세종", "type" : "LCP_CITY", "begin" : 12, "end" : 12, "weight" : 1, "common_noun" : 0},
 		{"id" : 6, "text" : "서울", "type" : "LCP_CAPITALCITY", "begin" : 30, "end" : 30, "weight" : 0.57926, "common_noun" : 0},
-		{"id" : 7, "text" : "수", "type" : "LC_OTHERS", "begin" : 32, "end" : 33, "weight" : 0.60001, "common_noun" : 0}
+		{"id" : 7, "text" : "수도권", "type" : "LC_OTHERS", "begin" : 32, "end" : 33, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "글로벌 금융 위기", "type" : "EV_OTHERS", "begin" : 40, "end" : 42, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2417,9 +2421,10 @@
 		{"id" : 4, "text" : "1916만 원", "type" : "QT_PRICE", "begin" : 19, "end" : 21, "weight" : 0.567489, "common_noun" : 0},
 		{"id" : 5, "text" : "9.6%", "type" : "QT_PERCENTAGE", "begin" : 23, "end" : 24, "weight" : 0.75499, "common_noun" : 0},
 		{"id" : 6, "text" : "GDP", "type" : "TR_SOCIAL_SCIENCE", "begin" : 33, "end" : 33, "weight" : 0.162518, "common_noun" : 0},
-		{"id" : 7, "text" : "1조 17억 달러", "type" : "QT_PRICE", "begin" : 40, "end" : 44, "weight" : 0.689318, "common_noun" : 0},
-		{"id" : 8, "text" : "1조 4110억 달러", "type" : "QT_PRICE", "begin" : 46, "end" : 50, "weight" : 0.480315, "common_noun" : 0},
-		{"id" : 9, "text" : "41%", "type" : "QT_PERCENTAGE", "begin" : 52, "end" : 53, "weight" : 0.598519, "common_noun" : 0}
+		{"id" : 7, "text" : "국내총생산", "type" : "TR_SOCIAL_SCIENCE", "begin" : 35, "end" : 37, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "1조 17억 달러", "type" : "QT_PRICE", "begin" : 40, "end" : 44, "weight" : 0.689318, "common_noun" : 0},
+		{"id" : 9, "text" : "1조 4110억 달러", "type" : "QT_PRICE", "begin" : 46, "end" : 50, "weight" : 0.480315, "common_noun" : 0},
+		{"id" : 10, "text" : "41%", "type" : "QT_PERCENTAGE", "begin" : 52, "end" : 53, "weight" : 0.598519, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2524,9 +2529,10 @@
 	"NE" : [
 		{"id" : 0, "text" : "종합주가지수", "type" : "TR_SOCIAL_SCIENCE", "begin" : 0, "end" : 2, "weight" : 0.277666, "common_noun" : 0},
 		{"id" : 1, "text" : "코스피", "type" : "TR_SOCIAL_SCIENCE", "begin" : 4, "end" : 4, "weight" : 0.404728, "common_noun" : 0},
-		{"id" : 2, "text" : "2085포인트", "type" : "QT_OTHERS", "begin" : 14, "end" : 15, "weight" : 0.418011, "common_noun" : 0},
-		{"id" : 3, "text" : "2007년 11월 1일", "type" : "DT_OTHERS", "begin" : 17, "end" : 22, "weight" : 0.901717, "common_noun" : 0},
-		{"id" : 4, "text" : "13%", "type" : "QT_PERCENTAGE", "begin" : 25, "end" : 26, "weight" : 0.798231, "common_noun" : 0}
+		{"id" : 2, "text" : "글로벌 금융 위기", "type" : "EV_OTHERS", "begin" : 7, "end" : 9, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "2085포인트", "type" : "QT_OTHERS", "begin" : 14, "end" : 15, "weight" : 0.418011, "common_noun" : 0},
+		{"id" : 4, "text" : "2007년 11월 1일", "type" : "DT_OTHERS", "begin" : 17, "end" : 22, "weight" : 0.901717, "common_noun" : 0},
+		{"id" : 5, "text" : "13%", "type" : "QT_PERCENTAGE", "begin" : 25, "end" : 26, "weight" : 0.798231, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2548,7 +2554,7 @@
 	"morp" : [
 		{"id" : 0, "lemma" : "그렇", "type" : "VA", "position" : 0, "weight" : 0 },
 		{"id" : 1, "lemma" : "다고", "type" : "EC", "position" : 6, "weight" : 0 },
-		{"id" : 2, "lemma" : "지나칠", "type" : "VA", "position" : 13, "weight" : 0 },
+		{"id" : 2, "lemma" : "지나치", "type" : "VA", "position" : 13, "weight" : 0 },
 		{"id" : 3, "lemma" : "ㄴ", "type" : "ETM", "position" : 13, "weight" : 0 },
 		{"id" : 4, "lemma" : "낙관", "type" : "NNG", "position" : 23, "weight" : 0 },
 		{"id" : 5, "lemma" : "론", "type" : "XSN", "position" : 29, "weight" : 0 },
@@ -2571,19 +2577,19 @@
 	"WSD" : [
 		{"id" : 0, "text" : "그렇", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "다고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "지나칠", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "지나치", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "낙관론", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 4, "end" : 5},
 		{"id" : 5, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "금물", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 36, "begin" : 7, "end" : 7},
-		{"id" : 7, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 42, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 6.4, "position" : 52, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "전문", "type" : "NNG", "scode" : "08", "weight" : 1, "position" : 56, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "가들", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 62, "begin" : 13, "end" : 14},
-		{"id" : 13, "text" : "지적", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 69, "begin" : 15, "end" : 15},
-		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 75, "begin" : 16, "end" : 16},
+		{"id" : 13, "text" : "지적", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 69, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 18, "end" : 18}
 	],
@@ -2824,7 +2830,7 @@
 		{"id" : 0, "text" : "이남수", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.437543, "common_noun" : 0},
 		{"id" : 1, "text" : "신한금융투자", "type" : "OGG_ECONOMY", "begin" : 1, "end" : 3, "weight" : 0.857795, "common_noun" : 0},
 		{"id" : 2, "text" : "부동산팀장", "type" : "CV_POSITION", "begin" : 4, "end" : 6, "weight" : 0.253452, "common_noun" : 0},
-		{"id" : 3, "text" : "하반", "type" : "PS_NAME", "begin" : 9, "end" : 12, "weight" : 0.252493, "common_noun" : 0},
+		{"id" : 3, "text" : "하반기", "type" : "DT_DURATION", "begin" : 9, "end" : 10, "weight" : 1, "common_noun" : 0},
 		{"id" : 4, "text" : "정부", "type" : "OGG_POLITICS", "begin" : 30, "end" : 30, "weight" : 0.539896, "common_noun" : 0}
 	],
 	"chunk" : [

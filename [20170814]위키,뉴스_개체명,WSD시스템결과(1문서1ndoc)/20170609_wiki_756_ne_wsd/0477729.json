@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "프렌치 인디언 전쟁", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -17,7 +17,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "프렌치", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "프렌치", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "인디언", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 2, "end" : 2}
 	],
@@ -104,7 +104,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "프렌치", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "프렌치", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "인디언", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 3, "end" : 3},
@@ -135,7 +135,7 @@
 		{"id" : 28, "text" : "북아메리카", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 126, "begin" : 28, "end" : 28},
 		{"id" : 29, "text" : "대륙", "type" : "NNG", "scode" : "01", "weight" : 7, "position" : 142, "begin" : 29, "end" : 29},
 		{"id" : 30, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 148, "begin" : 30, "end" : 30},
-		{"id" : 31, "text" : "오하이오", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 155, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "오하이오", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 155, "begin" : 31, "end" : 31},
 		{"id" : 32, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.5, "position" : 168, "begin" : 32, "end" : 32},
 		{"id" : 33, "text" : "주변", "type" : "NNG", "scode" : "04", "weight" : 3.2, "position" : 172, "begin" : 33, "end" : 33},
 		{"id" : 34, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 178, "begin" : 34, "end" : 34},
@@ -153,7 +153,7 @@
 		{"id" : 46, "text" : "식민지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 248, "begin" : 46, "end" : 47},
 		{"id" : 47, "text" : "쟁탈", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 258, "begin" : 48, "end" : 48},
 		{"id" : 48, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 265, "begin" : 49, "end" : 49},
-		{"id" : 49, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 271, "begin" : 50, "end" : 50},
+		{"id" : 49, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 271, "begin" : 50, "end" : 50},
 		{"id" : 50, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 274, "begin" : 51, "end" : 51},
 		{"id" : 51, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 277, "begin" : 52, "end" : 52}
 	],
@@ -294,7 +294,7 @@
 		{"id" : 31, "text" : "-", "type" : "SO", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 31, "end" : 31},
 		{"id" : 32, "text" : "인디언", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 160, "begin" : 32, "end" : 32},
 		{"id" : 33, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 170, "begin" : 33, "end" : 33},
-		{"id" : 34, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 176, "begin" : 34, "end" : 34},
+		{"id" : 34, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 176, "begin" : 34, "end" : 34},
 		{"id" : 35, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 179, "begin" : 35, "end" : 35},
 		{"id" : 36, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 5.5, "position" : 186, "begin" : 36, "end" : 36},
 		{"id" : 37, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 186, "begin" : 37, "end" : 37},
@@ -410,7 +410,7 @@
 		{"id" : 10, "text" : "백", "type" : "NR", "scode" : "05", "weight" : 5.7, "position" : 40, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 9.44462, "position" : 43, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 46, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 52, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 6.6, "position" : 65, "begin" : 16, "end" : 16},
@@ -527,11 +527,11 @@
 	"WSD" : [
 		{"id" : 0, "text" : "프랑스", "type" : "NNP", "scode" : "02", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "미시시피", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "미시시피", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 8.5, "position" : 26, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "서쪽", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 30, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 5, "end" : 5},
-		{"id" : 6, "text" : "루이지애나", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 40, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "루이지애나", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 40, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "동맹국", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 59, "begin" : 8, "end" : 9},
 		{"id" : 9, "text" : "스페인", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 69, "begin" : 10, "end" : 10},
@@ -546,14 +546,14 @@
 		{"id" : 18, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "패전", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 119, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 22, "end" : 22},
-		{"id" : 21, "text" : "플로리다", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 132, "begin" : 23, "end" : 23},
+		{"id" : 21, "text" : "플로리다", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 132, "begin" : 23, "end" : 23},
 		{"id" : 22, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 24, "end" : 24},
 		{"id" : 23, "text" : "영국", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 148, "begin" : 25, "end" : 25},
 		{"id" : 24, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 26, "end" : 26},
 		{"id" : 25, "text" : "할양하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 158, "begin" : 27, "end" : 28},
 		{"id" : 26, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 29, "end" : 29},
 		{"id" : 27, "text" : "대가", "type" : "NNG", "scode" : "06", "weight" : 1, "position" : 168, "begin" : 30, "end" : 30},
-		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 168, "begin" : 31, "end" : 31},
+		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 31, "end" : 31},
 		{"id" : 29, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 32, "end" : 32},
 		{"id" : 30, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 33, "end" : 33},
 		{"id" : 31, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 34, "end" : 34}
@@ -582,7 +582,7 @@
 		{"id" : 3, "text" : "루이지애나", "type" : "LCP_PROVINCE", "begin" : 6, "end" : 6, "weight" : 0.278485, "common_noun" : 0},
 		{"id" : 4, "text" : "스페인", "type" : "LCP_COUNTRY", "begin" : 10, "end" : 10, "weight" : 0.401418, "common_noun" : 0},
 		{"id" : 5, "text" : "스페인", "type" : "LCP_COUNTRY", "begin" : 19, "end" : 19, "weight" : 0.351453, "common_noun" : 0},
-		{"id" : 6, "text" : "플로리다", "type" : "OGG_SPORTS", "begin" : 23, "end" : 23, "weight" : 0.238352, "common_noun" : 0},
+		{"id" : 6, "text" : "플로리다", "type" : "LCP_PROVINCE", "begin" : 23, "end" : 23, "weight" : 0.238352, "common_noun" : 0},
 		{"id" : 7, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 25, "end" : 25, "weight" : 0.725934, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -632,7 +632,7 @@
 		{"id" : 1, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "영국", "type" : "NNP", "scode" : "01", "weight" : 4.8, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "플로리다", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "플로리다", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "할양하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 6, "end" : 7},
 		{"id" : 7, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
@@ -715,7 +715,7 @@
 		{"id" : 5, "text" : "식민지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 5, "end" : 6},
 		{"id" : 6, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "생피에르", "type" : "NNP", "scode" : "02", "weight" : 0.75, "position" : 52, "begin" : 8, "end" : 8},
-		{"id" : 8, "text" : "미클롱", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 65, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "미클롱", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 65, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "만", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "남", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 79, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 12, "end" : 12},
@@ -739,7 +739,7 @@
 		{"id" : 0, "text" : "카리브해", "type" : "LCG_OCEAN", "begin" : 0, "end" : 0, "weight" : 0.402393, "common_noun" : 0},
 		{"id" : 1, "text" : "북쪽", "type" : "TM_DIRECTION", "begin" : 2, "end" : 2, "weight" : 0.530485, "common_noun" : 0},
 		{"id" : 2, "text" : "프랑스", "type" : "LCP_COUNTRY", "begin" : 3, "end" : 3, "weight" : 0.855817, "common_noun" : 0},
-		{"id" : 3, "text" : "생피에르 미클롱", "type" : "EV_OTHERS", "begin" : 8, "end" : 9, "weight" : 0.151649, "common_noun" : 0}
+		{"id" : 3, "text" : "생피에르 미클롱", "type" : "LC_OTHERS", "begin" : 8, "end" : 9, "weight" : 0.151649, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1004,14 +1004,13 @@
 		{"id" : 29, "text" : "붙여졌다.", "type" : "", "begin" : 63, "end" : 68}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "17세기말", "type" : "DT_OTHERS", "begin" : 0, "end" : 2, "weight" : 0.793188, "common_noun" : 0},
-		{"id" : 1, "text" : "18세기 중반", "type" : "DT_OTHERS", "begin" : 4, "end" : 6, "weight" : 0.653434, "common_noun" : 0},
-		{"id" : 2, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 9, "end" : 9, "weight" : 0.785631, "common_noun" : 0},
-		{"id" : 3, "text" : "북아메리카", "type" : "LCG_CONTINENT", "begin" : 26, "end" : 26, "weight" : 0.390051, "common_noun" : 0},
-		{"id" : 4, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 28, "end" : 28, "weight" : 0.736141, "common_noun" : 0},
-		{"id" : 5, "text" : "프랑스", "type" : "LCP_COUNTRY", "begin" : 30, "end" : 30, "weight" : 0.889704, "common_noun" : 0},
-		{"id" : 6, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 50, "end" : 50, "weight" : 0.642412, "common_noun" : 0},
-		{"id" : 7, "text" : "군주", "type" : "CV_POSITION", "begin" : 57, "end" : 57, "weight" : 0.394682, "common_noun" : 0}
+		{"id" : 0, "text" : "17세기말부터 18세기 중반까지", "type" : "DT_DURATION", "begin" : 0, "end" : 7, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 9, "end" : 9, "weight" : 0.785631, "common_noun" : 0},
+		{"id" : 2, "text" : "북아메리카", "type" : "LCG_CONTINENT", "begin" : 26, "end" : 26, "weight" : 0.390051, "common_noun" : 0},
+		{"id" : 3, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 28, "end" : 28, "weight" : 0.736141, "common_noun" : 0},
+		{"id" : 4, "text" : "프랑스", "type" : "LCP_COUNTRY", "begin" : 30, "end" : 30, "weight" : 0.889704, "common_noun" : 0},
+		{"id" : 5, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 50, "end" : 50, "weight" : 0.642412, "common_noun" : 0},
+		{"id" : 6, "text" : "군주", "type" : "CV_POSITION", "begin" : 57, "end" : 57, "weight" : 0.394682, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1106,7 +1105,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "즉", "type" : "MAJ", "scode" : "01", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "윌리엄", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 5, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "윌리엄", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 5, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "세", "type" : "NNB", "scode" : "07", "weight" : 4.65, "position" : 16, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "재위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 5, "end" : 5},
@@ -1117,7 +1116,7 @@
 		{"id" : 10, "text" : "1702", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "윌리엄", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 44, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "윌리엄", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 44, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "왕", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 54, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 58, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 16, "end" : 16},
@@ -1126,7 +1125,7 @@
 		{"id" : 19, "text" : "97", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 21, "end" : 21},
-		{"id" : 22, "text" : "앤", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 75, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "앤", "type" : "NNP", "scode" : "99", "weight" : 0, "position" : 75, "begin" : 22, "end" : 22},
 		{"id" : 23, "text" : "여왕", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 79, "begin" : 23, "end" : 23},
 		{"id" : 24, "text" : "재위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 86, "begin" : 24, "end" : 24},
 		{"id" : 25, "text" : "시", "type" : "NNB", "scode" : "10", "weight" : 1, "position" : 93, "begin" : 25, "end" : 25},
@@ -1136,7 +1135,7 @@
 		{"id" : 29, "text" : "14", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 29, "end" : 29},
 		{"id" : 30, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 30, "end" : 30},
 		{"id" : 31, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 31, "end" : 31},
-		{"id" : 32, "text" : "앤", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 32, "end" : 32},
+		{"id" : 32, "text" : "앤", "type" : "NNP", "scode" : "99", "weight" : 0, "position" : 109, "begin" : 32, "end" : 32},
 		{"id" : 33, "text" : "여왕", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 113, "begin" : 33, "end" : 33},
 		{"id" : 34, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 120, "begin" : 34, "end" : 34},
 		{"id" : 35, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 126, "begin" : 35, "end" : 35},
@@ -1145,7 +1144,7 @@
 		{"id" : 38, "text" : "13", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 38, "end" : 38},
 		{"id" : 39, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 39, "end" : 39},
 		{"id" : 40, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 40, "end" : 40},
-		{"id" : 41, "text" : "조지", "type" : "NNP", "scode" : "06", "weight" : 1, "position" : 137, "begin" : 41, "end" : 41},
+		{"id" : 41, "text" : "조지", "type" : "NNP", "scode" : "99", "weight" : 1, "position" : 137, "begin" : 41, "end" : 41},
 		{"id" : 42, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 42, "end" : 42},
 		{"id" : 43, "text" : "세", "type" : "NNB", "scode" : "07", "weight" : 5.75, "position" : 145, "begin" : 43, "end" : 43},
 		{"id" : 44, "text" : "재위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 149, "begin" : 44, "end" : 44},
@@ -1156,7 +1155,7 @@
 		{"id" : 49, "text" : "60", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 165, "begin" : 49, "end" : 49},
 		{"id" : 50, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 50, "end" : 50},
 		{"id" : 51, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 51, "end" : 51},
-		{"id" : 52, "text" : "조지", "type" : "NNP", "scode" : "06", "weight" : 1, "position" : 172, "begin" : 52, "end" : 52},
+		{"id" : 52, "text" : "조지", "type" : "NNP", "scode" : "99", "weight" : 1, "position" : 172, "begin" : 52, "end" : 52},
 		{"id" : 53, "text" : "왕", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 179, "begin" : 53, "end" : 53},
 		{"id" : 54, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 183, "begin" : 54, "end" : 54},
 		{"id" : 55, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 189, "begin" : 55, "end" : 55},
@@ -1205,14 +1204,15 @@
 		{"id" : 0, "text" : "윌리엄 3세", "type" : "PS_NAME", "begin" : 2, "end" : 4, "weight" : 0.50689, "common_noun" : 0},
 		{"id" : 1, "text" : "1689~1702", "type" : "DT_DURATION", "begin" : 8, "end" : 10, "weight" : 0.317912, "common_noun" : 0},
 		{"id" : 2, "text" : "윌리엄 왕 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 13, "end" : 15, "weight" : 0.159081, "common_noun" : 0},
-		{"id" : 3, "text" : "1688~97", "type" : "TI_DURATION", "begin" : 17, "end" : 19, "weight" : 0.311621, "common_noun" : 0},
-		{"id" : 4, "text" : "앤 여왕", "type" : "PS_NAME", "begin" : 22, "end" : 23, "weight" : 0.375786, "common_noun" : 0},
+		{"id" : 3, "text" : "1688~97", "type" : "DT_DURATION", "begin" : 17, "end" : 19, "weight" : 0.311621, "common_noun" : 0},
+		{"id" : 4, "text" : "앤", "type" : "PS_NAME", "begin" : 22, "end" : 23, "weight" : 0.375786, "common_noun" : 0},
+		{"id" : 4, "text" : "여왕", "type" : "CV_POSITION", "begin" : 22, "end" : 23, "weight" : 0.375786, "common_noun" : 0},
 		{"id" : 5, "text" : "1702~14", "type" : "DT_DURATION", "begin" : 27, "end" : 29, "weight" : 0.340432, "common_noun" : 0},
 		{"id" : 6, "text" : "앤 여왕 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 32, "end" : 34, "weight" : 0.227413, "common_noun" : 0},
-		{"id" : 7, "text" : "1702~13", "type" : "QT_OTHERS", "begin" : 36, "end" : 38, "weight" : 0.366687, "common_noun" : 0},
+		{"id" : 7, "text" : "1702~13", "type" : "DT_DURATION", "begin" : 36, "end" : 38, "weight" : 0.366687, "common_noun" : 0},
 		{"id" : 8, "text" : "조지 2세", "type" : "PS_NAME", "begin" : 41, "end" : 43, "weight" : 0.716521, "common_noun" : 0},
 		{"id" : 9, "text" : "1727~60", "type" : "DT_DURATION", "begin" : 47, "end" : 49, "weight" : 0.304033, "common_noun" : 0},
-		{"id" : 10, "text" : "조지 왕 전쟁", "type" : "PS_NAME", "begin" : 52, "end" : 54, "weight" : 0.107078, "common_noun" : 0},
+		{"id" : 10, "text" : "조지 왕 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 52, "end" : 54, "weight" : 0.107078, "common_noun" : 0},
 		{"id" : 11, "text" : "1744~48", "type" : "DT_DURATION", "begin" : 56, "end" : 58, "weight" : 0.254141, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -1291,7 +1291,7 @@
 		{"id" : 2, "text" : "년대", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 11, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 18, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 4, "end" : 4},
-		{"id" : 5, "text" : "조지", "type" : "NNP", "scode" : "06", "weight" : 2, "position" : 28, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "조지", "type" : "NNP", "scode" : "99", "weight" : 2, "position" : 28, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "세", "type" : "NNB", "scode" : "07", "weight" : 6.35, "position" : 36, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
@@ -1304,7 +1304,7 @@
 		{"id" : 15, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "역시", "type" : "MAG", "scode" : "01", "weight" : 1, "position" : 80, "begin" : 18, "end" : 18},
-		{"id" : 18, "text" : "조지", "type" : "NNP", "scode" : "06", "weight" : 1, "position" : 87, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "조지", "type" : "NNP", "scode" : "99", "weight" : 1, "position" : 87, "begin" : 19, "end" : 19},
 		{"id" : 19, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 94, "begin" : 20, "end" : 20},
 		{"id" : 20, "text" : "세", "type" : "NNB", "scode" : "07", "weight" : 5.5, "position" : 95, "begin" : 21, "end" : 21},
 		{"id" : 21, "text" : "통치", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 99, "begin" : 22, "end" : 22},
@@ -1318,7 +1318,7 @@
 		{"id" : 29, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 137, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 31, "end" : 31},
 		{"id" : 31, "text" : "‘", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 147, "begin" : 32, "end" : 32},
-		{"id" : 32, "text" : "프렌치", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 150, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "프렌치", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 150, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : "인디언", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 160, "begin" : 34, "end" : 34},
 		{"id" : 34, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 170, "begin" : 35, "end" : 35},
 		{"id" : 35, "text" : "’", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 176, "begin" : 36, "end" : 36},
@@ -1364,7 +1364,7 @@
 		{"id" : 1, "text" : "조지 2세", "type" : "PS_NAME", "begin" : 5, "end" : 7, "weight" : 0.645684, "common_noun" : 0},
 		{"id" : 2, "text" : "조지 2세", "type" : "PS_NAME", "begin" : 19, "end" : 21, "weight" : 0.600218, "common_noun" : 0},
 		{"id" : 3, "text" : "1750년대", "type" : "DT_YEAR", "begin" : 27, "end" : 28, "weight" : 0.659984, "common_noun" : 0},
-		{"id" : 4, "text" : "프렌치 인디언 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 33, "end" : 35, "weight" : 0.839606, "common_noun" : 0}
+		{"id" : 4, "text" : "'프렌치 인디언 전쟁'(French and Indian War)", "type" : "EV_WAR_REVOLUTION", "begin" : 32, "end" : 42, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1427,7 +1427,7 @@
 		{"id" : 5, "text" : "정착되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 5, "end" : 6},
 		{"id" : 6, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "명칭", "type" : "NNG", "scode" : "02", "weight" : 3.3, "position" : 37, "begin" : 8, "end" : 8},
-		{"id" : 8, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 37, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "ㄴ데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "인디언", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 12, "end" : 12},
@@ -1620,7 +1620,7 @@
 		{"id" : 3, "text" : "7년 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 13, "end" : 15, "weight" : 0.584239, "common_noun" : 0},
 		{"id" : 4, "text" : "제4차", "type" : "QT_ORDER", "begin" : 19, "end" : 21, "weight" : 0.557119, "common_noun" : 0},
 		{"id" : 5, "text" : "식민지 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 22, "end" : 24, "weight" : 0.503001, "common_noun" : 0},
-		{"id" : 6, "text" : "대영제국 대전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 28, "end" : 30, "weight" : 0.631047, "common_noun" : 0}
+		{"id" : 6, "text" : "'대영제국 대전쟁'(Great War for the Empire)", "type" : "EV_WAR_REVOLUTION", "begin" : 27, "end" : 38, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1669,7 +1669,7 @@
 		{"id" : 1, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "북미", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 9, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "전장", "type" : "NNG", "scode" : "17", "weight" : 1, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "전장", "type" : "NNG", "scode" : "15", "weight" : 1, "position" : 19, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 32, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
@@ -1769,7 +1769,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 0, "end" : 0, "weight" : 0.645469, "common_noun" : 0},
-		{"id" : 1, "text" : "7년", "type" : "DT_YEAR", "begin" : 6, "end" : 7, "weight" : 0.491559, "common_noun" : 0}
+		{"id" : 1, "text" : "7년 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 6, "end" : 8, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1837,7 +1837,7 @@
 		{"id" : 0, "text" : "이", "type" : "MM", "scode" : "05", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "7", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 4, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 5.44654, "position" : 5, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 8, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 8, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 7.7, "position" : 18, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 6, "end" : 6},
@@ -1846,7 +1846,7 @@
 		{"id" : 9, "text" : "전쟁", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 35, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "공식적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 11, "end" : 12},
-		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 54, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "선전", "type" : "NNG", "scode" : "06", "weight" : 4.90688, "position" : 61, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "포고", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 68, "begin" : 16, "end" : 16},
@@ -1870,7 +1870,7 @@
 		{"id" : 33, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 35, "end" : 35},
 		{"id" : 34, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 148, "begin" : 36, "end" : 36},
 		{"id" : 35, "text" : "때문", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 152, "begin" : 37, "end" : 37},
-		{"id" : 36, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 158, "begin" : 38, "end" : 38},
+		{"id" : 36, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 38, "end" : 38},
 		{"id" : 37, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 161, "begin" : 39, "end" : 39},
 		{"id" : 38, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 40, "end" : 40}
 	],
@@ -1897,7 +1897,7 @@
 		{"id" : 1, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 7, "end" : 7, "weight" : 0.668862, "common_noun" : 0},
 		{"id" : 2, "text" : "1756년", "type" : "DT_YEAR", "begin" : 18, "end" : 19, "weight" : 0.692695, "common_noun" : 0},
 		{"id" : 3, "text" : "1763년", "type" : "DT_YEAR", "begin" : 25, "end" : 26, "weight" : 0.72492, "common_noun" : 0},
-		{"id" : 4, "text" : "파리 조약", "type" : "OGG_POLITICS", "begin" : 28, "end" : 29, "weight" : 0.0921663, "common_noun" : 0},
+		{"id" : 4, "text" : "파리 조약", "type" : "EV_ACTIVITY", "begin" : 28, "end" : 29, "weight" : 0.0921663, "common_noun" : 0},
 		{"id" : 5, "text" : "7년", "type" : "DT_DURATION", "begin" : 31, "end" : 32, "weight" : 0.64164, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -1962,20 +1962,20 @@
 		{"id" : 9, "text" : "1754", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 4.4, "position" : 61, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 11, "end" : 11},
-		{"id" : 12, "text" : "주몬빌", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 68, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "글렌", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 78, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "주몬빌", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 68, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "글렌", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 78, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "전투", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 85, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "1760", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 3.7, "position" : 102, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "몬트리올", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 109, "begin" : 19, "end" : 19},
-		{"id" : 20, "text" : "공략", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 122, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "공략", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 122, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 21, "end" : 21},
 		{"id" : 22, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 22, "end" : 22},
 		{"id" : 23, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 1.5, "position" : 136, "begin" : 23, "end" : 23},
 		{"id" : 24, "text" : "간", "type" : "XSN", "scode" : "16", "weight" : 1, "position" : 139, "begin" : 24, "end" : 24},
-		{"id" : 25, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 142, "begin" : 25, "end" : 25},
+		{"id" : 25, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 25, "end" : 25},
 		{"id" : 26, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 145, "begin" : 26, "end" : 26},
 		{"id" : 27, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 148, "begin" : 27, "end" : 27}
 	],
@@ -2115,7 +2115,7 @@
 		{"id" : 4, "text" : "주민", "type" : "CV_POSITION", "begin" : 10, "end" : 10, "weight" : 0.249279, "common_noun" : 0},
 		{"id" : 5, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 12, "end" : 12, "weight" : 0.713368, "common_noun" : 0},
 		{"id" : 6, "text" : "북미", "type" : "LCG_CONTINENT", "begin" : 14, "end" : 14, "weight" : 0.161195, "common_noun" : 0},
-		{"id" : 7, "text" : "7년 전쟁", "type" : "EV_WAR_REVOLUTION", "begin" : 18, "end" : 20, "weight" : 0.447809, "common_noun" : 0}
+		{"id" : 7, "text" : "7년 전쟁(Seven Years War)", "type" : "EV_WAR_REVOLUTION", "begin" : 18, "end" : 25, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2166,7 +2166,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "프랑스", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "계", "type" : "XSN", "scode" : "16", "weight" : 2.5, "position" : 9, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "캐나다인", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "캐나다인", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "정복", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 30, "begin" : 5, "end" : 5},
@@ -2178,7 +2178,7 @@
 		{"id" : 11, "text" : "la", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "Conquête", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 13, "end" : 13},
-		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 67, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "표현", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 75, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 17, "end" : 17},
@@ -2203,7 +2203,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "프랑스", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.237762, "common_noun" : 0},
-		{"id" : 1, "text" : "캐나다인", "type" : "CV_TRIBE", "begin" : 2, "end" : 2, "weight" : 0.232859, "common_noun" : 0}
+		{"id" : 1, "text" : "캐나다인", "type" : "CV_TRIBE", "begin" : 2, "end" : 2, "weight" : 0.232859, "common_noun" : 0},
+		{"id" : 1, "text" : "\"정복 전쟁\"(Guerre de la Conquête)", "type" : "EV_WAR_REVOLUTION", "begin" : 4, "end" : 13, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

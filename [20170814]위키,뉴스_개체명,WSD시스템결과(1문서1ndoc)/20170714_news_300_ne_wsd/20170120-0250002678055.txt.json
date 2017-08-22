@@ -36,7 +36,7 @@
 		{"id" : 1, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 3, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "반", "type" : "NNG", "scode" : "11", "weight" : 2.93968, "position" : 10, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "아이돌", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 14, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "아이돌", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 14, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "연습생", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 24, "begin" : 5, "end" : 6},
 		{"id" : 6, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "정유라", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 35, "begin" : 8, "end" : 8},
@@ -344,7 +344,7 @@
 		{"id" : 27, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 27, "end" : 27},
 		{"id" : 28, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 8.8, "position" : 122, "begin" : 28, "end" : 28},
 		{"id" : 29, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 29, "end" : 29},
-		{"id" : 30, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 128, "begin" : 30, "end" : 30},
+		{"id" : 30, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 30, "end" : 30},
 		{"id" : 31, "text" : "라며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 31, "end" : 31},
 		{"id" : 32, "text" : "엄포", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 138, "begin" : 32, "end" : 32},
 		{"id" : 33, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 33, "end" : 33},
@@ -589,7 +589,8 @@
 		{"id" : 11, "text" : "적었다.", "type" : "", "begin" : 27, "end" : 30}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "정", "type" : "PS_NAME", "begin" : 19, "end" : 19, "weight" : 0.448469, "common_noun" : 0}
+		{"id" : 0, "text" : "담임", "type" : "CV_POSITION", "begin" : 5, "end" : 5, "weight" : 0.448469, "common_noun" : 0},
+		{"id" : 1, "text" : "정", "type" : "PS_NAME", "begin" : 19, "end" : 19, "weight" : 0.448469, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -685,7 +686,7 @@
 		{"id" : 29, "text" : "원만하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 132, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 31, "end" : 31},
 		{"id" : 31, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 32, "end" : 32},
-		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 144, "begin" : 33, "end" : 33},
+		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 147, "begin" : 34, "end" : 34},
 		{"id" : 34, "text" : "기록하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 154, "begin" : 35, "end" : 36},
 		{"id" : 35, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 37, "end" : 37},
@@ -796,9 +797,9 @@
 		{"id" : 23, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 24, "end" : 24},
 		{"id" : 24, "text" : "대상", "type" : "NNG", "scode" : "11", "weight" : 5.4, "position" : 123, "begin" : 25, "end" : 25},
 		{"id" : 25, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 26, "end" : 26},
-		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 132, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 27, "end" : 27},
 		{"id" : 27, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 28, "end" : 28},
-		{"id" : 28, "text" : "쓰이", "type" : "VV", "scode" : "03", "weight" : 2.2, "position" : 142, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : "쓰이", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 142, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "있", "type" : "VX", "scode" : "01", "weight" : 5.2, "position" : 148, "begin" : 31, "end" : 31},
 		{"id" : 31, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 151, "begin" : 32, "end" : 32},
@@ -888,7 +889,7 @@
 		{"id" : 0, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "학년", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 1, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "담임", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 8, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 8, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 8, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 8, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "황", "type" : "NNP", "scode" : "04", "weight" : 1, "position" : 18, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "모", "type" : "NP", "scode" : "15", "weight" : 2.5, "position" : 22, "begin" : 6, "end" : 6},
@@ -1035,7 +1036,7 @@
 		{"id" : 15, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 84, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "마음", "type" : "NNG", "scode" : "01", "weight" : 8.8, "position" : 91, "begin" : 17, "end" : 17},
-		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 97, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "국가", "type" : "NNG", "scode" : "01", "weight" : 8.53199, "position" : 105, "begin" : 21, "end" : 21},
@@ -1137,7 +1138,7 @@
 		{"id" : 3, "text" : "교사", "type" : "NNG", "scode" : "09", "weight" : 3.5, "position" : 21, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 5.5, "position" : 27, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
-		{"id" : 6, "text" : "정", "type" : "NNP", "scode" : "05", "weight" : 1, "position" : 34, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "정", "type" : "NNP", "scode" : "31", "weight" : 1, "position" : 34, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 5.3, "position" : 38, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "‘", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 9, "end" : 9},
@@ -1303,7 +1304,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "2학년", "type" : "QT_ORDER", "begin" : 0, "end" : 1, "weight" : 0.258187, "common_noun" : 0},
-		{"id" : 1, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 3, "end" : 3, "weight" : 0.359164, "common_noun" : 0},
+		{"id" : 1, "text" : "체육 교사", "type" : "CV_OCCUPATION", "begin" : 2, "end" : 3, "weight" : 0.359164, "common_noun" : 0},
 		{"id" : 2, "text" : "학생", "type" : "CV_OCCUPATION", "begin" : 14, "end" : 14, "weight" : 0.697033, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -1401,10 +1402,11 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "1학년", "type" : "QT_ORDER", "begin" : 0, "end" : 1, "weight" : 0.554645, "common_noun" : 0},
-		{"id" : 1, "text" : "오", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.174994, "common_noun" : 0},
-		{"id" : 2, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 6, "end" : 6, "weight" : 0.674923, "common_noun" : 0},
-		{"id" : 3, "text" : "한 학기", "type" : "DT_DURATION", "begin" : 9, "end" : 10, "weight" : 0.199975, "common_noun" : 0},
-		{"id" : 4, "text" : "1~2번", "type" : "QT_ORDER", "begin" : 11, "end" : 14, "weight" : 0.765602, "common_noun" : 0}
+		{"id" : 1, "text" : "과학", "type" : "FD_SCIENCE", "begin" : 2, "end" : 2, "weight" : 0.554645, "common_noun" : 0},
+		{"id" : 2, "text" : "오", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.174994, "common_noun" : 0},
+		{"id" : 3, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 6, "end" : 6, "weight" : 0.674923, "common_noun" : 0},
+		{"id" : 4, "text" : "한 학기", "type" : "DT_DURATION", "begin" : 9, "end" : 10, "weight" : 0.199975, "common_noun" : 0},
+		{"id" : 5, "text" : "1~2번", "type" : "QT_ORDER", "begin" : 11, "end" : 14, "weight" : 0.765602, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1538,8 +1540,9 @@
 		{"id" : 3, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 12, "end" : 12, "weight" : 0.54528, "common_noun" : 0},
 		{"id" : 4, "text" : "수학", "type" : "FD_SCIENCE", "begin" : 15, "end" : 15, "weight" : 0.182233, "common_noun" : 0},
 		{"id" : 5, "text" : "1박", "type" : "DT_DURATION", "begin" : 18, "end" : 19, "weight" : 0.573463, "common_noun" : 0},
-		{"id" : 6, "text" : "엄마", "type" : "CV_RELATION", "begin" : 28, "end" : 28, "weight" : 0.406712, "common_noun" : 0},
-		{"id" : 7, "text" : "차", "type" : "AF_TRANSPORT", "begin" : 29, "end" : 29, "weight" : 0.185959, "common_noun" : 0}
+		{"id" : 6, "text" : "숙소", "type" : "OGG_HOTEL", "begin" : 25, "end" : 25, "weight" : 0.573463, "common_noun" : 0},
+		{"id" : 7, "text" : "엄마", "type" : "CV_RELATION", "begin" : 28, "end" : 28, "weight" : 0.406712, "common_noun" : 0},
+		{"id" : 8, "text" : "차", "type" : "AF_TRANSPORT", "begin" : 29, "end" : 29, "weight" : 0.185959, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1689,7 +1692,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "정", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.566675, "common_noun" : 0},
-		{"id" : 1, "text" : "한 동창생", "type" : "CV_RELATION", "begin" : 3, "end" : 5, "weight" : 0.30523, "common_noun" : 0}
+		{"id" : 1, "text" : "한", "type" : "CV_RELATION", "begin" : 3, "end" : 3, "weight" : 0.30523, "common_noun" : 0},
+		{"id" : 2, "text" : "동창생", "type" : "CV_RELATION", "begin" : 4, "end" : 5, "weight" : 0.30523, "common_noun" : 0},
+		{"id" : 3, "text" : "대학", "type" : "CV_RELATION", "begin" : 10, "end" : 10, "weight" : 0.30523, "common_noun" : 0},
+		{"id" : 4, "text" : "학교", "type" : "CV_RELATION", "begin" : 31, "end" : 31, "weight" : 0.30523, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1805,8 +1811,8 @@
 		{"id" : 14, "text" : "전했다.", "type" : "", "begin" : 33, "end" : 36}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "동창생", "type" : "CV_POSITION", "begin" : 2, "end" : 3, "weight" : 0.38496, "common_noun" : 0},
-		{"id" : 1, "text" : "아침", "type" : "TI_DURATION", "begin" : 6, "end" : 6, "weight" : 0.470537, "common_noun" : 0},
+		{"id" : 0, "text" : "동창생", "type" : "CV_RELATION", "begin" : 2, "end" : 3, "weight" : 0.38496, "common_noun" : 0},
+		{"id" : 1, "text" : "아침", "type" : "TI_OTHERS", "begin" : 6, "end" : 6, "weight" : 0.470537, "common_noun" : 0},
 		{"id" : 2, "text" : "옆", "type" : "TM_DIRECTION", "begin" : 22, "end" : 22, "weight" : 0.225036, "common_noun" : 0},
 		{"id" : 3, "text" : "친구", "type" : "CV_RELATION", "begin" : 23, "end" : 23, "weight" : 0.559291, "common_noun" : 0}
 	],
@@ -2034,10 +2040,12 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "1학년", "type" : "QT_ORDER", "begin" : 0, "end" : 1, "weight" : 0.566545, "common_noun" : 0},
-		{"id" : 1, "text" : "김", "type" : "PS_NAME", "begin" : 7, "end" : 7, "weight" : 0.539133, "common_noun" : 0},
-		{"id" : 2, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 9, "end" : 9, "weight" : 0.647393, "common_noun" : 0},
-		{"id" : 3, "text" : "학생", "type" : "CV_OCCUPATION", "begin" : 14, "end" : 14, "weight" : 0.61988, "common_noun" : 0},
-		{"id" : 4, "text" : "정", "type" : "PS_NAME", "begin" : 23, "end" : 23, "weight" : 0.490275, "common_noun" : 0}
+		{"id" : 1, "text" : "사회", "type" : "FD_SOCIAL_SCIENCE", "begin" : 3, "end" : 3, "weight" : 0.566545, "common_noun" : 0},
+		{"id" : 2, "text" : "김", "type" : "PS_NAME", "begin" : 7, "end" : 7, "weight" : 0.539133, "common_noun" : 0},
+		{"id" : 3, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 9, "end" : 9, "weight" : 0.647393, "common_noun" : 0},
+		{"id" : 4, "text" : "예체능", "type" : "FD_OTHERS", "begin" : 12, "end" : 12, "weight" : 0.647393, "common_noun" : 0},
+		{"id" : 5, "text" : "학생", "type" : "CV_OCCUPATION", "begin" : 14, "end" : 14, "weight" : 0.61988, "common_noun" : 0},
+		{"id" : 6, "text" : "정", "type" : "PS_NAME", "begin" : 23, "end" : 23, "weight" : 0.490275, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2123,7 +2131,7 @@
 		{"id" : 13, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "반", "type" : "NNG", "scode" : "11", "weight" : 3.93968, "position" : 59, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 16, "end" : 16},
-		{"id" : 16, "text" : "아이돌", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 66, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "아이돌", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 66, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "연습생", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 18, "end" : 19},
 		{"id" : 18, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 4.4, "position" : 89, "begin" : 21, "end" : 21},
@@ -2174,11 +2182,12 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "2학년", "type" : "QT_ORDER", "begin" : 0, "end" : 1, "weight" : 0.440847, "common_noun" : 0},
-		{"id" : 1, "text" : "송", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.399228, "common_noun" : 0},
-		{"id" : 2, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 10, "end" : 10, "weight" : 0.564196, "common_noun" : 0},
-		{"id" : 3, "text" : "연습생", "type" : "CV_POSITION", "begin" : 18, "end" : 19, "weight" : 0.290714, "common_noun" : 0},
-		{"id" : 4, "text" : "정유라", "type" : "PS_NAME", "begin" : 24, "end" : 24, "weight" : 0.268001, "common_noun" : 0},
-		{"id" : 5, "text" : "하소연", "type" : "PS_NAME", "begin" : 32, "end" : 32, "weight" : 0.292793, "common_noun" : 0}
+		{"id" : 1, "text" : "경제", "type" : "FD_SOCIAL_SCIENCE", "begin" : 2, "end" : 2, "weight" : 0.440847, "common_noun" : 0},
+		{"id" : 2, "text" : "송", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.399228, "common_noun" : 0},
+		{"id" : 3, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 10, "end" : 10, "weight" : 0.564196, "common_noun" : 0},
+		{"id" : 4, "text" : "아이돌", "type" : "CV_POSITION", "begin" : 17, "end" : 17, "weight" : 0.564196, "common_noun" : 0},
+		{"id" : 5, "text" : "연습생", "type" : "CV_POSITION", "begin" : 18, "end" : 19, "weight" : 0.290714, "common_noun" : 0},
+		{"id" : 6, "text" : "정유라", "type" : "PS_NAME", "begin" : 24, "end" : 24, "weight" : 0.268001, "common_noun" : 0},
 	],
 	"chunk" : [
 	],
@@ -2232,7 +2241,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "당시", "type" : "NNG", "scode" : "02", "weight" : 1.5, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "담임", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "황", "type" : "NNP", "scode" : "04", "weight" : 3, "position" : 17, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "교사", "type" : "NNG", "scode" : "09", "weight" : 4.5, "position" : 21, "begin" : 5, "end" : 5},
@@ -2244,7 +2253,7 @@
 		{"id" : 11, "text" : "“", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "학교", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 54, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 14, "end" : 14},
-		{"id" : 14, "text" : "빠지", "type" : "VV", "scode" : "02", "weight" : 4.88241, "position" : 64, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "빠지", "type" : "VV", "scode" : "01", "weight" : 4.88241, "position" : 64, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "안", "type" : "MAG", "scode" : "02", "weight" : 6.6, "position" : 74, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "되", "type" : "VV", "scode" : "01", "weight" : 7.59577, "position" : 78, "begin" : 18, "end" : 18},
@@ -2273,8 +2282,11 @@
 		{"id" : 11, "text" : "한다.", "type" : "", "begin" : 25, "end" : 27}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "황", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.227707, "common_noun" : 0},
-		{"id" : 1, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 5, "end" : 5, "weight" : 0.540367, "common_noun" : 0}
+		{"id" : 0, "text" : "담임", "type" : "CV_POSITION", "begin" : 1, "end" : 1, "weight" : 0.227707, "common_noun" : 0},
+		{"id" : 1, "text" : "황", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.227707, "common_noun" : 0},
+		{"id" : 2, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 5, "end" : 5, "weight" : 0.540367, "common_noun" : 0},
+		{"id" : 3, "text" : "연습생", "type" : "CV_POSITION", "begin" : 8, "end" : 9, "weight" : 0.540367, "common_noun" : 0},
+		{"id" : 4, "text" : "학교", "type" : "OGG_EDUCATION", "begin" : 13, "end" : 13, "weight" : 0.540367, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2344,7 +2356,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "학생", "type" : "CV_OCCUPATION", "begin" : 2, "end" : 2, "weight" : 0.602031, "common_noun" : 0},
-		{"id" : 1, "text" : "같은 해", "type" : "DT_YEAR", "begin" : 4, "end" : 6, "weight" : 1, "common_noun" : 0}
+		{"id" : 1, "text" : "같은 해", "type" : "DT_YEAR", "begin" : 4, "end" : 6, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "학교", "type" : "OGG_EDUCATION", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2412,7 +2425,7 @@
 		{"id" : 1, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "반", "type" : "NNG", "scode" : "11", "weight" : 3.29866, "position" : 14, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "한", "type" : "MM", "scode" : "01", "weight" : 5.4, "position" : 27, "begin" : 7, "end" : 7},
@@ -2431,7 +2444,7 @@
 		{"id" : 20, "text" : "정유라", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 97, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "만", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 23, "end" : 23},
 		{"id" : 22, "text" : "조퇴", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 110, "begin" : 24, "end" : 24},
-		{"id" : 23, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 110, "begin" : 25, "end" : 25},
+		{"id" : 23, "text" : "시키", "type" : "XSV", "scode" : "01", "weight" : 0, "position" : 110, "begin" : 25, "end" : 25},
 		{"id" : 24, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 26, "end" : 26},
 		{"id" : 25, "text" : "주", "type" : "VX", "scode" : "01", "weight" : 3.2, "position" : 123, "begin" : 27, "end" : 27},
 		{"id" : 26, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 28, "end" : 28},
@@ -2466,9 +2479,11 @@
 		{"id" : 15, "text" : "전했다.", "type" : "", "begin" : 36, "end" : 39}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "한 동창생", "type" : "PS_NAME", "begin" : 7, "end" : 9, "weight" : 0.264719, "common_noun" : 0},
-		{"id" : 1, "text" : "친구", "type" : "CV_RELATION", "begin" : 18, "end" : 18, "weight" : 0.481794, "common_noun" : 0},
-		{"id" : 2, "text" : "정유라", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.351852, "common_noun" : 0}
+		{"id" : 0, "text" : "한", "type" : "QT_COUNT", "begin" : 7, "end" : 7, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "동창생", "type" : "CV_RELATION", "begin" : 8, "end" : 9, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "예체능", "type" : "FD_OTHERS", "begin" : 12, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "친구", "type" : "CV_RELATION", "begin" : 18, "end" : 18, "weight" : 0.481794, "common_noun" : 0},
+		{"id" : 4, "text" : "정유라", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.351852, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2530,7 +2545,7 @@
 		{"id" : 11, "text" : "않", "type" : "VX", "scode" : "00", "weight" : 0, "position" : 66, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "는다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 14, "end" : 14},
-		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 75, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "입장", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 85, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 18, "end" : 18},
@@ -2596,7 +2611,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "실제로", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "고", "type" : "NNG", "scode" : "28", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "고", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "3", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 5.7, "position" : 15, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "당시", "type" : "NNG", "scode" : "02", "weight" : 1.5, "position" : 19, "begin" : 4, "end" : 4},
@@ -2689,7 +2704,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "또", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "고", "type" : "NNG", "scode" : "28", "weight" : 2, "position" : 4, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "고", "type" : "NNG", "scode" : "99", "weight" : 2, "position" : 4, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 8, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "·", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 11, "begin" : 4, "end" : 4},
@@ -2741,8 +2756,8 @@
 		{"id" : 15, "text" : "않는다.", "type" : "", "begin" : 33, "end" : 35}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "1·2", "type" : "DT_OTHERS", "begin" : 2, "end" : 4, "weight" : 0.228877, "common_noun" : 0},
-		{"id" : 1, "text" : "126일", "type" : "DT_DAY", "begin" : 8, "end" : 9, "weight" : 0.271694, "common_noun" : 0},
+		{"id" : 0, "text" : "1·2때", "type" : "DT_OTHERS", "begin" : 2, "end" : 4, "weight" : 0.228877, "common_noun" : 0},
+		{"id" : 1, "text" : "126일", "type" : "DT_DURATION", "begin" : 8, "end" : 9, "weight" : 0.271694, "common_noun" : 0},
 		{"id" : 2, "text" : "137일", "type" : "DT_DURATION", "begin" : 11, "end" : 12, "weight" : 0.443228, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -2811,7 +2826,7 @@
 		{"id" : 4, "text" : "“", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 6, "end" : 6},
 		{"id" : 5, "text" : "‘", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 7, "end" : 7},
 		{"id" : 6, "text" : "출석", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 8, "end" : 8},
-		{"id" : 7, "text" : "인정", "type" : "NNG", "scode" : "04", "weight" : 1.3, "position" : 40, "begin" : 9, "end" : 9},
+		{"id" : 7, "text" : "인정", "type" : "NNG", "scode" : "08", "weight" : 1.3, "position" : 40, "begin" : 9, "end" : 9},
 		{"id" : 8, "text" : "’", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 10, "end" : 10},
 		{"id" : 9, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "그냥", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 53, "begin" : 12, "end" : 12},
@@ -3053,7 +3068,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "최", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.685495, "common_noun" : 0},
-		{"id" : 1, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 7, "end" : 7, "weight" : 0.506932, "common_noun" : 0}
+		{"id" : 1, "text" : "학교", "type" : "OGG_EDUCATION", "begin" : 3, "end" : 3, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 7, "end" : 7, "weight" : 0.506932, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3158,7 +3174,7 @@
 		{"id" : 0, "text" : "정", "type" : "NNP", "scode" : "31", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 4.3, "position" : 4, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "고", "type" : "NNG", "scode" : "28", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "고", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 11, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "2", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "때", "type" : "NNG", "scode" : "01", "weight" : 4.2, "position" : 17, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "체육", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 21, "begin" : 6, "end" : 6},
@@ -3166,14 +3182,14 @@
 		{"id" : 8, "text" : "자", "type" : "XSN", "scode" : "31", "weight" : 7.2, "position" : 33, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "담당", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "교사", "type" : "NNG", "scode" : "09", "weight" : 4.2, "position" : 44, "begin" : 10, "end" : 10},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 44, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "송", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 57, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "모", "type" : "NP", "scode" : "15", "weight" : 3.5, "position" : 61, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "교사", "type" : "NNG", "scode" : "09", "weight" : 1.5, "position" : 65, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 17, "end" : 17},
-		{"id" : 18, "text" : "정", "type" : "NNP", "scode" : "05", "weight" : 1, "position" : 75, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "정", "type" : "NNP", "scode" : "31", "weight" : 1, "position" : 75, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "씨", "type" : "NNB", "scode" : "07", "weight" : 4.3, "position" : 79, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "에게", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "“", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 21, "end" : 21},
@@ -3192,7 +3208,7 @@
 		{"id" : 34, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 145, "begin" : 34, "end" : 34},
 		{"id" : 35, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 9.9, "position" : 149, "begin" : 35, "end" : 35},
 		{"id" : 36, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 152, "begin" : 36, "end" : 36},
-		{"id" : 37, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 155, "begin" : 37, "end" : 37},
+		{"id" : 37, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 155, "begin" : 37, "end" : 37},
 		{"id" : 38, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 38, "end" : 38},
 		{"id" : 39, "text" : "알리", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 165, "begin" : 39, "end" : 39},
 		{"id" : 40, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 165, "begin" : 40, "end" : 40},
@@ -3277,15 +3293,17 @@
 	"NE" : [
 		{"id" : 0, "text" : "정", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.565334, "common_noun" : 0},
 		{"id" : 1, "text" : "고 2", "type" : "QT_AGE", "begin" : 3, "end" : 4, "weight" : 0.129945, "common_noun" : 0},
-		{"id" : 2, "text" : "체육특기자 담당 교", "type" : "CV_POSITION", "begin" : 6, "end" : 12, "weight" : 0.39071, "common_noun" : 0},
-		{"id" : 3, "text" : "송", "type" : "PS_NAME", "begin" : 14, "end" : 14, "weight" : 0.393832, "common_noun" : 0},
-		{"id" : 4, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 16, "end" : 16, "weight" : 0.447246, "common_noun" : 0},
-		{"id" : 5, "text" : "정", "type" : "PS_NAME", "begin" : 18, "end" : 18, "weight" : 0.566416, "common_noun" : 0},
-		{"id" : 6, "text" : "1년", "type" : "DT_DURATION", "begin" : 22, "end" : 23, "weight" : 0.729333, "common_noun" : 0},
-		{"id" : 7, "text" : "4회 이상", "type" : "QT_COUNT", "begin" : 25, "end" : 27, "weight" : 0.697085, "common_noun" : 0},
-		{"id" : 8, "text" : "최", "type" : "PS_NAME", "begin" : 43, "end" : 43, "weight" : 0.781005, "common_noun" : 0},
-		{"id" : 9, "text" : "교육부", "type" : "OGG_POLITICS", "begin" : 56, "end" : 56, "weight" : 0.187253, "common_noun" : 0},
-		{"id" : 10, "text" : "장관", "type" : "CV_POSITION", "begin" : 57, "end" : 57, "weight" : 0.493943, "common_noun" : 0}
+		{"id" : 2, "text" : "체육특기자", "type" : "CV_POSITION", "begin" : 6, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "담당 교사", "type" : "CV_OCCUPATION", "begin" : 9, "end" : 10, "weight" : 0.39071, "common_noun" : 0},
+		{"id" : 4, "text" : "송", "type" : "PS_NAME", "begin" : 14, "end" : 14, "weight" : 0.393832, "common_noun" : 0},
+		{"id" : 5, "text" : "교사", "type" : "CV_OCCUPATION", "begin" : 16, "end" : 16, "weight" : 0.447246, "common_noun" : 0},
+		{"id" : 6, "text" : "정", "type" : "PS_NAME", "begin" : 18, "end" : 18, "weight" : 0.566416, "common_noun" : 0},
+		{"id" : 7, "text" : "1년", "type" : "DT_DURATION", "begin" : 22, "end" : 23, "weight" : 0.729333, "common_noun" : 0},
+		{"id" : 8, "text" : "4회 이상", "type" : "QT_COUNT", "begin" : 25, "end" : 27, "weight" : 0.697085, "common_noun" : 0},
+		{"id" : 9, "text" : "최", "type" : "PS_NAME", "begin" : 43, "end" : 43, "weight" : 0.781005, "common_noun" : 0},
+		{"id" : 10, "text" : "학교", "type" : "OGG_EDUCATION", "begin" : 46, "end" : 46, "weight" : 0.39071, "common_noun" : 0},
+		{"id" : 11, "text" : "교육부", "type" : "OGG_POLITICS", "begin" : 56, "end" : 56, "weight" : 0.187253, "common_noun" : 0},
+		{"id" : 12, "text" : "장관", "type" : "CV_POSITION", "begin" : 57, "end" : 57, "weight" : 0.493943, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3414,9 +3432,10 @@
 	"NE" : [
 		{"id" : 0, "text" : "2주", "type" : "DT_DURATION", "begin" : 0, "end" : 1, "weight" : 0.394812, "common_noun" : 0},
 		{"id" : 1, "text" : "최", "type" : "PS_NAME", "begin" : 3, "end" : 3, "weight" : 0.723944, "common_noun" : 0},
-		{"id" : 2, "text" : "한마디", "type" : "QT_COUNT", "begin" : 14, "end" : 14, "weight" : 0.207743, "common_noun" : 0},
-		{"id" : 3, "text" : "아빠", "type" : "CV_RELATION", "begin" : 20, "end" : 20, "weight" : 0.231612, "common_noun" : 0},
-		{"id" : 4, "text" : "정윤회", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.443092, "common_noun" : 0}
+		{"id" : 2, "text" : "담임", "type" : "CV_POSITION", "begin" : 7, "end" : 7, "weight" : 0.723944, "common_noun" : 0},
+		{"id" : 3, "text" : "한마디", "type" : "QT_COUNT", "begin" : 14, "end" : 14, "weight" : 0.207743, "common_noun" : 0},
+		{"id" : 4, "text" : "아빠", "type" : "CV_RELATION", "begin" : 20, "end" : 20, "weight" : 0.231612, "common_noun" : 0},
+		{"id" : 5, "text" : "정윤회", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.443092, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3510,9 +3529,9 @@
 		{"id" : 9, "text" : "한다.", "type" : "", "begin" : 26, "end" : 28}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아빠", "type" : "CV_RELATION", "begin" : 11, "end" : 11, "weight" : 0.379242, "common_noun" : 0},
-		{"id" : 1, "text" : "딸", "type" : "CV_RELATION", "begin" : 13, "end" : 13, "weight" : 0.514058, "common_noun" : 0},
-		{"id" : 2, "text" : "장구", "type" : "AF_MUSICAL_INSTRUMENT", "begin" : 21, "end" : 21, "weight" : 0.363962, "common_noun" : 0}
+		{"id" : 0, "text" : "담임", "type" : "CV_POSITION", "begin" : 3, "end" : 3, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "아빠", "type" : "CV_RELATION", "begin" : 11, "end" : 11, "weight" : 0.379242, "common_noun" : 0},
+		{"id" : 2, "text" : "딸", "type" : "CV_RELATION", "begin" : 13, "end" : 13, "weight" : 0.514058, "common_noun" : 0},
 	],
 	"chunk" : [
 	],

@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "스코틀랜드 의회", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -24,7 +24,7 @@
 		{"id" : 1, "text" : "의회", "type" : "", "begin" : 1, "end" : 1}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.570157, "common_noun" : 0}
+		{"id" : 0, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -95,11 +95,11 @@
 		{"id" : 7, "text" : "스코틀랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 47, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "수도", "type" : "NNG", "scode" : "09", "weight" : 3.3, "position" : 66, "begin" : 9, "end" : 9},
-		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 66, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "에든버러", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 13, "end" : 13},
-		{"id" : 14, "text" : "홀리루드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 92, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "홀리루드", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 92, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "Holyrood", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 17, "end" : 17},
@@ -116,7 +116,7 @@
 		{"id" : 28, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 169, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "단원제", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 173, "begin" : 30, "end" : 31},
 		{"id" : 30, "text" : "입법부", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 183, "begin" : 32, "end" : 33},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 192, "begin" : 34, "end" : 34},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 192, "begin" : 34, "end" : 34},
 		{"id" : 32, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 195, "begin" : 35, "end" : 35},
 		{"id" : 33, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 198, "begin" : 36, "end" : 36}
 	],
@@ -136,11 +136,11 @@
 		{"id" : 12, "text" : "입법부이다.", "type" : "", "begin" : 32, "end" : 36}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 0, "end" : 1, "weight" : 0.277357, "common_noun" : 0},
+		{"id" : 0, "text" : "스코틀랜드 의회(Scottish Parliament)", "type" : "OGG_POLITICS", "begin" : 0, "end" : 5, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.719345, "common_noun" : 0},
-		{"id" : 2, "text" : "에든버러", "type" : "LCP_CITY", "begin" : 12, "end" : 12, "weight" : 0.132275, "common_noun" : 0},
-		{"id" : 3, "text" : "홀리루드", "type" : "LC_OTHERS", "begin" : 14, "end" : 14, "weight" : 0.106566, "common_noun" : 0},
-		{"id" : 4, "text" : "스코틀랜드", "type" : "LC_OTHERS", "begin" : 22, "end" : 22, "weight" : 0.64022, "common_noun" : 0},
+		{"id" : 2, "text" : "에든버러", "type" : "LCP_CAPITALCITY", "begin" : 12, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "홀리루드", "type" : "AF_BUILDING", "begin" : 14, "end" : 14, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 22, "end" : 22, "weight" : 0.64022, "common_noun" : 0},
 		{"id" : 5, "text" : "입법부", "type" : "OGG_POLITICS", "begin" : 32, "end" : 33, "weight" : 0.521653, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -197,8 +197,8 @@
 	"WSD" : [
 		{"id" : 0, "text" : "비공식적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 2},
 		{"id" : 1, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 3, "end" : 3},
-		{"id" : 2, "text" : "홀리루드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 19, "begin" : 4, "end" : 4},
-		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 19, "begin" : 5, "end" : 5},
+		{"id" : 2, "text" : "홀리루드", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 19, "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 5, "end" : 5},
 		{"id" : 4, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 31, "begin" : 6, "end" : 6},
 		{"id" : 5, "text" : "불리", "type" : "VV", "scode" : "04", "weight" : 1, "position" : 38, "begin" : 7, "end" : 7},
 		{"id" : 6, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 8, "end" : 8},
@@ -235,9 +235,9 @@
 		{"id" : 10, "text" : "구성된다.", "type" : "", "begin" : 26, "end" : 29}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "홀리루드", "type" : "TM_SPORTS", "begin" : 4, "end" : 4, "weight" : 0.113204, "common_noun" : 0},
+		{"id" : 0, "text" : "홀리루드", "type" : "AF_BUILDING", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "129명", "type" : "QT_MAN_COUNT", "begin" : 18, "end" : 19, "weight" : 0.66176, "common_noun" : 0},
-		{"id" : 2, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 21, "end" : 21, "weight" : 0.684686, "common_noun" : 0},
+		{"id" : 2, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 21, "end" : 22, "weight" : 1, "common_noun" : 0},
 		{"id" : 3, "text" : "의원", "type" : "CV_POSITION", "begin" : 23, "end" : 23, "weight" : 0.598971, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -285,7 +285,7 @@
 		{"id" : 2, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "4", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 11, "position" : 18, "begin" : 4, "end" : 4},
-		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 21, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "소선거구", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 28, "begin" : 7, "end" : 9},
 		{"id" : 8, "text" : "비례대표", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 41, "begin" : 10, "end" : 11},
@@ -392,7 +392,7 @@
 		{"id" : 17, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 99, "begin" : 24, "end" : 24},
 		{"id" : 18, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 25, "end" : 25},
 		{"id" : 19, "text" : "개", "type" : "NNB", "scode" : "10", "weight" : 6.6, "position" : 104, "begin" : 26, "end" : 26},
-		{"id" : 20, "text" : "지구", "type" : "NNG", "scode" : "04", "weight" : 1.86667, "position" : 108, "begin" : 27, "end" : 27},
+		{"id" : 20, "text" : "지구", "type" : "NNG", "scode" : "03", "weight" : 1.86667, "position" : 108, "begin" : 27, "end" : 27},
 		{"id" : 21, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 28, "end" : 28},
 		{"id" : 22, "text" : "각", "type" : "MM", "scode" : "01", "weight" : 5.4, "position" : 121, "begin" : 29, "end" : 29},
 		{"id" : 23, "text" : "7", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 30, "end" : 30},
@@ -425,9 +425,8 @@
 		{"id" : 1, "text" : "소선거구제", "type" : "CV_POLICY", "begin" : 12, "end" : 15, "weight" : 0.810283, "common_noun" : 0},
 		{"id" : 2, "text" : "56명", "type" : "QT_MAN_COUNT", "begin" : 22, "end" : 23, "weight" : 0.696873, "common_noun" : 0},
 		{"id" : 3, "text" : "8개", "type" : "QT_COUNT", "begin" : 25, "end" : 26, "weight" : 0.759807, "common_noun" : 0},
-		{"id" : 4, "text" : "지구", "type" : "LC_SPACE", "begin" : 27, "end" : 27, "weight" : 0.297458, "common_noun" : 0},
-		{"id" : 5, "text" : "7명", "type" : "QT_MAN_COUNT", "begin" : 30, "end" : 31, "weight" : 0.870403, "common_noun" : 0},
-		{"id" : 6, "text" : "비례대표제", "type" : "CV_POLICY", "begin" : 33, "end" : 35, "weight" : 0.810212, "common_noun" : 0}
+		{"id" : 4, "text" : "7명", "type" : "QT_MAN_COUNT", "begin" : 30, "end" : 31, "weight" : 0.870403, "common_noun" : 0},
+		{"id" : 5, "text" : "비례대표제", "type" : "CV_POLICY", "begin" : 33, "end" : 35, "weight" : 0.810212, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -597,7 +596,7 @@
 		{"id" : 8, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "독립국", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 10, "end" : 11},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 69, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "스코틀랜드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 79, "begin" : 15, "end" : 15},
@@ -656,7 +655,7 @@
 		{"id" : 20, "text" : "존재하였다.", "type" : "", "begin" : 45, "end" : 49}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.566134, "common_noun" : 0},
+		{"id" : 0, "text" : "스코틀랜드 의회(Parliament of Scotland)", "type" : "OGG_POLITICS", "begin" : 2, "end" : 9, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "스코틀랜드 왕국", "type" : "LCP_COUNTRY", "begin" : 15, "end" : 16, "weight" : 0.384657, "common_noun" : 0},
 		{"id" : 2, "text" : "입법부", "type" : "OGG_POLITICS", "begin" : 18, "end" : 19, "weight" : 0.437097, "common_noun" : 0},
 		{"id" : 3, "text" : "13세기 초반", "type" : "DT_OTHERS", "begin" : 21, "end" : 23, "weight" : 0.686274, "common_noun" : 0},
@@ -778,12 +777,11 @@
 	"NE" : [
 		{"id" : 0, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.614447, "common_noun" : 0},
 		{"id" : 1, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.725489, "common_noun" : 0},
-		{"id" : 2, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 6, "end" : 6, "weight" : 0.514321, "common_noun" : 0},
-		{"id" : 3, "text" : "잉글랜드", "type" : "LCP_COUNTRY", "begin" : 9, "end" : 9, "weight" : 0.550148, "common_noun" : 0},
-		{"id" : 4, "text" : "의회", "type" : "OGG_POLITICS", "begin" : 10, "end" : 10, "weight" : 0.204925, "common_noun" : 0},
+		{"id" : 2, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 6, "end" : 7, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "잉글랜드 의회", "type" : "OGG_POLITICS", "begin" : 9, "end" : 10, "weight" : 1, "common_noun" : 0},
 		{"id" : 5, "text" : "런던", "type" : "LCP_CAPITALCITY", "begin" : 15, "end" : 15, "weight" : 0.533126, "common_noun" : 0},
 		{"id" : 6, "text" : "웨스트민스터", "type" : "LCP_CITY", "begin" : 17, "end" : 17, "weight" : 0.35316, "common_noun" : 0},
-		{"id" : 7, "text" : "그레이트브리튼 의회", "type" : "OGG_ECONOMY", "begin" : 22, "end" : 23, "weight" : 0.219454, "common_noun" : 0}
+		{"id" : 7, "text" : "그레이트브리튼 의회(Parliament of Great Britain)", "type" : "OGG_POLITICS", "begin" : 22, "end" : 29, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -916,8 +914,9 @@
 		{"id" : 1, "text" : "1997년", "type" : "DT_YEAR", "begin" : 7, "end" : 8, "weight" : 0.837441, "common_noun" : 0},
 		{"id" : 2, "text" : "주민투표", "type" : "EV_OTHERS", "begin" : 10, "end" : 11, "weight" : 0.315869, "common_noun" : 0},
 		{"id" : 3, "text" : "1998년", "type" : "DT_YEAR", "begin" : 16, "end" : 17, "weight" : 0.851711, "common_noun" : 0},
-		{"id" : 4, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 18, "end" : 18, "weight" : 0.453304, "common_noun" : 0},
-		{"id" : 5, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 34, "end" : 34, "weight" : 0.550671, "common_noun" : 0}
+		{"id" : 4, "text" : "스코틀랜드법", "type" : "CV_LAW", "begin" : 18, "end" : 19, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "법률제정권", "type" : "CV_POLICY", "begin" : 24, "end" : 26, "weight" : 1, "common_noun" : 0},
+		{"id" : 6, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 34, "end" : 35, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -986,7 +985,7 @@
 		{"id" : 7, "text" : "있다.", "type" : "", "begin" : 14, "end" : 16}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 3, "end" : 3, "weight" : 0.654756, "common_noun" : 0}
+		{"id" : 0, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1096,8 +1095,8 @@
 		{"id" : 16, "text" : "된다.", "type" : "", "begin" : 31, "end" : 33}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 10, "end" : 10, "weight" : 0.405215, "common_noun" : 0},
-		{"id" : 1, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 25, "end" : 25, "weight" : 0.60346, "common_noun" : 0}
+		{"id" : 0, "text" : "영국 의회", "type" : "OGG_POLITICS", "begin" : 10, "end" : 11, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 25, "end" : 26, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1223,10 +1222,9 @@
 		{"id" : 20, "text" : "있다.", "type" : "", "begin" : 37, "end" : 39}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.29326, "common_noun" : 0},
-		{"id" : 1, "text" : "의회", "type" : "OGG_POLITICS", "begin" : 1, "end" : 1, "weight" : 0.26828, "common_noun" : 0},
-		{"id" : 2, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 3, "end" : 3, "weight" : 0.662686, "common_noun" : 0},
-		{"id" : 3, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 18, "end" : 18, "weight" : 0.443882, "common_noun" : 0}
+		{"id" : 0, "text" : "영국 의회", "type" : "OGG_POLITICS", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 18, "end" : 19, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1276,7 +1274,7 @@
 		{"id" : 8, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 1, "position" : 45, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "12", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 1, "position" : 51, "begin" : 10, "end" : 10},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 54, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 14, "end" : 14}
@@ -1290,7 +1288,7 @@
 		{"id" : 5, "text" : "12일이었다.", "type" : "", "begin" : 9, "end" : 14}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "스코틀랜드", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.472858, "common_noun" : 0},
+		{"id" : 0, "text" : "스코틀랜드 의회", "type" : "OGG_POLITICS", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "1999년 5월 12일", "type" : "DT_OTHERS", "begin" : 5, "end" : 10, "weight" : 0.882054, "common_noun" : 0}
 	],
 	"chunk" : [

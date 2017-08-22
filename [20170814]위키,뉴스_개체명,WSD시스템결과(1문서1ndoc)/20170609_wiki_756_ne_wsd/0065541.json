@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "계산 복잡도 이론", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -29,7 +29,7 @@
 		{"id" : 2, "text" : "이론", "type" : "", "begin" : 3, "end" : 3}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "계산 복잡도 이론", "type" : "TR_OTHERS", "begin" : 0, "end" : 3, "weight" : 1, "common_noun" : 0}
+		{"id" : 0, "text" : "계산 복잡도 이론", "type" : "TR_SCIENCE", "begin" : 0, "end" : 3, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -341,7 +341,7 @@
 		{"id" : 14, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 6.4, "position" : 89, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "자원", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 96, "begin" : 18, "end" : 18},
-		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 102, "begin" : 19, "end" : 19},
+		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 108, "begin" : 21, "end" : 21}
 	],
@@ -409,7 +409,7 @@
 		{"id" : 8, "text" : "공간", "type" : "NNG", "scode" : "05", "weight" : 2.2, "position" : 38, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "복잡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 45, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "도", "type" : "NNG", "scode" : "04", "weight" : 2.06061, "position" : 51, "begin" : 10, "end" : 10},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 51, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "라", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 58, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 14, "end" : 14},

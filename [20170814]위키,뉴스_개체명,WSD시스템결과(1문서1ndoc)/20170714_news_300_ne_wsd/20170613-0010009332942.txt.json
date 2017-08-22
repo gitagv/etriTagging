@@ -65,7 +65,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "2천여만 원", "type" : "QT_PRICE", "begin" : 2, "end" : 6, "weight" : 0.790099, "common_noun" : 0},
 		{"id" : 1, "text" : "北", "type" : "LCP_COUNTRY", "begin" : 8, "end" : 8, "weight" : 0.302701, "common_noun" : 0},
-		{"id" : 2, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 9, "end" : 10, "weight" : 0.763454, "common_noun" : 0}
+		{"id" : 2, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 9, "end" : 10, "weight" : 0.763454, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -163,7 +163,7 @@
 		{"id" : 6, "text" : "비행", "type" : "NNG", "scode" : "03", "weight" : 7.6, "position" : 39, "begin" : 8, "end" : 8},
 		{"id" : 7, "text" : "체", "type" : "XSN", "scode" : "10", "weight" : 3, "position" : 45, "begin" : 9, "end" : 9},
 		{"id" : 8, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 10, "end" : 10},
-		{"id" : 9, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 52, "begin" : 11, "end" : 11},
+		{"id" : 9, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 52, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 12, "end" : 12},
 		{"id" : 11, "text" : "고고도", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 59, "begin" : 13, "end" : 14},
 		{"id" : 12, "text" : "미사일", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 69, "begin" : 15, "end" : 15},
@@ -176,7 +176,7 @@
 		{"id" : 19, "text" : "경북", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 105, "begin" : 23, "end" : 23},
 		{"id" : 20, "text" : "성주", "type" : "NNP", "scode" : "04", "weight" : 3.3, "position" : 112, "begin" : 24, "end" : 24},
 		{"id" : 21, "text" : "골프장", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 25, "end" : 26},
-		{"id" : 22, "text" : "전경", "type" : "NNG", "scode" : "09", "weight" : 1, "position" : 128, "begin" : 27, "end" : 27},
+		{"id" : 22, "text" : "전경", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 128, "begin" : 27, "end" : 27},
 		{"id" : 23, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 28, "end" : 28},
 		{"id" : 24, "text" : "촬영하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 138, "begin" : 29, "end" : 30},
 		{"id" : 25, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 31, "end" : 31},
@@ -184,7 +184,7 @@
 		{"id" : 27, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 151, "begin" : 33, "end" : 33},
 		{"id" : 28, "text" : "보", "type" : "VV", "scode" : "01", "weight" : 4.2, "position" : 155, "begin" : 34, "end" : 34},
 		{"id" : 29, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 35, "end" : 35},
-		{"id" : 30, "text" : "북측", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 162, "begin" : 36, "end" : 36},
+		{"id" : 30, "text" : "북측", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 162, "begin" : 36, "end" : 36},
 		{"id" : 31, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 168, "begin" : 37, "end" : 37},
 		{"id" : 32, "text" : "마음", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 172, "begin" : 38, "end" : 38},
 		{"id" : 33, "text" : "만", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 178, "begin" : 39, "end" : 39},
@@ -245,10 +245,11 @@
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.847813, "common_noun" : 0},
 		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 1, "end" : 2, "weight" : 0.789867, "common_noun" : 0},
-		{"id" : 2, "text" : "미사일방어체계", "type" : "TR_SCIENCE", "begin" : 15, "end" : 17, "weight" : 0.0984691, "common_noun" : 0},
-		{"id" : 3, "text" : "경북", "type" : "LCP_PROVINCE", "begin" : 23, "end" : 23, "weight" : 0.517446, "common_noun" : 0},
-		{"id" : 4, "text" : "성주", "type" : "LCP_COUNTY", "begin" : 24, "end" : 24, "weight" : 0.455956, "common_noun" : 0},
-		{"id" : 5, "text" : "북측", "type" : "LCP_COUNTRY", "begin" : 36, "end" : 36, "weight" : 0.20432, "common_noun" : 0}
+		{"id" : 2, "text" : "사드", "type" : "AF_WEAPON", "begin" : 11, "end" : 11, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "고고도 미사일방어체계", "type" : "AF_WEAPON", "begin" : 13, "end" : 17, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "경북", "type" : "LCP_PROVINCE", "begin" : 23, "end" : 23, "weight" : 0.517446, "common_noun" : 0},
+		{"id" : 5, "text" : "성주", "type" : "LCP_COUNTY", "begin" : 24, "end" : 24, "weight" : 0.455956, "common_noun" : 0},
+		{"id" : 6, "text" : "북측", "type" : "LCP_COUNTRY", "begin" : 36, "end" : 36, "weight" : 0.20432, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -393,9 +394,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 19, "end" : 19, "weight" : 0.759979, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 20, "end" : 21, "weight" : 0.663673, "common_noun" : 0},
-		{"id" : 2, "text" : "사실상", "type" : "CV_LAW", "begin" : 35, "end" : 36, "weight" : 1, "common_noun" : 0},
-		{"id" : 3, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 37, "end" : 37, "weight" : 0.781392, "common_noun" : 0}
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 20, "end" : 21, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 37, "end" : 37, "weight" : 0.781392, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -604,7 +604,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "한 관계자", "type" : "QT_MAN_COUNT", "begin" : 2, "end" : 4, "weight" : 0.552397, "common_noun" : 0},
 		{"id" : 1, "text" : "13일", "type" : "DT_DAY", "begin" : 6, "end" : 7, "weight" : 0.759912, "common_noun" : 0},
-		{"id" : 2, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 9, "end" : 10, "weight" : 0.757286, "common_noun" : 0},
+		{"id" : 2, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 9, "end" : 10, "weight" : 1, "common_noun" : 0},
 		{"id" : 3, "text" : "카메라", "type" : "TMI_HW", "begin" : 15, "end" : 15, "weight" : 0.250586, "common_noun" : 0},
 		{"id" : 4, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 27, "end" : 27, "weight" : 0.9212, "common_noun" : 0},
 		{"id" : 5, "text" : "군사분계선", "type" : "LC_OTHERS", "begin" : 33, "end" : 35, "weight" : 0.260052, "common_noun" : 0},
@@ -722,8 +722,8 @@
 		{"id" : 6, "text" : "고고도", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 7, "end" : 8},
 		{"id" : 7, "text" : "무인정찰기", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 47, "begin" : 9, "end" : 11},
 		{"id" : 8, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 12, "end" : 12},
-		{"id" : 9, "text" : "글로벌", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 64, "begin" : 13, "end" : 13},
-		{"id" : 10, "text" : "호크", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 73, "begin" : 14, "end" : 14},
+		{"id" : 9, "text" : "글로벌", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 64, "begin" : 13, "end" : 13},
+		{"id" : 10, "text" : "호크", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 73, "begin" : 14, "end" : 14},
 		{"id" : 11, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 15, "end" : 15},
 		{"id" : 12, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 80, "begin" : 16, "end" : 16},
 		{"id" : 13, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 84, "begin" : 17, "end" : 17},
@@ -819,10 +819,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 1, "end" : 1, "weight" : 0.736326, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 2, "end" : 3, "weight" : 0.6816, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.792459, "common_noun" : 0},
 		{"id" : 3, "text" : "무인정찰기", "type" : "AF_TRANSPORT", "begin" : 9, "end" : 11, "weight" : 0.804801, "common_noun" : 0},
-		{"id" : 4, "text" : "글로벌호크", "type" : "AFW_MUSIC", "begin" : 13, "end" : 14, "weight" : 0.586812, "common_noun" : 0},
+		{"id" : 4, "text" : "글로벌호크", "type" : "AF_TRANSPORT", "begin" : 13, "end" : 14, "weight" : 0.586812, "common_noun" : 0},
 		{"id" : 5, "text" : "주한미군", "type" : "OGG_MILITARY", "begin" : 43, "end" : 44, "weight" : 0.52133, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -920,7 +920,7 @@
 		{"id" : 15, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "무인기", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 17, "end" : 18},
 		{"id" : 17, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 19, "end" : 19},
-		{"id" : 18, "text" : "내장", "type" : "NNG", "scode" : "06", "weight" : 1, "position" : 89, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : "내장", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 89, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "카메라", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 96, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "일본", "type" : "NNP", "scode" : "02", "weight" : 1.5, "position" : 106, "begin" : 23, "end" : 23},
@@ -937,14 +937,14 @@
 		{"id" : 32, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 149, "begin" : 35, "end" : 35},
 		{"id" : 33, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 159, "begin" : 36, "end" : 36},
 		{"id" : 34, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 165, "begin" : 37, "end" : 37},
-		{"id" : 35, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 167, "begin" : 38, "end" : 38},
+		{"id" : 35, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 167, "begin" : 38, "end" : 38},
 		{"id" : 36, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 173, "begin" : 39, "end" : 39},
 		{"id" : 37, "text" : "배치되", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 177, "begin" : 40, "end" : 41},
 		{"id" : 38, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 42, "end" : 42},
 		{"id" : 39, "text" : "경북", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 187, "begin" : 43, "end" : 43},
 		{"id" : 40, "text" : "성주", "type" : "NNP", "scode" : "04", "weight" : 3.3, "position" : 194, "begin" : 44, "end" : 44},
 		{"id" : 41, "text" : "골프장", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 200, "begin" : 45, "end" : 46},
-		{"id" : 42, "text" : "전경", "type" : "NNG", "scode" : "09", "weight" : 1, "position" : 210, "begin" : 47, "end" : 47},
+		{"id" : 42, "text" : "전경", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 210, "begin" : 47, "end" : 47},
 		{"id" : 43, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 48, "end" : 48},
 		{"id" : 44, "text" : "찍히", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 220, "begin" : 49, "end" : 49},
 		{"id" : 45, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 220, "begin" : 50, "end" : 50},
@@ -988,7 +988,7 @@
 		{"id" : 5, "text" : "내장 카메라", "type" : "TMI_HW", "begin" : 20, "end" : 21, "weight" : 0.168233, "common_noun" : 0},
 		{"id" : 6, "text" : "일본", "type" : "LCP_COUNTRY", "begin" : 23, "end" : 23, "weight" : 0.59989, "common_noun" : 0},
 		{"id" : 7, "text" : "소니사", "type" : "OGG_ECONOMY", "begin" : 24, "end" : 25, "weight" : 0.289482, "common_noun" : 0},
-		{"id" : 8, "text" : "DSLT", "type" : "TR_SCIENCE", "begin" : 26, "end" : 26, "weight" : 0.271938, "common_noun" : 0},
+		{"id" : 8, "text" : "DSLT", "type" : "TMI_MODEL", "begin" : 26, "end" : 26, "weight" : 1, "common_noun" : 0},
 		{"id" : 9, "text" : "메모리", "type" : "TMI_HW", "begin" : 28, "end" : 28, "weight" : 0.287019, "common_noun" : 0},
 		{"id" : 10, "text" : "3.2GB", "type" : "QT_OTHERS", "begin" : 29, "end" : 30, "weight" : 0.195575, "common_noun" : 0},
 		{"id" : 11, "text" : "경북", "type" : "LCP_PROVINCE", "begin" : 43, "end" : 43, "weight" : 0.51771, "common_noun" : 0},
@@ -1057,7 +1057,7 @@
 		{"id" : 10, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 13, "end" : 13},
 		{"id" : 11, "text" : "레이더", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 58, "begin" : 14, "end" : 14},
 		{"id" : 12, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 5.2, "position" : 68, "begin" : 15, "end" : 15},
-		{"id" : 13, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 72, "begin" : 16, "end" : 16},
+		{"id" : 13, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 72, "begin" : 16, "end" : 16},
 		{"id" : 14, "text" : "체계", "type" : "NNG", "scode" : "03", "weight" : 6.4, "position" : 78, "begin" : 17, "end" : 17},
 		{"id" : 15, "text" : "핵심", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 85, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "장비", "type" : "NNG", "scode" : "07", "weight" : 5.2, "position" : 91, "begin" : 19, "end" : 19},
@@ -1086,7 +1086,8 @@
 		{"id" : 12, "text" : "드러난다.", "type" : "", "begin" : 25, "end" : 27}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "2기", "type" : "QT_COUNT", "begin" : 11, "end" : 12, "weight" : 0.395615, "common_noun" : 0}
+		{"id" : 0, "text" : "2기", "type" : "QT_COUNT", "begin" : 11, "end" : 12, "weight" : 0.395615, "common_noun" : 0},
+		{"id" : 0, "text" : "사드체계", "type" : "AF_WEAPON", "begin" : 16, "end" : 17, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1157,7 +1158,7 @@
 		{"id" : 5, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 4.7, "position" : 18, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "26", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 3.2, "position" : 24, "begin" : 7, "end" : 7},
-		{"id" : 8, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 28, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 28, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "체계", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 34, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "배치되", "type" : "VV", "scode" : "02", "weight" : 1, "position" : 44, "begin" : 11, "end" : 12},
@@ -1180,7 +1181,7 @@
 		{"id" : 28, "text" : "크", "type" : "VA", "scode" : "01", "weight" : 4.2, "position" : 133, "begin" : 33, "end" : 33},
 		{"id" : 29, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 34, "end" : 34},
 		{"id" : 30, "text" : "상황", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 137, "begin" : 35, "end" : 35},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 143, "begin" : 36, "end" : 36},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 143, "begin" : 36, "end" : 36},
 		{"id" : 32, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 37, "end" : 37},
 		{"id" : 33, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 149, "begin" : 38, "end" : 38}
 	],
@@ -1204,8 +1205,8 @@
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.747278, "common_noun" : 0},
 		{"id" : 1, "text" : "지난 4월 26일", "type" : "DT_OTHERS", "begin" : 2, "end" : 7, "weight" : 0.809629, "common_noun" : 0},
-		{"id" : 2, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 15, "end" : 16, "weight" : 0.76698, "common_noun" : 0},
-		{"id" : 3, "text" : "성주골프장", "type" : "OGG_ECONOMY", "begin" : 22, "end" : 24, "weight" : 0.10359, "common_noun" : 0}
+		{"id" : 2, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 15, "end" : 16, "weight" : 0.76698, "common_noun" : 0},
+		{"id" : 3, "text" : "성주", "type" : "LCP_COUNTY", "begin" : 22, "end" : 22, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1319,7 +1320,7 @@
 		{"id" : 30, "text" : "지난달", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 154, "begin" : 34, "end" : 34},
 		{"id" : 31, "text" : "8", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 3.5, "position" : 165, "begin" : 36, "end" : 36},
-		{"id" : 33, "text" : "조선중앙", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 169, "begin" : 37, "end" : 37},
+		{"id" : 33, "text" : "조선중앙", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 169, "begin" : 37, "end" : 37},
 		{"id" : 34, "text" : "TV", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 181, "begin" : 38, "end" : 38},
 		{"id" : 35, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 183, "begin" : 39, "end" : 39},
 		{"id" : 36, "text" : "시사", "type" : "NNG", "scode" : "08", "weight" : 3.2, "position" : 187, "begin" : 40, "end" : 40},
@@ -1369,9 +1370,9 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "인제", "type" : "LCP_COUNTY", "begin" : 0, "end" : 0, "weight" : 0.310604, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 5, "end" : 6, "weight" : 0.559135, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 5, "end" : 6, "weight" : 0.559135, "common_noun" : 0},
 		{"id" : 2, "text" : "2∼3㎞", "type" : "QT_LENGTH", "begin" : 9, "end" : 12, "weight" : 0.778747, "common_noun" : 0},
-		{"id" : 3, "text" : "성주골프", "type" : "LCP_COUNTY", "begin" : 21, "end" : 22, "weight" : 0.159813, "common_noun" : 0},
+		{"id" : 3, "text" : "성주", "type" : "LCP_COUNTY", "begin" : 21, "end" : 21, "weight" : 1, "common_noun" : 0},
 		{"id" : 4, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 32, "end" : 32, "weight" : 0.763559, "common_noun" : 0},
 		{"id" : 5, "text" : "지난달 8일", "type" : "DT_OTHERS", "begin" : 34, "end" : 36, "weight" : 0.801218, "common_noun" : 0},
 		{"id" : 6, "text" : "조선중앙TV", "type" : "OGG_MEDIA", "begin" : 37, "end" : 38, "weight" : 0.782277, "common_noun" : 0}
@@ -1493,7 +1494,7 @@
 		{"id" : 20, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "같이", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 110, "begin" : 23, "end" : 23},
 		{"id" : 22, "text" : "현재", "type" : "MAG", "scode" : "02", "weight" : 2.2, "position" : 117, "begin" : 24, "end" : 24},
-		{"id" : 23, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 124, "begin" : 25, "end" : 25},
+		{"id" : 23, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 124, "begin" : 25, "end" : 25},
 		{"id" : 24, "text" : "발사기", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 131, "begin" : 26, "end" : 27},
 		{"id" : 25, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 140, "begin" : 28, "end" : 28},
 		{"id" : 26, "text" : "성주", "type" : "NNP", "scode" : "04", "weight" : 1, "position" : 144, "begin" : 29, "end" : 29},
@@ -1571,11 +1572,11 @@
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 1, "end" : 1, "weight" : 0.846185, "common_noun" : 0},
 		{"id" : 1, "text" : "중앙TV", "type" : "OGG_MEDIA", "begin" : 2, "end" : 3, "weight" : 0.573799, "common_noun" : 0},
-		{"id" : 2, "text" : "성주골프장", "type" : "OGG_ECONOMY", "begin" : 29, "end" : 31, "weight" : 0.145132, "common_noun" : 0},
+		{"id" : 1, "text" : "사드", "type" : "AF_WEAPON", "begin" : 25, "end" : 25, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "성주", "type" : "LCP_COUNTY", "begin" : 29, "end" : 29, "weight" : 1, "common_noun" : 0},
 		{"id" : 3, "text" : "북쪽", "type" : "TM_DIRECTION", "begin" : 33, "end" : 33, "weight" : 0.527501, "common_noun" : 0},
 		{"id" : 4, "text" : "X 대역탐지기", "type" : "TMI_HW", "begin" : 39, "end" : 42, "weight" : 0.248728, "common_noun" : 0},
-		{"id" : 5, "text" : "골프", "type" : "CV_SPORTS", "begin" : 51, "end" : 51, "weight" : 0.41696, "common_noun" : 0},
-		{"id" : 6, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 56, "end" : 56, "weight" : 0.551812, "common_noun" : 0}
+		{"id" : 5, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 56, "end" : 56, "weight" : 0.551812, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1644,7 +1645,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "그러", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "면서", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "발사대", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 4},
 		{"id" : 4, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "주장하", "type" : "VV", "scode" : "01", "weight" : 2, "position" : 33, "begin" : 6, "end" : 7},
@@ -1657,7 +1658,7 @@
 		{"id" : 12, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "X", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 16, "end" : 16},
-		{"id" : 15, "text" : "밴드", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 80, "begin" : 17, "end" : 17},
+		{"id" : 15, "text" : "밴드", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 80, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "레이더", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 87, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 20, "end" : 20},
@@ -1702,10 +1703,11 @@
 		{"id" : 16, "text" : "띄웠다.", "type" : "", "begin" : 39, "end" : 42}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "사드", "type" : "PS_NAME", "begin" : 2, "end" : 2, "weight" : 0.248368, "common_noun" : 0},
+		{"id" : 0, "text" : "사드", "type" : "AF_WEAPON", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "사격통제레이더", "type" : "TMI_HW", "begin" : 11, "end" : 13, "weight" : 0.139185, "common_noun" : 0},
-		{"id" : 2, "text" : "검은색", "type" : "TM_COLOR", "begin" : 27, "end" : 27, "weight" : 0.59729, "common_noun" : 0},
-		{"id" : 3, "text" : "2장", "type" : "QT_COUNT", "begin" : 34, "end" : 35, "weight" : 0.687163, "common_noun" : 0}
+		{"id" : 2, "text" : "X-밴드 레이더", "type" : "TMI_HW", "begin" : 15, "end" : 18, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "검은색", "type" : "TM_COLOR", "begin" : 27, "end" : 27, "weight" : 0.59729, "common_noun" : 0},
+		{"id" : 4, "text" : "2장", "type" : "QT_COUNT", "begin" : 34, "end" : 35, "weight" : 0.687163, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1822,8 +1824,9 @@
 		{"id" : 15, "text" : "있다.", "type" : "", "begin" : 37, "end" : 39}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 15, "end" : 16, "weight" : 0.691596, "common_noun" : 0},
-		{"id" : 1, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 25, "end" : 25, "weight" : 0.729103, "common_noun" : 0}
+		{"id" : 0, "text" : "합참", "type" : "OGG_MILITARY", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 15, "end" : 16, "weight" : 0.691596, "common_noun" : 0},
+		{"id" : 2, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 25, "end" : 25, "weight" : 0.729103, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1893,7 +1896,7 @@
 		{"id" : 1, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "주한", "type" : "NNG", "scode" : "02", "weight" : 3, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "미군", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 16, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "사드", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "사드", "type" : "NNG", "scode" : "99", "weight" : 0, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "배치", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "지역", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 37, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "촬영", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 44, "begin" : 7, "end" : 7},
@@ -1954,9 +1957,11 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "주한미군", "type" : "OGG_MILITARY", "begin" : 2, "end" : 3, "weight" : 0.447388, "common_noun" : 0},
-		{"id" : 1, "text" : "미군", "type" : "OGG_MILITARY", "begin" : 13, "end" : 13, "weight" : 0.406747, "common_noun" : 0},
-		{"id" : 2, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 20, "end" : 20, "weight" : 0.913182, "common_noun" : 0},
-		{"id" : 3, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 21, "end" : 22, "weight" : 0.669571, "common_noun" : 0}
+		{"id" : 1, "text" : "사드", "type" : "AF_WEAPON", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "미군", "type" : "OGG_MILITARY", "begin" : 13, "end" : 13, "weight" : 0.406747, "common_noun" : 0},
+		{"id" : 3, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 20, "end" : 20, "weight" : 0.913182, "common_noun" : 0},
+		{"id" : 4, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 21, "end" : 22, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "관계자", "type" : "CV_POSITION", "begin" : 32, "end" : 33, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2055,7 +2060,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.845729, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 2, "end" : 3, "weight" : 0.824728, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "정부", "type" : "OGG_POLITICS", "begin" : 6, "end" : 6, "weight" : 0.372666, "common_noun" : 0},
 		{"id" : 3, "text" : "군부대", "type" : "OGG_MILITARY", "begin" : 11, "end" : 12, "weight" : 1, "common_noun" : 0}
 	],
@@ -2145,7 +2150,7 @@
 		{"id" : 23, "text" : "천만", "type" : "NR", "scode" : "01", "weight" : 2, "position" : 120, "begin" : 25, "end" : 25},
 		{"id" : 24, "text" : "원", "type" : "NNB", "scode" : "01", "weight" : 4.2, "position" : 127, "begin" : 26, "end" : 26},
 		{"id" : 25, "text" : "수준", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 131, "begin" : 27, "end" : 27},
-		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 131, "begin" : 28, "end" : 28},
+		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 28, "end" : 28},
 		{"id" : 27, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 29, "end" : 29},
 		{"id" : 28, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 3.2, "position" : 141, "begin" : 30, "end" : 30},
 		{"id" : 29, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 31, "end" : 31},
@@ -2178,7 +2183,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.687096, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 10, "end" : 11, "weight" : 0.828975, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 10, "end" : 11, "weight" : 0.828975, "common_noun" : 0},
 		{"id" : 2, "text" : "2천만 원", "type" : "QT_PRICE", "begin" : 19, "end" : 21, "weight" : 0.763642, "common_noun" : 0},
 		{"id" : 3, "text" : "4천만 원", "type" : "QT_PRICE", "begin" : 24, "end" : 26, "weight" : 0.813319, "common_noun" : 0}
 	],
@@ -2283,7 +2288,7 @@
 		{"id" : 30, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 34, "end" : 34},
 		{"id" : 31, "text" : "는데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 159, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : "청와대", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 166, "begin" : 36, "end" : 36},
-		{"id" : 33, "text" : "전경", "type" : "NNG", "scode" : "09", "weight" : 1, "position" : 176, "begin" : 37, "end" : 37},
+		{"id" : 33, "text" : "전경", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 176, "begin" : 37, "end" : 37},
 		{"id" : 34, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 182, "begin" : 38, "end" : 38},
 		{"id" : 35, "text" : "선명하", "type" : "VA", "scode" : "02", "weight" : 1, "position" : 186, "begin" : 39, "end" : 40},
 		{"id" : 36, "text" : "게", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 195, "begin" : 41, "end" : 41},
@@ -2416,7 +2421,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "파주", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.424446, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 2, "end" : 3, "weight" : 0.761868, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "시속 100∼120㎞", "type" : "QT_SPEED", "begin" : 5, "end" : 9, "weight" : 0.592526, "common_noun" : 0},
 		{"id" : 3, "text" : "2.5㎞", "type" : "QT_LENGTH", "begin" : 17, "end" : 18, "weight" : 0.69367, "common_noun" : 0}
 	],
@@ -2580,10 +2585,9 @@
 		{"id" : 5, "text" : "사용했다.", "type" : "", "begin" : 8, "end" : 12}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "일제", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.458441, "common_noun" : 0},
-		{"id" : 1, "text" : "캐논", "type" : "OGG_ECONOMY", "begin" : 1, "end" : 1, "weight" : 0.159724, "common_noun" : 0},
-		{"id" : 2, "text" : "카메라", "type" : "TMI_HW", "begin" : 2, "end" : 2, "weight" : 0.28012, "common_noun" : 0},
-		{"id" : 3, "text" : "24㎜", "type" : "QT_LENGTH", "begin" : 4, "end" : 5, "weight" : 0.4964, "common_noun" : 0}
+		{"id" : 0, "text" : "캐논", "type" : "OGG_ECONOMY", "begin" : 1, "end" : 1, "weight" : 0.159724, "common_noun" : 0},
+		{"id" : 1, "text" : "카메라", "type" : "TMI_HW", "begin" : 2, "end" : 2, "weight" : 0.28012, "common_noun" : 0},
+		{"id" : 2, "text" : "24㎜", "type" : "QT_LENGTH", "begin" : 4, "end" : 5, "weight" : 0.4964, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2696,7 +2700,7 @@
 		{"id" : 0, "text" : "같은 해", "type" : "DT_YEAR", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "3월 31일", "type" : "DT_OTHERS", "begin" : 3, "end" : 6, "weight" : 0.795794, "common_noun" : 0},
 		{"id" : 2, "text" : "백령도", "type" : "LCG_ISLAND", "begin" : 7, "end" : 7, "weight" : 0.376471, "common_noun" : 0},
-		{"id" : 3, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 12, "end" : 13, "weight" : 0.723314, "common_noun" : 0},
+		{"id" : 3, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 12, "end" : 13, "weight" : 0.723314, "common_noun" : 0},
 		{"id" : 4, "text" : "시속 100∼120㎞", "type" : "QT_SPEED", "begin" : 15, "end" : 19, "weight" : 0.557197, "common_noun" : 0},
 		{"id" : 5, "text" : "1.8㎞", "type" : "QT_LENGTH", "begin" : 27, "end" : 28, "weight" : 0.667482, "common_noun" : 0}
 	],
@@ -2856,7 +2860,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "일제", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "일제", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "니콘", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "D", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "800", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 3, "end" : 3},
@@ -2889,10 +2893,11 @@
 		{"id" : 9, "text" : "촬영됐다.", "type" : "", "begin" : 16, "end" : 20}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "일제", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.346981, "common_noun" : 0},
-		{"id" : 1, "text" : "니콘", "type" : "OGG_ECONOMY", "begin" : 1, "end" : 1, "weight" : 0.261115, "common_noun" : 0},
-		{"id" : 2, "text" : "D800 카메라", "type" : "TMI_HW", "begin" : 2, "end" : 4, "weight" : 0.159283, "common_noun" : 0},
-		{"id" : 3, "text" : "35㎜", "type" : "QT_LENGTH", "begin" : 7, "end" : 8, "weight" : 0.324877, "common_noun" : 0}
+		{"id" : 0, "text" : "니콘", "type" : "OGG_ECONOMY", "begin" : 1, "end" : 1, "weight" : 0.261115, "common_noun" : 0},
+		{"id" : 1, "text" : "D800", "type" : "TMI_MODEL", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "카메라", "type" : "TMI_HW", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "니콘", "type" : "OGG_ECONOMY", "begin" : 6, "end" : 6, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "35㎜", "type" : "QT_LENGTH", "begin" : 7, "end" : 8, "weight" : 0.324877, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2995,7 +3000,7 @@
 		{"id" : 31, "text" : "설계되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 177, "begin" : 36, "end" : 37},
 		{"id" : 32, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 177, "begin" : 38, "end" : 38},
 		{"id" : 33, "text" : "최신형", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 187, "begin" : 39, "end" : 40},
-		{"id" : 34, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 196, "begin" : 41, "end" : 41},
+		{"id" : 34, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 196, "begin" : 41, "end" : 41},
 		{"id" : 35, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 199, "begin" : 42, "end" : 42},
 		{"id" : 36, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 202, "begin" : 43, "end" : 43},
 		{"id" : 37, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 205, "begin" : 44, "end" : 44}
@@ -3023,11 +3028,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "인제", "type" : "LCP_COUNTY", "begin" : 2, "end" : 2, "weight" : 0.235104, "common_noun" : 0},
-		{"id" : 1, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 7, "end" : 8, "weight" : 0.650177, "common_noun" : 0},
+		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "백령도", "type" : "LCG_ISLAND", "begin" : 14, "end" : 14, "weight" : 0.336357, "common_noun" : 0},
-		{"id" : 3, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 16, "end" : 17, "weight" : 0.747679, "common_noun" : 0},
-		{"id" : 4, "text" : "체코제", "type" : "AF_WEAPON", "begin" : 19, "end" : 20, "weight" : 0.164158, "common_noun" : 0},
-		{"id" : 5, "text" : "4행정", "type" : "QT_COUNT", "begin" : 21, "end" : 22, "weight" : 0.292291, "common_noun" : 0}
+		{"id" : 3, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 16, "end" : 17, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "4행정", "type" : "QT_COUNT", "begin" : 21, "end" : 22, "weight" : 0.292291, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3124,7 +3128,7 @@
 		{"id" : 12, "text" : "제작됐다.", "type" : "", "begin" : 24, "end" : 28}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 3, "end" : 4, "weight" : 0.716336, "common_noun" : 0},
+		{"id" : 0, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 6, "end" : 6, "weight" : 0.801405, "common_noun" : 0},
 		{"id" : 2, "text" : "중국", "type" : "LCP_COUNTRY", "begin" : 8, "end" : 8, "weight" : 0.666819, "common_noun" : 0},
 		{"id" : 3, "text" : "일본", "type" : "LCP_COUNTRY", "begin" : 10, "end" : 10, "weight" : 0.698039, "common_noun" : 0},
@@ -3259,7 +3263,7 @@
 		{"id" : 33, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 5.2, "position" : 182, "begin" : 40, "end" : 40},
 		{"id" : 34, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 185, "begin" : 41, "end" : 41},
 		{"id" : 35, "text" : "좌표", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 189, "begin" : 42, "end" : 42},
-		{"id" : 36, "text" : "상공", "type" : "NNG", "scode" : "07", "weight" : 2, "position" : 196, "begin" : 43, "end" : 43},
+		{"id" : 36, "text" : "상공", "type" : "NNG", "scode" : "03", "weight" : 2, "position" : 196, "begin" : 43, "end" : 43},
 		{"id" : 37, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 202, "begin" : 44, "end" : 44},
 		{"id" : 38, "text" : "사진", "type" : "NNG", "scode" : "07", "weight" : 3.2, "position" : 209, "begin" : 45, "end" : 45},
 		{"id" : 39, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 215, "begin" : 46, "end" : 46},
@@ -3319,8 +3323,8 @@
 	"NE" : [
 		{"id" : 0, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.860158, "common_noun" : 0},
 		{"id" : 1, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 1, "end" : 2, "weight" : 0.765631, "common_noun" : 0},
-		{"id" : 2, "text" : "GPS", "type" : "TR_SCIENCE", "begin" : 4, "end" : 4, "weight" : 0.367017, "common_noun" : 0},
-		{"id" : 3, "text" : "인공위성 위치", "type" : "TMI_HW", "begin" : 6, "end" : 8, "weight" : 0.403278, "common_noun" : 0}
+		{"id" : 2, "text" : "GPS", "type" : "TMI_HW", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "인공위성", "type" : "TMI_HW", "begin" : 6, "end" : 7, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3442,10 +3446,11 @@
 		{"id" : 16, "text" : "있다.", "type" : "", "begin" : 39, "end" : 41}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 0, "end" : 1, "weight" : 0.765037, "common_noun" : 0},
+		{"id" : 0, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "중앙처리장치", "type" : "TMI_HW", "begin" : 9, "end" : 11, "weight" : 0.40946, "common_noun" : 0},
 		{"id" : 2, "text" : "CPU", "type" : "TMI_HW", "begin" : 13, "end" : 13, "weight" : 0.33954, "common_noun" : 0},
 		{"id" : 3, "text" : "카메라", "type" : "TMI_HW", "begin" : 19, "end" : 19, "weight" : 0.209854, "common_noun" : 0}
+		{"id" : 4, "text" : "소형컴퓨터", "type" : "TMI_HW", "begin" : 21, "end" : 22, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3538,7 +3543,7 @@
 		{"id" : 13, "text" : "∼", "type" : "SO", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "14", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "㎏", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 17, "end" : 17},
-		{"id" : 16, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 81, "begin" : 18, "end" : 18},
+		{"id" : 16, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "지만", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "카메라", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 92, "begin" : 21, "end" : 21},
@@ -3596,10 +3601,10 @@
 		{"id" : 1, "text" : "삼척", "type" : "LCP_CITY", "begin" : 2, "end" : 2, "weight" : 0.597234, "common_noun" : 0},
 		{"id" : 2, "text" : "백령도", "type" : "LCG_ISLAND", "begin" : 4, "end" : 4, "weight" : 0.450663, "common_noun" : 0},
 		{"id" : 3, "text" : "북한", "type" : "LCP_COUNTRY", "begin" : 9, "end" : 9, "weight" : 0.861285, "common_noun" : 0},
-		{"id" : 4, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 10, "end" : 11, "weight" : 0.741166, "common_noun" : 0},
+		{"id" : 4, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 10, "end" : 11, "weight" : 1, "common_noun" : 0},
 		{"id" : 5, "text" : "10∼14㎏", "type" : "QT_WEIGHT", "begin" : 14, "end" : 17, "weight" : 0.671809, "common_noun" : 0},
 		{"id" : 6, "text" : "카메라", "type" : "TMI_HW", "begin" : 21, "end" : 21, "weight" : 0.289273, "common_noun" : 0},
-		{"id" : 7, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 30, "end" : 31, "weight" : 0.833502, "common_noun" : 0},
+		{"id" : 7, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 30, "end" : 31, "weight" : 1, "common_noun" : 0},
 		{"id" : 8, "text" : "3∼4㎏", "type" : "QT_WEIGHT", "begin" : 33, "end" : 36, "weight" : 0.601325, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -3747,9 +3752,10 @@
 		{"id" : 21, "text" : "나타났다.", "type" : "", "begin" : 46, "end" : 49}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "무인기", "type" : "AF_WEAPON", "begin" : 2, "end" : 3, "weight" : 0.821578, "common_noun" : 0},
+		{"id" : 0, "text" : "무인기", "type" : "AF_TRANSPORT", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "4㎏", "type" : "QT_WEIGHT", "begin" : 5, "end" : 6, "weight" : 0.688977, "common_noun" : 0},
-		{"id" : 2, "text" : "1∼2m", "type" : "QT_LENGTH", "begin" : 41, "end" : 44, "weight" : 0.764669, "common_noun" : 0}
+		{"id" : 2, "text" : "폭약", "type" : "AF_WEAPON", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "1∼2m", "type" : "QT_LENGTH", "begin" : 41, "end" : 44, "weight" : 0.764669, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

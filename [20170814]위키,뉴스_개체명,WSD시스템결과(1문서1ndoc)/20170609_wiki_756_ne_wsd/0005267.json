@@ -24,7 +24,7 @@
 		{"id" : 1, "text" : "루터", "type" : "", "begin" : 1, "end" : 1}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "마르틴 루터", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
+		{"id" : 0, "text" : "마르틴 루터", "type" : "PS_NAME", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -95,7 +95,7 @@
 		{"id" : 48, "lemma" : "주요", "type" : "NNG", "position" : 215, "weight" : 0 },
 		{"id" : 49, "lemma" : "하", "type" : "XSA", "position" : 215, "weight" : 0 },
 		{"id" : 50, "lemma" : "ㄴ", "type" : "ETM", "position" : 215, "weight" : 0 },
-		{"id" : 51, "lemma" : "인물", "type" : "NNP", "position" : 225, "weight" : 0 },
+		{"id" : 51, "lemma" : "인물", "type" : "NNG", "position" : 225, "weight" : 0 },
 		{"id" : 52, "lemma" : "이", "type" : "VCP", "position" : 231, "weight" : 0 },
 		{"id" : 53, "lemma" : "다", "type" : "EF", "position" : 234, "weight" : 0 },
 		{"id" : 54, "lemma" : ".", "type" : "SF", "position" : 237, "weight" : 0 }
@@ -134,7 +134,7 @@
 		{"id" : 28, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 116, "begin" : 28, "end" : 28},
 		{"id" : 29, "text" : "전직", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 120, "begin" : 29, "end" : 29},
 		{"id" : 30, "text" : "가톨릭", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 127, "begin" : 30, "end" : 30},
-		{"id" : 31, "text" : "수사", "type" : "NNG", "scode" : "18", "weight" : 1, "position" : 137, "begin" : 31, "end" : 31},
+		{"id" : 31, "text" : "수사", "type" : "NNG", "scode" : "14", "weight" : 1, "position" : 137, "begin" : 31, "end" : 31},
 		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 143, "begin" : 32, "end" : 32},
 		{"id" : 33, "text" : "자", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 33, "end" : 33},
 		{"id" : 34, "text" : "사제", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 150, "begin" : 34, "end" : 34},
@@ -152,7 +152,7 @@
 		{"id" : 46, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 205, "begin" : 47, "end" : 47},
 		{"id" : 47, "text" : "주요하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 215, "begin" : 48, "end" : 49},
 		{"id" : 48, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 215, "begin" : 50, "end" : 50},
-		{"id" : 49, "text" : "인물", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 225, "begin" : 51, "end" : 51},
+		{"id" : 49, "text" : "인물", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 225, "begin" : 51, "end" : 51},
 		{"id" : 50, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 231, "begin" : 52, "end" : 52},
 		{"id" : 51, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 234, "begin" : 53, "end" : 53},
 		{"id" : 52, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 237, "begin" : 54, "end" : 54}
@@ -187,12 +187,16 @@
 	"NE" : [
 		{"id" : 0, "text" : "마르틴 루터", "type" : "PS_NAME", "begin" : 0, "end" : 1, "weight" : 0.240434, "common_noun" : 0},
 		{"id" : 1, "text" : "말틴 루터", "type" : "PS_NAME", "begin" : 4, "end" : 5, "weight" : 0.074111, "common_noun" : 0},
-		{"id" : 2, "text" : "1483년 11월 10일~1546년 2월 18일", "type" : "DT_DURATION", "begin" : 12, "end" : 24, "weight" : 1, "common_noun" : 0},
-		{"id" : 3, "text" : "독일", "type" : "LCP_COUNTRY", "begin" : 27, "end" : 27, "weight" : 0.854082, "common_noun" : 0},
-		{"id" : 4, "text" : "가톨릭", "type" : "OGG_RELIGION", "begin" : 30, "end" : 30, "weight" : 0.258556, "common_noun" : 0},
-		{"id" : 5, "text" : "사제", "type" : "CV_OCCUPATION", "begin" : 34, "end" : 34, "weight" : 0.467964, "common_noun" : 0},
-		{"id" : 6, "text" : "신학", "type" : "FD_OTHERS", "begin" : 36, "end" : 36, "weight" : 0.531751, "common_noun" : 0},
-		{"id" : 7, "text" : "종교개혁", "type" : "EV_OTHERS", "begin" : 43, "end" : 44, "weight" : 0.737451, "common_noun" : 0}
+		{"id" : 2, "text" : "Martin Luther", "type" : "PS_NAME", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "Luder", "type" : "PS_NAME", "begin" : 10, "end" : 10, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "1483년 11월 10일~1546년 2월 18일", "type" : "DT_DURATION", "begin" : 12, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "독일", "type" : "LCP_COUNTRY", "begin" : 27, "end" : 27, "weight" : 0.854082, "common_noun" : 0},
+		{"id" : 6, "text" : "가톨릭", "type" : "OGG_RELIGION", "begin" : 30, "end" : 30, "weight" : 0.258556, "common_noun" : 0},
+		{"id" : 7, "text" : "수사", "type" : "CV_POSITION", "begin" : 31, "end" : 31, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "사제", "type" : "CV_OCCUPATION", "begin" : 34, "end" : 34, "weight" : 0.467964, "common_noun" : 0},
+		{"id" : 9, "text" : "신학", "type" : "FD_SOCIAL_SCIENCE", "begin" : 36, "end" : 36, "weight" : 1, "common_noun" : 0},
+		{"id" : 10, "text" : "교수", "type" : "CV_OCCUPATION", "begin" : 37, "end" : 37, "weight" : 1, "common_noun" : 0},
+		{"id" : 11, "text" : "종교개혁", "type" : "EV_OTHERS", "begin" : 43, "end" : 44, "weight" : 0.737451, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -240,7 +244,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "본래", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "아우구스티노회", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "수사", "type" : "NNG", "scode" : "16", "weight" : 1, "position" : 29, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "수사", "type" : "NNG", "scode" : "14", "weight" : 1, "position" : 29, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 29, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 5, "end" : 5},
@@ -272,7 +276,8 @@
 		{"id" : 9, "text" : "거부하였다.", "type" : "", "begin" : 17, "end" : 21}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아우구스티노회", "type" : "OGG_POLITICS", "begin" : 1, "end" : 1, "weight" : 0.169746, "common_noun" : 0},
+		{"id" : 0, "text" : "아우구스티노회", "type" : "OGG_RELIGION", "begin" : 1, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "수사", "type" : "CV_POSITION", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "루터", "type" : "PS_NAME", "begin" : 6, "end" : 6, "weight" : 0.468963, "common_noun" : 0},
 		{"id" : 2, "text" : "로마 가톨릭교회", "type" : "OGG_RELIGION", "begin" : 8, "end" : 10, "weight" : 0.83437, "common_noun" : 0}
 	],
@@ -338,7 +343,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "대사", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "대사", "type" : "NNG", "scode" : "13", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "오용", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
@@ -360,7 +365,7 @@
 		{"id" : 19, "text" : "ㅁ", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : "으로써", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "도미니코회", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 100, "begin" : 23, "end" : 23},
-		{"id" : 22, "text" : "수사", "type" : "NNG", "scode" : "18", "weight" : 1, "position" : 116, "begin" : 24, "end" : 24},
+		{"id" : 22, "text" : "수사", "type" : "NNG", "scode" : "14", "weight" : 1, "position" : 116, "begin" : 24, "end" : 24},
 		{"id" : 23, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 122, "begin" : 25, "end" : 25},
 		{"id" : 24, "text" : "자", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 26, "end" : 26},
 		{"id" : 25, "text" : "대사령", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 129, "begin" : 27, "end" : 27},
@@ -368,7 +373,7 @@
 		{"id" : 27, "text" : "담당자", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 146, "begin" : 29, "end" : 30},
 		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 152, "begin" : 31, "end" : 31},
 		{"id" : 29, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 152, "begin" : 32, "end" : 32},
-		{"id" : 30, "text" : "요한", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 159, "begin" : 33, "end" : 33},
+		{"id" : 30, "text" : "요한", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 159, "begin" : 33, "end" : 33},
 		{"id" : 31, "text" : "테첼", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 166, "begin" : 34, "end" : 34},
 		{"id" : 32, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 172, "begin" : 35, "end" : 35},
 		{"id" : 33, "text" : "맞서", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 176, "begin" : 36, "end" : 36},
@@ -397,12 +402,13 @@
 		{"id" : 17, "text" : "맞섰다.", "type" : "", "begin" : 36, "end" : 39}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "대사", "type" : "CV_POSITION", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
-		{"id" : 1, "text" : "1517년", "type" : "DT_YEAR", "begin" : 13, "end" : 14, "weight" : 0.739343, "common_noun" : 0},
-		{"id" : 2, "text" : "95개", "type" : "QT_COUNT", "begin" : 15, "end" : 16, "weight" : 0.655419, "common_noun" : 0},
-		{"id" : 3, "text" : "도미니코회", "type" : "OGG_RELIGION", "begin" : 23, "end" : 23, "weight" : 0.263963, "common_noun" : 0},
-		{"id" : 4, "text" : "대사령 설교 담당자", "type" : "CV_POSITION", "begin" : 27, "end" : 32, "weight" : 0.133618, "common_noun" : 0},
-		{"id" : 5, "text" : "요한 테첼", "type" : "PS_NAME", "begin" : 33, "end" : 34, "weight" : 0.151963, "common_noun" : 0}
+		{"id" : 0, "text" : "1517년", "type" : "DT_YEAR", "begin" : 13, "end" : 14, "weight" : 0.739343, "common_noun" : 0},
+		{"id" : 1, "text" : "95개", "type" : "QT_COUNT", "begin" : 15, "end" : 16, "weight" : 0.655419, "common_noun" : 0},
+		{"id" : 2, "text" : "도미니코회", "type" : "OGG_RELIGION", "begin" : 23, "end" : 23, "weight" : 0.263963, "common_noun" : 0},
+		{"id" : 3, "text" : "수사", "type" : "CV_POSITION", "begin" : 24, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "대사령", "type" : "CV_LAW", "begin" : 27, "end" : 27, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "설교 담당자", "type" : "CV_POSITION", "begin" : 28, "end" : 32, "weight" : 1, "common_noun" : 0},
+		{"id" : 6, "text" : "요한 테첼", "type" : "PS_NAME", "begin" : 33, "end" : 34, "weight" : 0.151963, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -586,7 +592,7 @@
 		{"id" : 26, "text" : "결국", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 148, "begin" : 27, "end" : 27},
 		{"id" : 27, "text" : "교황", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 155, "begin" : 28, "end" : 28},
 		{"id" : 28, "text" : "에게", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 161, "begin" : 29, "end" : 29},
-		{"id" : 29, "text" : "파문", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 168, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "파문", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 168, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 174, "begin" : 31, "end" : 31},
 		{"id" : 31, "text" : "선고", "type" : "NNG", "scode" : "04", "weight" : 4.4, "position" : 178, "begin" : 32, "end" : 32},
 		{"id" : 32, "text" : "받", "type" : "VV", "scode" : "01", "weight" : 7.6, "position" : 184, "begin" : 33, "end" : 33},
@@ -616,7 +622,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "1521년", "type" : "DT_YEAR", "begin" : 0, "end" : 1, "weight" : 0.625739, "common_noun" : 0},
-		{"id" : 1, "text" : "보름스", "type" : "LCP_CITY", "begin" : 2, "end" : 2, "weight" : 0.221529, "common_noun" : 0},
+		{"id" : 1, "text" : "보름스 회의", "type" : "EV_OTHERS", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "신성 로마 제국", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 9, "weight" : 0.620876, "common_noun" : 0},
 		{"id" : 3, "text" : "카를 5세", "type" : "PS_NAME", "begin" : 11, "end" : 13, "weight" : 0.526294, "common_noun" : 0},
 		{"id" : 4, "text" : "황제", "type" : "CV_POSITION", "begin" : 14, "end" : 14, "weight" : 0.412335, "common_noun" : 0},
@@ -643,7 +649,7 @@
 		{"id" : 0, "lemma" : "또한", "type" : "MAG", "position" : 0, "weight" : 0 },
 		{"id" : 1, "lemma" : "황제", "type" : "NNG", "position" : 7, "weight" : 0 },
 		{"id" : 2, "lemma" : "로부터", "type" : "JKB", "position" : 13, "weight" : 0 },
-		{"id" : 3, "lemma" : "삭권", "type" : "NNP", "position" : 23, "weight" : 0 },
+		{"id" : 3, "lemma" : "삭권", "type" : "NNG", "position" : 23, "weight" : 0 },
 		{"id" : 4, "lemma" : "박탈", "type" : "NNG", "position" : 30, "weight" : 0 },
 		{"id" : 5, "lemma" : "당하", "type" : "XSV", "position" : 30, "weight" : 0 },
 		{"id" : 6, "lemma" : "었", "type" : "EP", "position" : 30, "weight" : 0 },
@@ -656,7 +662,7 @@
 		{"id" : 0, "text" : "또한", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "황제", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "로부터", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "삭권", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "삭권", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 23, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "박탈", "type" : "NNG", "scode" : "02", "weight" : 4.37015, "position" : 30, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "당하", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 6, "end" : 6},
@@ -842,9 +848,9 @@
 	"NE" : [
 		{"id" : 0, "text" : "마르틴 루터", "type" : "PS_NAME", "begin" : 0, "end" : 1, "weight" : 0.299218, "common_noun" : 0},
 		{"id" : 1, "text" : "로마 가톨릭교회", "type" : "OGG_RELIGION", "begin" : 4, "end" : 6, "weight" : 0.847199, "common_noun" : 0},
-		{"id" : 2, "text" : "로마 가톨릭교회", "type" : "OGG_RELIGION", "begin" : 13, "end" : 15, "weight" : 0.818852, "common_noun" : 0},
-		{"id" : 3, "text" : "가톨릭교회", "type" : "OGG_RELIGION", "begin" : 21, "end" : 22, "weight" : 0.694918, "common_noun" : 0},
-		{"id" : 4, "text" : "교리", "type" : "CV_POSITION", "begin" : 24, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "사제", "type" : "CV_OCCUPATION", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "로마 가톨릭교회", "type" : "OGG_RELIGION", "begin" : 13, "end" : 15, "weight" : 0.818852, "common_noun" : 0},
+		{"id" : 4, "text" : "가톨릭교회", "type" : "OGG_RELIGION", "begin" : 21, "end" : 22, "weight" : 0.694918, "common_noun" : 0},
 		{"id" : 5, "text" : "기독교", "type" : "OGG_RELIGION", "begin" : 36, "end" : 36, "weight" : 0.24938, "common_noun" : 0},
 		{"id" : 6, "text" : "그리스도", "type" : "PS_NAME", "begin" : 42, "end" : 42, "weight" : 0.433571, "common_noun" : 0},
 		{"id" : 7, "text" : "하나님", "type" : "PS_NAME", "begin" : 48, "end" : 48, "weight" : 0.254988, "common_noun" : 0}
@@ -1204,8 +1210,8 @@
 		{"id" : 0, "text" : "그", "type" : "NP", "scode" : "01", "weight" : 3.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "‘", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "복음", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 10, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "주의자", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 16, "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "복음주의", "type" : "NNG", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 3, "end" : 4},
+		{"id" : 4, "text" : "자", "type" : "XSN", "scode" : "31", "weight" : 1, "position" : 22, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "’", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "로서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "복음", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 35, "begin" : 8, "end" : 8},
@@ -1248,7 +1254,7 @@
 		{"id" : 10, "text" : "원했다.", "type" : "", "begin" : 32, "end" : 36}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "복음주의자", "type" : "TR_OTHERS", "begin" : 3, "end" : 5, "weight" : 0.163318, "common_noun" : 0},
+		{"id" : 0, "text" : "복음주의자", "type" : "CV_POSITION", "begin" : 3, "end" : 5, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "설교자", "type" : "CV_POSITION", "begin" : 21, "end" : 22, "weight" : 0.231542, "common_noun" : 0},
 		{"id" : 2, "text" : "박사", "type" : "CV_POSITION", "begin" : 24, "end" : 24, "weight" : 0.363894, "common_noun" : 0},
 		{"id" : 3, "text" : "교수", "type" : "CV_OCCUPATION", "begin" : 26, "end" : 26, "weight" : 0.678258, "common_noun" : 0}
@@ -1530,7 +1536,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "대한민국", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.431683, "common_noun" : 0},
-		{"id" : 1, "text" : "기독교 한국 루터회", "type" : "OGG_RELIGION", "begin" : 2, "end" : 4, "weight" : 0.109702, "common_noun" : 0}
+		{"id" : 1, "text" : "기독교 한국 루터회", "type" : "OGG_RELIGION", "begin" : 2, "end" : 4, "weight" : 0.109702, "common_noun" : 0},
+		{"id" : 2, "text" : "말틴 루터", "type" : "PS_NAME", "begin" : 9, "end" : 10, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1661,13 +1668,14 @@
 		{"id" : 1, "text" : "1483년", "type" : "DT_YEAR", "begin" : 2, "end" : 3, "weight" : 0.674333, "common_noun" : 0},
 		{"id" : 2, "text" : "독일", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 4, "weight" : 0.890138, "common_noun" : 0},
 		{"id" : 3, "text" : "작센안할트 주", "type" : "LCP_PROVINCE", "begin" : 6, "end" : 7, "weight" : 0.359326, "common_noun" : 0},
-		{"id" : 4, "text" : "아이스레벤", "type" : "LCP_COUNTRY", "begin" : 9, "end" : 9, "weight" : 0.109646, "common_noun" : 0},
-		{"id" : 5, "text" : "Eisleben", "type" : "OGG_ECONOMY", "begin" : 11, "end" : 11, "weight" : 0.132257, "common_noun" : 0},
+		{"id" : 4, "text" : "아이스레벤", "type" : "LCP_CITY", "begin" : 9, "end" : 9, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "Eisleben", "type" : "LCP_CITY", "begin" : 11, "end" : 11, "weight" : 1, "common_noun" : 0},
 		{"id" : 6, "text" : "아버지", "type" : "CV_RELATION", "begin" : 20, "end" : 20, "weight" : 0.79861, "common_noun" : 0},
 		{"id" : 7, "text" : "한스 루터", "type" : "PS_NAME", "begin" : 21, "end" : 22, "weight" : 0.602597, "common_noun" : 0},
-		{"id" : 8, "text" : "어머니", "type" : "CV_RELATION", "begin" : 28, "end" : 28, "weight" : 0.673829, "common_noun" : 0},
-		{"id" : 9, "text" : "마가레테 린데만", "type" : "PS_NAME", "begin" : 29, "end" : 30, "weight" : 0.20888, "common_noun" : 0},
-		{"id" : 10, "text" : "Margarethe Lindemann", "type" : "PS_NAME", "begin" : 32, "end" : 33, "weight" : 0.134096, "common_noun" : 0}
+		{"id" : 8, "text" : "Hans Luther", "type" : "PS_NAME", "begin" : 24, "end" : 25, "weight" : 1, "common_noun" : 0},
+		{"id" : 9, "text" : "어머니", "type" : "CV_RELATION", "begin" : 28, "end" : 28, "weight" : 0.673829, "common_noun" : 0},
+		{"id" : 10, "text" : "마가레테 린데만", "type" : "PS_NAME", "begin" : 29, "end" : 30, "weight" : 0.20888, "common_noun" : 0},
+		{"id" : 11, "text" : "Margarethe Lindemann", "type" : "PS_NAME", "begin" : 32, "end" : 33, "weight" : 0.134096, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1870,8 +1878,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "부친", "type" : "CV_RELATION", "begin" : 2, "end" : 2, "weight" : 0.391085, "common_noun" : 0},
-		{"id" : 1, "text" : "타락", "type" : "CV_FOOD", "begin" : 6, "end" : 6, "weight" : 0.287465, "common_noun" : 0},
-		{"id" : 2, "text" : "기독교인", "type" : "OGG_RELIGION", "begin" : 17, "end" : 18, "weight" : 0.309532, "common_noun" : 0}
+		{"id" : 1, "text" : "기독교인", "type" : "OGG_RELIGION", "begin" : 17, "end" : 18, "weight" : 0.309532, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1985,8 +1992,9 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "루터", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.332784, "common_noun" : 0},
-		{"id" : 1, "text" : "아버지", "type" : "CV_RELATION", "begin" : 10, "end" : 10, "weight" : 0.799205, "common_noun" : 0},
-		{"id" : 2, "text" : "아버지", "type" : "CV_RELATION", "begin" : 24, "end" : 24, "weight" : 0.682349, "common_noun" : 0}
+		{"id" : 1, "text" : "주기도문", "type" : "AFW_DOCUMENT", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "아버지", "type" : "CV_RELATION", "begin" : 10, "end" : 10, "weight" : 0.799205, "common_noun" : 0},
+		{"id" : 3, "text" : "아버지", "type" : "CV_RELATION", "begin" : 24, "end" : 24, "weight" : 0.682349, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2049,7 +2057,7 @@
 		{"id" : 40, "lemma" : "려고", "type" : "EC", "position" : 194, "weight" : 0 },
 		{"id" : 41, "lemma" : ",", "type" : "SP", "position" : 200, "weight" : 0 },
 		{"id" : 42, "lemma" : "에르푸르트", "type" : "NNP", "position" : 202, "weight" : 0 },
-		{"id" : 43, "lemma" : "대학교", "type" : "NNP", "position" : 218, "weight" : 0 },
+		{"id" : 43, "lemma" : "대학교", "type" : "NNG", "position" : 218, "weight" : 0 },
 		{"id" : 44, "lemma" : "에", "type" : "JKB", "position" : 227, "weight" : 0 },
 		{"id" : 45, "lemma" : "입학", "type" : "NNG", "position" : 231, "weight" : 0 },
 		{"id" : 46, "lemma" : "시키", "type" : "XSV", "position" : 231, "weight" : 0 },
@@ -2101,10 +2109,10 @@
 		{"id" : 38, "text" : "려고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 40, "end" : 40},
 		{"id" : 39, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 200, "begin" : 41, "end" : 41},
 		{"id" : 40, "text" : "에르푸르트", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 202, "begin" : 42, "end" : 42},
-		{"id" : 41, "text" : "대학교", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 218, "begin" : 43, "end" : 43},
+		{"id" : 41, "text" : "대학교", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 218, "begin" : 43, "end" : 43},
 		{"id" : 42, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 227, "begin" : 44, "end" : 44},
 		{"id" : 43, "text" : "입학", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 231, "begin" : 45, "end" : 45},
-		{"id" : 44, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 231, "begin" : 46, "end" : 46},
+		{"id" : 44, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 231, "begin" : 46, "end" : 46},
 		{"id" : 45, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 231, "begin" : 47, "end" : 47},
 		{"id" : 46, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 243, "begin" : 48, "end" : 48},
 		{"id" : 47, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 246, "begin" : 49, "end" : 49}
@@ -2138,7 +2146,8 @@
 		{"id" : 1, "text" : "루터", "type" : "PS_NAME", "begin" : 22, "end" : 22, "weight" : 0.508685, "common_noun" : 0},
 		{"id" : 2, "text" : "아버지", "type" : "CV_RELATION", "begin" : 24, "end" : 24, "weight" : 0.848297, "common_noun" : 0},
 		{"id" : 3, "text" : "아들", "type" : "CV_RELATION", "begin" : 26, "end" : 26, "weight" : 0.563613, "common_noun" : 0},
-		{"id" : 4, "text" : "에르푸르트 대학교", "type" : "OGG_EDUCATION", "begin" : 42, "end" : 43, "weight" : 0.372415, "common_noun" : 0}
+		{"id" : 4, "text" : "법률가", "type" : "CV_OCCUPATION", "begin" : 28, "end" : 29, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "에르푸르트 대학교", "type" : "OGG_EDUCATION", "begin" : 42, "end" : 43, "weight" : 0.372415, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2218,12 +2227,12 @@
 		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "교양학부", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 2, "end" : 3},
 		{"id" : 3, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 4, "end" : 4},
-		{"id" : 4, "text" : "삼학", "type" : "NNG", "scode" : "03", "weight" : 20, "position" : 29, "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "삼학", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 29, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "三學", "type" : "SH", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 42, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 9, "end" : 9},
-		{"id" : 9, "text" : "사학", "type" : "NNG", "scode" : "02", "weight" : 20, "position" : 48, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "사학", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 48, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "四學", "type" : "SH", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 13, "end" : 13},
@@ -2237,7 +2246,7 @@
 		{"id" : 20, "text" : "9", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 21, "end" : 21},
 		{"id" : 21, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 4.4, "position" : 94, "begin" : 22, "end" : 22},
 		{"id" : 22, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 23, "end" : 23},
-		{"id" : 23, "text" : "문학", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 101, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "문학", "type" : "NNG", "scode" : "99", "weight" : 1, "position" : 101, "begin" : 24, "end" : 24},
 		{"id" : 24, "text" : "학사", "type" : "NNG", "scode" : "02", "weight" : 5.2, "position" : 108, "begin" : 25, "end" : 25},
 		{"id" : 25, "text" : "학위", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 114, "begin" : 26, "end" : 26},
 		{"id" : 26, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 120, "begin" : 27, "end" : 27},
@@ -2293,15 +2302,14 @@
 	"NE" : [
 		{"id" : 0, "text" : "루터", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.3321, "common_noun" : 0},
 		{"id" : 1, "text" : "교양학부", "type" : "FD_SOCIAL_SCIENCE", "begin" : 2, "end" : 3, "weight" : 0.334221, "common_noun" : 0},
-		{"id" : 2, "text" : "삼학", "type" : "FD_OTHERS", "begin" : 5, "end" : 5, "weight" : 0.345434, "common_noun" : 0},
-		{"id" : 3, "text" : "사학", "type" : "FD_SOCIAL_SCIENCE", "begin" : 10, "end" : 10, "weight" : 0.324818, "common_noun" : 0},
-		{"id" : 4, "text" : "1502년 9월", "type" : "DT_OTHERS", "begin" : 19, "end" : 22, "weight" : 0.698698, "common_noun" : 0},
-		{"id" : 5, "text" : "문학", "type" : "FD_ART", "begin" : 24, "end" : 24, "weight" : 0.532623, "common_noun" : 0},
-		{"id" : 6, "text" : "학사", "type" : "CV_POSITION", "begin" : 25, "end" : 25, "weight" : 0.329353, "common_noun" : 0},
-		{"id" : 7, "text" : "1505년 1월", "type" : "DT_OTHERS", "begin" : 29, "end" : 32, "weight" : 0.726294, "common_noun" : 0},
-		{"id" : 8, "text" : "17명", "type" : "QT_MAN_COUNT", "begin" : 34, "end" : 35, "weight" : 0.824963, "common_noun" : 0},
-		{"id" : 9, "text" : "문학", "type" : "FD_ART", "begin" : 44, "end" : 44, "weight" : 0.264859, "common_noun" : 0},
-		{"id" : 10, "text" : "석사", "type" : "CV_POSITION", "begin" : 45, "end" : 45, "weight" : 0.561568, "common_noun" : 0}
+		{"id" : 2, "text" : "1502년 9월", "type" : "DT_OTHERS", "begin" : 19, "end" : 22, "weight" : 0.698698, "common_noun" : 0},
+		{"id" : 3, "text" : "문학", "type" : "FD_ART", "begin" : 24, "end" : 24, "weight" : 0.532623, "common_noun" : 0},
+		{"id" : 4, "text" : "학사", "type" : "CV_POSITION", "begin" : 25, "end" : 25, "weight" : 0.329353, "common_noun" : 0},
+		{"id" : 5, "text" : "1505년 1월", "type" : "DT_OTHERS", "begin" : 29, "end" : 32, "weight" : 0.726294, "common_noun" : 0},
+		{"id" : 6, "text" : "17명", "type" : "QT_MAN_COUNT", "begin" : 34, "end" : 35, "weight" : 0.824963, "common_noun" : 0},
+		{"id" : 7, "text" : "차석", "type" : "CV_POSITION", "begin" : 37, "end" : 37, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "문학", "type" : "FD_ART", "begin" : 44, "end" : 44, "weight" : 0.264859, "common_noun" : 0},
+		{"id" : 9, "text" : "석사", "type" : "CV_POSITION", "begin" : 45, "end" : 45, "weight" : 0.561568, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2587,7 +2595,8 @@
 		{"id" : 0, "text" : "7월 2일", "type" : "DT_OTHERS", "begin" : 0, "end" : 3, "weight" : 0.743848, "common_noun" : 0},
 		{"id" : 1, "text" : "슈토테르하임", "type" : "LCP_CITY", "begin" : 5, "end" : 5, "weight" : 0.224225, "common_noun" : 0},
 		{"id" : 2, "text" : "루터", "type" : "PS_NAME", "begin" : 17, "end" : 17, "weight" : 0.342099, "common_noun" : 0},
-		{"id" : 3, "text" : "광부", "type" : "CV_OCCUPATION", "begin" : 23, "end" : 23, "weight" : 0.466308, "common_noun" : 0}
+		{"id" : 3, "text" : "광부", "type" : "CV_OCCUPATION", "begin" : 23, "end" : 23, "weight" : 0.466308, "common_noun" : 0},
+		{"id" : 4, "text" : "수호성인", "type" : "CV_POSITION", "begin" : 26, "end" : 27, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2834,7 +2843,7 @@
 		{"id" : 48, "text" : "수도원", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 252, "begin" : 50, "end" : 51},
 		{"id" : 49, "text" : "”", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 261, "begin" : 52, "end" : 52},
 		{"id" : 50, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 264, "begin" : 53, "end" : 53},
-		{"id" : 51, "text" : "입회하", "type" : "VV", "scode" : "02", "weight" : 2.2, "position" : 268, "begin" : 54, "end" : 55},
+		{"id" : 51, "text" : "입회하", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 268, "begin" : 54, "end" : 55},
 		{"id" : 52, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 274, "begin" : 56, "end" : 56},
 		{"id" : 53, "text" : "수사신부", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 281, "begin" : 57, "end" : 58},
 		{"id" : 54, "text" : "가", "type" : "JKC", "scode" : "00", "weight" : 1, "position" : 293, "begin" : 59, "end" : 59},
@@ -2878,7 +2887,9 @@
 		{"id" : 4, "text" : "에르푸르트", "type" : "LCP_CITY", "begin" : 32, "end" : 32, "weight" : 0.157462, "common_noun" : 0},
 		{"id" : 5, "text" : "아우구스티누스", "type" : "PS_NAME", "begin" : 37, "end" : 37, "weight" : 0.467076, "common_noun" : 0},
 		{"id" : 6, "text" : "어거스틴", "type" : "PS_NAME", "begin" : 39, "end" : 39, "weight" : 0.165644, "common_noun" : 0},
-		{"id" : 7, "text" : "수사신부", "type" : "CV_RELATION", "begin" : 57, "end" : 58, "weight" : 0.252109, "common_noun" : 0}
+		{"id" : 7, "text" : "은둔자 수도회", "type" : "OGG_RELIGION", "begin" : 41, "end" : 44, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "검은 수도원", "type" : "OGG_RELIGION", "begin" : 48, "end" : 51, "weight" : 1, "common_noun" : 0},
+		{"id" : 9, "text" : "수사신부", "type" : "CV_POSITION", "begin" : 57, "end" : 58, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3084,7 +3095,7 @@
 		{"id" : 0, "text" : "비텐베르크", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "대학교", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 16, "begin" : 1, "end" : 2},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 3, "end" : 3},
-		{"id" : 3, "text" : "요한", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 29, "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "요한", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "스타우피츠", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "교수", "type" : "NNG", "scode" : "06", "weight" : 1, "position" : 52, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 58, "begin" : 7, "end" : 7},
@@ -3130,8 +3141,7 @@
 		{"id" : 0, "text" : "비텐베르크 대학교", "type" : "OGG_EDUCATION", "begin" : 0, "end" : 2, "weight" : 0.324248, "common_noun" : 0},
 		{"id" : 1, "text" : "요한 스타우피츠", "type" : "PS_NAME", "begin" : 4, "end" : 5, "weight" : 0.386668, "common_noun" : 0},
 		{"id" : 2, "text" : "교수", "type" : "CV_OCCUPATION", "begin" : 6, "end" : 6, "weight" : 0.651433, "common_noun" : 0},
-		{"id" : 3, "text" : "루터", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.381366, "common_noun" : 0},
-		{"id" : 4, "text" : "평안", "type" : "LCP_COUNTY", "begin" : 19, "end" : 19, "weight" : 0.283456, "common_noun" : 0}
+		{"id" : 3, "text" : "루터", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.381366, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3205,7 +3215,7 @@
 		{"id" : 11, "text" : "스타우피츠", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 63, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "교수", "type" : "NNG", "scode" : "06", "weight" : 2.2, "position" : 79, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 15, "end" : 15},
-		{"id" : 14, "text" : "결정", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 89, "begin" : 16, "end" : 16},
+		{"id" : 14, "text" : "결정", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 89, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "루터", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 99, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 19, "end" : 19},
@@ -3242,7 +3252,7 @@
 		{"id" : 13, "text" : "되었다.", "type" : "", "begin" : 32, "end" : 35}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "성서학", "type" : "FD_PHILOSOPHY", "begin" : 3, "end" : 4, "weight" : 0.600351, "common_noun" : 0},
+		{"id" : 0, "text" : "성서학", "type" : "FD_SOCIAL_SCIENCE", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "교수사제", "type" : "CV_OCCUPATION", "begin" : 5, "end" : 6, "weight" : 0.463427, "common_noun" : 0},
 		{"id" : 2, "text" : "스타우피츠", "type" : "PS_NAME", "begin" : 13, "end" : 13, "weight" : 0.158537, "common_noun" : 0},
 		{"id" : 3, "text" : "교수", "type" : "CV_OCCUPATION", "begin" : 14, "end" : 14, "weight" : 0.627347, "common_noun" : 0},
@@ -3318,7 +3328,8 @@
 		{"id" : 6, "text" : "생각하였다.", "type" : "", "begin" : 15, "end" : 19}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "루터", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.302554, "common_noun" : 0}
+		{"id" : 0, "text" : "루터", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.302554, "common_noun" : 0},
+		{"id" : 1, "text" : "칭의론", "type" : "TR_OTHERS", "begin" : 10, "end" : 11, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3405,7 +3416,7 @@
 		{"id" : 26, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 126, "begin" : 26, "end" : 26},
 		{"id" : 27, "text" : "인정받", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 133, "begin" : 27, "end" : 28},
 		{"id" : 28, "text" : "는다는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 29, "end" : 29},
-		{"id" : 29, "text" : "교리", "type" : "NNG", "scode" : "03", "weight" : 2.2, "position" : 152, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "교리", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 152, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 158, "begin" : 31, "end" : 31},
 		{"id" : 31, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 161, "begin" : 32, "end" : 32},
 		{"id" : 32, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 164, "begin" : 33, "end" : 33}
@@ -3427,8 +3438,8 @@
 		{"id" : 13, "text" : "교리이다.", "type" : "", "begin" : 30, "end" : 33}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "그리스도", "type" : "PS_NAME", "begin" : 15, "end" : 15, "weight" : 0.511462, "common_noun" : 0},
-		{"id" : 1, "text" : "교리", "type" : "CV_POSITION", "begin" : 30, "end" : 30, "weight" : 1, "common_noun" : 0}
+		{"id" : 0, "text" : "칭의론", "type" : "TR_OTHERS", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "그리스도", "type" : "PS_NAME", "begin" : 15, "end" : 15, "weight" : 0.511462, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

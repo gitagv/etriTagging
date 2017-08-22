@@ -24,7 +24,7 @@
 		{"id" : 1, "text" : "계획", "type" : "", "begin" : 1, "end" : 1}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로 계획", "type" : "CV_POLICY", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -93,7 +93,7 @@
 		{"id" : 10, "text" : "1972", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 12.1, "position" : 47, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "미국항공우주국", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 13, "end" : 16},
+		{"id" : 13, "text" : "미국항공우주국", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 13, "end" : 16},
 		{"id" : 14, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 17, "end" : 17},
 		{"id" : 15, "text" : "의하", "type" : "VV", "scode" : "01", "weight" : 9.7, "position" : 82, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 19, "end" : 19},
@@ -126,12 +126,10 @@
 		{"id" : 12, "text" : "계획이다.", "type" : "", "begin" : 28, "end" : 31}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.111485, "common_noun" : 0},
-		{"id" : 1, "text" : "計劃", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.123635, "common_noun" : 0},
-		{"id" : 2, "text" : "1961년", "type" : "DT_YEAR", "begin" : 7, "end" : 8, "weight" : 0.9523, "common_noun" : 0},
-		{"id" : 3, "text" : "1972년", "type" : "DT_YEAR", "begin" : 10, "end" : 11, "weight" : 0.744407, "common_noun" : 0},
-		{"id" : 4, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 13, "end" : 13, "weight" : 0.796788, "common_noun" : 0},
-		{"id" : 5, "text" : "우주", "type" : "LC_SPACE", "begin" : 25, "end" : 25, "weight" : 0.258622, "common_noun" : 0}
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "1961년부터 1972년까지", "type" : "DT_DURATION", "begin" : 7, "end" : 10, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "미국항공우주국", "type" : "OGG_SCIENCE", "begin" : 13, "end" : 16, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "우주", "type" : "LC_SPACE", "begin" : 25, "end" : 25, "weight" : 0.258622, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -206,7 +204,7 @@
 		{"id" : 4, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "1960", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "년대", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 34, "begin" : 6, "end" : 6},
-		{"id" : 7, "text" : "존", "type" : "NNP", "scode" : "01", "weight" : 0.642856, "position" : 41, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "존", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "F", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "케네디", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 10, "end" : 10},
@@ -223,14 +221,14 @@
 		{"id" : 21, "text" : "달", "type" : "NNG", "scode" : "05", "weight" : 6.6, "position" : 111, "begin" : 22, "end" : 22},
 		{"id" : 22, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 23, "end" : 23},
 		{"id" : 23, "text" : "착륙", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 24, "end" : 24},
-		{"id" : 24, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 118, "begin" : 25, "end" : 25},
 		{"id" : 25, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 26, "end" : 26},
 		{"id" : 26, "text" : "후", "type" : "NNG", "scode" : "08", "weight" : 5.4, "position" : 131, "begin" : 27, "end" : 27},
 		{"id" : 27, "text" : "무사히", "type" : "MAG", "scode" : "02", "weight" : 1, "position" : 135, "begin" : 28, "end" : 28},
 		{"id" : 28, "text" : "지구", "type" : "NNG", "scode" : "04", "weight" : 1.86667, "position" : 145, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 151, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "귀환", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 155, "begin" : 31, "end" : 31},
-		{"id" : 31, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 161, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 161, "begin" : 32, "end" : 32},
 		{"id" : 32, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 167, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 34, "end" : 34},
 		{"id" : 34, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 4.4, "position" : 172, "begin" : 35, "end" : 35},
@@ -266,7 +264,7 @@
 		{"id" : 20, "text" : "있다.", "type" : "", "begin" : 41, "end" : 43}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.1123, "common_noun" : 0},
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "1960년대", "type" : "DT_YEAR", "begin" : 5, "end" : 6, "weight" : 0.884427, "common_noun" : 0},
 		{"id" : 2, "text" : "존 F. 케네디", "type" : "PS_NAME", "begin" : 7, "end" : 10, "weight" : 0.908849, "common_noun" : 0},
 		{"id" : 3, "text" : "대통령", "type" : "CV_POSITION", "begin" : 11, "end" : 11, "weight" : 0.544245, "common_noun" : 0},
@@ -424,7 +422,7 @@
 		{"id" : 11, "text" : "이어졌다.", "type" : "", "begin" : 20, "end" : 23}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로", "type" : "CV_POLICY", "begin" : 3, "end" : 3, "weight" : 0.111314, "common_noun" : 0},
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 3, "end" : 3, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "1970년대 초반까지", "type" : "DT_OTHERS", "begin" : 6, "end" : 9, "weight" : 0.630966, "common_noun" : 0},
 		{"id" : 2, "text" : "여섯 차례", "type" : "QT_COUNT", "begin" : 10, "end" : 11, "weight" : 0.792917, "common_noun" : 0},
 		{"id" : 3, "text" : "달", "type" : "LC_SPACE", "begin" : 17, "end" : 17, "weight" : 0.380855, "common_noun" : 0}
@@ -491,19 +489,21 @@
 		{"id" : 41, "lemma" : "의", "type" : "JKG", "position" : 216, "weight" : 0 },
 		{"id" : 42, "lemma" : "일부", "type" : "NNG", "position" : 220, "weight" : 0 },
 		{"id" : 43, "lemma" : "로", "type" : "JKB", "position" : 226, "weight" : 0 },
-		{"id" : 44, "lemma" : "다뤄지", "type" : "VV", "position" : 230, "weight" : 0 },
-		{"id" : 45, "lemma" : "기", "type" : "ETN", "position" : 239, "weight" : 0 },
-		{"id" : 46, "lemma" : "도", "type" : "JX", "position" : 242, "weight" : 0 },
-		{"id" : 47, "lemma" : "하", "type" : "VX", "position" : 246, "weight" : 0 },
-		{"id" : 48, "lemma" : "ㄴ다", "type" : "EF", "position" : 246, "weight" : 0 },
-		{"id" : 49, "lemma" : ".", "type" : "SF", "position" : 252, "weight" : 0 }
+		{"id" : 44, "lemma" : "다루", "type" : "VV", "position" : 230, "weight" : 0 },
+		{"id" : 45, "lemma" : "어", "type" : "EC", "position" : 230, "weight" : 0 },
+		{"id" : 46, "lemma" : "지", "type" : "VX", "position" : 236, "weight" : 0 },
+		{"id" : 47, "lemma" : "기", "type" : "ETN", "position" : 239, "weight" : 0 },
+		{"id" : 48, "lemma" : "도", "type" : "JX", "position" : 242, "weight" : 0 },
+		{"id" : 49, "lemma" : "하", "type" : "VX", "position" : 246, "weight" : 0 },
+		{"id" : 50, "lemma" : "ㄴ다", "type" : "EF", "position" : 246, "weight" : 0 },
+		{"id" : 51, "lemma" : ".", "type" : "SF", "position" : 252, "weight" : 0 }
 	],
 	"morp_eval" : [
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "후", "type" : "NNG", "scode" : "08", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "스카이랩", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "스카이랩", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 7, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "계획", "type" : "NNG", "scode" : "01", "weight" : 5.2, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "이나", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "미국", "type" : "NNP", "scode" : "03", "weight" : 6.5, "position" : 33, "begin" : 5, "end" : 5},
@@ -544,12 +544,14 @@
 		{"id" : 40, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 216, "begin" : 41, "end" : 41},
 		{"id" : 41, "text" : "일부", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 220, "begin" : 42, "end" : 42},
 		{"id" : 42, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 226, "begin" : 43, "end" : 43},
-		{"id" : 43, "text" : "다뤄지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 230, "begin" : 44, "end" : 44},
-		{"id" : 44, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 239, "begin" : 45, "end" : 45},
-		{"id" : 45, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 242, "begin" : 46, "end" : 46},
-		{"id" : 46, "text" : "하", "type" : "VX", "scode" : "01", "weight" : 2.2, "position" : 246, "begin" : 47, "end" : 47},
-		{"id" : 47, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 246, "begin" : 48, "end" : 48},
-		{"id" : 48, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 252, "begin" : 49, "end" : 49}
+		{"id" : 43, "text" : "다루", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 230, "begin" : 44, "end" : 44},
+		{"id" : 44, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 230, "begin" : 45, "end" : 45},
+		{"id" : 45, "text" : "지", "type" : "VX", "scode" : "04", "weight" : 1, "position" : 236, "begin" : 46, "end" : 46},
+		{"id" : 46, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 239, "begin" : 47, "end" : 47},
+		{"id" : 47, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 242, "begin" : 48, "end" : 48},
+		{"id" : 48, "text" : "하", "type" : "VX", "scode" : "01", "weight" : 2.2, "position" : 246, "begin" : 49, "end" : 49},
+		{"id" : 49, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 246, "begin" : 50, "end" : 50},
+		{"id" : 50, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 252, "begin" : 51, "end" : 51}
 	],
 	"word" : [
 		{"id" : 0, "text" : "후에", "type" : "", "begin" : 0, "end" : 1},
@@ -573,15 +575,15 @@
 		{"id" : 18, "text" : "아폴로", "type" : "", "begin" : 39, "end" : 39},
 		{"id" : 19, "text" : "계획의", "type" : "", "begin" : 40, "end" : 41},
 		{"id" : 20, "text" : "일부로", "type" : "", "begin" : 42, "end" : 43},
-		{"id" : 21, "text" : "다뤄지기도", "type" : "", "begin" : 44, "end" : 46},
-		{"id" : 22, "text" : "한다.", "type" : "", "begin" : 47, "end" : 49}
+		{"id" : 21, "text" : "다뤄지기도", "type" : "", "begin" : 44, "end" : 48},
+		{"id" : 22, "text" : "한다.", "type" : "", "begin" : 49, "end" : 51}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.876381, "common_noun" : 0},
-		{"id" : 1, "text" : "소련", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.639503, "common_noun" : 0},
-		{"id" : 2, "text" : "아폴로", "type" : "PS_NAME", "begin" : 13, "end" : 13, "weight" : 0.206956, "common_noun" : 0},
-		{"id" : 3, "text" : "소유즈", "type" : "PS_NAME", "begin" : 15, "end" : 15, "weight" : 0.150621, "common_noun" : 0},
-		{"id" : 4, "text" : "아폴로", "type" : "PS_NAME", "begin" : 20, "end" : 20, "weight" : 0.108127, "common_noun" : 0}
+		{"id" : 0, "text" : "스카이랩", "type" : "LC_OTHERS", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.876381, "common_noun" : 0},
+		{"id" : 2, "text" : "소련", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.639503, "common_noun" : 0},
+		{"id" : 3, "text" : "소유즈", "type" : "AF_TRANSPORT", "begin" : 15, "end" : 15, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 20, "end" : 20, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -658,7 +660,8 @@
 		{"id" : 8, "text" : "있었다.", "type" : "", "begin" : 16, "end" : 19}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "두 차례", "type" : "QT_COUNT", "begin" : 9, "end" : 10, "weight" : 0.799322, "common_noun" : 0}
+		{"id" : 0, "text" : "여러 번", "type" : "QT_COUNT", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "두 차례", "type" : "QT_COUNT", "begin" : 9, "end" : 10, "weight" : 0.799322, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1002,7 +1005,7 @@
 		{"id" : 14, "text" : "것이었다.", "type" : "", "begin" : 25, "end" : 29}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.120393, "common_noun" : 0},
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "드와이트 아이젠하워", "type" : "PS_NAME", "begin" : 3, "end" : 4, "weight" : 0.186235, "common_noun" : 0},
 		{"id" : 2, "text" : "우주", "type" : "LC_SPACE", "begin" : 13, "end" : 13, "weight" : 0.214126, "common_noun" : 0}
 	],
@@ -1163,12 +1166,12 @@
 		{"id" : 23, "text" : "하였다.", "type" : "", "begin" : 53, "end" : 56}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "머큐리", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.0906367, "common_noun" : 0},
+		{"id" : 0, "text" : "머큐리", "type" : "AF_TRANSPORT", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "한 명", "type" : "QT_MAN_COUNT", "begin" : 5, "end" : 6, "weight" : 0.41034, "common_noun" : 0},
 		{"id" : 2, "text" : "우주비행사", "type" : "CV_OCCUPATION", "begin" : 8, "end" : 10, "weight" : 0.73529, "common_noun" : 0},
 		{"id" : 3, "text" : "우주선", "type" : "AF_TRANSPORT", "begin" : 12, "end" : 13, "weight" : 0.415481, "common_noun" : 0},
 		{"id" : 4, "text" : "지구", "type" : "LC_SPACE", "begin" : 18, "end" : 18, "weight" : 0.600465, "common_noun" : 0},
-		{"id" : 5, "text" : "아폴로", "type" : "PS_NAME", "begin" : 28, "end" : 28, "weight" : 0.119386, "common_noun" : 0},
+		{"id" : 5, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 28, "end" : 28, "weight" : 1, "common_noun" : 0},
 		{"id" : 6, "text" : "세명", "type" : "QT_MAN_COUNT", "begin" : 31, "end" : 32, "weight" : 0.865614, "common_noun" : 0},
 		{"id" : 7, "text" : "우주비행사", "type" : "CV_OCCUPATION", "begin" : 34, "end" : 36, "weight" : 0.77839, "common_noun" : 0},
 		{"id" : 8, "text" : "우주선", "type" : "AF_TRANSPORT", "begin" : 38, "end" : 39, "weight" : 0.415456, "common_noun" : 0},
@@ -1212,17 +1215,19 @@
 		{"id" : 17, "lemma" : "고대", "type" : "NNG", "position" : 94, "weight" : 0 },
 		{"id" : 18, "lemma" : "그리스", "type" : "NNP", "position" : 101, "weight" : 0 },
 		{"id" : 19, "lemma" : "의", "type" : "JKG", "position" : 110, "weight" : 0 },
-		{"id" : 20, "lemma" : "신인", "type" : "NNG", "position" : 114, "weight" : 0 },
-		{"id" : 21, "lemma" : "아폴론", "type" : "NNP", "position" : 121, "weight" : 0 },
-		{"id" : 22, "lemma" : "의", "type" : "JKG", "position" : 130, "weight" : 0 },
-		{"id" : 23, "lemma" : "이름", "type" : "NNG", "position" : 134, "weight" : 0 },
-		{"id" : 24, "lemma" : "을", "type" : "JKO", "position" : 140, "weight" : 0 },
-		{"id" : 25, "lemma" : "따", "type" : "VV", "position" : 144, "weight" : 0 },
-		{"id" : 26, "lemma" : "ㄴ", "type" : "ETM", "position" : 144, "weight" : 0 },
-		{"id" : 27, "lemma" : "것", "type" : "NNB", "position" : 148, "weight" : 0 },
-		{"id" : 28, "lemma" : "이", "type" : "VCP", "position" : 151, "weight" : 0 },
-		{"id" : 29, "lemma" : "다", "type" : "EF", "position" : 154, "weight" : 0 },
-		{"id" : 30, "lemma" : ".", "type" : "SF", "position" : 157, "weight" : 0 }
+		{"id" : 20, "lemma" : "신", "type" : "NNG", "position" : 114, "weight" : 0 },
+		{"id" : 21, "lemma" : "이", "type" : "VCP", "position" : 117, "weight" : 0 },
+		{"id" : 22, "lemma" : "ㄴ", "type" : "ETM", "position" : 117, "weight" : 0 },
+		{"id" : 23, "lemma" : "아폴론", "type" : "NNP", "position" : 121, "weight" : 0 },
+		{"id" : 24, "lemma" : "의", "type" : "JKG", "position" : 130, "weight" : 0 },
+		{"id" : 25, "lemma" : "이름", "type" : "NNG", "position" : 134, "weight" : 0 },
+		{"id" : 26, "lemma" : "을", "type" : "JKO", "position" : 140, "weight" : 0 },
+		{"id" : 27, "lemma" : "따", "type" : "VV", "position" : 144, "weight" : 0 },
+		{"id" : 28, "lemma" : "ㄴ", "type" : "ETM", "position" : 144, "weight" : 0 },
+		{"id" : 29, "lemma" : "것", "type" : "NNB", "position" : 148, "weight" : 0 },
+		{"id" : 30, "lemma" : "이", "type" : "VCP", "position" : 151, "weight" : 0 },
+		{"id" : 31, "lemma" : "다", "type" : "EF", "position" : 154, "weight" : 0 },
+		{"id" : 32, "lemma" : ".", "type" : "SF", "position" : 157, "weight" : 0 }
 	],
 	"morp_eval" : [
 	],
@@ -1245,17 +1250,19 @@
 		{"id" : 15, "text" : "고대", "type" : "NNG", "scode" : "04", "weight" : 7, "position" : 94, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "그리스", "type" : "NNP", "scode" : "02", "weight" : 2.2, "position" : 101, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 110, "begin" : 19, "end" : 19},
-		{"id" : 18, "text" : "신인", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 114, "begin" : 20, "end" : 20},
-		{"id" : 19, "text" : "아폴론", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 121, "begin" : 21, "end" : 21},
-		{"id" : 20, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 22, "end" : 22},
-		{"id" : 21, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 134, "begin" : 23, "end" : 23},
-		{"id" : 22, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 140, "begin" : 24, "end" : 24},
-		{"id" : 23, "text" : "따", "type" : "VV", "scode" : "01", "weight" : 3.13913, "position" : 144, "begin" : 25, "end" : 25},
-		{"id" : 24, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 26, "end" : 26},
-		{"id" : 25, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 4.4, "position" : 148, "begin" : 27, "end" : 27},
-		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 151, "begin" : 28, "end" : 28},
-		{"id" : 27, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 29, "end" : 29},
-		{"id" : 28, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 30, "end" : 30}
+		{"id" : 18, "text" : "신", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 114, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 117, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 117, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : "아폴론", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 121, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 134, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 140, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "따", "type" : "VV", "scode" : "01", "weight" : 3.13913, "position" : 144, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 4.4, "position" : 148, "begin" : 29, "end" : 29},
+		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 151, "begin" : 30, "end" : 30},
+		{"id" : 29, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 31, "end" : 31},
+		{"id" : 30, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 32, "end" : 32}
 	],
 	"word" : [
 		{"id" : 0, "text" : "아폴로라는", "type" : "", "begin" : 0, "end" : 2},
@@ -1267,19 +1274,19 @@
 		{"id" : 6, "text" : "것으로", "type" : "", "begin" : 15, "end" : 16},
 		{"id" : 7, "text" : "고대", "type" : "", "begin" : 17, "end" : 17},
 		{"id" : 8, "text" : "그리스의", "type" : "", "begin" : 18, "end" : 19},
-		{"id" : 9, "text" : "신인", "type" : "", "begin" : 20, "end" : 20},
-		{"id" : 10, "text" : "아폴론의", "type" : "", "begin" : 21, "end" : 22},
-		{"id" : 11, "text" : "이름을", "type" : "", "begin" : 23, "end" : 24},
-		{"id" : 12, "text" : "딴", "type" : "", "begin" : 25, "end" : 26},
-		{"id" : 13, "text" : "것이다.", "type" : "", "begin" : 27, "end" : 30}
+		{"id" : 9, "text" : "신인", "type" : "", "begin" : 20, "end" : 22},
+		{"id" : 10, "text" : "아폴론의", "type" : "", "begin" : 23, "end" : 24},
+		{"id" : 11, "text" : "이름을", "type" : "", "begin" : 25, "end" : 26},
+		{"id" : 12, "text" : "딴", "type" : "", "begin" : 27, "end" : 28},
+		{"id" : 13, "text" : "것이다.", "type" : "", "begin" : 29, "end" : 32}
 	],
 	"NE" : [
 		{"id" : 0, "text" : "아폴로", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.170574, "common_noun" : 0},
 		{"id" : 1, "text" : "미항공우주국", "type" : "OGG_SCIENCE", "begin" : 5, "end" : 8, "weight" : 0.739261, "common_noun" : 0},
 		{"id" : 2, "text" : "에이브 실버스테인", "type" : "PS_NAME", "begin" : 10, "end" : 11, "weight" : 0.0683159, "common_noun" : 0},
 		{"id" : 3, "text" : "고대 그리스", "type" : "DT_DYNASTY", "begin" : 17, "end" : 18, "weight" : 0.671487, "common_noun" : 0},
-		{"id" : 4, "text" : "신인", "type" : "CV_POSITION", "begin" : 20, "end" : 20, "weight" : 0.529186, "common_noun" : 0},
-		{"id" : 5, "text" : "아폴론", "type" : "PS_NAME", "begin" : 21, "end" : 21, "weight" : 0.69902, "common_noun" : 0}
+		{"id" : 4, "text" : "신", "type" : "CV_POSITION", "begin" : 20, "end" : 20, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "아폴론", "type" : "PS_NAME", "begin" : 23, "end" : 23, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1423,7 +1430,7 @@
 		{"id" : 1, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 3.3, "position" : 4, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "11", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 8, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 1.5, "position" : 10, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "존", "type" : "NNP", "scode" : "01", "weight" : 0.642856, "position" : 14, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "존", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "F", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "케네디", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 7, "end" : 7},
@@ -1658,7 +1665,7 @@
 		{"id" : 4, "text" : "12", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "일", "type" : "NNB", "scode" : "07", "weight" : 1, "position" : 15, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 6, "end" : 6},
-		{"id" : 7, "text" : "유리", "type" : "NNP", "scode" : "14", "weight" : 1.5, "position" : 20, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "유리", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "가가린", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "최초", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 40, "begin" : 10, "end" : 10},
@@ -1713,7 +1720,7 @@
 		{"id" : 1, "text" : "유리 가가린", "type" : "PS_NAME", "begin" : 7, "end" : 8, "weight" : 0.360763, "common_noun" : 0},
 		{"id" : 2, "text" : "우주", "type" : "LC_SPACE", "begin" : 13, "end" : 13, "weight" : 0.207831, "common_noun" : 0},
 		{"id" : 3, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 19, "end" : 19, "weight" : 0.802476, "common_noun" : 0},
-		{"id" : 4, "text" : "소비에트", "type" : "OGG_POLITICS", "begin" : 28, "end" : 28, "weight" : 1, "common_noun" : 0}
+		{"id" : 4, "text" : "소비에트", "type" : "LCP_COUNTRY", "begin" : 28, "end" : 28, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1774,7 +1781,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "유리", "type" : "NNP", "scode" : "14", "weight" : 1.5, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "유리", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "가가린", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 16, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "우주", "type" : "NNG", "scode" : "02", "weight" : 5.9, "position" : 20, "begin" : 3, "end" : 3},
@@ -1903,7 +1910,7 @@
 		{"id" : 7, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "부통령", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 32, "begin" : 8, "end" : 9},
 		{"id" : 9, "text" : "린든", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 42, "begin" : 10, "end" : 10},
-		{"id" : 10, "text" : "존슨", "type" : "NNP", "scode" : "05", "weight" : 3.53571, "position" : 49, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "존슨", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "에게", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "현재", "type" : "NNG", "scode" : "02", "weight" : 5.5, "position" : 62, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 14, "end" : 14},
@@ -2030,7 +2037,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "린든", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "존슨", "type" : "NNP", "scode" : "05", "weight" : 3.75, "position" : 7, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "존슨", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "케네디", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 4, "end" : 4},
@@ -2052,7 +2059,7 @@
 		{"id" : 20, "text" : "착륙", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 94, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 21, "end" : 21},
 		{"id" : 22, "text" : "성공", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 104, "begin" : 22, "end" : 22},
-		{"id" : 23, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 110, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 110, "begin" : 23, "end" : 23},
 		{"id" : 24, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 116, "begin" : 24, "end" : 24},
 		{"id" : 25, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 4.2, "position" : 120, "begin" : 25, "end" : 25},
 		{"id" : 26, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 26, "end" : 26},
@@ -2114,7 +2121,9 @@
 		{"id" : 1, "text" : "케네디", "type" : "PS_NAME", "begin" : 3, "end" : 3, "weight" : 0.567838, "common_noun" : 0},
 		{"id" : 2, "text" : "1966년", "type" : "DT_YEAR", "begin" : 12, "end" : 13, "weight" : 0.794134, "common_noun" : 0},
 		{"id" : 3, "text" : "1967년", "type" : "DT_YEAR", "begin" : 15, "end" : 16, "weight" : 0.758685, "common_noun" : 0},
-		{"id" : 4, "text" : "달", "type" : "LC_SPACE", "begin" : 19, "end" : 19, "weight" : 0.38548, "common_noun" : 0}
+		{"id" : 4, "text" : "달", "type" : "LC_SPACE", "begin" : 19, "end" : 19, "weight" : 0.38548, "common_noun" : 0},
+		{"id" : 5, "text" : "소비에트", "type" : "LCP_COUNTRY", "begin" : 27, "end" : 27, "weight" : 1, "common_noun" : 0},
+		{"id" : 6, "text" : "우주", "type" : "LC_SPACE", "begin" : 31, "end" : 31, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2206,7 +2215,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "1961년 5월 25일", "type" : "DT_OTHERS", "begin" : 0, "end" : 5, "weight" : 0.868071, "common_noun" : 0},
 		{"id" : 1, "text" : "케네디", "type" : "PS_NAME", "begin" : 6, "end" : 6, "weight" : 0.52597, "common_noun" : 0},
-		{"id" : 2, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 8, "end" : 8, "weight" : 0.824341, "common_noun" : 0}
+		{"id" : 2, "text" : "미국 의회", "type" : "OGG_POLITICS", "begin" : 8, "end" : 9, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2625,7 +2634,7 @@
 		{"id" : 42, "text" : "필요하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 223, "begin" : 46, "end" : 47},
 		{"id" : 43, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 229, "begin" : 48, "end" : 48},
 		{"id" : 44, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 235, "begin" : 49, "end" : 49},
-		{"id" : 45, "text" : "노바", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 239, "begin" : 50, "end" : 50},
+		{"id" : 45, "text" : "노바", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 239, "begin" : 50, "end" : 50},
 		{"id" : 46, "text" : "로켓", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 246, "begin" : 51, "end" : 51},
 		{"id" : 47, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 252, "begin" : 52, "end" : 52},
 		{"id" : 48, "text" : "사용하", "type" : "VV", "scode" : "03", "weight" : 4.4, "position" : 256, "begin" : 53, "end" : 54},
@@ -2665,11 +2674,12 @@
 		{"id" : 26, "text" : "되었다.", "type" : "", "begin" : 56, "end" : 59}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로", "type" : "PS_NAME", "begin" : 3, "end" : 3, "weight" : 0.156814, "common_noun" : 0},
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 3, "end" : 3, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "하나", "type" : "QT_COUNT", "begin" : 6, "end" : 6, "weight" : 0.440214, "common_noun" : 0},
 		{"id" : 2, "text" : "우주선", "type" : "AF_TRANSPORT", "begin" : 8, "end" : 9, "weight" : 0.45634, "common_noun" : 0},
 		{"id" : 3, "text" : "달", "type" : "LC_SPACE", "begin" : 11, "end" : 11, "weight" : 0.419925, "common_noun" : 0},
-		{"id" : 4, "text" : "지구", "type" : "LC_SPACE", "begin" : 22, "end" : 22, "weight" : 0.443645, "common_noun" : 0}
+		{"id" : 4, "text" : "지구", "type" : "LC_SPACE", "begin" : 22, "end" : 22, "weight" : 0.443645, "common_noun" : 0},
+		{"id" : 5, "text" : "노바 로켓", "type" : "TMI_HW", "begin" : 50, "end" : 51, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2742,7 +2752,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "지구", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "궤도", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 7, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "랑데뷰", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 14, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "랑데뷰", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 14, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "달", "type" : "NNG", "scode" : "05", "weight" : 6.6, "position" : 25, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "착륙", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 5, "end" : 5},
@@ -2892,7 +2902,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "달", "type" : "NNG", "scode" : "05", "weight" : 3.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "표면", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 4, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "랑데뷰", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 11, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "랑데뷰", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 11, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "먼저", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 22, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "연료", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 5, "end" : 5},
@@ -2968,11 +2978,11 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "달", "type" : "LC_SPACE", "begin" : 0, "end" : 0, "weight" : 0.364206, "common_noun" : 0},
-		{"id" : 1, "text" : "우주선", "type" : "AF_TRANSPORT", "begin" : 10, "end" : 11, "weight" : 0.311437, "common_noun" : 0},
+		{"id" : 1, "text" : "무인 우주선", "type" : "AF_TRANSPORT", "begin" : 9, "end" : 11, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "달", "type" : "LC_SPACE", "begin" : 13, "end" : 13, "weight" : 0.44397, "common_noun" : 0},
-		{"id" : 3, "text" : "우주선", "type" : "AF_TRANSPORT", "begin" : 18, "end" : 19, "weight" : 0.495678, "common_noun" : 0},
+		{"id" : 3, "text" : "유인 우주선", "type" : "AF_TRANSPORT", "begin" : 17, "end" : 19, "weight" : 1, "common_noun" : 0},
 		{"id" : 4, "text" : "달", "type" : "LC_SPACE", "begin" : 25, "end" : 25, "weight" : 0.311016, "common_noun" : 0},
-		{"id" : 5, "text" : "우주선", "type" : "AF_TRANSPORT", "begin" : 37, "end" : 38, "weight" : 0.289519, "common_noun" : 0}
+		{"id" : 5, "text" : "무인 우주선", "type" : "AF_TRANSPORT", "begin" : 36, "end" : 38, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3074,7 +3084,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "달", "type" : "NNG", "scode" : "05", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "궤도", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 4, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "랑데뷰", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 11, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "랑데뷰", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 11, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "하나", "type" : "NR", "scode" : "00", "weight" : 0, "position" : 22, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 5, "end" : 5},
@@ -3101,7 +3111,7 @@
 		{"id" : 26, "text" : "사령선", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 133, "begin" : 28, "end" : 29},
 		{"id" : 27, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 30, "end" : 30},
 		{"id" : 28, "text" : "도킹", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 146, "begin" : 31, "end" : 31},
-		{"id" : 29, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 152, "begin" : 32, "end" : 32},
+		{"id" : 29, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 152, "begin" : 32, "end" : 32},
 		{"id" : 30, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 158, "begin" : 33, "end" : 33},
 		{"id" : 31, "text" : "달", "type" : "NNG", "scode" : "05", "weight" : 4.4, "position" : 162, "begin" : 34, "end" : 34},
 		{"id" : 32, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 165, "begin" : 35, "end" : 35},
@@ -3242,7 +3252,7 @@
 		{"id" : 6, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 40, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "달", "type" : "NNG", "scode" : "05", "weight" : 2.2, "position" : 44, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "궤도", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 48, "begin" : 8, "end" : 8},
-		{"id" : 9, "text" : "랑데뷰", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 55, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "랑데뷰", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 55, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "사용하", "type" : "VV", "scode" : "03", "weight" : 1, "position" : 68, "begin" : 11, "end" : 12},
 		{"id" : 12, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 13, "end" : 13},
@@ -3261,7 +3271,7 @@
 		{"id" : 8, "text" : "사용하였다.", "type" : "", "begin" : 11, "end" : 15}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아폴로", "type" : "PS_NAME", "begin" : 1, "end" : 1, "weight" : 0.156926, "common_noun" : 0},
+		{"id" : 0, "text" : "아폴로", "type" : "AF_TRANSPORT", "begin" : 1, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "달", "type" : "LC_SPACE", "begin" : 7, "end" : 7, "weight" : 0.385476, "common_noun" : 0}
 	],
 	"chunk" : [

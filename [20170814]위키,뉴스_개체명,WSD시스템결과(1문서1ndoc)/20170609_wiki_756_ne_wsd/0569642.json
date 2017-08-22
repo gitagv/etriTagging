@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "시민 불복종", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -25,7 +25,7 @@
 		{"id" : 1, "text" : "불복종", "type" : "", "begin" : 1, "end" : 2}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "시민 불복종", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0}
+		{"id" : 0, "text" : "시민 불복종", "type" : "EV_OTHERS", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -149,7 +149,7 @@
 		{"id" : 17, "text" : "말한다.", "type" : "", "begin" : 38, "end" : 41}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "시민 불복종", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 2, "weight" : 0.220504, "common_noun" : 0},
+		{"id" : 0, "text" : "시민 불복종(市民不服従)", "type" : "EV_OTHERS", "begin" : 0, "end" : 5, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "정부", "type" : "OGG_POLITICS", "begin" : 11, "end" : 11, "weight" : 0.28666, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -203,7 +203,7 @@
 		{"id" : 5, "text" : "사용하", "type" : "VV", "scode" : "03", "weight" : 7.6, "position" : 27, "begin" : 5, "end" : 6},
 		{"id" : 6, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 27, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "저항", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 8, "end" : 8},
-		{"id" : 8, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 43, "begin" : 9, "end" : 9},
+		{"id" : 8, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "지만", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "꼭", "type" : "MAG", "scode" : "03", "weight" : 4.2, "position" : 53, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "그렇", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 12, "end" : 12},
@@ -297,7 +297,7 @@
 		{"id" : 6, "text" : "한다.", "type" : "", "begin" : 15, "end" : 17}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "시민불복종", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 2, "weight" : 0.125156, "common_noun" : 0}
+		{"id" : 0, "text" : "시민불복종", "type" : "EV_OTHERS", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -398,8 +398,8 @@
 		{"id" : 4, "text" : "저항", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "운동", "type" : "NNG", "scode" : "02", "weight" : 7.7, "position" : 27, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 6, "end" : 6},
-		{"id" : 7, "text" : "모한다스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 34, "begin" : 7, "end" : 7},
-		{"id" : 8, "text" : "카람찬드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 47, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "모한다스", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 34, "begin" : 7, "end" : 7},
+		{"id" : 8, "text" : "카람찬드", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 47, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "간디", "type" : "NNP", "scode" : "02", "weight" : 2.86667, "position" : 60, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "사회", "type" : "NNG", "scode" : "07", "weight" : 4.4, "position" : 70, "begin" : 11, "end" : 11},
@@ -426,10 +426,10 @@
 		{"id" : 32, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 8.7, "position" : 215, "begin" : 36, "end" : 36},
 		{"id" : 33, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 218, "begin" : 37, "end" : 37},
 		{"id" : 34, "text" : "대표적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 222, "begin" : 38, "end" : 39},
-		{"id" : 35, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 228, "begin" : 40, "end" : 40},
+		{"id" : 35, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 40, "end" : 40},
 		{"id" : 36, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 41, "end" : 41},
-		{"id" : 37, "text" : "예", "type" : "NNG", "scode" : "01", "weight" : 1.7, "position" : 235, "begin" : 42, "end" : 42},
-		{"id" : 38, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 238, "begin" : 43, "end" : 43},
+		{"id" : 37, "text" : "예", "type" : "NNG", "scode" : "08", "weight" : 1.7, "position" : 235, "begin" : 42, "end" : 42},
+		{"id" : 38, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 238, "begin" : 43, "end" : 43},
 		{"id" : 39, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 241, "begin" : 44, "end" : 44},
 		{"id" : 40, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 244, "begin" : 45, "end" : 45},
 		{"id" : 41, "text" : "소크라테스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 246, "begin" : 46, "end" : 46},
@@ -488,14 +488,17 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "인도", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.603347, "common_noun" : 0},
-		{"id" : 1, "text" : "모한다스 카람찬드 간디", "type" : "PS_NAME", "begin" : 7, "end" : 9, "weight" : 0.221777, "common_noun" : 0},
-		{"id" : 2, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 15, "end" : 15, "weight" : 0.656083, "common_noun" : 0},
-		{"id" : 3, "text" : "남아프리카 공화국", "type" : "LCP_COUNTRY", "begin" : 22, "end" : 24, "weight" : 0.821285, "common_noun" : 0},
-		{"id" : 4, "text" : "인종", "type" : "PS_NAME", "begin" : 26, "end" : 26, "weight" : 1, "common_noun" : 0},
-		{"id" : 5, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 31, "end" : 31, "weight" : 0.834653, "common_noun" : 0},
-		{"id" : 6, "text" : "공민권", "type" : "CV_LAW", "begin" : 33, "end" : 34, "weight" : 1, "common_noun" : 0},
-		{"id" : 7, "text" : "소크라테스", "type" : "PS_NAME", "begin" : 46, "end" : 46, "weight" : 0.531944, "common_noun" : 0},
-		{"id" : 8, "text" : "시민 불복종", "type" : "AFW_DOCUMENT", "begin" : 53, "end" : 55, "weight" : 0.126204, "common_noun" : 0}
+		{"id" : 1, "text" : "비폭력 저항 운동", "type" : "EV_ACTIVITY", "begin" : 2, "end" : 5, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "모한다스 카람찬드 간디", "type" : "PS_NAME", "begin" : 7, "end" : 9, "weight" : 0.221777, "common_noun" : 0},
+		{"id" : 3, "text" : "사회 복지 운동", "type" : "EV_ACTIVITY", "begin" : 11, "end" : 13, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "영국", "type" : "LCP_COUNTRY", "begin" : 15, "end" : 15, "weight" : 0.656083, "common_noun" : 0},
+		{"id" : 5, "text" : "독립 운동", "type" : "EV_ACTIVITY", "begin" : 18, "end" : 19, "weight" : 1, "common_noun" : 0},
+		{"id" : 6, "text" : "남아프리카 공화국", "type" : "LCP_COUNTRY", "begin" : 22, "end" : 24, "weight" : 0.821285, "common_noun" : 0},
+		{"id" : 7, "text" : "인종차별 반대 투쟁", "type" : "EV_ACTIVITY", "begin" : 26, "end" : 29, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 31, "end" : 31, "weight" : 0.834653, "common_noun" : 0},
+		{"id" : 9, "text" : "공민권운동", "type" : "EV_ACTIVITY", "begin" : 33, "end" : 35, "weight" : 1, "common_noun" : 0},
+		{"id" : 10, "text" : "소크라테스", "type" : "PS_NAME", "begin" : 46, "end" : 46, "weight" : 0.531944, "common_noun" : 0},
+		{"id" : 11, "text" : "시민 불복종", "type" : "EV_OTHERS", "begin" : 53, "end" : 55, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -578,7 +581,7 @@
 		{"id" : 9, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "비", "type" : "XPN", "scode" : "32", "weight" : 5, "position" : 55, "begin" : 12, "end" : 12},
 		{"id" : 11, "text" : "폭력적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 58, "begin" : 13, "end" : 14},
-		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 67, "begin" : 15, "end" : 15},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 15, "end" : 15},
 		{"id" : 13, "text" : "여야", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 16, "end" : 16},
 		{"id" : 14, "text" : "하", "type" : "VX", "scode" : "01", "weight" : 9.8, "position" : 77, "begin" : 17, "end" : 17},
 		{"id" : 15, "text" : "ㅁ", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 18, "end" : 18},
@@ -629,7 +632,7 @@
 		{"id" : 15, "text" : "있다.", "type" : "", "begin" : 44, "end" : 46}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "시민불복종", "type" : "AFW_DOCUMENT", "begin" : 0, "end" : 2, "weight" : 0.143451, "common_noun" : 0}
+		{"id" : 0, "text" : "시민불복종", "type" : "EV_OTHERS", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

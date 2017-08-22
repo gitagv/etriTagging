@@ -16,7 +16,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 3.3, "position" : 7, "begin" : 1, "end" : 1}
 	],
 	"word" : [
@@ -63,7 +63,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 8.51849, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "유럽", "type" : "NNP", "scode" : "02", "weight" : 4.4, "position" : 14, "begin" : 3, "end" : 3},
@@ -146,7 +146,7 @@
 		{"id" : 0, "text" : "여러", "type" : "MM", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "언어", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 20, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 7.7, "position" : 27, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "란", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 6, "end" : 6},
@@ -156,7 +156,7 @@
 		{"id" : 10, "text" : "어", "type" : "XSN", "scode" : "08", "weight" : 1, "position" : 53, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "레노스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 61, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "레노스", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 61, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "Renos", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : ":", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 16, "end" : 16},
@@ -185,8 +185,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 3, "end" : 4, "weight" : 0.269441, "common_noun" : 0},
-		{"id" : 1, "text" : "켈트어", "type" : "CV_LANGUAGE", "begin" : 9, "end" : 10, "weight" : 0.713476, "common_noun" : 0},
-		{"id" : 2, "text" : "레노스", "type" : "LCP_CITY", "begin" : 13, "end" : 13, "weight" : 0.123955, "common_noun" : 0}
+		{"id" : 1, "text" : "켈트어", "type" : "CV_LANGUAGE", "begin" : 9, "end" : 10, "weight" : 0.713476, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -312,8 +311,8 @@
 		{"id" : 12, "text" : "유래했다.", "type" : "", "begin" : 38, "end" : 42}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "원시인도유럽어", "type" : "OGG_ECONOMY", "begin" : 0, "end" : 2, "weight" : 0.0911803, "common_noun" : 0},
-		{"id" : 1, "text" : "PIE", "type" : "LC_OTHERS", "begin" : 4, "end" : 4, "weight" : 0.0914268, "common_noun" : 0},
+		{"id" : 0, "text" : "원시인도유럽어", "type" : "CV_LANGUAGE", "begin" : 0, "end" : 2, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "PIE", "type" : "CV_LANGUAGE", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "영어", "type" : "CV_LANGUAGE", "begin" : 26, "end" : 26, "weight" : 0.589247, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -385,7 +384,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.5, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "네덜란드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 14, "begin" : 3, "end" : 3},
@@ -414,7 +413,7 @@
 		{"id" : 26, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 5.4, "position" : 130, "begin" : 26, "end" : 26},
 		{"id" : 27, "text" : "는데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 27, "end" : 27},
 		{"id" : 28, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 28, "end" : 28},
-		{"id" : 29, "text" : "관례", "type" : "NNG", "scode" : "02", "weight" : 3.6, "position" : 141, "begin" : 29, "end" : 29},
+		{"id" : 29, "text" : "관례", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 141, "begin" : 29, "end" : 29},
 		{"id" : 30, "text" : "적", "type" : "XSN", "scode" : "18", "weight" : 5, "position" : 147, "begin" : 30, "end" : 30},
 		{"id" : 31, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 31, "end" : 31},
 		{"id" : 32, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 9.8, "position" : 157, "begin" : 32, "end" : 32},
@@ -425,11 +424,11 @@
 		{"id" : 37, "text" : "부분", "type" : "NNG", "scode" : "01", "weight" : 6.6, "position" : 178, "begin" : 37, "end" : 37},
 		{"id" : 38, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 184, "begin" : 38, "end" : 38},
 		{"id" : 39, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 190, "begin" : 39, "end" : 39},
-		{"id" : 40, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 194, "begin" : 40, "end" : 40},
+		{"id" : 40, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 194, "begin" : 40, "end" : 40},
 		{"id" : 41, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.5, "position" : 201, "begin" : 41, "end" : 41},
 		{"id" : 42, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 204, "begin" : 42, "end" : 42},
 		{"id" : 43, "text" : "포함", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 208, "begin" : 43, "end" : 43},
-		{"id" : 44, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 208, "begin" : 44, "end" : 44},
+		{"id" : 44, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 208, "begin" : 44, "end" : 44},
 		{"id" : 45, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 208, "begin" : 45, "end" : 45},
 		{"id" : 46, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 223, "begin" : 46, "end" : 46}
 	],
@@ -561,7 +560,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "다뉴브 강", "type" : "LCG_RIVER", "begin" : 0, "end" : 1, "weight" : 0.288791, "common_noun" : 0},
-		{"id" : 1, "text" : "로마 제국", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 5, "weight" : 0.49034, "common_noun" : 0}
+		{"id" : 1, "text" : "로마 제국", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 5, "weight" : 0.49034, "common_noun" : 0},
+		{"id" : 2, "text" : "북쪽", "type" : "TM_DIRECTION", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -614,7 +614,7 @@
 		{"id" : 2, "text" : "세기", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 11, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "경", "type" : "XSN", "scode" : "25", "weight" : 2, "position" : 18, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 21, "begin" : 4, "end" : 4},
-		{"id" : 5, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.5, "position" : 32, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "얼", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 39, "begin" : 8, "end" : 8},
@@ -707,7 +707,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 8.8, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "유럽", "type" : "NNP", "scode" : "02", "weight" : 6.6, "position" : 14, "begin" : 3, "end" : 3},
@@ -784,91 +784,88 @@
 		{"id" : 0, "lemma" : "최상", "type" : "NNG", "position" : 0, "weight" : 0 },
 		{"id" : 1, "lemma" : "류", "type" : "XSN", "position" : 6, "weight" : 0 },
 		{"id" : 2, "lemma" : "의", "type" : "JKG", "position" : 9, "weight" : 0 },
-		{"id" : 3, "lemma" : "포르더", "type" : "NNP", "position" : 13, "weight" : 0 },
-		{"id" : 4, "lemma" : "라인", "type" : "NNP", "position" : 22, "weight" : 0 },
-		{"id" : 5, "lemma" : "강", "type" : "NNG", "position" : 29, "weight" : 0 },
-		{"id" : 6, "lemma" : "과", "type" : "JC", "position" : 32, "weight" : 0 },
-		{"id" : 7, "lemma" : "힌터라인", "type" : "NNP", "position" : 36, "weight" : 0 },
-		{"id" : 8, "lemma" : "강", "type" : "NNG", "position" : 49, "weight" : 0 },
-		{"id" : 9, "lemma" : "은", "type" : "JX", "position" : 52, "weight" : 0 },
-		{"id" : 10, "lemma" : "알프스", "type" : "NNP", "position" : 56, "weight" : 0 },
-		{"id" : 11, "lemma" : "의", "type" : "JKG", "position" : 65, "weight" : 0 },
-		{"id" : 12, "lemma" : "눈", "type" : "NNG", "position" : 69, "weight" : 0 },
-		{"id" : 13, "lemma" : "이", "type" : "JKS", "position" : 72, "weight" : 0 },
-		{"id" : 14, "lemma" : "완전히", "type" : "MAG", "position" : 76, "weight" : 0 },
-		{"id" : 15, "lemma" : "녹", "type" : "VV", "position" : 86, "weight" : 0 },
-		{"id" : 16, "lemma" : "는", "type" : "ETM", "position" : 89, "weight" : 0 },
-		{"id" : 17, "lemma" : "6", "type" : "SN", "position" : 93, "weight" : 0 },
-		{"id" : 18, "lemma" : "월", "type" : "NNB", "position" : 94, "weight" : 0 },
-		{"id" : 19, "lemma" : "과", "type" : "JC", "position" : 97, "weight" : 0 },
-		{"id" : 20, "lemma" : "7", "type" : "SN", "position" : 101, "weight" : 0 },
-		{"id" : 21, "lemma" : "월", "type" : "NNB", "position" : 102, "weight" : 0 },
-		{"id" : 22, "lemma" : "에", "type" : "JKB", "position" : 105, "weight" : 0 },
-		{"id" : 23, "lemma" : "유량", "type" : "NNG", "position" : 109, "weight" : 0 },
-		{"id" : 24, "lemma" : "이", "type" : "JKS", "position" : 115, "weight" : 0 },
-		{"id" : 25, "lemma" : "최", "type" : "XPN", "position" : 119, "weight" : 0 },
-		{"id" : 26, "lemma" : "고조", "type" : "NNG", "position" : 122, "weight" : 0 },
-		{"id" : 27, "lemma" : "에", "type" : "JKB", "position" : 128, "weight" : 0 },
-		{"id" : 28, "lemma" : "달하", "type" : "VV", "position" : 132, "weight" : 0 },
-		{"id" : 29, "lemma" : "ㄴ다", "type" : "EF", "position" : 132, "weight" : 0 },
-		{"id" : 30, "lemma" : ".", "type" : "SF", "position" : 141, "weight" : 0 }
+		{"id" : 3, "lemma" : "포르더라인", "type" : "NNP", "position" : 13, "weight" : 0 },
+		{"id" : 4, "lemma" : "강", "type" : "NNG", "position" : 29, "weight" : 0 },
+		{"id" : 5, "lemma" : "과", "type" : "JC", "position" : 32, "weight" : 0 },
+		{"id" : 6, "lemma" : "힌터라인", "type" : "NNP", "position" : 36, "weight" : 0 },
+		{"id" : 7, "lemma" : "강", "type" : "NNG", "position" : 49, "weight" : 0 },
+		{"id" : 8, "lemma" : "은", "type" : "JX", "position" : 52, "weight" : 0 },
+		{"id" : 9, "lemma" : "알프스", "type" : "NNP", "position" : 56, "weight" : 0 },
+		{"id" : 10, "lemma" : "의", "type" : "JKG", "position" : 65, "weight" : 0 },
+		{"id" : 11, "lemma" : "눈", "type" : "NNG", "position" : 69, "weight" : 0 },
+		{"id" : 12, "lemma" : "이", "type" : "JKS", "position" : 72, "weight" : 0 },
+		{"id" : 13, "lemma" : "완전히", "type" : "MAG", "position" : 76, "weight" : 0 },
+		{"id" : 14, "lemma" : "녹", "type" : "VV", "position" : 86, "weight" : 0 },
+		{"id" : 15, "lemma" : "는", "type" : "ETM", "position" : 89, "weight" : 0 },
+		{"id" : 16, "lemma" : "6", "type" : "SN", "position" : 93, "weight" : 0 },
+		{"id" : 17, "lemma" : "월", "type" : "NNB", "position" : 94, "weight" : 0 },
+		{"id" : 18, "lemma" : "과", "type" : "JC", "position" : 97, "weight" : 0 },
+		{"id" : 19, "lemma" : "7", "type" : "SN", "position" : 101, "weight" : 0 },
+		{"id" : 20, "lemma" : "월", "type" : "NNB", "position" : 102, "weight" : 0 },
+		{"id" : 21, "lemma" : "에", "type" : "JKB", "position" : 105, "weight" : 0 },
+		{"id" : 22, "lemma" : "유량", "type" : "NNG", "position" : 109, "weight" : 0 },
+		{"id" : 23, "lemma" : "이", "type" : "JKS", "position" : 115, "weight" : 0 },
+		{"id" : 24, "lemma" : "최", "type" : "XPN", "position" : 119, "weight" : 0 },
+		{"id" : 25, "lemma" : "고조", "type" : "NNG", "position" : 122, "weight" : 0 },
+		{"id" : 26, "lemma" : "에", "type" : "JKB", "position" : 128, "weight" : 0 },
+		{"id" : 27, "lemma" : "달하", "type" : "VV", "position" : 132, "weight" : 0 },
+		{"id" : 28, "lemma" : "ㄴ다", "type" : "EF", "position" : 132, "weight" : 0 },
+		{"id" : 29, "lemma" : ".", "type" : "SF", "position" : 141, "weight" : 0 }
 	],
 	"morp_eval" : [
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "최상류", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
 		{"id" : 1, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
-		{"id" : 2, "text" : "포르더", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 3, "end" : 3},
-		{"id" : 3, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 22, "begin" : 4, "end" : 4},
-		{"id" : 4, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.21849, "position" : 29, "begin" : 5, "end" : 5},
-		{"id" : 5, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 6, "end" : 6},
-		{"id" : 6, "text" : "힌터라인", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 7, "end" : 7},
-		{"id" : 7, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 7.41849, "position" : 49, "begin" : 8, "end" : 8},
-		{"id" : 8, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 9, "end" : 9},
-		{"id" : 9, "text" : "알프스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 10, "end" : 10},
-		{"id" : 10, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 11, "end" : 11},
-		{"id" : 11, "text" : "눈", "type" : "NNG", "scode" : "01", "weight" : 4.48278, "position" : 69, "begin" : 12, "end" : 12},
-		{"id" : 12, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 13, "end" : 13},
-		{"id" : 13, "text" : "완전히", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 14, "end" : 14},
-		{"id" : 14, "text" : "녹", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 86, "begin" : 15, "end" : 15},
-		{"id" : 15, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 16, "end" : 16},
-		{"id" : 16, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 17, "end" : 17},
-		{"id" : 17, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 1, "position" : 94, "begin" : 18, "end" : 18},
-		{"id" : 18, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 19, "end" : 19},
-		{"id" : 19, "text" : "7", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 20, "end" : 20},
-		{"id" : 20, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 3.2, "position" : 102, "begin" : 21, "end" : 21},
-		{"id" : 21, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 22, "end" : 22},
-		{"id" : 22, "text" : "유량", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 109, "begin" : 23, "end" : 23},
-		{"id" : 23, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 24, "end" : 24},
-		{"id" : 24, "text" : "최고조", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 119, "begin" : 25, "end" : 26},
-		{"id" : 25, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 27, "end" : 27},
-		{"id" : 26, "text" : "달하", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 132, "begin" : 28, "end" : 28},
-		{"id" : 27, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 29, "end" : 29},
-		{"id" : 28, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 30, "end" : 30}
+		{"id" : 2, "text" : "포르더라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.21849, "position" : 29, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 5, "end" : 5},
+		{"id" : 5, "text" : "힌터라인", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 7.41849, "position" : 49, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "알프스", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 9, "end" : 9},
+		{"id" : 9, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 10, "end" : 10},
+		{"id" : 10, "text" : "눈", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 69, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "완전히", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 76, "begin" : 13, "end" : 13},
+		{"id" : 13, "text" : "녹", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 86, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "6", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 1, "position" : 94, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "7", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 19, "end" : 19},
+		{"id" : 19, "text" : "월", "type" : "NNB", "scode" : "02", "weight" : 3.2, "position" : 102, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "유량", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 109, "begin" : 22, "end" : 22},
+		{"id" : 22, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 23, "end" : 23},
+		{"id" : 23, "text" : "최고조", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 119, "begin" : 24, "end" : 25},
+		{"id" : 24, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "달하", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 132, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 141, "begin" : 29, "end" : 29}
 	],
 	"word" : [
 		{"id" : 0, "text" : "최상류의", "type" : "", "begin" : 0, "end" : 2},
-		{"id" : 1, "text" : "포르더라인", "type" : "", "begin" : 3, "end" : 4},
-		{"id" : 2, "text" : "강과", "type" : "", "begin" : 5, "end" : 6},
-		{"id" : 3, "text" : "힌터라인", "type" : "", "begin" : 7, "end" : 7},
-		{"id" : 4, "text" : "강은", "type" : "", "begin" : 8, "end" : 9},
-		{"id" : 5, "text" : "알프스의", "type" : "", "begin" : 10, "end" : 11},
-		{"id" : 6, "text" : "눈이", "type" : "", "begin" : 12, "end" : 13},
-		{"id" : 7, "text" : "완전히", "type" : "", "begin" : 14, "end" : 14},
-		{"id" : 8, "text" : "녹는", "type" : "", "begin" : 15, "end" : 16},
-		{"id" : 9, "text" : "6월과", "type" : "", "begin" : 17, "end" : 19},
-		{"id" : 10, "text" : "7월에", "type" : "", "begin" : 20, "end" : 22},
-		{"id" : 11, "text" : "유량이", "type" : "", "begin" : 23, "end" : 24},
-		{"id" : 12, "text" : "최고조에", "type" : "", "begin" : 25, "end" : 27},
-		{"id" : 13, "text" : "달한다.", "type" : "", "begin" : 28, "end" : 30}
+		{"id" : 1, "text" : "포르더라인", "type" : "", "begin" : 3, "end" : 3},
+		{"id" : 2, "text" : "강과", "type" : "", "begin" : 4, "end" : 5},
+		{"id" : 3, "text" : "힌터라인", "type" : "", "begin" : 6, "end" : 6},
+		{"id" : 4, "text" : "강은", "type" : "", "begin" : 7, "end" : 8},
+		{"id" : 5, "text" : "알프스의", "type" : "", "begin" : 9, "end" : 10},
+		{"id" : 6, "text" : "눈이", "type" : "", "begin" : 11, "end" : 12},
+		{"id" : 7, "text" : "완전히", "type" : "", "begin" : 13, "end" : 13},
+		{"id" : 8, "text" : "녹는", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 9, "text" : "6월과", "type" : "", "begin" : 16, "end" : 18},
+		{"id" : 10, "text" : "7월에", "type" : "", "begin" : 19, "end" : 21},
+		{"id" : 11, "text" : "유량이", "type" : "", "begin" : 22, "end" : 23},
+		{"id" : 12, "text" : "최고조에", "type" : "", "begin" : 24, "end" : 26},
+		{"id" : 13, "text" : "달한다.", "type" : "", "begin" : 27, "end" : 29}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "포르더라인 강", "type" : "LCG_RIVER", "begin" : 3, "end" : 5, "weight" : 0.230903, "common_noun" : 0},
-		{"id" : 1, "text" : "힌터라인 강", "type" : "LCG_RIVER", "begin" : 7, "end" : 8, "weight" : 0.187253, "common_noun" : 0},
-		{"id" : 2, "text" : "알프스", "type" : "LCG_MOUNTAIN", "begin" : 10, "end" : 10, "weight" : 0.370742, "common_noun" : 0},
-		{"id" : 3, "text" : "눈", "type" : "AM_PART", "begin" : 12, "end" : 12, "weight" : 0.384364, "common_noun" : 0},
-		{"id" : 4, "text" : "6월", "type" : "DT_MONTH", "begin" : 17, "end" : 18, "weight" : 0.507434, "common_noun" : 0},
-		{"id" : 5, "text" : "7월", "type" : "DT_MONTH", "begin" : 20, "end" : 21, "weight" : 0.595387, "common_noun" : 0}
+		{"id" : 0, "text" : "포르더라인 강", "type" : "LCG_RIVER", "begin" : 3, "end" : 4, "weight" : 0.230903, "common_noun" : 0},
+		{"id" : 1, "text" : "힌터라인 강", "type" : "LCG_RIVER", "begin" : 6, "end" : 7, "weight" : 0.187253, "common_noun" : 0},
+		{"id" : 2, "text" : "알프스", "type" : "LCG_MOUNTAIN", "begin" : 9, "end" : 9, "weight" : 0.370742, "common_noun" : 0},
+		{"id" : 3, "text" : "6월", "type" : "DT_MONTH", "begin" : 16, "end" : 17, "weight" : 0.507434, "common_noun" : 0},
+		{"id" : 4, "text" : "7월", "type" : "DT_MONTH", "begin" : 19, "end" : 20, "weight" : 0.595387, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -916,7 +913,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "상류", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 10.9, "position" : 17, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "북쪽", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 24, "begin" : 5, "end" : 6},
@@ -932,7 +929,7 @@
 		{"id" : 15, "text" : "콘스탄츠", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 71, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "호", "type" : "NNG", "scode" : "12", "weight" : 1.67778, "position" : 84, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 18, "end" : 18},
-		{"id" : 18, "text" : "이르", "type" : "VV", "scode" : "02", "weight" : 2.2, "position" : 91, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "이르", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 91, "begin" : 19, "end" : 19},
 		{"id" : 19, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 20, "end" : 20},
 		{"id" : 20, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 21, "end" : 21}
 	],
@@ -952,7 +949,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 2, "end" : 3, "weight" : 0.306209, "common_noun" : 0},
 		{"id" : 1, "text" : "북쪽", "type" : "TM_DIRECTION", "begin" : 5, "end" : 6, "weight" : 0.216511, "common_noun" : 0},
-		{"id" : 2, "text" : "콘스탄츠", "type" : "LCP_CITY", "begin" : 16, "end" : 16, "weight" : 0.331432, "common_noun" : 0}
+		{"id" : 2, "text" : "콘스탄츠 호", "type" : "LCG_RIVER", "begin" : 16, "end" : 17, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1031,7 +1028,7 @@
 		{"id" : 20, "text" : "m", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 23, "end" : 23},
 		{"id" : 21, "text" : "높이", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 123, "begin" : 24, "end" : 24},
 		{"id" : 22, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 25, "end" : 25},
-		{"id" : 23, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 133, "begin" : 26, "end" : 26},
+		{"id" : 23, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 26, "end" : 26},
 		{"id" : 24, "text" : "폭포", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 140, "begin" : 27, "end" : 27},
 		{"id" : 25, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 28, "end" : 28},
 		{"id" : 26, "text" : "떨어지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 150, "begin" : 29, "end" : 29},
@@ -1057,12 +1054,12 @@
 		{"id" : 15, "text" : "떨어진다.", "type" : "", "begin" : 29, "end" : 31}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "콘스탄츠", "type" : "LCG_RIVER", "begin" : 0, "end" : 0, "weight" : 0.219764, "common_noun" : 0},
+		{"id" : 0, "text" : "콘스탄츠 호", "type" : "LCG_RIVER", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 3, "end" : 4, "weight" : 0.178037, "common_noun" : 0},
 		{"id" : 2, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 9, "end" : 10, "weight" : 0.28221, "common_noun" : 0},
 		{"id" : 3, "text" : "북부", "type" : "TM_DIRECTION", "begin" : 14, "end" : 15, "weight" : 0.282066, "common_noun" : 0},
 		{"id" : 4, "text" : "스위스", "type" : "LCP_COUNTRY", "begin" : 16, "end" : 16, "weight" : 0.874467, "common_noun" : 0},
-		{"id" : 5, "text" : "사프하우젠", "type" : "LCP_CITY", "begin" : 18, "end" : 18, "weight" : 0.164642, "common_noun" : 0},
+		{"id" : 5, "text" : "사프하우젠", "type" : "LCP_PROVINCE", "begin" : 18, "end" : 18, "weight" : 1, "common_noun" : 0},
 		{"id" : 6, "text" : "30m", "type" : "QT_LENGTH", "begin" : 22, "end" : 23, "weight" : 0.49552, "common_noun" : 0},
 		{"id" : 7, "text" : "라인 폭포", "type" : "LC_TOUR", "begin" : 26, "end" : 27, "weight" : 0.303419, "common_noun" : 0}
 	],
@@ -1173,11 +1170,12 @@
 		{"id" : 14, "text" : "지난다.", "type" : "", "begin" : 31, "end" : 33}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "슈바르츠발트", "type" : "LCG_MOUNTAIN", "begin" : 3, "end" : 3, "weight" : 0.188463, "common_noun" : 0},
-		{"id" : 1, "text" : "남쪽", "type" : "TM_DIRECTION", "begin" : 6, "end" : 7, "weight" : 0.172189, "common_noun" : 0},
-		{"id" : 2, "text" : "바젤", "type" : "LCP_CITY", "begin" : 14, "end" : 14, "weight" : 0.633734, "common_noun" : 0},
-		{"id" : 3, "text" : "북쪽", "type" : "TM_DIRECTION", "begin" : 17, "end" : 18, "weight" : 0.181067, "common_noun" : 0},
-		{"id" : 4, "text" : "두 차례", "type" : "QT_COUNT", "begin" : 26, "end" : 27, "weight" : 0.838952, "common_noun" : 0}
+		{"id" : 0, "text" : "흑림지대", "type" : "LCG_MOUNTAIN", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "슈바르츠발트", "type" : "LCG_MOUNTAIN", "begin" : 3, "end" : 3, "weight" : 0.188463, "common_noun" : 0},
+		{"id" : 2, "text" : "남쪽", "type" : "TM_DIRECTION", "begin" : 6, "end" : 7, "weight" : 0.172189, "common_noun" : 0},
+		{"id" : 3, "text" : "바젤", "type" : "LCP_CITY", "begin" : 14, "end" : 14, "weight" : 0.633734, "common_noun" : 0},
+		{"id" : 4, "text" : "북쪽", "type" : "TM_DIRECTION", "begin" : 17, "end" : 18, "weight" : 0.181067, "common_noun" : 0},
+		{"id" : 5, "text" : "두 차례", "type" : "QT_COUNT", "begin" : 26, "end" : 27, "weight" : 0.838952, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1223,7 +1221,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "바젤", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "부터", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 4.3, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "약", "type" : "MM", "scode" : "03", "weight" : 4.7, "position" : 27, "begin" : 5, "end" : 5},
@@ -1338,7 +1336,7 @@
 		{"id" : 15, "text" : "동안", "type" : "NNG", "scode" : "01", "weight" : 6.6, "position" : 73, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "하천", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 83, "begin" : 17, "end" : 17},
-		{"id" : 18, "text" : "직강화", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 90, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "직강화", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 90, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 99, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "통하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 103, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 21, "end" : 21},
@@ -1382,7 +1380,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "독일", "type" : "LCP_COUNTRY", "begin" : 1, "end" : 1, "weight" : 0.909973, "common_noun" : 0},
-		{"id" : 1, "text" : "지난 2세기", "type" : "DT_DURATION", "begin" : 11, "end" : 14, "weight" : 0.331901, "common_noun" : 0}
+		{"id" : 1, "text" : "지난 2세기 동안", "type" : "DT_OTHERS", "begin" : 11, "end" : 15, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1446,7 +1444,7 @@
 		{"id" : 0, "text" : "이", "type" : "MM", "scode" : "05", "weight" : 2.2, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "구간", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 4, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 14, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "지구대", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 21, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "해당되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 34, "begin" : 6, "end" : 7},
@@ -1457,7 +1455,7 @@
 		{"id" : 11, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "폭", "type" : "NNG", "scode" : "06", "weight" : 4.4, "position" : 70, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 15, "end" : 15},
-		{"id" : 14, "text" : "비교적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 77, "begin" : 16, "end" : 17},
+		{"id" : 14, "text" : "비교적", "type" : "MM", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 16, "end" : 17},
 		{"id" : 15, "text" : "넓", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 87, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "32", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 94, "begin" : 20, "end" : 20},
@@ -1497,9 +1495,8 @@
 		{"id" : 16, "text" : "있다.", "type" : "", "begin" : 34, "end" : 36}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "지구대", "type" : "OGG_POLITICS", "begin" : 4, "end" : 4, "weight" : 0.243469, "common_noun" : 0},
-		{"id" : 1, "text" : "지구", "type" : "LC_SPACE", "begin" : 11, "end" : 11, "weight" : 0.277108, "common_noun" : 0},
-		{"id" : 2, "text" : "32km", "type" : "QT_LENGTH", "begin" : 20, "end" : 21, "weight" : 0.766819, "common_noun" : 0}
+		{"id" : 0, "text" : "라인 지구대", "type" : "LC_OTHERS", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "32km", "type" : "QT_LENGTH", "begin" : 20, "end" : 21, "weight" : 0.766819, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1571,7 +1568,7 @@
 		{"id" : 7, "text" : "산맥이다.", "type" : "", "begin" : 16, "end" : 19}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "지구대", "type" : "OGG_POLITICS", "begin" : 0, "end" : 1, "weight" : 0.149644, "common_noun" : 0},
+		{"id" : 0, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 6, "end" : 7, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "보주 산맥", "type" : "LCG_MOUNTAIN", "begin" : 9, "end" : 10, "weight" : 0.378973, "common_noun" : 0},
 		{"id" : 2, "text" : "동쪽", "type" : "TM_DIRECTION", "begin" : 12, "end" : 13, "weight" : 0.234718, "common_noun" : 0},
 		{"id" : 3, "text" : "슈바르츠발트 산맥", "type" : "LCG_MOUNTAIN", "begin" : 15, "end" : 16, "weight" : 0.281796, "common_noun" : 0}
@@ -1592,7 +1589,7 @@
 	{
 	"id" : 16,
 	"reserve_str" : "",
-	"text" : "마인츠를 지나면 라인 강은 다시 좁고 구불구불한 145&nbsp;km 길이의 협곡을 따라 흐른다.",
+	"text" : "마인츠를 지나면 라인 강은 다시 좁고 구불구불한 145km 길이의 협곡을 따라 흐른다.",
 	"morp" : [
 		{"id" : 0, "lemma" : "마인츠", "type" : "NNP", "position" : 0, "weight" : 0 },
 		{"id" : 1, "lemma" : "를", "type" : "JKO", "position" : 9, "weight" : 0 },
@@ -1607,19 +1604,16 @@
 		{"id" : 10, "lemma" : "구불구불하", "type" : "VA", "position" : 51, "weight" : 0 },
 		{"id" : 11, "lemma" : "ㄴ", "type" : "ETM", "position" : 51, "weight" : 0 },
 		{"id" : 12, "lemma" : "145", "type" : "SN", "position" : 67, "weight" : 0 },
-		{"id" : 13, "lemma" : "&", "type" : "SW", "position" : 70, "weight" : 0 },
-		{"id" : 14, "lemma" : "nbsp", "type" : "SL", "position" : 71, "weight" : 0 },
-		{"id" : 15, "lemma" : ";", "type" : "SW", "position" : 75, "weight" : 0 },
-		{"id" : 16, "lemma" : "km", "type" : "SL", "position" : 76, "weight" : 0 },
-		{"id" : 17, "lemma" : "길이", "type" : "NNG", "position" : 79, "weight" : 0 },
-		{"id" : 18, "lemma" : "의", "type" : "JKG", "position" : 85, "weight" : 0 },
-		{"id" : 19, "lemma" : "협곡", "type" : "NNG", "position" : 89, "weight" : 0 },
-		{"id" : 20, "lemma" : "을", "type" : "JKO", "position" : 95, "weight" : 0 },
-		{"id" : 21, "lemma" : "따르", "type" : "VV", "position" : 99, "weight" : 0 },
-		{"id" : 22, "lemma" : "아", "type" : "EC", "position" : 99, "weight" : 0 },
-		{"id" : 23, "lemma" : "흐르", "type" : "VV", "position" : 106, "weight" : 0 },
-		{"id" : 24, "lemma" : "ㄴ다", "type" : "EF", "position" : 106, "weight" : 0 },
-		{"id" : 25, "lemma" : ".", "type" : "SF", "position" : 115, "weight" : 0 }
+		{"id" : 13, "lemma" : "km", "type" : "SL", "position" : 70, "weight" : 0 },
+		{"id" : 14, "lemma" : "길이", "type" : "NNG", "position" : 73, "weight" : 0 },
+		{"id" : 15, "lemma" : "의", "type" : "JKG", "position" : 79, "weight" : 0 },
+		{"id" : 16, "lemma" : "협곡", "type" : "NNG", "position" : 83, "weight" : 0 },
+		{"id" : 17, "lemma" : "을", "type" : "JKO", "position" : 89, "weight" : 0 },
+		{"id" : 18, "lemma" : "따르", "type" : "VV", "position" : 93, "weight" : 0 },
+		{"id" : 19, "lemma" : "아", "type" : "EC", "position" : 93, "weight" : 0 },
+		{"id" : 20, "lemma" : "흐르", "type" : "VV", "position" : 100, "weight" : 0 },
+		{"id" : 21, "lemma" : "ㄴ다", "type" : "EF", "position" : 100, "weight" : 0 },
+		{"id" : 22, "lemma" : ".", "type" : "SF", "position" : 109, "weight" : 0 }
 	],
 	"morp_eval" : [
 	],
@@ -1628,7 +1622,7 @@
 		{"id" : 1, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "지나", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "면", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 8.31905, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "다시", "type" : "MAG", "scode" : "01", "weight" : 4.4, "position" : 37, "begin" : 7, "end" : 7},
@@ -1637,19 +1631,16 @@
 		{"id" : 10, "text" : "구불구불하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "145", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "&", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 13, "end" : 13},
-		{"id" : 14, "text" : "nbsp", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 14, "end" : 14},
-		{"id" : 15, "text" : ";", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 15, "end" : 15},
-		{"id" : 16, "text" : "km", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 16, "end" : 16},
-		{"id" : 17, "text" : "길이", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 79, "begin" : 17, "end" : 17},
-		{"id" : 18, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 18, "end" : 18},
-		{"id" : 19, "text" : "협곡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 89, "begin" : 19, "end" : 19},
-		{"id" : 20, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 20, "end" : 20},
-		{"id" : 21, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 99, "begin" : 21, "end" : 21},
-		{"id" : 22, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 99, "begin" : 22, "end" : 22},
-		{"id" : 23, "text" : "흐르", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 106, "begin" : 23, "end" : 23},
-		{"id" : 24, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 24, "end" : 24},
-		{"id" : 25, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 25, "end" : 25}
+		{"id" : 13, "text" : "km", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 13, "end" : 13},
+		{"id" : 14, "text" : "길이", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 73, "begin" : 14, "end" : 14},
+		{"id" : 15, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 15, "end" : 15},
+		{"id" : 16, "text" : "협곡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 83, "begin" : 16, "end" : 16},
+		{"id" : 17, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 17, "end" : 17},
+		{"id" : 18, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 93, "begin" : 18, "end" : 18},
+		{"id" : 19, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 19, "end" : 19},
+		{"id" : 20, "text" : "흐르", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 100, "begin" : 20, "end" : 20},
+		{"id" : 21, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 21, "end" : 21},
+		{"id" : 22, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 109, "begin" : 22, "end" : 22}
 	],
 	"word" : [
 		{"id" : 0, "text" : "마인츠를", "type" : "", "begin" : 0, "end" : 1},
@@ -1659,16 +1650,16 @@
 		{"id" : 4, "text" : "다시", "type" : "", "begin" : 7, "end" : 7},
 		{"id" : 5, "text" : "좁고", "type" : "", "begin" : 8, "end" : 9},
 		{"id" : 6, "text" : "구불구불한", "type" : "", "begin" : 10, "end" : 11},
-		{"id" : 7, "text" : "145&nbsp;km", "type" : "", "begin" : 12, "end" : 16},
-		{"id" : 8, "text" : "길이의", "type" : "", "begin" : 17, "end" : 18},
-		{"id" : 9, "text" : "협곡을", "type" : "", "begin" : 19, "end" : 20},
-		{"id" : 10, "text" : "따라", "type" : "", "begin" : 21, "end" : 22},
-		{"id" : 11, "text" : "흐른다.", "type" : "", "begin" : 23, "end" : 25}
+		{"id" : 7, "text" : "145km", "type" : "", "begin" : 12, "end" : 13},
+		{"id" : 8, "text" : "길이의", "type" : "", "begin" : 14, "end" : 15},
+		{"id" : 9, "text" : "협곡을", "type" : "", "begin" : 16, "end" : 17},
+		{"id" : 10, "text" : "따라", "type" : "", "begin" : 18, "end" : 19},
+		{"id" : 11, "text" : "흐른다.", "type" : "", "begin" : 20, "end" : 22}
 	],
 	"NE" : [
 		{"id" : 0, "text" : "마인츠", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.312195, "common_noun" : 0},
 		{"id" : 1, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 4, "end" : 5, "weight" : 0.316607, "common_noun" : 0},
-		{"id" : 2, "text" : "145&", "type" : "QT_SPEED", "begin" : 12, "end" : 13, "weight" : 0.386767, "common_noun" : 0}
+		{"id" : 2, "text" : "145km", "type" : "QT_LENGTH", "begin" : 12, "end" : 13, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1728,7 +1719,7 @@
 		{"id" : 0, "text" : "협곡", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "서쪽", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 2, "end" : 3},
-		{"id" : 3, "text" : "편", "type" : "NNB", "scode" : "09", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
+		{"id" : 3, "text" : "편", "type" : "NNB", "scode" : "04", "weight" : 1, "position" : 17, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "훈스뤼크", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 24, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "구릉지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 7, "end" : 8},
@@ -1771,8 +1762,12 @@
 		{"id" : 14, "text" : "있다.", "type" : "", "begin" : 30, "end" : 32}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "아이펠", "type" : "LCP_CITY", "begin" : 10, "end" : 10, "weight" : 0.383835, "common_noun" : 0},
-		{"id" : 1, "text" : "베스트발트", "type" : "OGG_MEDIA", "begin" : 26, "end" : 26, "weight" : 0.250325, "common_noun" : 0}
+		{"id" : 0, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "훈스뤼크 구릉지", "type" : "LCG_MOUNTAIN", "begin" : 6, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "아이펠 구릉지", "type" : "LCG_MOUNTAIN", "begin" : 10, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "동쪽", "type" : "TM_DIRECTION", "begin" : 17, "end" : 18, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "타우누스 구릉지", "type" : "LCG_MOUNTAIN", "begin" : 22, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "베스트발트 구릉지", "type" : "LCG_MOUNTAIN", "begin" : 26, "end" : 28, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1839,7 +1834,7 @@
 		{"id" : 12, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "가지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 65, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 14, "end" : 14},
-		{"id" : 15, "text" : "고성", "type" : "NNG", "scode" : "12", "weight" : 1, "position" : 72, "begin" : 15, "end" : 15},
+		{"id" : 15, "text" : "고성", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 72, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 4, "position" : 78, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "언덕", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 85, "begin" : 18, "end" : 18},
@@ -1870,7 +1865,7 @@
 		{"id" : 13, "text" : "있다.", "type" : "", "begin" : 25, "end" : 27}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "수 백 년", "type" : "DT_DURATION", "begin" : 7, "end" : 9, "weight" : 0.282498, "common_noun" : 0}
+		{"id" : 0, "text" : "수 백 년", "type" : "DT_OTHERS", "begin" : 7, "end" : 9, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1974,9 +1969,10 @@
 		{"id" : 15, "text" : "만난다.", "type" : "", "begin" : 27, "end" : 29}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "쾰른", "type" : "LCP_CITY", "begin" : 17, "end" : 17, "weight" : 0.344663, "common_noun" : 0},
-		{"id" : 1, "text" : "뒤셀도르프", "type" : "LCP_CITY", "begin" : 19, "end" : 19, "weight" : 0.435136, "common_noun" : 0},
-		{"id" : 2, "text" : "뒤스부르크", "type" : "LCP_CITY", "begin" : 21, "end" : 21, "weight" : 0.358355, "common_noun" : 0}
+		{"id" : 0, "text" : "본", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "쾰른", "type" : "LCP_CITY", "begin" : 17, "end" : 17, "weight" : 0.344663, "common_noun" : 0},
+		{"id" : 2, "text" : "뒤셀도르프", "type" : "LCP_CITY", "begin" : 19, "end" : 19, "weight" : 0.435136, "common_noun" : 0},
+		{"id" : 3, "text" : "뒤스부르크", "type" : "LCP_CITY", "begin" : 21, "end" : 21, "weight" : 0.358355, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2004,7 +2000,7 @@
 		{"id" : 5, "lemma" : "는", "type" : "JX", "position" : 23, "weight" : 0 },
 		{"id" : 6, "lemma" : "레버쿠젠", "type" : "NNP", "position" : 27, "weight" : 0 },
 		{"id" : 7, "lemma" : "의", "type" : "JKG", "position" : 39, "weight" : 0 },
-		{"id" : 8, "lemma" : "바이어", "type" : "NNG", "position" : 43, "weight" : 0 },
+		{"id" : 8, "lemma" : "바이어", "type" : "NNP", "position" : 43, "weight" : 0 },
 		{"id" : 9, "lemma" : "화학", "type" : "NNG", "position" : 53, "weight" : 0 },
 		{"id" : 10, "lemma" : "같", "type" : "VA", "position" : 60, "weight" : 0 },
 		{"id" : 11, "lemma" : "은", "type" : "ETM", "position" : 63, "weight" : 0 },
@@ -2033,7 +2029,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.45238, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "따르", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 14, "begin" : 3, "end" : 3},
@@ -2041,7 +2037,7 @@
 		{"id" : 5, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "레버쿠젠", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 7, "end" : 7},
-		{"id" : 8, "text" : "바이어", "type" : "NNG", "scode" : "04", "weight" : 1, "position" : 43, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "바이어", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "화학", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 53, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 11, "end" : 11},
@@ -2083,10 +2079,9 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 0, "end" : 1, "weight" : 0.270432, "common_noun" : 0},
-		{"id" : 1, "text" : "레버쿠젠", "type" : "OGG_SPORTS", "begin" : 6, "end" : 6, "weight" : 0.33527, "common_noun" : 0},
-		{"id" : 2, "text" : "바이어", "type" : "CV_POSITION", "begin" : 8, "end" : 8, "weight" : 0.192217, "common_noun" : 0},
-		{"id" : 3, "text" : "화학", "type" : "FD_SCIENCE", "begin" : 9, "end" : 9, "weight" : 0.399285, "common_noun" : 0},
-		{"id" : 4, "text" : "화물선", "type" : "AF_TRANSPORT", "begin" : 22, "end" : 23, "weight" : 0.624329, "common_noun" : 0}
+		{"id" : 1, "text" : "레버쿠젠", "type" : "LCP_CITY", "begin" : 6, "end" : 6, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "바이어 화학", "type" : "OGG_ECONOMY", "begin" : 8, "end" : 9, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "화물선", "type" : "AF_TRANSPORT", "begin" : 22, "end" : 23, "weight" : 0.624329, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2259,7 +2254,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.5, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "하구", "type" : "NNG", "scode" : "03", "weight" : 2.2, "position" : 14, "begin" : 3, "end" : 3},
@@ -2293,7 +2288,7 @@
 		{"id" : 0, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 0, "end" : 1, "weight" : 0.3204, "common_noun" : 0},
 		{"id" : 1, "text" : "독일", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.843289, "common_noun" : 0},
 		{"id" : 2, "text" : "네덜란드", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 7, "weight" : 0.814951, "common_noun" : 0},
-		{"id" : 3, "text" : "엠머리치", "type" : "LCP_COUNTY", "begin" : 11, "end" : 11, "weight" : 0.171156, "common_noun" : 0}
+		{"id" : 3, "text" : "엠머리치", "type" : "LCP_CITY", "begin" : 11, "end" : 11, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2360,13 +2355,13 @@
 		{"id" : 9, "text" : "흐르", "type" : "VV", "scode" : "01", "weight" : 4.4, "position" : 56, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 11, "end" : 11},
-		{"id" : 12, "text" : "분류", "type" : "NNG", "scode" : "03", "weight" : 2.2, "position" : 67, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "분류", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 67, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 67, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "모이제", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 77, "begin" : 15, "end" : 15},
-		{"id" : 16, "text" : "강", "type" : "NNG", "scode" : "15", "weight" : 2.2, "position" : 87, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 87, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 17, "end" : 17},
-		{"id" : 18, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 94, "begin" : 18, "end" : 18},
+		{"id" : 18, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 94, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 8.41849, "position" : 101, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "과", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "평행하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 108, "begin" : 21, "end" : 21},
@@ -2400,6 +2395,7 @@
 		{"id" : 0, "text" : "네덜란드", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.66713, "common_noun" : 0},
 		{"id" : 1, "text" : "로테르담", "type" : "LCP_CITY", "begin" : 3, "end" : 3, "weight" : 0.322703, "common_noun" : 0},
 		{"id" : 2, "text" : "북해", "type" : "LCG_OCEAN", "begin" : 7, "end" : 7, "weight" : 0.42588, "common_noun" : 0},
+		{"id" : 3, "text" : "모이제 강", "type" : "LCG_RIVER", "begin" : 15, "end" : 16, "weight" : 1, "common_noun" : 0},
 		{"id" : 3, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 18, "end" : 19, "weight" : 0.390548, "common_noun" : 0},
 		{"id" : 4, "text" : "북해", "type" : "LCG_OCEAN", "begin" : 25, "end" : 25, "weight" : 0.410734, "common_noun" : 0}
 	],
@@ -2438,9 +2434,9 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "네덜란드어", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
+		{"id" : 0, "text" : "네덜란드어", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 1},
 		{"id" : 1, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 15, "begin" : 2, "end" : 2},
-		{"id" : 2, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 19, "begin" : 3, "end" : 3},
+		{"id" : 2, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 6.875, "position" : 26, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "\"", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 6, "end" : 6},
@@ -2511,7 +2507,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "라인", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 5.5, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "서쪽", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 14, "begin" : 3, "end" : 4},
@@ -2553,6 +2549,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "라인 강", "type" : "LCG_RIVER", "begin" : 0, "end" : 1, "weight" : 0.289183, "common_noun" : 0},
+		{"id" : 0, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "네덜란드", "type" : "LCP_COUNTRY", "begin" : 6, "end" : 6, "weight" : 0.673721, "common_noun" : 0},
 		{"id" : 2, "text" : "뫼즈 강", "type" : "LCG_RIVER", "begin" : 14, "end" : 15, "weight" : 0.342314, "common_noun" : 0},
 		{"id" : 3, "text" : "스헬트 강", "type" : "LCG_RIVER", "begin" : 17, "end" : 18, "weight" : 0.163134, "common_noun" : 0}
@@ -3000,7 +2997,7 @@
 		{"id" : 15, "text" : "보이", "type" : "VV", "scode" : "01", "weight" : 6.24954, "position" : 64, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 19, "end" : 19},
-		{"id" : 18, "text" : "발", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 75, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : "발", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 6.31849, "position" : 79, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "통과하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 86, "begin" : 23, "end" : 24},
@@ -3076,12 +3073,14 @@
 	"NE" : [
 		{"id" : 0, "text" : "2~3개", "type" : "QT_COUNT", "begin" : 0, "end" : 3, "weight" : 0.751593, "common_noun" : 0},
 		{"id" : 1, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 12, "end" : 13, "weight" : 0.223072, "common_noun" : 0},
-		{"id" : 2, "text" : "발", "type" : "AM_PART", "begin" : 20, "end" : 20, "weight" : 0.265506, "common_noun" : 0},
-		{"id" : 3, "text" : "Merwede강", "type" : "EV_SPORTS", "begin" : 27, "end" : 28, "weight" : 0.130917, "common_noun" : 0},
-		{"id" : 4, "text" : "니우 멜위데", "type" : "PS_NAME", "begin" : 34, "end" : 35, "weight" : 0.157482, "common_noun" : 0},
+		{"id" : 2, "text" : "발 강", "type" : "LCG_RIVER", "begin" : 20, "end" : 21, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "Merwede강", "type" : "LCG_RIVER", "begin" : 27, "end" : 28, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "니우 멜위데", "type" : "LCG_RIVER", "begin" : 34, "end" : 35, "weight" : 1, "common_noun" : 0},
 		{"id" : 5, "text" : "뫼즈 강", "type" : "LCG_RIVER", "begin" : 41, "end" : 42, "weight" : 0.33819, "common_noun" : 0},
 		{"id" : 6, "text" : "네덜란드", "type" : "LCP_COUNTRY", "begin" : 48, "end" : 48, "weight" : 0.467274, "common_noun" : 0},
-		{"id" : 7, "text" : "북해", "type" : "LCG_OCEAN", "begin" : 59, "end" : 59, "weight" : 0.400808, "common_noun" : 0}
+		{"id" : 7, "text" : "Diep", "type" : "LC_OTHERS", "begin" : 50, "end" : 50, "weight" : 1, "common_noun" : 0},
+		{"id" : 8, "text" : "Haringvliet estuaries", "type" : "LC_OTHERS", "begin" : 52, "end" : 53, "weight" : 1, "common_noun" : 0},
+		{"id" : 9, "text" : "북해", "type" : "LCG_OCEAN", "begin" : 59, "end" : 59, "weight" : 0.400808, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3173,7 +3172,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "3개", "type" : "QT_COUNT", "begin" : 2, "end" : 3, "weight" : 0.800016, "common_noun" : 0},
-		{"id" : 1, "text" : "아이셀", "type" : "MT_METAL", "begin" : 18, "end" : 18, "weight" : 0.113637, "common_noun" : 0}
+		{"id" : 1, "text" : "아이셀 강", "type" : "LCG_RIVER", "begin" : 18, "end" : 19, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "Nederrijn", "type" : "LC_OTHERS", "begin" : 21, "end" : 21, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3244,7 +3244,7 @@
 		{"id" : 13, "text" : "Noord", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 7.14202, "position" : 65, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 16, "end" : 16},
-		{"id" : 16, "text" : "재", "type" : "XPN", "scode" : "18", "weight" : 1, "position" : 72, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "재", "type" : "XPN", "scode" : "17", "weight" : 1, "position" : 72, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "합류하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 75, "begin" : 18, "end" : 19},
 		{"id" : 18, "text" : "어서", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "강", "type" : "NNG", "scode" : "01", "weight" : 4.11849, "position" : 91, "begin" : 21, "end" : 21},
@@ -3277,7 +3277,8 @@
 	"NE" : [
 		{"id" : 0, "text" : "서쪽", "type" : "TM_DIRECTION", "begin" : 8, "end" : 9, "weight" : 0.216465, "common_noun" : 0},
 		{"id" : 1, "text" : "Noord강", "type" : "LCG_RIVER", "begin" : 14, "end" : 15, "weight" : 0.157008, "common_noun" : 0},
-		{"id" : 2, "text" : "북해", "type" : "LCG_OCEAN", "begin" : 26, "end" : 26, "weight" : 0.1995, "common_noun" : 0}
+		{"id" : 2, "text" : "Nieuwe Maas", "type" : "LC_OTHERS", "begin" : 23, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "북해", "type" : "LCG_OCEAN", "begin" : 26, "end" : 26, "weight" : 0.1995, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

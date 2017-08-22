@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "면역계", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -125,9 +125,9 @@
 		{"id" : 27, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 162, "begin" : 33, "end" : 33},
 		{"id" : 28, "text" : "지니", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 166, "begin" : 34, "end" : 34},
 		{"id" : 29, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 166, "begin" : 35, "end" : 35},
-		{"id" : 30, "text" : "생물", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 173, "begin" : 36, "end" : 36},
-		{"id" : 31, "text" : "학적", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 179, "begin" : 37, "end" : 38},
-		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 182, "begin" : 39, "end" : 39},
+		{"id" : 30, "text" : "생물학", "type" : "NNG", "scode" : "00", "weight" : 4.4, "position" : 173, "begin" : 36, "end" : 37},
+		{"id" : 31, "text" : "적", "type" : "XSN", "scode" : "18", "weight" : 1, "position" : 182, "begin" : 38, "end" : 38},
+		{"id" : 32, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 182, "begin" : 39, "end" : 39},
 		{"id" : 33, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 182, "begin" : 40, "end" : 40},
 		{"id" : 34, "text" : "구조", "type" : "NNG", "scode" : "08", "weight" : 5.4, "position" : 189, "begin" : 41, "end" : 41},
 		{"id" : 35, "text" : "및", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 196, "begin" : 42, "end" : 42},
@@ -161,8 +161,9 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "종양 세포", "type" : "TM_CELL_TISSUE", "begin" : 13, "end" : 14, "weight" : 0.379739, "common_noun" : 0},
-		{"id" : 1, "text" : "생명체", "type" : "AM_OTHERS", "begin" : 26, "end" : 27, "weight" : 1, "common_noun" : 0},
-		{"id" : 2, "text" : "생물학", "type" : "FD_SCIENCE", "begin" : 36, "end" : 37, "weight" : 0.57464, "common_noun" : 0}
+		{"id" : 1, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 10, "end" : 11, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "종양 세포", "type" : "TM_CELL_TISSUE", "begin" : 13, "end" : 14, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "생물학", "type" : "FD_SCIENCE", "begin" : 36, "end" : 37, "weight" : 0.57464, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -390,19 +391,21 @@
 		{"id" : 15, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 6.4, "position" : 78, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "는데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 19, "end" : 19},
-		{"id" : 18, "text" : "선천성면역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 89, "begin" : 20, "end" : 22},
-		{"id" : 19, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 23, "end" : 23},
-		{"id" : 20, "text" : "후천성면역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 108, "begin" : 24, "end" : 26},
-		{"id" : 21, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 27, "end" : 27},
-		{"id" : 22, "text" : "체액성면역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 125, "begin" : 28, "end" : 30},
-		{"id" : 23, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 140, "begin" : 31, "end" : 31},
-		{"id" : 24, "text" : "세포성면역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 144, "begin" : 32, "end" : 34},
-		{"id" : 25, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 159, "begin" : 35, "end" : 35},
-		{"id" : 26, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 5.4, "position" : 163, "begin" : 36, "end" : 36},
-		{"id" : 27, "text" : "예", "type" : "NNG", "scode" : "08", "weight" : 5.20918, "position" : 167, "begin" : 37, "end" : 37},
-		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 170, "begin" : 38, "end" : 38},
-		{"id" : 29, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 173, "begin" : 39, "end" : 39},
-		{"id" : 30, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 176, "begin" : 40, "end" : 40}
+		{"id" : 18, "text" : "선천성", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 89, "begin" : 20, "end" : 21},
+		{"id" : 19, "text" : "면역", "type" : "NNG", "scode" : "02", "weight" : 0, "position" : 97, "begin" : 22, "end" : 22},
+		{"id" : 20, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 23, "end" : 23},
+		{"id" : 21, "text" : "후천성", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 108, "begin" : 24, "end" : 25},
+		{"id" : 22, "text" : "면역", "type" : "NNG", "scode" : "02", "weight" : 0, "position" : 117, "begin" : 26, "end" : 26},
+		{"id" : 23, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 27, "end" : 27},
+		{"id" : 24, "text" : "체액성면역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 125, "begin" : 28, "end" : 30},
+		{"id" : 25, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 140, "begin" : 31, "end" : 31},
+		{"id" : 26, "text" : "세포성면역", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 144, "begin" : 32, "end" : 34},
+		{"id" : 27, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 159, "begin" : 35, "end" : 35},
+		{"id" : 28, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 5.4, "position" : 163, "begin" : 36, "end" : 36},
+		{"id" : 29, "text" : "예", "type" : "NNG", "scode" : "08", "weight" : 5.20918, "position" : 167, "begin" : 37, "end" : 37},
+		{"id" : 30, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 38, "end" : 38},
+		{"id" : 31, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 173, "begin" : 39, "end" : 39},
+		{"id" : 32, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 176, "begin" : 40, "end" : 40}
 	],
 	"word" : [
 		{"id" : 0, "text" : "많은", "type" : "", "begin" : 0, "end" : 1},
@@ -422,7 +425,7 @@
 		{"id" : 14, "text" : "예이다.", "type" : "", "begin" : 37, "end" : 40}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "선천", "type" : "LCP_CITY", "begin" : 20, "end" : 20, "weight" : 0.282095, "common_noun" : 0}
+		{"id" : 0, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 6, "end" : 7, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -529,9 +532,11 @@
 		{"id" : 11, "text" : "준다.", "type" : "", "begin" : 35, "end" : 37}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "혈액뇌", "type" : "TM_CELL_TISSUE", "begin" : 5, "end" : 6, "weight" : 0.158203, "common_noun" : 0},
-		{"id" : 1, "text" : "뇌척수액", "type" : "MT_CHEMICAL", "begin" : 9, "end" : 11, "weight" : 0.292774, "common_noun" : 0},
-		{"id" : 2, "text" : "뇌", "type" : "TM_CELL_TISSUE", "begin" : 19, "end" : 19, "weight" : 0.350312, "common_noun" : 0}
+		{"id" : 0, "text" : "혈액뇌관문", "type" : "TM_CELL_TISSUE", "begin" : 5, "end" : 7, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "뇌척수액관문", "type" : "TM_CELL_TISSUE", "begin" : 9, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "뇌척수액관문", "type" : "TM_CELL_TISSUE", "begin" : 15, "end" : 17, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "뇌", "type" : "TM_CELL_TISSUE", "begin" : 19, "end" : 19, "weight" : 0.350312, "common_noun" : 0},
+		{"id" : 4, "text" : "뇌척수액관문", "type" : "TM_CELL_TISSUE", "begin" : 28, "end" : 30, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -660,6 +665,10 @@
 		{"id" : 17, "text" : "되었다.", "type" : "", "begin" : 42, "end" : 45}
 	],
 	"NE" : [
+		{"id" : 0, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 14, "end" : 15, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 27, "end" : 28, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 33, "end" : 34, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -766,7 +775,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "박테리아", "type" : "AM_OTHERS", "begin" : 4, "end" : 4, "weight" : 0.514116, "common_noun" : 0},
-		{"id" : 1, "text" : "박테리오파지", "type" : "MT_CHEMICAL", "begin" : 12, "end" : 12, "weight" : 0.217669, "common_noun" : 0}
+		{"id" : 0, "text" : "단세포", "type" : "TM_CELL_TISSUE", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "박테리오파지", "type" : "AM_OTHERS", "begin" : 12, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "효소", "type" : "MT_CHEMICAL", "begin" : 20, "end" : 20, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "면역체계", "type" : "TM_CELL_TISSUE", "begin" : 25, "end" : 26, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -844,7 +856,7 @@
 		{"id" : 13, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 85, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 17, "end" : 17},
-		{"id" : 16, "text" : "기작", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 92, "begin" : 18, "end" : 18},
+		{"id" : 16, "text" : "기작", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 92, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 3, "position" : 98, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 6.6, "position" : 105, "begin" : 21, "end" : 21},
@@ -883,10 +895,11 @@
 		{"id" : 15, "text" : "남아있다.", "type" : "", "begin" : 33, "end" : 37}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "고대", "type" : "DT_OTHERS", "begin" : 6, "end" : 6, "weight" : 0.28907, "common_noun" : 0},
-		{"id" : 1, "text" : "진핵생물", "type" : "AM_TYPE", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
-		{"id" : 2, "text" : "후손", "type" : "CV_RELATION", "begin" : 22, "end" : 22, "weight" : 0.42528, "common_noun" : 0},
-		{"id" : 3, "text" : "곤충", "type" : "AM_TYPE", "begin" : 29, "end" : 29, "weight" : 0.456892, "common_noun" : 0}
+		{"id" : 0, "text" : "면역체계", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "고대", "type" : "DT_OTHERS", "begin" : 6, "end" : 6, "weight" : 0.28907, "common_noun" : 0},
+		{"id" : 2, "text" : "진핵생물", "type" : "AM_TYPE", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "후손", "type" : "CV_RELATION", "begin" : 22, "end" : 22, "weight" : 0.42528, "common_noun" : 0},
+		{"id" : 4, "text" : "곤충", "type" : "AM_INSECT", "begin" : 29, "end" : 29, "weight" : 0.456892, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -941,8 +954,8 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "디펜신", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
+		{"id" : 0, "text" : "디펜신", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "라", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "불리", "type" : "VV", "scode" : "04", "weight" : 1, "position" : 16, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 4, "end" : 4},
@@ -950,24 +963,25 @@
 		{"id" : 6, "text" : "펩티드", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 36, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "라든지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 9, "end" : 9},
-		{"id" : 9, "text" : "식세포작용", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 10, "end" : 12},
-		{"id" : 10, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 13, "end" : 13},
-		{"id" : 11, "text" : "phagocytosis", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 14, "end" : 14},
-		{"id" : 12, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 15, "end" : 15},
-		{"id" : 13, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 16, "end" : 16},
-		{"id" : 14, "text" : "보체", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 89, "begin" : 17, "end" : 17},
-		{"id" : 15, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 18, "end" : 18},
-		{"id" : 16, "text" : "complement", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 19, "end" : 19},
-		{"id" : 17, "text" : "system", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 20, "end" : 20},
-		{"id" : 18, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 21, "end" : 21},
-		{"id" : 19, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 22, "end" : 22},
-		{"id" : 20, "text" : "이러하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 23, "end" : 23},
-		{"id" : 21, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 24, "end" : 24},
-		{"id" : 22, "text" : "과정", "type" : "NNG", "scode" : "03", "weight" : 4.4, "position" : 128, "begin" : 25, "end" : 25},
-		{"id" : 23, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 26, "end" : 26},
-		{"id" : 24, "text" : "관여하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 138, "begin" : 27, "end" : 28},
-		{"id" : 25, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 29, "end" : 29},
-		{"id" : 26, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 30, "end" : 30}
+		{"id" : 9, "text" : "식세포", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 56, "begin" : 10, "end" : 11},
+		{"id" : 10, "text" : "작용", "type" : "NNG", "scode" : "01", "weight" : 0, "position" : 65, "begin" : 12, "end" : 12},
+		{"id" : 11, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "phagocytosis", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 15, "end" : 15},
+		{"id" : 14, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "보체", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 89, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "complement", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 19, "end" : 19},
+		{"id" : 18, "text" : "system", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 20, "end" : 20},
+		{"id" : 19, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 113, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 114, "begin" : 22, "end" : 22},
+		{"id" : 21, "text" : "이러하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 23, "end" : 23},
+		{"id" : 22, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 24, "end" : 24},
+		{"id" : 23, "text" : "과정", "type" : "NNG", "scode" : "03", "weight" : 4.4, "position" : 128, "begin" : 25, "end" : 25},
+		{"id" : 24, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 134, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "관여하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 138, "begin" : 27, "end" : 28},
+		{"id" : 26, "text" : "ㄴ다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 29, "end" : 29},
+		{"id" : 27, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 30, "end" : 30}
 	],
 	"word" : [
 		{"id" : 0, "text" : "디펜신이라", "type" : "", "begin" : 0, "end" : 2},
@@ -982,9 +996,9 @@
 		{"id" : 9, "text" : "관여한다.", "type" : "", "begin" : 27, "end" : 30}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "펩티드", "type" : "MT_CHEMICAL", "begin" : 7, "end" : 7, "weight" : 0.281162, "common_noun" : 0},
-		{"id" : 1, "text" : "식세포작용", "type" : "TM_CELL_TISSUE", "begin" : 10, "end" : 12, "weight" : 0.443101, "common_noun" : 0},
-		{"id" : 2, "text" : "보체", "type" : "TMM_DRUG", "begin" : 17, "end" : 17, "weight" : 0.185243, "common_noun" : 0}
+		{"id" : 0, "text" : "펩티드", "type" : "MT_CHEMICAL", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "펩티드", "type" : "MT_CHEMICAL", "begin" : 7, "end" : 7, "weight" : 0.281162, "common_noun" : 0},
+		{"id" : 2, "text" : "보체(complement system)", "type" : "TM_CELL_TISSUE", "begin" : 17, "end" : 17, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1063,7 +1077,7 @@
 		{"id" : 1, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "포함하", "type" : "VV", "scode" : "02", "weight" : 3.2, "position" : 10, "begin" : 2, "end" : 3},
 		{"id" : 3, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 4, "end" : 4},
-		{"id" : 4, "text" : "유악류", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 5, "end" : 5},
+		{"id" : 4, "text" : "유악류", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 20, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 4, "position" : 29, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "보다", "type" : "MAG", "scode" : "02", "weight" : 4.2, "position" : 36, "begin" : 8, "end" : 8},
@@ -1132,8 +1146,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "유악류", "type" : "AM_TYPE", "begin" : 5, "end" : 5, "weight" : 0.262031, "common_noun" : 0},
-		{"id" : 1, "text" : "척추동물", "type" : "AM_TYPE", "begin" : 23, "end" : 24, "weight" : 0.471734, "common_noun" : 0},
-		{"id" : 2, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 32, "end" : 32, "weight" : 0.530958, "common_noun" : 0}
+		{"id" : 1, "text" : "면역 체계", "type" : "TM_CELL_TISSUE", "begin" : 13, "end" : 14, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "척추동물", "type" : "AM_TYPE", "begin" : 23, "end" : 24, "weight" : 0.471734, "common_noun" : 0},
+		{"id" : 3, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 27, "end" : 28, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "단백질", "type" : "MT_CHEMICAL", "begin" : 32, "end" : 32, "weight" : 0.530958, "common_noun" : 0},
 	],
 	"chunk" : [
 	],
@@ -1245,6 +1261,7 @@
 		{"id" : 14, "text" : "왔다.", "type" : "", "begin" : 34, "end" : 37}
 	],
 	"NE" : [
+		{"id" : 0, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 20, "end" : 21, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1301,7 +1318,7 @@
 		{"id" : 1, "text" : "와", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 3, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "같", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "기작", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 14, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "기작", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 14, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "'", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "후천", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 25, "begin" : 7, "end" : 7},
@@ -1449,7 +1466,7 @@
 		{"id" : 4, "text" : "1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 6, "end" : 6},
 		{"id" : 5, "text" : "차", "type" : "NNB", "scode" : "03", "weight" : 1, "position" : 27, "begin" : 7, "end" : 7},
 		{"id" : 6, "text" : "적", "type" : "XSN", "scode" : "18", "weight" : 2, "position" : 30, "begin" : 8, "end" : 8},
-		{"id" : 7, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 30, "begin" : 9, "end" : 9},
+		{"id" : 7, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 9, "end" : 9},
 		{"id" : 8, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 10, "end" : 10},
 		{"id" : 9, "text" : "반응", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 37, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 12, "end" : 12},
@@ -1542,11 +1559,13 @@
 		{"id" : 27, "text" : "된다.", "type" : "", "begin" : 74, "end" : 76}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "1차", "type" : "QT_ORDER", "begin" : 6, "end" : 7, "weight" : 0.658523, "common_noun" : 0},
-		{"id" : 1, "text" : "2일", "type" : "DT_DAY", "begin" : 20, "end" : 21, "weight" : 0.851563, "common_noun" : 0},
-		{"id" : 2, "text" : "2주", "type" : "DT_DURATION", "begin" : 25, "end" : 26, "weight" : 0.277757, "common_noun" : 0},
-		{"id" : 3, "text" : "두 번째", "type" : "QT_ORDER", "begin" : 48, "end" : 49, "weight" : 0.879982, "common_noun" : 0},
-		{"id" : 4, "text" : "2차", "type" : "QT_ORDER", "begin" : 64, "end" : 65, "weight" : 0.550809, "common_noun" : 0}
+		{"id" : 0, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "1차", "type" : "QT_ORDER", "begin" : 6, "end" : 7, "weight" : 0.658523, "common_noun" : 0},
+		{"id" : 2, "text" : "2일", "type" : "DT_DURATION", "begin" : 20, "end" : 21, "weight" : 0.851563, "common_noun" : 0},
+		{"id" : 3, "text" : "2주", "type" : "DT_DURATION", "begin" : 25, "end" : 26, "weight" : 0.277757, "common_noun" : 0},
+		{"id" : 4, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 45, "end" : 46, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "두 번째", "type" : "QT_ORDER", "begin" : 48, "end" : 49, "weight" : 0.879982, "common_noun" : 0},
+		{"id" : 6, "text" : "2차", "type" : "QT_ORDER", "begin" : 64, "end" : 65, "weight" : 0.550809, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1687,6 +1706,7 @@
 		{"id" : 5, "text" : "있다.", "type" : "", "begin" : 11, "end" : 13}
 	],
 	"NE" : [
+		{"id" : 0, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1778,7 +1798,7 @@
 		{"id" : 21, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 102, "begin" : 24, "end" : 24},
 		{"id" : 22, "text" : "반복", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 109, "begin" : 25, "end" : 25},
 		{"id" : 23, "text" : "적", "type" : "XSN", "scode" : "18", "weight" : 4, "position" : 115, "begin" : 26, "end" : 26},
-		{"id" : 24, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 115, "begin" : 27, "end" : 27},
+		{"id" : 24, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 27, "end" : 27},
 		{"id" : 25, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 28, "end" : 28},
 		{"id" : 26, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 29, "end" : 29},
 		{"id" : 27, "text" : "그리고", "type" : "MAJ", "scode" : "00", "weight" : 0, "position" : 123, "begin" : 30, "end" : 30},
@@ -1816,6 +1836,8 @@
 		{"id" : 18, "text" : "된다.", "type" : "", "begin" : 41, "end" : 43}
 	],
 	"NE" : [
+		{"id" : 0, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
+		{"id" : 0, "text" : "면역결핍", "type" : "TMM_DISEASE", "begin" : 10, "end" : 11, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1932,7 +1954,7 @@
 		{"id" : 38, "text" : "감염", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 205, "begin" : 42, "end" : 42},
 		{"id" : 39, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 211, "begin" : 43, "end" : 43},
 		{"id" : 40, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 215, "begin" : 44, "end" : 44},
-		{"id" : 41, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 215, "begin" : 45, "end" : 45},
+		{"id" : 41, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 215, "begin" : 45, "end" : 45},
 		{"id" : 42, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 215, "begin" : 46, "end" : 46},
 		{"id" : 43, "text" : "수", "type" : "NNB", "scode" : "02", "weight" : 6.59923, "position" : 225, "begin" : 47, "end" : 47},
 		{"id" : 44, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 48, "end" : 48},
@@ -1964,12 +1986,11 @@
 		{"id" : 20, "text" : "있다.", "type" : "", "begin" : 49, "end" : 51}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "중증복합 면역결핍증", "type" : "TMM_DISEASE", "begin" : 4, "end" : 8, "weight" : 0.184273, "common_noun" : 0},
-		{"id" : 1, "text" : "SCID", "type" : "TMM_DISEASE", "begin" : 10, "end" : 10, "weight" : 0.143294, "common_noun" : 0},
+		{"id" : 0, "text" : "면역결핍", "type" : "TMM_DISEASE", "begin" : 1, "end" : 2, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "중증복합 면역결핍증(SCID)", "type" : "TMM_DISEASE", "begin" : 4, "end" : 11, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "레트로바이러스", "type" : "AM_OTHERS", "begin" : 27, "end" : 28, "weight" : 0.276866, "common_noun" : 0},
 		{"id" : 3, "text" : "HIV", "type" : "AM_OTHERS", "begin" : 29, "end" : 29, "weight" : 0.172874, "common_noun" : 0},
-		{"id" : 4, "text" : "후천면역결핍증", "type" : "TMM_DISEASE", "begin" : 33, "end" : 36, "weight" : 0.103511, "common_noun" : 0},
-		{"id" : 5, "text" : "AIDS", "type" : "TMM_DISEASE", "begin" : 38, "end" : 38, "weight" : 0.346606, "common_noun" : 0}
+		{"id" : 4, "text" : "후천면역결핍증(AIDS)", "type" : "TMM_DISEASE", "begin" : 33, "end" : 39, "weight" : 1, "common_noun" : 0},
 	],
 	"chunk" : [
 	],
@@ -2065,7 +2086,7 @@
 		{"id" : 18, "text" : "활성화되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 103, "begin" : 22, "end" : 24},
 		{"id" : 19, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 25, "end" : 25},
 		{"id" : 20, "text" : "정상적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 119, "begin" : 26, "end" : 27},
-		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 125, "begin" : 28, "end" : 28},
+		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 28, "end" : 28},
 		{"id" : 22, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 29, "end" : 29},
 		{"id" : 23, "text" : "세포", "type" : "NNG", "scode" : "02", "weight" : 6.6, "position" : 132, "begin" : 30, "end" : 30},
 		{"id" : 24, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 138, "begin" : 31, "end" : 31},
@@ -2107,6 +2128,8 @@
 		{"id" : 17, "text" : "비롯된다.", "type" : "", "begin" : 48, "end" : 50}
 	],
 	"NE" : [
+		{"id" : 0, "text" : "자가면역질환(autoimmune diseases)", "type" : "TMM_DISEASE", "begin" : 6, "end" : 12, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 14, "end" : 15, "weight" : 1, "common_noun" : 0},
 	],
 	"chunk" : [
 	],
@@ -2163,11 +2186,11 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "만성", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "림프", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "구성", "type" : "NNG", "scode" : "07", "weight" : 2, "position" : 13, "begin" : 2, "end" : 3},
+		{"id" : 1, "text" : "림프구", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 2},
+		{"id" : 2, "text" : "성", "type" : "XSN", "scode" : "17", "weight" : 2, "position" : 16, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "갑상선염", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 4, "end" : 5},
 		{"id" : 4, "text" : "이나", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 32, "begin" : 6, "end" : 6},
-		{"id" : 5, "text" : "류마티스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 7, "end" : 7},
+		{"id" : 5, "text" : "류마티스", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 39, "begin" : 7, "end" : 7},
 		{"id" : 6, "text" : "관절염", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 52, "begin" : 8, "end" : 9},
 		{"id" : 7, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 10, "end" : 10},
 		{"id" : 8, "text" : "제", "type" : "XPN", "scode" : "21", "weight" : 1, "position" : 63, "begin" : 11, "end" : 11},
@@ -2182,10 +2205,10 @@
 		{"id" : 17, "text" : "질환", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 113, "begin" : 22, "end" : 22},
 		{"id" : 18, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 23, "end" : 23},
 		{"id" : 19, "text" : "일반적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 123, "begin" : 24, "end" : 25},
-		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 129, "begin" : 26, "end" : 26},
+		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 26, "end" : 26},
 		{"id" : 21, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 27, "end" : 27},
 		{"id" : 22, "text" : "예", "type" : "NNG", "scode" : "08", "weight" : 2.2, "position" : 136, "begin" : 28, "end" : 28},
-		{"id" : 23, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 139, "begin" : 29, "end" : 29},
+		{"id" : 23, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 29, "end" : 29},
 		{"id" : 24, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 30, "end" : 30},
 		{"id" : 25, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 145, "begin" : 31, "end" : 31}
 	],
@@ -2204,12 +2227,11 @@
 		{"id" : 11, "text" : "예이다.", "type" : "", "begin" : 28, "end" : 31}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "림프구", "type" : "TM_CELL_TISSUE", "begin" : 1, "end" : 2, "weight" : 0.582401, "common_noun" : 0},
-		{"id" : 1, "text" : "갑상선염", "type" : "TMM_DISEASE", "begin" : 4, "end" : 5, "weight" : 0.600902, "common_noun" : 0},
-		{"id" : 2, "text" : "류마티스 관절염", "type" : "TMM_DISEASE", "begin" : 7, "end" : 9, "weight" : 0.82018, "common_noun" : 0},
-		{"id" : 3, "text" : "제1형", "type" : "QT_ORDER", "begin" : 11, "end" : 13, "weight" : 0.499636, "common_noun" : 0},
-		{"id" : 4, "text" : "당뇨", "type" : "TMM_DISEASE", "begin" : 14, "end" : 14, "weight" : 0.463694, "common_noun" : 0},
-		{"id" : 5, "text" : "홍반성 낭창", "type" : "TMM_DISEASE", "begin" : 16, "end" : 18, "weight" : 0.645896, "common_noun" : 0}
+		{"id" : 0, "text" : "만성 림프구성 갑상선염", "type" : "TMM_DISEASE", "begin" : 0, "end" : 5, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "류마티스 관절염", "type" : "TMM_DISEASE", "begin" : 7, "end" : 9, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "제1형 당뇨", "type" : "TMM_DISEASE", "begin" : 11, "end" : 14, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "홍반성 낭창", "type" : "TMM_DISEASE", "begin" : 16, "end" : 18, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "자가면역질환", "type" : "TMM_DISEASE", "begin" : 20, "end" : 22, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2260,7 +2282,7 @@
 		{"id" : 8, "text" : "관하", "type" : "VV", "scode" : "02", "weight" : 6.6, "position" : 46, "begin" : 10, "end" : 10},
 		{"id" : 9, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "학문", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 53, "begin" : 12, "end" : 12},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 59, "begin" : 13, "end" : 13},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 15, "end" : 15}
 	],
@@ -2274,6 +2296,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "면역학", "type" : "FD_MEDICINE", "begin" : 0, "end" : 1, "weight" : 0.493619, "common_noun" : 0}
+		{"id" : 1, "text" : "면역계", "type" : "TM_CELL_TISSUE", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2323,7 +2346,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "면역", "type" : "NNG", "scode" : "02", "weight" : 3.2, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "말", "type" : "NNG", "scode" : "01", "weight" : 4.4, "position" : 16, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 4, "end" : 4},
@@ -2547,9 +2570,9 @@
 		{"id" : 0, "text" : "18", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "세기", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 2, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 8, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "피에르", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 12, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "루이", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 22, "begin" : 4, "end" : 4},
-		{"id" : 5, "text" : "모페르튀이", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 5, "end" : 5},
+		{"id" : 3, "text" : "피에르", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 12, "begin" : 3, "end" : 3},
+		{"id" : 4, "text" : "루이", "type" : "NNP", "scode" : "99", "weight" : 0, "position" : 22, "begin" : 4, "end" : 4},
+		{"id" : 5, "text" : "모페르튀이", "type" : "NNP", "scode" : "99", "weight" : 0, "position" : 29, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 44, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "전갈", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 48, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 8, "end" : 8},
@@ -2683,7 +2706,7 @@
 		{"id" : 6, "text" : "연구", "type" : "NNG", "scode" : "03", "weight" : 4.2, "position" : 37, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 43, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 9, "end" : 9},
-		{"id" : 9, "text" : "루이", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 53, "begin" : 10, "end" : 10},
+		{"id" : 9, "text" : "루이", "type" : "NNP", "scode" : "99", "weight" : 0, "position" : 53, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "파스퇴르", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "예방", "type" : "NNG", "scode" : "02", "weight" : 2.2, "position" : 76, "begin" : 13, "end" : 13},
@@ -2727,7 +2750,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "루이 파스퇴르", "type" : "PS_NAME", "begin" : 10, "end" : 11, "weight" : 0.257918, "common_noun" : 0},
-		{"id" : 1, "text" : "세균", "type" : "AM_OTHERS", "begin" : 23, "end" : 23, "weight" : 0.377819, "common_noun" : 0}
+		{"id" : 1, "text" : "예방 접종", "type" : "TR_MEDICINE", "begin" : 13, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "세균 이론", "type" : "TR_MEDICINE", "begin" : 23, "end" : 24, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2820,7 +2844,7 @@
 		{"id" : 12, "text" : "상반되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 72, "begin" : 12, "end" : 13},
 		{"id" : 13, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 6.6, "position" : 85, "begin" : 15, "end" : 15},
-		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 88, "begin" : 16, "end" : 16},
+		{"id" : 15, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "으며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 94, "begin" : 18, "end" : 18},
 		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 19, "end" : 19},
@@ -2830,7 +2854,7 @@
 		{"id" : 22, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 23, "end" : 23},
 		{"id" : 23, "text" : "1891", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 24, "end" : 24},
 		{"id" : 24, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 5.5, "position" : 123, "begin" : 25, "end" : 25},
-		{"id" : 25, "text" : "로베르트", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 127, "begin" : 26, "end" : 26},
+		{"id" : 25, "text" : "로베르트", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 127, "begin" : 26, "end" : 26},
 		{"id" : 26, "text" : "코흐", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 140, "begin" : 27, "end" : 27},
 		{"id" : 27, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 28, "end" : 28},
 		{"id" : 28, "text" : "의하", "type" : "VV", "scode" : "01", "weight" : 8.8, "position" : 150, "begin" : 29, "end" : 29},
@@ -2840,7 +2864,7 @@
 		{"id" : 32, "text" : "전염병", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 170, "begin" : 34, "end" : 35},
 		{"id" : 33, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 179, "begin" : 36, "end" : 36},
 		{"id" : 34, "text" : "근원", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 183, "begin" : 37, "end" : 37},
-		{"id" : 35, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 189, "begin" : 38, "end" : 38},
+		{"id" : 35, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 189, "begin" : 38, "end" : 38},
 		{"id" : 36, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 192, "begin" : 39, "end" : 39},
 		{"id" : 37, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 8.8, "position" : 199, "begin" : 40, "end" : 40},
 		{"id" : 38, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 202, "begin" : 41, "end" : 41},
@@ -2881,7 +2905,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "파스퇴르", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.264909, "common_noun" : 0},
-		{"id" : 1, "text" : "미아스마설", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 0.134317, "common_noun" : 0},
+		{"id" : 1, "text" : "미아스마설", "type" : "TR_OTHERS", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "1891년", "type" : "DT_YEAR", "begin" : 24, "end" : 25, "weight" : 0.836758, "common_noun" : 0},
 		{"id" : 3, "text" : "로베르트 코흐", "type" : "PS_NAME", "begin" : 26, "end" : 27, "weight" : 0.577131, "common_noun" : 0},
 		{"id" : 4, "text" : "미생물", "type" : "AM_TYPE", "begin" : 31, "end" : 32, "weight" : 1, "common_noun" : 0}
@@ -3015,8 +3039,8 @@
 		{"id" : 9, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "1901", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 12, "end" : 12},
 		{"id" : 11, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 7, "position" : 69, "begin" : 13, "end" : 13},
-		{"id" : 12, "text" : "월터", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 73, "begin" : 14, "end" : 14},
-		{"id" : 13, "text" : "리드", "type" : "NNP", "scode" : "05", "weight" : 2.5, "position" : 80, "begin" : 15, "end" : 15},
+		{"id" : 12, "text" : "월터", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 73, "begin" : 14, "end" : 14},
+		{"id" : 13, "text" : "리드", "type" : "NNP", "scode" : "99", "weight" : 2.5, "position" : 80, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "황열", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 90, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "바이러스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 97, "begin" : 18, "end" : 18},
@@ -3048,8 +3072,11 @@
 		{"id" : 12, "text" : "명확해졌다.", "type" : "", "begin" : 25, "end" : 30}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "1901년", "type" : "DT_YEAR", "begin" : 12, "end" : 13, "weight" : 0.894177, "common_noun" : 0},
-		{"id" : 1, "text" : "월터 리드", "type" : "PS_NAME", "begin" : 14, "end" : 15, "weight" : 0.337456, "common_noun" : 0}
+		{"id" : 0, "text" : "바이러스", "type" : "AM_OTHERS", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "병원체", "type" : "AM_OTHERS", "begin" : 4, "end" : 5, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "1901년", "type" : "DT_YEAR", "begin" : 12, "end" : 13, "weight" : 0.894177, "common_noun" : 0},
+		{"id" : 3, "text" : "월터 리드", "type" : "PS_NAME", "begin" : 14, "end" : 15, "weight" : 0.337456, "common_noun" : 0},
+		{"id" : 4, "text" : "황열 바이러스", "type" : "AM_OTHERS", "begin" : 17, "end" : 18, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3131,7 +3158,7 @@
 		{"id" : 19, "text" : "진전되", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 97, "begin" : 20, "end" : 21},
 		{"id" : 20, "text" : "면서", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "비약적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 113, "begin" : 23, "end" : 24},
-		{"id" : 22, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 119, "begin" : 25, "end" : 25},
+		{"id" : 22, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 25, "end" : 25},
 		{"id" : 23, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 119, "begin" : 26, "end" : 26},
 		{"id" : 24, "text" : "발전", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 126, "begin" : 27, "end" : 27},
 		{"id" : 25, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 28, "end" : 28},
@@ -3270,7 +3297,7 @@
 		{"id" : 8, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 10, "end" : 10},
 		{"id" : 9, "text" : "위하", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 50, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 12, "end" : 12},
-		{"id" : 11, "text" : "측쇄설", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 57, "begin" : 13, "end" : 13},
+		{"id" : 11, "text" : "측쇄설", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 57, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 66, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "side", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "-", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 16, "end" : 16},
@@ -3280,7 +3307,7 @@
 		{"id" : 18, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "주장하", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 89, "begin" : 21, "end" : 22},
 		{"id" : 20, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 23, "end" : 23},
-		{"id" : 21, "text" : "파울", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 99, "begin" : 24, "end" : 24},
+		{"id" : 21, "text" : "파울", "type" : "NNP", "scode" : "99", "weight" : 1, "position" : 99, "begin" : 24, "end" : 24},
 		{"id" : 22, "text" : "에를리히", "type" : "NNP", "scode" : "01", "weight" : 1, "position" : 106, "begin" : 25, "end" : 25},
 		{"id" : 23, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 26, "end" : 26},
 		{"id" : 24, "text" : "업적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 122, "begin" : 27, "end" : 27},
@@ -3312,7 +3339,7 @@
 		{"id" : 50, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 237, "begin" : 54, "end" : 54},
 		{"id" : 51, "text" : "알려지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 241, "begin" : 55, "end" : 55},
 		{"id" : 52, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 241, "begin" : 56, "end" : 56},
-		{"id" : 53, "text" : "일리야", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 251, "begin" : 57, "end" : 57},
+		{"id" : 53, "text" : "일리야", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 251, "begin" : 57, "end" : 57},
 		{"id" : 54, "text" : "메치니코프", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 261, "begin" : 58, "end" : 58},
 		{"id" : 55, "text" : "와", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 276, "begin" : 59, "end" : 59},
 		{"id" : 56, "text" : "공동", "type" : "NNG", "scode" : "02", "weight" : 4.3, "position" : 280, "begin" : 60, "end" : 60},
@@ -3359,12 +3386,14 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "항체", "type" : "TM_CELL_TISSUE", "begin" : 0, "end" : 0, "weight" : 0.226283, "common_noun" : 0},
-		{"id" : 1, "text" : "파울 에를리히", "type" : "PS_NAME", "begin" : 24, "end" : 25, "weight" : 0.205532, "common_noun" : 0},
-		{"id" : 2, "text" : "눈", "type" : "AM_PART", "begin" : 29, "end" : 29, "weight" : 0.278683, "common_noun" : 0},
-		{"id" : 3, "text" : "창시자", "type" : "CV_POSITION", "begin" : 52, "end" : 53, "weight" : 0.407532, "common_noun" : 0},
-		{"id" : 4, "text" : "일리야 메치니코프", "type" : "PS_NAME", "begin" : 57, "end" : 58, "weight" : 0.328564, "common_noun" : 0},
-		{"id" : 5, "text" : "1908년", "type" : "DT_YEAR", "begin" : 62, "end" : 63, "weight" : 0.8154, "common_noun" : 0},
-		{"id" : 6, "text" : "노벨상", "type" : "CV_PRIZE", "begin" : 64, "end" : 65, "weight" : 0.930524, "common_noun" : 0}
+		{"id" : 1, "text" : "항원", "type" : "TM_CELL_TISSUE", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "측쇄설(side-chain theory)", "type" : "TR_OTHERS", "begin" : 13, "end" : 19, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "파울 에를리히", "type" : "PS_NAME", "begin" : 24, "end" : 25, "weight" : 0.205532, "common_noun" : 0},
+		{"id" : 4, "text" : "눈", "type" : "AM_PART", "begin" : 29, "end" : 29, "weight" : 0.278683, "common_noun" : 0},
+		{"id" : 5, "text" : "창시자", "type" : "CV_POSITION", "begin" : 52, "end" : 53, "weight" : 0.407532, "common_noun" : 0},
+		{"id" : 6, "text" : "일리야 메치니코프", "type" : "PS_NAME", "begin" : 57, "end" : 58, "weight" : 0.328564, "common_noun" : 0},
+		{"id" : 7, "text" : "1908년", "type" : "DT_YEAR", "begin" : 62, "end" : 63, "weight" : 0.8154, "common_noun" : 0},
+		{"id" : 8, "text" : "노벨상", "type" : "CV_PRIZE", "begin" : 64, "end" : 65, "weight" : 0.930524, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

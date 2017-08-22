@@ -17,7 +17,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1}
+		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1}
 	],
 	"word" : [
 		{"id" : 0, "text" : "칭기즈", "type" : "", "begin" : 0, "end" : 0},
@@ -94,7 +94,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "1155", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 14, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "/", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 18, "begin" : 4, "end" : 4},
@@ -159,9 +159,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "칭기즈 칸", "type" : "PS_NAME", "begin" : 0, "end" : 1, "weight" : 0.587766, "common_noun" : 0},
-		{"id" : 1, "text" : "1155/62/67년 4월 16일 ~ 1227년 8월 25일", "type" : "DT_DURATION", "begin" : 3, "end" : 19, "weight" : 0.889916, "common_noun" : 0},
+		{"id" : 1, "text" : "1155/62/67년 4월 16일 ~ 1227년 8월 25일", "type" : "DT_OTHERS", "begin" : 3, "end" : 19, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "몽골 제국", "type" : "LCP_COUNTRY", "begin" : 33, "end" : 34, "weight" : 0.816808, "common_noun" : 0},
-		{"id" : 3, "text" : "창업자", "type" : "CV_POSITION", "begin" : 36, "end" : 37, "weight" : 0.591263, "common_noun" : 0}
+		{"id" : 3, "text" : "창업자", "type" : "CV_POSITION", "begin" : 36, "end" : 37, "weight" : 0.591263, "common_noun" : 0},
+		{"id" : 4, "text" : "초대 카간", "type" : "CV_POSITION", "begin" : 40, "end" : 41, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -209,8 +210,7 @@
 		{"id" : 3, "text" : "테무진이다.", "type" : "", "begin" : 4, "end" : 7}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "보르지긴", "type" : "PS_NAME", "begin" : 3, "end" : 3, "weight" : 0.316338, "common_noun" : 0},
-		{"id" : 1, "text" : "테무진", "type" : "CV_POSITION", "begin" : 4, "end" : 4, "weight" : 0.0826326, "common_noun" : 0}
+		{"id" : 0, "text" : "보르지긴 테무진", "type" : "PS_NAME", "begin" : 3, "end" : 4, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -362,8 +362,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "몽골", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.839146, "common_noun" : 0},
-		{"id" : 1, "text" : "능력주의", "type" : "TR_SCIENCE", "begin" : 26, "end" : 27, "weight" : 0.364251, "common_noun" : 0},
-		{"id" : 2, "text" : "정치지도자", "type" : "CV_POSITION", "begin" : 46, "end" : 48, "weight" : 0.47705, "common_noun" : 0}
+		{"id" : 1, "text" : "인사제도", "type" : "CV_POLICY", "begin" : 22, "end" : 23, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "능력주의", "type" : "TR_SCIENCE", "begin" : 26, "end" : 27, "weight" : 0.364251, "common_noun" : 0},
+		{"id" : 3, "text" : "군사", "type" : "CV_POSITION", "begin" : 44, "end" : 44, "weight" : 1, "common_noun" : 0},
+		{"id" : 4, "text" : "정치지도자", "type" : "CV_POSITION", "begin" : 46, "end" : 48, "weight" : 0.47705, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -406,7 +408,7 @@
 		{"id" : 3, "text" : "뛰어나", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "정복", "type" : "NNG", "scode" : "02", "weight" : 2, "position" : 30, "begin" : 5, "end" : 5},
-		{"id" : 6, "text" : "왕", "type" : "NNG", "scode" : "04", "weight" : 7.4, "position" : 36, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "왕", "type" : "XSN", "scode" : "08", "weight" : 1, "position" : 36, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "중", "type" : "NNB", "scode" : "04", "weight" : 9.8, "position" : 40, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "한", "type" : "MM", "scode" : "01", "weight" : 4.4, "position" : 44, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "사람", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 9, "end" : 9},
@@ -490,10 +492,11 @@
 		{"id" : 3, "text" : "기록된다.", "type" : "", "begin" : 13, "end" : 16}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "중국", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.368273, "common_noun" : 0},
+		{"id" : 0, "text" : "중국사", "type" : "FD_SOCIAL_SCIENCE", "begin" : 0, "end" : 1, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "원", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 4, "weight" : 0.13365, "common_noun" : 0},
-		{"id" : 2, "text" : "태조", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.530669, "common_noun" : 0},
-		{"id" : 3, "text" : "太祖", "type" : "PS_NAME", "begin" : 10, "end" : 10, "weight" : 1, "common_noun" : 0}
+		{"id" : 1, "text" : "元", "type" : "LCP_COUNTRY", "begin" : 6, "end" : 6, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "태조", "type" : "CV_POSITION", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "太祖", "type" : "CV_POSITION", "begin" : 10, "end" : 10, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -541,7 +544,7 @@
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "몽골", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 27, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 34, "begin" : 7, "end" : 7},
-		{"id" : 7, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1.5, "position" : 44, "begin" : 8, "end" : 8},
+		{"id" : 7, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1.5, "position" : 44, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "국제공항", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 48, "begin" : 9, "end" : 10},
 		{"id" : 9, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "남", "type" : "VV", "scode" : "01", "weight" : 1, "position" : 67, "begin" : 12, "end" : 12},
@@ -634,7 +637,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "정확하", "type" : "VA", "scode" : "01", "weight" : 1, "position" : 17, "begin" : 3, "end" : 4},
 		{"id" : 4, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 17, "begin" : 5, "end" : 5},
@@ -754,7 +757,7 @@
 		{"id" : 3, "text" : "기념하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 4},
 		{"id" : 4, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 33, "begin" : 6, "end" : 6},
-		{"id" : 6, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 43, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 43, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 46, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "탄신", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 50, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "일", "type" : "XSN", "scode" : "09", "weight" : 2, "position" : 56, "begin" : 10, "end" : 10},
@@ -865,7 +868,7 @@
 	"text" : "칭기즈 칸은 그의 아버지 예수게이가 타타르족과의 전투를 승리로 끝낸 직후에 태어났다.",
 	"morp" : [
 		{"id" : 0, "lemma" : "칭기즈", "type" : "NNP", "position" : 0, "weight" : 0 },
-		{"id" : 1, "lemma" : "칸", "type" : "NNG", "position" : 10, "weight" : 0 },
+		{"id" : 1, "lemma" : "칸", "type" : "NNP", "position" : 10, "weight" : 0 },
 		{"id" : 2, "lemma" : "은", "type" : "JX", "position" : 13, "weight" : 0 },
 		{"id" : 3, "lemma" : "그", "type" : "NP", "position" : 17, "weight" : 0 },
 		{"id" : 4, "lemma" : "의", "type" : "JKG", "position" : 20, "weight" : 0 },
@@ -892,7 +895,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "칸", "type" : "NNG", "scode" : "03", "weight" : 3.2375, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "그", "type" : "NP", "scode" : "01", "weight" : 4.4, "position" : 17, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 20, "begin" : 4, "end" : 4},
@@ -1144,7 +1147,7 @@
 		{"id" : 13, "text" : "군주", "type" : "NNG", "scode" : "01", "weight" : 3.3, "position" : 73, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "테무", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 17, "end" : 17},
-		{"id" : 16, "text" : "진", "type" : "NNP", "scode" : "08", "weight" : 1, "position" : 88, "begin" : 18, "end" : 18},
+		{"id" : 16, "text" : "진", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "우게", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 92, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 102, "begin" : 21, "end" : 21},
@@ -1188,7 +1191,7 @@
 		{"id" : 0, "text" : "예수게이", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.186154, "common_noun" : 0},
 		{"id" : 1, "text" : "타타르", "type" : "CV_TRIBE", "begin" : 14, "end" : 14, "weight" : 0.182536, "common_noun" : 0},
 		{"id" : 2, "text" : "군주", "type" : "CV_POSITION", "begin" : 15, "end" : 15, "weight" : 0.449671, "common_noun" : 0},
-		{"id" : 3, "text" : "테무 진", "type" : "CV_POSITION", "begin" : 17, "end" : 18, "weight" : 0.12612, "common_noun" : 0},
+		{"id" : 3, "text" : "테무 진 우게", "type" : "PS_NAME", "begin" : 17, "end" : 19, "weight" : 1, "common_noun" : 0},
 		{"id" : 4, "text" : "자식", "type" : "CV_RELATION", "begin" : 25, "end" : 25, "weight" : 0.504022, "common_noun" : 0},
 		{"id" : 5, "text" : "테무친", "type" : "PS_NAME", "begin" : 27, "end" : 27, "weight" : 0.213082, "common_noun" : 0}
 	],
@@ -1211,7 +1214,7 @@
 	"text" : "칭기즈 칸의 이름에 대한 또 다른 해석으로는 ‘테무친’이 ‘대장장이’라는 뜻임을 근거로 당시 유목민 사회에서 쇠가 중요했음을 반영한 것이라고 주장하는 학자들도 있다.",
 	"morp" : [
 		{"id" : 0, "lemma" : "칭기즈", "type" : "NNP", "position" : 0, "weight" : 0 },
-		{"id" : 1, "lemma" : "칸", "type" : "NNG", "position" : 10, "weight" : 0 },
+		{"id" : 1, "lemma" : "칸", "type" : "NNP", "position" : 10, "weight" : 0 },
 		{"id" : 2, "lemma" : "의", "type" : "JKG", "position" : 13, "weight" : 0 },
 		{"id" : 3, "lemma" : "이름", "type" : "NNG", "position" : 17, "weight" : 0 },
 		{"id" : 4, "lemma" : "에", "type" : "JKB", "position" : 23, "weight" : 0 },
@@ -1270,7 +1273,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "칭기즈", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "칸", "type" : "NNG", "scode" : "03", "weight" : 3.2375, "position" : 10, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 10, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 13, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
@@ -1488,7 +1491,7 @@
 		{"id" : 14, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "그", "type" : "NP", "scode" : "01", "weight" : 6.6, "position" : 85, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 16, "end" : 16},
-		{"id" : 17, "text" : "부족", "type" : "NNG", "scode" : "01", "weight" : 2, "position" : 92, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "부족", "type" : "NNG", "scode" : "05", "weight" : 2, "position" : 92, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "오랜", "type" : "MM", "scode" : "00", "weight" : 0, "position" : 102, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "불화", "type" : "NNG", "scode" : "02", "weight" : 2, "position" : 109, "begin" : 20, "end" : 20},
@@ -1616,7 +1619,7 @@
 		{"id" : 1, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "죽", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 16, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "자", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "부족", "type" : "NNG", "scode" : "01", "weight" : 1.93333, "position" : 23, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "부족", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "사람", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 30, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 5, "position" : 36, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 39, "begin" : 7, "end" : 7},
@@ -1695,8 +1698,9 @@
 		{"id" : 1, "text" : "예수게이", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.206762, "common_noun" : 0},
 		{"id" : 2, "text" : "타이치우트", "type" : "PS_NAME", "begin" : 13, "end" : 13, "weight" : 0.123217, "common_noun" : 0},
 		{"id" : 3, "text" : "예수게이", "type" : "PS_NAME", "begin" : 21, "end" : 21, "weight" : 0.144329, "common_noun" : 0},
-		{"id" : 4, "text" : "호엘룬", "type" : "PS_NAME", "begin" : 25, "end" : 25, "weight" : 0.18149, "common_noun" : 0},
-		{"id" : 5, "text" : "자녀", "type" : "CV_RELATION", "begin" : 28, "end" : 28, "weight" : 0.638927, "common_noun" : 0}
+		{"id" : 4, "text" : "미망인", "type" : "CV_POSITION", "begin" : 23, "end" : 24, "weight" : 1, "common_noun" : 0},
+		{"id" : 5, "text" : "호엘룬", "type" : "PS_NAME", "begin" : 25, "end" : 25, "weight" : 0.18149, "common_noun" : 0},
+		{"id" : 6, "text" : "자녀", "type" : "CV_RELATION", "begin" : 28, "end" : 28, "weight" : 0.638927, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1826,7 +1830,7 @@
 		{"id" : 17, "text" : "경험했다.", "type" : "", "begin" : 40, "end" : 44}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "테무진", "type" : "LCP_CITY", "begin" : 4, "end" : 4, "weight" : 0.127968, "common_noun" : 0},
+		{"id" : 0, "text" : "테무진", "type" : "PS_NAME", "begin" : 4, "end" : 4, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "유목민", "type" : "CV_TRIBE", "begin" : 11, "end" : 12, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "양고기", "type" : "CV_FOOD", "begin" : 18, "end" : 19, "weight" : 0.402837, "common_noun" : 0},
 		{"id" : 3, "text" : "우유", "type" : "CV_DRINK", "begin" : 21, "end" : 21, "weight" : 0.371558, "common_noun" : 0},
@@ -2167,7 +2171,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "몽골", "type" : "LCP_COUNTRY", "begin" : 1, "end" : 1, "weight" : 0.921709, "common_noun" : 0},
-		{"id" : 1, "text" : "북방", "type" : "TM_DIRECTION", "begin" : 2, "end" : 2, "weight" : 0.439573, "common_noun" : 0},
+		{"id" : 1, "text" : "북방", "type" : "LC_OTHERS", "begin" : 2, "end" : 2, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "메르키트족", "type" : "OGG_SPORTS", "begin" : 6, "end" : 6, "weight" : 0.117914, "common_noun" : 0},
 		{"id" : 3, "text" : "예수게이", "type" : "PS_NAME", "begin" : 8, "end" : 8, "weight" : 0.260016, "common_noun" : 0},
 		{"id" : 4, "text" : "호엘룬", "type" : "PS_NAME", "begin" : 18, "end" : 18, "weight" : 0.301983, "common_noun" : 0},
@@ -2321,7 +2325,7 @@
 		{"id" : 14, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "토그릴", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 88, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : "완", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 17, "end" : 17},
-		{"id" : 17, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 102, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 102, "begin" : 18, "end" : 18},
 		{"id" : 18, "text" : "에게", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 19, "end" : 19},
 		{"id" : 19, "text" : "사정", "type" : "NNG", "scode" : "07", "weight" : 3.17222, "position" : 112, "begin" : 20, "end" : 20},
 		{"id" : 20, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 118, "begin" : 21, "end" : 21},
@@ -2411,7 +2415,7 @@
 		{"id" : 0, "text" : "당시", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "토그릴", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 7, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "완", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 17, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 21, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 21, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 24, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "몽골", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 28, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "지역", "type" : "NNG", "scode" : "03", "weight" : 7.7, "position" : 35, "begin" : 6, "end" : 6},
@@ -2440,7 +2444,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "토그릴 완 칸", "type" : "PS_NAME", "begin" : 1, "end" : 3, "weight" : 0.34078, "common_noun" : 0},
-		{"id" : 1, "text" : "몽골", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.87998, "common_noun" : 0}
+		{"id" : 1, "text" : "몽골", "type" : "LCP_COUNTRY", "begin" : 5, "end" : 5, "weight" : 0.87998, "common_noun" : 0},
+		{"id" : 2, "text" : "통치자", "type" : "CV_POSITION", "begin" : 13, "end" : 14, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2481,8 +2486,8 @@
 		{"id" : 18, "lemma" : "답례", "type" : "NNG", "position" : 85, "weight" : 0 },
 		{"id" : 19, "lemma" : "로", "type" : "JKB", "position" : 91, "weight" : 0 },
 		{"id" : 20, "lemma" : "토그릴", "type" : "NNP", "position" : 95, "weight" : 0 },
-		{"id" : 21, "lemma" : "완", "type" : "NNG", "position" : 105, "weight" : 0 },
-		{"id" : 22, "lemma" : "칸", "type" : "NNG", "position" : 109, "weight" : 0 },
+		{"id" : 21, "lemma" : "완", "type" : "NNP", "position" : 105, "weight" : 0 },
+		{"id" : 22, "lemma" : "칸", "type" : "NNP", "position" : 109, "weight" : 0 },
 		{"id" : 23, "lemma" : "은", "type" : "JX", "position" : 112, "weight" : 0 },
 		{"id" : 24, "lemma" : "테무진", "type" : "NNP", "position" : 116, "weight" : 0 },
 		{"id" : 25, "lemma" : "의", "type" : "JKG", "position" : 125, "weight" : 0 },
@@ -2525,14 +2530,14 @@
 		{"id" : 16, "text" : "답례", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 85, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 91, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "토그릴", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 95, "begin" : 20, "end" : 20},
-		{"id" : 19, "text" : "완", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 105, "begin" : 21, "end" : 21},
-		{"id" : 20, "text" : "칸", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 109, "begin" : 22, "end" : 22},
+		{"id" : 19, "text" : "완", "type" : "NNP", "scode" : "00", "weight" : 1, "position" : 105, "begin" : 21, "end" : 21},
+		{"id" : 20, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 109, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 23, "end" : 23},
 		{"id" : 22, "text" : "테무진", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 116, "begin" : 24, "end" : 24},
 		{"id" : 23, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 125, "begin" : 25, "end" : 25},
 		{"id" : 24, "text" : "흩어지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 129, "begin" : 26, "end" : 26},
 		{"id" : 25, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 27, "end" : 27},
-		{"id" : 26, "text" : "부족", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 139, "begin" : 28, "end" : 28},
+		{"id" : 26, "text" : "부족", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 139, "begin" : 28, "end" : 28},
 		{"id" : 27, "text" : "민", "type" : "XSN", "scode" : "07", "weight" : 2, "position" : 145, "begin" : 29, "end" : 29},
 		{"id" : 28, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 5, "position" : 148, "begin" : 30, "end" : 30},
 		{"id" : 29, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 151, "begin" : 31, "end" : 31},
@@ -2566,9 +2571,12 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "테무진", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.240321, "common_noun" : 0},
-		{"id" : 1, "text" : "토그릴", "type" : "PS_NAME", "begin" : 12, "end" : 12, "weight" : 0.131722, "common_noun" : 0},
-		{"id" : 2, "text" : "토그릴 완 칸", "type" : "PS_NAME", "begin" : 20, "end" : 22, "weight" : 0.285981, "common_noun" : 0},
-		{"id" : 3, "text" : "테무진", "type" : "PS_NAME", "begin" : 24, "end" : 24, "weight" : 0.123839, "common_noun" : 0}
+		{"id" : 1, "text" : "잘", "type" : "AM_MAMMALIA", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0},
+		{"id" : 2, "text" : "모피", "type" : "CV_CLOTHING", "begin" : 10, "end" : 10, "weight" : 1, "common_noun" : 0},
+		{"id" : 3, "text" : "토그릴", "type" : "PS_NAME", "begin" : 12, "end" : 12, "weight" : 0.131722, "common_noun" : 0},
+		{"id" : 4, "text" : "토그릴 완 칸", "type" : "PS_NAME", "begin" : 20, "end" : 22, "weight" : 0.285981, "common_noun" : 0},
+		{"id" : 5, "text" : "테무진", "type" : "PS_NAME", "begin" : 24, "end" : 24, "weight" : 0.123839, "common_noun" : 0},
+		{"id" : 6, "text" : "부족민", "type" : "CV_TRIBE", "begin" : 28, "end" : 29, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -2641,7 +2649,7 @@
 		{"id" : 1, "text" : "후", "type" : "NNG", "scode" : "08", "weight" : 2.18345, "position" : 4, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "토그릴", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 8, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "완", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 18, "begin" : 3, "end" : 3},
-		{"id" : 4, "text" : "칸", "type" : "NNP", "scode" : "02", "weight" : 1, "position" : 22, "begin" : 4, "end" : 4},
+		{"id" : 4, "text" : "칸", "type" : "NNP", "scode" : "03", "weight" : 1, "position" : 22, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "테무진", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "에게", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 7, "end" : 7},
@@ -2664,7 +2672,7 @@
 		{"id" : 24, "text" : "쟈무카", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 114, "begin" : 25, "end" : 25},
 		{"id" : 25, "text" : "도", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 123, "begin" : 26, "end" : 26},
 		{"id" : 26, "text" : "설득", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 127, "begin" : 27, "end" : 27},
-		{"id" : 27, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 127, "begin" : 28, "end" : 28},
+		{"id" : 27, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 0, "position" : 127, "begin" : 28, "end" : 28},
 		{"id" : 28, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 127, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "병력", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 140, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 31, "end" : 31},
@@ -2795,7 +2803,7 @@
 		{"id" : 3, "text" : "궁핍", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "과", "type" : "JC", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "이웃", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 30, "begin" : 5, "end" : 5},
-		{"id" : 6, "text" : "부족", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 37, "begin" : 6, "end" : 6},
+		{"id" : 6, "text" : "부족", "type" : "NNG", "scode" : "05", "weight" : 1, "position" : 37, "begin" : 6, "end" : 6},
 		{"id" : 7, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "왕", "type" : "NNG", "scode" : "04", "weight" : 2.2, "position" : 47, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 50, "begin" : 9, "end" : 9},
@@ -2819,7 +2827,7 @@
 		{"id" : 27, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 155, "begin" : 31, "end" : 31},
 		{"id" : 28, "text" : "〈", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 32, "end" : 32},
 		{"id" : 29, "text" : "몽골", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 160, "begin" : 33, "end" : 33},
-		{"id" : 30, "text" : "비사", "type" : "NNG", "scode" : "07", "weight" : 1, "position" : 167, "begin" : 34, "end" : 34},
+		{"id" : 30, "text" : "비사", "type" : "NNG", "scode" : "06", "weight" : 1, "position" : 167, "begin" : 34, "end" : 34},
 		{"id" : 31, "text" : "〉", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 173, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 176, "begin" : 36, "end" : 36},
 		{"id" : 33, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 178, "begin" : 37, "end" : 37},
@@ -2867,7 +2875,8 @@
 		{"id" : 0, "text" : "테무진", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.147459, "common_noun" : 0},
 		{"id" : 1, "text" : "이웃", "type" : "CV_RELATION", "begin" : 5, "end" : 5, "weight" : 0.326571, "common_noun" : 0},
 		{"id" : 2, "text" : "왕", "type" : "CV_POSITION", "begin" : 8, "end" : 8, "weight" : 0.358614, "common_noun" : 0},
-		{"id" : 3, "text" : "몽골 비사", "type" : "AFW_DOCUMENT", "begin" : 33, "end" : 34, "weight" : 0.701389, "common_noun" : 0}
+		{"id" : 3, "text" : "몽골 비사", "type" : "AFW_DOCUMENT", "begin" : 33, "end" : 34, "weight" : 0.701389, "common_noun" : 0},
+		{"id" : 4, "text" : "원조비사", "type" : "AFW_DOCUMENT", "begin" : 38, "end" : 39, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

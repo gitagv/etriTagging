@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "프레즈노", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -62,7 +62,7 @@
 		{"id" : 0, "text" : "프레즈노", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "미국", "type" : "NNP", "scode" : "03", "weight" : 6.5, "position" : 16, "begin" : 2, "end" : 2},
-		{"id" : 3, "text" : "캘리포니아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 23, "begin" : 3, "end" : 3},
+		{"id" : 3, "text" : "캘리포니아", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 23, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "주", "type" : "NNG", "scode" : "05", "weight" : 11.0666, "position" : 39, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "중", "type" : "NNG", "scode" : "04", "weight" : 4.92222, "position" : 43, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "남부", "type" : "NNG", "scode" : "01", "weight" : 11.9, "position" : 46, "begin" : 6, "end" : 6},
@@ -70,7 +70,7 @@
 		{"id" : 8, "text" : "있", "type" : "VA", "scode" : "01", "weight" : 8.8, "position" : 56, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "도시", "type" : "NNG", "scode" : "03", "weight" : 5.4, "position" : 63, "begin" : 10, "end" : 10},
-		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 69, "begin" : 11, "end" : 11},
+		{"id" : 11, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 75, "begin" : 13, "end" : 13}
 	],
@@ -84,7 +84,7 @@
 		{"id" : 6, "text" : "도시이다.", "type" : "", "begin" : 10, "end" : 13}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "프레즈노", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.207761, "common_noun" : 0},
+		{"id" : 0, "text" : "프레즈노", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.207761, "common_noun" : 0},
 		{"id" : 1, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.963122, "common_noun" : 0},
 		{"id" : 2, "text" : "캘리포니아 주", "type" : "LCP_PROVINCE", "begin" : 3, "end" : 4, "weight" : 0.732509, "common_noun" : 0},
 		{"id" : 3, "text" : "중남부", "type" : "TM_DIRECTION", "begin" : 5, "end" : 6, "weight" : 0.506588, "common_noun" : 0}
@@ -127,14 +127,14 @@
 	"WSD" : [
 		{"id" : 0, "text" : "비옥하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
 		{"id" : 1, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 2, "end" : 2},
-		{"id" : 2, "text" : "캘리포니아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 3, "end" : 3},
+		{"id" : 2, "text" : "캘리포니아", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 10, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "중앙", "type" : "NNG", "scode" : "01", "weight" : 5.9, "position" : 26, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "분지", "type" : "NNG", "scode" : "05", "weight" : 9.9, "position" : 32, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "중", "type" : "NNG", "scode" : "04", "weight" : 3.5, "position" : 39, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "남부", "type" : "NNG", "scode" : "01", "weight" : 9.7, "position" : 42, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "중심지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 52, "begin" : 9, "end" : 10},
-		{"id" : 9, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 61, "begin" : 11, "end" : 11},
+		{"id" : 9, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 12, "end" : 12},
 		{"id" : 11, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 13, "end" : 13}
 	],
@@ -202,7 +202,7 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "캘리포니아", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 0, "text" : "캘리포니아", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "주", "type" : "NNG", "scode" : "05", "weight" : 6, "position" : 16, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 19, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "5", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 3, "end" : 3},
@@ -219,7 +219,7 @@
 		{"id" : 14, "text" : "505,479", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "명", "type" : "NNB", "scode" : "03", "weight" : 7.7, "position" : 81, "begin" : 16, "end" : 16},
 		{"id" : 16, "text" : ")", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 17, "end" : 17},
-		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 85, "begin" : 18, "end" : 18},
+		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 85, "begin" : 18, "end" : 18},
 		{"id" : 18, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 88, "begin" : 19, "end" : 19},
 		{"id" : 19, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 20, "end" : 20},
 		{"id" : 20, "text" : "미국", "type" : "NNP", "scode" : "03", "weight" : 4.2, "position" : 93, "begin" : 21, "end" : 21},
@@ -228,7 +228,7 @@
 		{"id" : 23, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 24, "end" : 24},
 		{"id" : 24, "text" : "35", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 116, "begin" : 25, "end" : 25},
 		{"id" : 25, "text" : "번째", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 118, "begin" : 26, "end" : 26},
-		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 124, "begin" : 27, "end" : 27},
+		{"id" : 26, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 124, "begin" : 27, "end" : 27},
 		{"id" : 27, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 127, "begin" : 28, "end" : 28},
 		{"id" : 28, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 29, "end" : 29}
 	],
@@ -288,7 +288,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "프레즈노", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 0, "begin" : 1, "end" : 1},
+		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 0, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 19, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 4, "end" : 4},
@@ -308,7 +308,7 @@
 		{"id" : 4, "text" : "뜻한다.", "type" : "", "begin" : 10, "end" : 13}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "프레즈노", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.122108, "common_noun" : 0},
+		{"id" : 0, "text" : "프레즈노", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.122108, "common_noun" : 0},
 		{"id" : 1, "text" : "스페인어", "type" : "CV_LANGUAGE", "begin" : 5, "end" : 5, "weight" : 0.390525, "common_noun" : 0},
 		{"id" : 2, "text" : "물푸레나무", "type" : "PT_TREE", "begin" : 7, "end" : 8, "weight" : 0.410246, "common_noun" : 0}
 	],
@@ -363,7 +363,7 @@
 	"WSD" : [
 		{"id" : 0, "text" : "원래", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 0, "begin" : 0, "end" : 0},
 		{"id" : 1, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
-		{"id" : 2, "text" : "요쿠트", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 10, "begin" : 2, "end" : 2},
+		{"id" : 2, "text" : "요쿠트", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "족", "type" : "XSN", "scode" : "07", "weight" : 3.2, "position" : 20, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "살", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 27, "begin" : 5, "end" : 5},
@@ -373,11 +373,11 @@
 		{"id" : 9, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "으며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
-		{"id" : 12, "text" : "센트럴", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 51, "begin" : 12, "end" : 12},
-		{"id" : 13, "text" : "퍼시픽", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 61, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "센트럴", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 51, "begin" : 12, "end" : 12},
+		{"id" : 13, "text" : "퍼시픽", "type" : "NNP", "scode" : "88", "weight" : 0, "position" : 61, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : "철도", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 71, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 77, "begin" : 15, "end" : 15},
-		{"id" : 16, "text" : "부설", "type" : "NNG", "scode" : "04", "weight" : 3.2, "position" : 81, "begin" : 16, "end" : 16},
+		{"id" : 16, "text" : "부설", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 81, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "과", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "함께", "type" : "MAG", "scode" : "00", "weight" : 0, "position" : 91, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "번창하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 98, "begin" : 19, "end" : 20},
@@ -402,8 +402,8 @@
 		{"id" : 11, "text" : "시작했다.", "type" : "", "begin" : 22, "end" : 26}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "센트럴", "type" : "LCP_CITY", "begin" : 12, "end" : 12, "weight" : 0.206266, "common_noun" : 0},
-		{"id" : 1, "text" : "퍼시픽", "type" : "AF_ROAD", "begin" : 13, "end" : 13, "weight" : 0.189374, "common_noun" : 0}
+		{"id" : 0, "text" : "요쿠트 족", "type" : "CV_TRIBE", "begin" : 2, "end" : 3, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "센트럴 퍼시픽 철도", "type" : "OG_OHTERS", "begin" : 12, "end" : 14, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -444,8 +444,8 @@
 	"morp_eval" : [
 	],
 	"WSD" : [
-		{"id" : 0, "text" : "팝핑", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
-		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
+		{"id" : 0, "text" : "팝핑", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 0, "begin" : 0, "end" : 0},
+		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 6, "begin" : 1, "end" : 1},
 		{"id" : 2, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "잘", "type" : "MAG", "scode" : "02", "weight" : 3.2, "position" : 16, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "알려지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 20, "begin" : 4, "end" : 4},
@@ -472,7 +472,8 @@
 		{"id" : 6, "text" : "생겼다.", "type" : "", "begin" : 13, "end" : 16}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "1970년대", "type" : "DT_YEAR", "begin" : 8, "end" : 9, "weight" : 0.88307, "common_noun" : 0}
+		{"id" : 0, "text" : "팝핑", "type" : "AFW_PERFORMANCE", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "1970년대", "type" : "DT_YEAR", "begin" : 8, "end" : 9, "weight" : 0.88307, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -513,7 +514,7 @@
 		{"id" : 3, "text" : "경제", "type" : "NNG", "scode" : "04", "weight" : 5.4, "position" : 30, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "중심지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 40, "begin" : 6, "end" : 7},
-		{"id" : 6, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 49, "begin" : 8, "end" : 8},
+		{"id" : 6, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 8, "end" : 8},
 		{"id" : 7, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 52, "begin" : 9, "end" : 9},
 		{"id" : 8, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 55, "begin" : 10, "end" : 10}
 	],
@@ -585,7 +586,8 @@
 		{"id" : 6, "text" : "한다.", "type" : "", "begin" : 10, "end" : 12}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "프레즈노", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.288343, "common_noun" : 0}
+		{"id" : 0, "text" : "프레즈노", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.288343, "common_noun" : 0},
+		{"id" : 0, "text" : "농업", "type" : "FD_SOCIAL_SCIENCE", "begin" : 8, "end" : 8, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],

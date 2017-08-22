@@ -2,9 +2,9 @@ from pymongo import MongoClient
 
 client = MongoClient('mongodb://root:nlp44342@203.255.81.71')
 
-db = client.etri_wsd
+db = client.etri_wiki_wsd
 
-original_collection = db['1-original']
+original_collection = db['original1']
 
 namelist = [0, '현진', '희연', '영훈', '중식', '민숙', '지원',  '덕진', '시은']
 GROUP = 1
@@ -46,16 +46,11 @@ for obj_1, obj_2, obj_3 in zip(collection1.find(), collection2.find(), original_
 print("진행 형태소 개수: {}, 서로 다르게 태깅한 형태소 개수: {}, 오류율: {}".format(eojulCount, count, (count*100)/eojulCount))
 print("\n\n")
 
-with open("./news_wsd_result/diffList_each.txt", "w", encoding='utf-8') as f:
+with open("./wiki_wsd_result/diffList_each.txt", "w", encoding='utf-8') as f:
     for diff in diffList:
         f.write("%s\n" % str(diff))
 
-with open("./news_wsd_result/diffList_original.txt", "w", encoding='utf-8') as f:
+with open("./wiki_wsd_result/diffList_original.txt", "w", encoding='utf-8') as f:
     for diff_ in sameDiffList:
         f.write(str(diff_))
-        f.write("\n")
-
-with open("./news_wsd_result/remove_division_list.txt", "w", encoding='utf-8') as f:
-    for sub_lst in remove_division_list:
-        f.write(str(sub_lst))
         f.write("\n")

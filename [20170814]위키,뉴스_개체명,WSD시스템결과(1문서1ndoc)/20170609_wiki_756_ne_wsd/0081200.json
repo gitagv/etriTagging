@@ -2,7 +2,7 @@
  "DCT" : "",
  "category" : "",
  "category_weight" : 0,
- "title" : {"text" : "흑사병", "NE" : ""},
+ "title" : {"text" : "", "NE" : ""},
  "metaInfo" : { },
  "sentence" : [
 	{
@@ -91,7 +91,7 @@
 		{"id" : 17, "text" : "사건", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 84, "begin" : 19, "end" : 19},
 		{"id" : 18, "text" : "중", "type" : "NNB", "scode" : "04", "weight" : 5.4, "position" : 91, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "하나", "type" : "NR", "scode" : "00", "weight" : 0, "position" : 95, "begin" : 21, "end" : 21},
-		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 101, "begin" : 22, "end" : 22},
+		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 101, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 104, "begin" : 23, "end" : 23},
 		{"id" : 22, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 107, "begin" : 24, "end" : 24}
 	],
@@ -250,11 +250,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 0, "end" : 0, "weight" : 0.801164, "common_noun" : 0},
-		{"id" : 1, "text" : "1346년", "type" : "DT_YEAR", "begin" : 4, "end" : 5, "weight" : 0.531061, "common_noun" : 0},
-		{"id" : 2, "text" : "1353년", "type" : "DT_YEAR", "begin" : 7, "end" : 8, "weight" : 0.355967, "common_noun" : 0},
-		{"id" : 3, "text" : "유라시아", "type" : "LCG_CONTINENT", "begin" : 24, "end" : 24, "weight" : 0.4548, "common_noun" : 0},
-		{"id" : 4, "text" : "7500만", "type" : "QT_PRICE", "begin" : 28, "end" : 29, "weight" : 0.440908, "common_noun" : 0},
-		{"id" : 5, "text" : "2억 명", "type" : "QT_MAN_COUNT", "begin" : 32, "end" : 34, "weight" : 0.720961, "common_noun" : 0}
+		{"id" : 1, "text" : "1346년–1353년", "type" : "DT_DURATION", "begin" : 4, "end" : 8, "weight" : 1.0, "common_noun" : 0},
+		{"id" : 2, "text" : "유라시아", "type" : "LCG_CONTINENT", "begin" : 24, "end" : 24, "weight" : 0.4548, "common_noun" : 0},
+		{"id" : 3, "text" : "7500만", "type" : "QT_PRICE", "begin" : 28, "end" : 29, "weight" : 0.440908, "common_noun" : 0},
+		{"id" : 4, "text" : "2억 명", "type" : "QT_MAN_COUNT", "begin" : 32, "end" : 34, "weight" : 0.720961, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -343,7 +342,7 @@
 		{"id" : 2, "text" : "병원균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 3, "end" : 4},
 		{"id" : 3, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 22, "begin" : 5, "end" : 5},
 		{"id" : 4, "text" : "무엇", "type" : "NP", "scode" : "00", "weight" : 0, "position" : 26, "begin" : 6, "end" : 6},
-		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 26, "begin" : 7, "end" : 7},
+		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 7, "end" : 7},
 		{"id" : 6, "text" : "ㄴ지", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 26, "begin" : 8, "end" : 8},
 		{"id" : 7, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 9, "end" : 9},
 		{"id" : 8, "text" : "관하", "type" : "VV", "scode" : "02", "weight" : 4.4, "position" : 42, "begin" : 10, "end" : 10},
@@ -365,30 +364,31 @@
 		{"id" : 24, "text" : "2011", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 27, "end" : 27},
 		{"id" : 25, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 8.64737, "position" : 102, "begin" : 28, "end" : 28},
 		{"id" : 26, "text" : "남유럽", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 114, "begin" : 29, "end" : 30},
-		{"id" : 27, "text" : "인들", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 123, "begin" : 31, "end" : 32},
-		{"id" : 28, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 33, "end" : 33},
-		{"id" : 29, "text" : "대상", "type" : "NNG", "scode" : "11", "weight" : 2.5, "position" : 133, "begin" : 34, "end" : 34},
-		{"id" : 30, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 35, "end" : 35},
-		{"id" : 31, "text" : "수행하", "type" : "VV", "scode" : "03", "weight" : 3.3, "position" : 146, "begin" : 36, "end" : 37},
-		{"id" : 32, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 38, "end" : 38},
-		{"id" : 33, "text" : "DNA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 156, "begin" : 39, "end" : 39},
-		{"id" : 34, "text" : "분석", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 160, "begin" : 40, "end" : 40},
-		{"id" : 35, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 5.4, "position" : 167, "begin" : 41, "end" : 41},
-		{"id" : 36, "text" : "페스트", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 174, "begin" : 42, "end" : 42},
-		{"id" : 37, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 183, "begin" : 43, "end" : 43},
-		{"id" : 38, "text" : "병원균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 187, "begin" : 44, "end" : 45},
-		{"id" : 39, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 193, "begin" : 46, "end" : 46},
-		{"id" : 40, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 47, "end" : 47},
-		{"id" : 41, "text" : "페스트균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 200, "begin" : 48, "end" : 49},
-		{"id" : 42, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 212, "begin" : 50, "end" : 50},
-		{"id" : 43, "text" : "병원균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 216, "begin" : 51, "end" : 52},
-		{"id" : 44, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 228, "begin" : 53, "end" : 53},
-		{"id" : 45, "text" : "ㅁ", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 54, "end" : 54},
-		{"id" : 46, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 55, "end" : 55},
-		{"id" : 47, "text" : "밝혀지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 232, "begin" : 56, "end" : 56},
-		{"id" : 48, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 232, "begin" : 57, "end" : 57},
-		{"id" : 49, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 241, "begin" : 58, "end" : 58},
-		{"id" : 50, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 244, "begin" : 59, "end" : 59}
+		{"id" : 27, "text" : "인", "type" : "XSN", "scode" : "17", "weight" : 1, "position" : 123, "begin" : 31, "end" : 31},
+		{"id" : 28, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 1, "position" : 126, "begin" : 32, "end" : 32},
+		{"id" : 29, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 33, "end" : 33},
+		{"id" : 30, "text" : "대상", "type" : "NNG", "scode" : "11", "weight" : 2.5, "position" : 133, "begin" : 34, "end" : 34},
+		{"id" : 31, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 35, "end" : 35},
+		{"id" : 32, "text" : "수행하", "type" : "VV", "scode" : "03", "weight" : 3.3, "position" : 146, "begin" : 36, "end" : 37},
+		{"id" : 33, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 146, "begin" : 38, "end" : 38},
+		{"id" : 34, "text" : "DNA", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 156, "begin" : 39, "end" : 39},
+		{"id" : 35, "text" : "분석", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 160, "begin" : 40, "end" : 40},
+		{"id" : 36, "text" : "결과", "type" : "NNG", "scode" : "02", "weight" : 5.4, "position" : 167, "begin" : 41, "end" : 41},
+		{"id" : 37, "text" : "페스트", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 174, "begin" : 42, "end" : 42},
+		{"id" : 38, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 183, "begin" : 43, "end" : 43},
+		{"id" : 39, "text" : "병원균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 187, "begin" : 44, "end" : 45},
+		{"id" : 40, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 46, "end" : 46},
+		{"id" : 41, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 193, "begin" : 47, "end" : 47},
+		{"id" : 42, "text" : "페스트균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 200, "begin" : 48, "end" : 49},
+		{"id" : 43, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 212, "begin" : 50, "end" : 50},
+		{"id" : 44, "text" : "병원균", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 216, "begin" : 51, "end" : 52},
+		{"id" : 45, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 53, "end" : 53},
+		{"id" : 46, "text" : "ㅁ", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 54, "end" : 54},
+		{"id" : 47, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 228, "begin" : 55, "end" : 55},
+		{"id" : 48, "text" : "밝혀지", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 232, "begin" : 56, "end" : 56},
+		{"id" : 49, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 232, "begin" : 57, "end" : 57},
+		{"id" : 50, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 241, "begin" : 58, "end" : 58},
+		{"id" : 51, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 244, "begin" : 59, "end" : 59}
 	],
 	"word" : [
 		{"id" : 0, "text" : "흑사병의", "type" : "", "begin" : 0, "end" : 2},
@@ -593,14 +593,14 @@
 		{"id" : 3, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "들끓", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 5, "end" : 5},
 		{"id" : 5, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 6, "end" : 6},
-		{"id" : 6, "text" : "검은쥐", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 7, "end" : 7},
+		{"id" : 6, "text" : "검은쥐", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 39, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : "들", "type" : "XSN", "scode" : "09", "weight" : 3, "position" : 48, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "기생하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 55, "begin" : 10, "end" : 11},
 		{"id" : 10, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 12, "end" : 12},
-		{"id" : 11, "text" : "동양쥐벼룩", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 68, "begin" : 13, "end" : 13},
+		{"id" : 11, "text" : "동양쥐벼룩", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 68, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "을", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 83, "begin" : 14, "end" : 14},
-		{"id" : 13, "text" : "기주", "type" : "NNG", "scode" : "02", "weight" : 0.333333, "position" : 87, "begin" : 15, "end" : 15},
+		{"id" : 13, "text" : "기주", "type" : "NNG", "scode" : "09", "weight" : 1, "position" : 87, "begin" : 15, "end" : 15},
 		{"id" : 14, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 16, "end" : 16},
 		{"id" : 15, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 6.5, "position" : 97, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "어", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 18, "end" : 18},
@@ -638,9 +638,10 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "화물선", "type" : "AF_TRANSPORT", "begin" : 2, "end" : 3, "weight" : 0.554975, "common_noun" : 0},
-		{"id" : 1, "text" : "동양쥐벼룩", "type" : "LC_OTHERS", "begin" : 13, "end" : 13, "weight" : 0.121688, "common_noun" : 0},
-		{"id" : 2, "text" : "지중해", "type" : "LCG_OCEAN", "begin" : 19, "end" : 19, "weight" : 0.733987, "common_noun" : 0},
-		{"id" : 3, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 25, "end" : 25, "weight" : 0.785858, "common_noun" : 0}
+		{"id" : 1, "text" : "검은쥐", "type" : "AM_MAMMALIA", "begin" : 7, "end" : 7, "weight" : 1.0, "common_noun" : 0},
+		{"id" : 2, "text" : "동양쥐벼룩", "type" : "AM_INSECT", "begin" : 13, "end" : 13, "weight" : 1.0, "common_noun" : 0},
+		{"id" : 3, "text" : "지중해", "type" : "LCG_OCEAN", "begin" : 19, "end" : 19, "weight" : 0.733987, "common_noun" : 0},
+		{"id" : 4, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 25, "end" : 25, "weight" : 0.785858, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -925,7 +926,7 @@
 		{"id" : 15, "text" : "데", "type" : "NNB", "scode" : "01", "weight" : 7.6, "position" : 93, "begin" : 19, "end" : 19},
 		{"id" : 16, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 96, "begin" : 20, "end" : 20},
 		{"id" : 17, "text" : "17", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 21, "end" : 21},
-		{"id" : 18, "text" : "세기", "type" : "NNG", "scode" : "02", "weight" : 1.77143, "position" : 102, "begin" : 22, "end" : 22},
+		{"id" : 18, "text" : "세기", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 102, "begin" : 22, "end" : 22},
 		{"id" : 19, "text" : "까지", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 108, "begin" : 23, "end" : 23},
 		{"id" : 20, "text" : "시간", "type" : "NNG", "scode" : "04", "weight" : 4.4, "position" : 115, "begin" : 24, "end" : 24},
 		{"id" : 21, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 121, "begin" : 25, "end" : 25},
@@ -1076,7 +1077,7 @@
 		{"id" : 15, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 17, "end" : 17},
 		{"id" : 16, "text" : "는데", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 83, "begin" : 18, "end" : 18},
 		{"id" : 17, "text" : "(", "type" : "SS", "scode" : "00", "weight" : 1, "position" : 89, "begin" : 19, "end" : 19},
-		{"id" : 18, "text" : "런던", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 90, "begin" : 20, "end" : 20},
+		{"id" : 18, "text" : "런던", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 90, "begin" : 20, "end" : 20},
 		{"id" : 19, "text" : "대역", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 97, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : "병", "type" : "NNG", "scode" : "04", "weight" : 3.92628, "position" : 103, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 8.8, "position" : 107, "begin" : 23, "end" : 23},
@@ -1124,7 +1125,7 @@
 		{"id" : 63, "text" : "가리키", "type" : "VV", "scode" : "01", "weight" : 5.4, "position" : 337, "begin" : 71, "end" : 71},
 		{"id" : 64, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 346, "begin" : 72, "end" : 72},
 		{"id" : 65, "text" : "말", "type" : "NNG", "scode" : "01", "weight" : 7.52739, "position" : 350, "begin" : 73, "end" : 73},
-		{"id" : 66, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 353, "begin" : 74, "end" : 74},
+		{"id" : 66, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 353, "begin" : 74, "end" : 74},
 		{"id" : 67, "text" : "라고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 356, "begin" : 75, "end" : 75},
 		{"id" : 68, "text" : "하", "type" : "VV", "scode" : "01", "weight" : 7.6, "position" : 363, "begin" : 76, "end" : 76},
 		{"id" : 69, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 363, "begin" : 77, "end" : 77},
@@ -1175,13 +1176,12 @@
 		{"id" : 4, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 26, "end" : 27, "weight" : 0.363567, "common_noun" : 0},
 		{"id" : 5, "text" : "페스트균", "type" : "TMM_DISEASE", "begin" : 32, "end" : 33, "weight" : 0.32802, "common_noun" : 0},
 		{"id" : 6, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 39, "end" : 40, "weight" : 0.43618, "common_noun" : 0},
-		{"id" : 7, "text" : "1345년", "type" : "DT_YEAR", "begin" : 42, "end" : 43, "weight" : 0.450903, "common_noun" : 0},
-		{"id" : 8, "text" : "1840년", "type" : "DT_YEAR", "begin" : 45, "end" : 46, "weight" : 0.668337, "common_noun" : 0},
-		{"id" : 9, "text" : "유라시아", "type" : "LCG_CONTINENT", "begin" : 48, "end" : 48, "weight" : 0.495414, "common_noun" : 0},
-		{"id" : 10, "text" : "제2차", "type" : "QT_ORDER", "begin" : 54, "end" : 56, "weight" : 0.675726, "common_noun" : 0},
-		{"id" : 11, "text" : "페스트", "type" : "TMM_DISEASE", "begin" : 57, "end" : 57, "weight" : 0.37071, "common_noun" : 0},
-		{"id" : 12, "text" : "14세기", "type" : "DT_OTHERS", "begin" : 63, "end" : 64, "weight" : 0.433344, "common_noun" : 0},
-		{"id" : 13, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 65, "end" : 65, "weight" : 0.626273, "common_noun" : 0}
+		{"id" : 7, "text" : "1345년에서 1840년까지", "type" : "DT_DURATION", "begin" : 42, "end" : 47, "weight" : 1.0, "common_noun" : 0},
+		{"id" : 8, "text" : "유라시아", "type" : "LCG_CONTINENT", "begin" : 48, "end" : 48, "weight" : 0.495414, "common_noun" : 0},
+		{"id" : 9, "text" : "제2차", "type" : "QT_ORDER", "begin" : 54, "end" : 56, "weight" : 0.675726, "common_noun" : 0},
+		{"id" : 10, "text" : "페스트", "type" : "TMM_DISEASE", "begin" : 57, "end" : 57, "weight" : 0.37071, "common_noun" : 0},
+		{"id" : 11, "text" : "14세기", "type" : "DT_OTHERS", "begin" : 63, "end" : 64, "weight" : 0.433344, "common_noun" : 0},
+		{"id" : 12, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 65, "end" : 65, "weight" : 0.626273, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -1250,8 +1250,8 @@
 		{"id" : 12, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "사회사", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 63, "begin" : 14, "end" : 15},
 		{"id" : 14, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 72, "begin" : 16, "end" : 16},
-		{"id" : 15, "text" : "경제", "type" : "NNG", "scode" : "04", "weight" : 6.4, "position" : 74, "begin" : 17, "end" : 17},
-		{"id" : 16, "text" : "사적", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 80, "begin" : 18, "end" : 19},
+		{"id" : 15, "text" : "경제사", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 74, "begin" : 17, "end" : 18},
+		{"id" : 16, "text" : "적", "type" : "XSN", "scode" : "18", "weight" : 1, "position" : 83, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "으로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 20, "end" : 20},
 		{"id" : 18, "text" : "지대하", "type" : "VA", "scode" : "02", "weight" : 5.4, "position" : 93, "begin" : 21, "end" : 22},
 		{"id" : 19, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 93, "begin" : 23, "end" : 23},
@@ -1345,7 +1345,7 @@
 		{"id" : 15, "text" : "공포", "type" : "NNG", "scode" : "08", "weight" : 2.2, "position" : 81, "begin" : 18, "end" : 18},
 		{"id" : 16, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 87, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "대상", "type" : "NNG", "scode" : "11", "weight" : 2.7, "position" : 91, "begin" : 20, "end" : 20},
-		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 97, "begin" : 21, "end" : 21},
+		{"id" : 18, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 97, "begin" : 21, "end" : 21},
 		{"id" : 19, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 22, "end" : 22},
 		{"id" : 20, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 23, "end" : 23},
 		{"id" : 21, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 24, "end" : 24}
@@ -1573,7 +1573,7 @@
 		{"id" : 11, "text" : "달하", "type" : "VV", "scode" : "01", "weight" : 2.2, "position" : 45, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "숫자", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 55, "begin" : 13, "end" : 13},
-		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 61, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 64, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 16, "end" : 16}
 	],
@@ -1815,7 +1815,7 @@
 		{"id" : 7, "text" : "구조", "type" : "NNG", "scode" : "08", "weight" : 5.4, "position" : 39, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 45, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "붕괴", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 49, "begin" : 10, "end" : 10},
-		{"id" : 10, "text" : "시키", "type" : "XSV", "scode" : "00", "weight" : 0, "position" : 49, "begin" : 11, "end" : 11},
+		{"id" : 10, "text" : "시키", "type" : "XSV", "scode" : "02", "weight" : 1, "position" : 49, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "ㄹ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 49, "begin" : 12, "end" : 12},
 		{"id" : 12, "text" : "정도", "type" : "NNG", "scode" : "11", "weight" : 7.7, "position" : 62, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "로", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 68, "begin" : 14, "end" : 14},
@@ -2126,10 +2126,10 @@
 		{"id" : 30, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 180, "begin" : 40, "end" : 40},
 		{"id" : 31, "text" : "희생양", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 190, "begin" : 41, "end" : 41},
 		{"id" : 32, "text" : "적", "type" : "XSN", "scode" : "18", "weight" : 2, "position" : 199, "begin" : 42, "end" : 42},
-		{"id" : 33, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 199, "begin" : 43, "end" : 43},
+		{"id" : 33, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 199, "begin" : 43, "end" : 43},
 		{"id" : 34, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 199, "begin" : 44, "end" : 44},
 		{"id" : 35, "text" : "폭력", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 206, "begin" : 45, "end" : 45},
-		{"id" : 36, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 212, "begin" : 46, "end" : 46},
+		{"id" : 36, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 212, "begin" : 46, "end" : 46},
 		{"id" : 37, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 215, "begin" : 47, "end" : 47},
 		{"id" : 38, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 218, "begin" : 48, "end" : 48},
 		{"id" : 39, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 221, "begin" : 49, "end" : 49}
@@ -2371,8 +2371,8 @@
 	"WSD" : [
 		{"id" : 0, "text" : "흑사병", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
 		{"id" : 1, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
-		{"id" : 2, "text" : "유럽", "type" : "NNP", "scode" : "02", "weight" : 4.4, "position" : 13, "begin" : 3, "end" : 3},
-		{"id" : 3, "text" : "인들", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 19, "begin" : 4, "end" : 5},
+		{"id" : 2, "text" : "유럽인", "type" : "NNP", "scode" : "00", "weight" : 4.4, "position" : 13, "begin" : 3, "end" : 4},
+		{"id" : 3, "text" : "들", "type" : "NNG", "scode" : "09", "weight" : 0, "position" : 22, "begin" : 5, "end" : 5},
 		{"id" : 4, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 6, "end" : 6},
 		{"id" : 5, "text" : "종교적", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 29, "begin" : 7, "end" : 8},
 		{"id" : 6, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 35, "begin" : 9, "end" : 9},
@@ -2508,7 +2508,7 @@
 	],
 	"WSD" : [
 		{"id" : 0, "text" : "흑사병", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 0, "begin" : 0, "end" : 1},
-		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
+		{"id" : 1, "text" : "이", "type" : "VCP", "scode" : "0", "weight" : 1, "position" : 9, "begin" : 2, "end" : 2},
 		{"id" : 2, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 12, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 19, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "은", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 5, "end" : 5},
@@ -2542,7 +2542,7 @@
 		{"id" : 32, "text" : "지", "type" : "VX", "scode" : "04", "weight" : 8.8, "position" : 135, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 34, "end" : 34},
 		{"id" : 34, "text" : "이름", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 145, "begin" : 35, "end" : 35},
-		{"id" : 35, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 145, "begin" : 36, "end" : 36},
+		{"id" : 35, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 145, "begin" : 36, "end" : 36},
 		{"id" : 36, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 154, "begin" : 37, "end" : 37},
 		{"id" : 37, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 157, "begin" : 38, "end" : 38}
 	],
@@ -2628,7 +2628,7 @@
 		{"id" : 8, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 37, "begin" : 10, "end" : 10},
 		{"id" : 9, "text" : "부위", "type" : "NNG", "scode" : "04", "weight" : 4.4, "position" : 47, "begin" : 11, "end" : 11},
 		{"id" : 10, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 12, "end" : 12},
-		{"id" : 11, "text" : "괴저", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 57, "begin" : 13, "end" : 13},
+		{"id" : 11, "text" : "괴저", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 57, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "발생하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 67, "begin" : 15, "end" : 16},
 		{"id" : 14, "text" : "고", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 17, "end" : 17},
@@ -2705,7 +2705,7 @@
 		{"id" : 2, "text" : "임상병리학", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 3, "end" : 5},
 		{"id" : 3, "text" : "에서", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 28, "begin" : 6, "end" : 6},
 		{"id" : 4, "text" : "서혜", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 35, "begin" : 7, "end" : 7},
-		{"id" : 5, "text" : "임파선종", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 42, "begin" : 8, "end" : 8},
+		{"id" : 5, "text" : "임파선종", "type" : "NNG", "scode" : "88", "weight" : 0, "position" : 42, "begin" : 8, "end" : 8},
 		{"id" : 6, "text" : "중", "type" : "NNB", "scode" : "04", "weight" : 3.2, "position" : 55, "begin" : 9, "end" : 9},
 		{"id" : 7, "text" : "가장", "type" : "MAG", "scode" : "01", "weight" : 4.4, "position" : 59, "begin" : 10, "end" : 10},
 		{"id" : 8, "text" : "위험하", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 66, "begin" : 11, "end" : 12},
@@ -2801,10 +2801,10 @@
 		{"id" : 2, "text" : "박테리아", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 13, "begin" : 3, "end" : 3},
 		{"id" : 3, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 25, "begin" : 4, "end" : 4},
 		{"id" : 4, "text" : "일종", "type" : "NNG", "scode" : "03", "weight" : 1, "position" : 29, "begin" : 5, "end" : 5},
-		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 29, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 29, "begin" : 7, "end" : 7},
-		{"id" : 7, "text" : "예르시니아", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 39, "begin" : 8, "end" : 8},
-		{"id" : 8, "text" : "페스티스", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 55, "begin" : 9, "end" : 9},
+		{"id" : 7, "text" : "예르시니아", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 39, "begin" : 8, "end" : 8},
+		{"id" : 8, "text" : "페스티스", "type" : "NNG", "scode" : "88", "weight" : 1, "position" : 55, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 10, "end" : 10},
 		{"id" : 10, "text" : "원인", "type" : "NNG", "scode" : "02", "weight" : 4.2, "position" : 71, "begin" : 11, "end" : 11},
 		{"id" : 11, "text" : "균", "type" : "NNG", "scode" : "03", "weight" : 4.2, "position" : 77, "begin" : 12, "end" : 12},
@@ -2858,7 +2858,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 0, "end" : 1, "weight" : 0.359087, "common_noun" : 0},
 		{"id" : 1, "text" : "박테리아", "type" : "AM_OTHERS", "begin" : 3, "end" : 3, "weight" : 0.455061, "common_noun" : 0},
-		{"id" : 2, "text" : "예르시니아 페스티스", "type" : "TMM_DISEASE", "begin" : 8, "end" : 9, "weight" : 0.0888996, "common_noun" : 0},
+		{"id" : 2, "text" : "예르시니아 페스티스", "type" : "AM_OTHERS", "begin" : 8, "end" : 9, "weight" : 1.0, "common_noun" : 0},
 		{"id" : 3, "text" : "쥐", "type" : "AM_MAMMALIA", "begin" : 19, "end" : 19, "weight" : 0.348362, "common_noun" : 0},
 		{"id" : 4, "text" : "벼룩", "type" : "AM_INSECT", "begin" : 25, "end" : 25, "weight" : 0.6058, "common_noun" : 0}
 	],
@@ -3049,7 +3049,7 @@
 		{"id" : 7, "text" : "걸리", "type" : "VV", "scode" : "01", "weight" : 6.4, "position" : 37, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 43, "begin" : 9, "end" : 9},
 		{"id" : 9, "text" : "전염병", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 47, "begin" : 10, "end" : 11},
-		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 56, "begin" : 12, "end" : 12},
+		{"id" : 10, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 12, "end" : 12},
 		{"id" : 11, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 59, "begin" : 13, "end" : 13},
 		{"id" : 12, "text" : "는", "type" : "JX", "scode" : "00", "weight" : 1, "position" : 62, "begin" : 14, "end" : 14},
 		{"id" : 13, "text" : "하", "type" : "VX", "scode" : "01", "weight" : 8.8, "position" : 66, "begin" : 15, "end" : 15},
@@ -3067,10 +3067,10 @@
 		{"id" : 25, "text" : "아니", "type" : "VCN", "scode" : "00", "weight" : 0, "position" : 115, "begin" : 28, "end" : 28},
 		{"id" : 26, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 115, "begin" : 29, "end" : 29},
 		{"id" : 27, "text" : "사람", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 122, "begin" : 30, "end" : 30},
-		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 128, "begin" : 31, "end" : 31},
+		{"id" : 28, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 128, "begin" : 31, "end" : 31},
 		{"id" : 29, "text" : "라는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 131, "begin" : 32, "end" : 32},
 		{"id" : 30, "text" : "주장", "type" : "NNG", "scode" : "03", "weight" : 1.96552, "position" : 138, "begin" : 33, "end" : 33},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 144, "begin" : 34, "end" : 34},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 144, "begin" : 34, "end" : 34},
 		{"id" : 32, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 147, "begin" : 35, "end" : 35},
 		{"id" : 33, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 36, "end" : 36}
 	],
@@ -3094,8 +3094,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 0, "end" : 1, "weight" : 0.381169, "common_noun" : 0},
 		{"id" : 1, "text" : "쥐", "type" : "AM_MAMMALIA", "begin" : 3, "end" : 3, "weight" : 0.329246, "common_noun" : 0},
-		{"id" : 2, "text" : "장거리", "type" : "CV_SPORTS", "begin" : 18, "end" : 19, "weight" : 1, "common_noun" : 0},
-		{"id" : 3, "text" : "쥐", "type" : "AM_MAMMALIA", "begin" : 26, "end" : 26, "weight" : 0.288632, "common_noun" : 0}
+		{"id" : 2, "text" : "쥐", "type" : "AM_MAMMALIA", "begin" : 26, "end" : 26, "weight" : 0.288632, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3204,7 +3203,8 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "14세기", "type" : "DT_OTHERS", "begin" : 0, "end" : 1, "weight" : 0.38874, "common_noun" : 0},
-		{"id" : 1, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 3, "end" : 3, "weight" : 0.770745, "common_noun" : 0}
+		{"id" : 1, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 3, "end" : 3, "weight" : 0.770745, "common_noun" : 0},
+		{"id" : 2, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 9, "end" : 9, "weight" : 1.0, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3282,7 +3282,7 @@
 		{"id" : 13, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 16, "end" : 16},
 		{"id" : 14, "text" : "다는", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 82, "begin" : 17, "end" : 17},
 		{"id" : 15, "text" : "것", "type" : "NNB", "scode" : "01", "weight" : 7.6, "position" : 89, "begin" : 18, "end" : 18},
-		{"id" : 16, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 92, "begin" : 19, "end" : 19},
+		{"id" : 16, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 19, "end" : 19},
 		{"id" : 17, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 95, "begin" : 20, "end" : 20},
 		{"id" : 18, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 98, "begin" : 21, "end" : 21},
 		{"id" : 19, "text" : "그", "type" : "MM", "scode" : "01", "weight" : 3.7, "position" : 100, "begin" : 22, "end" : 22},
@@ -3456,7 +3456,7 @@
 		{"id" : 0, "text" : "역사학자", "type" : "CV_OCCUPATION", "begin" : 0, "end" : 2, "weight" : 0.82769, "common_noun" : 0},
 		{"id" : 1, "text" : "마이클 W 돌스", "type" : "PS_NAME", "begin" : 3, "end" : 5, "weight" : 0.433814, "common_noun" : 0},
 		{"id" : 2, "text" : "유스티니아누스 시대", "type" : "DT_DYNASTY", "begin" : 7, "end" : 8, "weight" : 0.424578, "common_noun" : 0},
-		{"id" : 3, "text" : "비잔틴 제국", "type" : "LCP_COUNTRY", "begin" : 10, "end" : 11, "weight" : 0.371442, "common_noun" : 0},
+		{"id" : 3, "text" : "비잔틴 제국", "type" : "DT_DYNASTY", "begin" : 10, "end" : 11, "weight" : 1.0, "common_noun" : 0},
 		{"id" : 4, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 13, "end" : 14, "weight" : 0.423637, "common_noun" : 0},
 		{"id" : 5, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 20, "end" : 21, "weight" : 0.3921, "common_noun" : 0},
 		{"id" : 6, "text" : "북아프리카", "type" : "LCG_CONTINENT", "begin" : 26, "end" : 26, "weight" : 0.739459, "common_noun" : 0},
@@ -3571,7 +3571,7 @@
 		{"id" : 0, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 8, "end" : 9, "weight" : 0.370706, "common_noun" : 0},
 		{"id" : 1, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 11, "end" : 11, "weight" : 0.725944, "common_noun" : 0},
 		{"id" : 2, "text" : "비단길", "type" : "AF_ROAD", "begin" : 18, "end" : 18, "weight" : 0.176705, "common_noun" : 0},
-		{"id" : 3, "text" : "몽골 제국", "type" : "LCP_COUNTRY", "begin" : 20, "end" : 21, "weight" : 0.753006, "common_noun" : 0}
+		{"id" : 3, "text" : "몽골 제국", "type" : "DT_DYNASTY", "begin" : 20, "end" : 21, "weight" : 1.0, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -3679,7 +3679,7 @@
 		{"id" : 35, "text" : "였", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 205, "begin" : 40, "end" : 40},
 		{"id" : 36, "text" : "기", "type" : "ETN", "scode" : "00", "weight" : 1, "position" : 208, "begin" : 41, "end" : 41},
 		{"id" : 37, "text" : "때문", "type" : "NNB", "scode" : "00", "weight" : 0, "position" : 212, "begin" : 42, "end" : 42},
-		{"id" : 38, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 218, "begin" : 43, "end" : 43},
+		{"id" : 38, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 218, "begin" : 43, "end" : 43},
 		{"id" : 39, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 221, "begin" : 44, "end" : 44},
 		{"id" : 40, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 224, "begin" : 45, "end" : 45}
 	],
@@ -3705,7 +3705,7 @@
 		{"id" : 18, "text" : "때문이다.", "type" : "", "begin" : 42, "end" : 45}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "몽골 제국", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 1, "weight" : 0.775441, "common_noun" : 0},
+		{"id" : 0, "text" : "몽골 제국", "type" : "DT_DYNASTY", "begin" : 0, "end" : 1, "weight" : 1.0, "common_noun" : 0},
 		{"id" : 1, "text" : "비단길", "type" : "AF_ROAD", "begin" : 3, "end" : 4, "weight" : 0.284389, "common_noun" : 0},
 		{"id" : 2, "text" : "중앙아시아", "type" : "LCG_CONTINENT", "begin" : 8, "end" : 9, "weight" : 0.457169, "common_noun" : 0},
 		{"id" : 3, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 11, "end" : 11, "weight" : 0.674265, "common_noun" : 0},
@@ -3823,7 +3823,7 @@
 		{"id" : 19, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 112, "begin" : 21, "end" : 21},
 		{"id" : 20, "text" : "시체", "type" : "NNG", "scode" : "02", "weight" : 4.4, "position" : 116, "begin" : 22, "end" : 22},
 		{"id" : 21, "text" : "를", "type" : "JKO", "scode" : "00", "weight" : 1, "position" : 122, "begin" : 23, "end" : 23},
-		{"id" : 22, "text" : "투석기", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 126, "begin" : 24, "end" : 25},
+		{"id" : 22, "text" : "투석기", "type" : "NNG", "scode" : "02", "weight" : 1, "position" : 126, "begin" : 24, "end" : 25},
 		{"id" : 23, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 135, "begin" : 26, "end" : 26},
 		{"id" : 24, "text" : "담", "type" : "VV", "scode" : "01", "weight" : 3.2, "position" : 139, "begin" : 27, "end" : 27},
 		{"id" : 25, "text" : "아", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 142, "begin" : 28, "end" : 28},
@@ -3891,7 +3891,7 @@
 		{"id" : 28, "text" : "되었다.", "type" : "", "begin" : 60, "end" : 63}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "페도오시아", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.124846, "common_noun" : 0},
+		{"id" : 0, "text" : "페도오시아", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1.0, "common_noun" : 0},
 		{"id" : 1, "text" : "킵차크 칸국", "type" : "LCP_COUNTRY", "begin" : 7, "end" : 8, "weight" : 0.171362, "common_noun" : 0},
 		{"id" : 2, "text" : "자니베크 칸", "type" : "PS_NAME", "begin" : 10, "end" : 11, "weight" : 0.111622, "common_noun" : 0},
 		{"id" : 3, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 13, "end" : 14, "weight" : 0.449221, "common_noun" : 0},
@@ -4006,10 +4006,8 @@
 		{"id" : 0, "text" : "페오도시야", "type" : "LCP_CITY", "begin" : 1, "end" : 1, "weight" : 0.256795, "common_noun" : 0},
 		{"id" : 1, "text" : "이탈리아", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 4, "weight" : 0.613819, "common_noun" : 0},
 		{"id" : 2, "text" : "제노바", "type" : "LCP_CITY", "begin" : 5, "end" : 5, "weight" : 0.395452, "common_noun" : 0},
-		{"id" : 3, "text" : "교역소", "type" : "AF_CULTURAL_ASSET", "begin" : 7, "end" : 8, "weight" : 1, "common_noun" : 0},
-		{"id" : 4, "text" : "교역소", "type" : "AF_CULTURAL_ASSET", "begin" : 16, "end" : 17, "weight" : 1, "common_noun" : 0},
-		{"id" : 5, "text" : "시칠리아", "type" : "LCP_PROVINCE", "begin" : 23, "end" : 23, "weight" : 0.643071, "common_noun" : 0},
-		{"id" : 6, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 25, "end" : 26, "weight" : 0.410316, "common_noun" : 0}
+		{"id" : 3, "text" : "시칠리아", "type" : "LCP_PROVINCE", "begin" : 23, "end" : 23, "weight" : 0.643071, "common_noun" : 0},
+		{"id" : 4, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 25, "end" : 26, "weight" : 0.410316, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -4155,7 +4153,7 @@
 	"NE" : [
 		{"id" : 0, "text" : "14세기 초", "type" : "DT_OTHERS", "begin" : 0, "end" : 2, "weight" : 0.467987, "common_noun" : 0},
 		{"id" : 1, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 3, "end" : 3, "weight" : 0.730288, "common_noun" : 0},
-		{"id" : 2, "text" : "중세온난기", "type" : "DT_OTHERS", "begin" : 7, "end" : 8, "weight" : 0.399613, "common_noun" : 0}
+		{"id" : 2, "text" : "중세", "type" : "DT_DYNASTY", "begin" : 7, "end" : 7, "weight" : 1.0, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -4238,7 +4236,7 @@
 		{"id" : 18, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 4.4, "position" : 82, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "사이", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 86, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "에", "type" : "JKB", "scode" : "00", "weight" : 1, "position" : 92, "begin" : 20, "end" : 20},
-		{"id" : 21, "text" : "대", "type" : "NNG", "scode" : "14", "weight" : 1, "position" : 96, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "대", "type" : "NNG", "scode" : "17", "weight" : 1, "position" : 96, "begin" : 21, "end" : 21},
 		{"id" : 22, "text" : "기근", "type" : "NNG", "scode" : "03", "weight" : 2.2, "position" : 100, "begin" : 22, "end" : 22},
 		{"id" : 23, "text" : "이", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 23, "end" : 23},
 		{"id" : 24, "text" : "발생하", "type" : "VV", "scode" : "00", "weight" : 0, "position" : 110, "begin" : 24, "end" : 25},
@@ -4276,9 +4274,8 @@
 	"NE" : [
 		{"id" : 0, "text" : "겨울", "type" : "DT_SEASON", "begin" : 0, "end" : 0, "weight" : 0.510703, "common_noun" : 0},
 		{"id" : 1, "text" : "여름", "type" : "DT_SEASON", "begin" : 7, "end" : 7, "weight" : 0.612036, "common_noun" : 0},
-		{"id" : 2, "text" : "1315년", "type" : "DT_YEAR", "begin" : 14, "end" : 15, "weight" : 0.506045, "common_noun" : 0},
-		{"id" : 3, "text" : "1317년", "type" : "DT_YEAR", "begin" : 17, "end" : 18, "weight" : 0.670623, "common_noun" : 0},
-		{"id" : 4, "text" : "북유럽", "type" : "LCG_CONTINENT", "begin" : 29, "end" : 29, "weight" : 0.367105, "common_noun" : 0}
+		{"id" : 2, "text" : "1315년에서 1317년 사이", "type" : "DT_DURATION", "begin" : 14, "end" : 19, "weight" : 1.0, "common_noun" : 0},
+		{"id" : 3, "text" : "북유럽", "type" : "LCG_CONTINENT", "begin" : 29, "end" : 29, "weight" : 0.367105, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -4567,7 +4564,7 @@
 		{"id" : 0, "text" : "13세기", "type" : "DT_OTHERS", "begin" : 0, "end" : 1, "weight" : 0.788329, "common_noun" : 0},
 		{"id" : 1, "text" : "몽골", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.864156, "common_noun" : 0},
 		{"id" : 2, "text" : "중국", "type" : "LCP_COUNTRY", "begin" : 4, "end" : 4, "weight" : 0.756501, "common_noun" : 0},
-		{"id" : 3, "text" : "기아", "type" : "OGG_SPORTS", "begin" : 18, "end" : 18, "weight" : 0.314725, "common_noun" : 0}
+		{"id" : 3, "text" : "기아", "type" : "TMM_DISEASE", "begin" : 18, "end" : 18, "weight" : 1.0, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -4982,7 +4979,7 @@
 		{"id" : 28, "text" : "위세", "type" : "NNG", "scode" : "04", "weight" : 2.5, "position" : 147, "begin" : 32, "end" : 32},
 		{"id" : 29, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 33, "end" : 33},
 		{"id" : 30, "text" : "한창", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 157, "begin" : 34, "end" : 34},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 163, "begin" : 35, "end" : 35},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 163, "begin" : 35, "end" : 35},
 		{"id" : 32, "text" : "던", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 166, "begin" : 36, "end" : 36},
 		{"id" : 33, "text" : "1348", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 170, "begin" : 37, "end" : 37},
 		{"id" : 34, "text" : "년", "type" : "NNB", "scode" : "02", "weight" : 4.4, "position" : 174, "begin" : 38, "end" : 38},
@@ -5036,10 +5033,9 @@
 		{"id" : 5, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 19, "end" : 20, "weight" : 0.40119, "common_noun" : 0},
 		{"id" : 6, "text" : "유럽", "type" : "LCG_CONTINENT", "begin" : 26, "end" : 26, "weight" : 0.760185, "common_noun" : 0},
 		{"id" : 7, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 29, "end" : 30, "weight" : 0.416224, "common_noun" : 0},
-		{"id" : 8, "text" : "1348년", "type" : "DT_YEAR", "begin" : 37, "end" : 38, "weight" : 0.739971, "common_noun" : 0},
-		{"id" : 9, "text" : "1354년", "type" : "DT_DURATION", "begin" : 40, "end" : 41, "weight" : 0.800046, "common_noun" : 0},
-		{"id" : 10, "text" : "중국", "type" : "LCP_COUNTRY", "begin" : 43, "end" : 43, "weight" : 0.749819, "common_noun" : 0},
-		{"id" : 11, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 47, "end" : 48, "weight" : 0.454291, "common_noun" : 0}
+		{"id" : 8, "text" : "1348년 – 1354년 동안", "type" : "DT_DURATION", "begin" : 37, "end" : 42, "weight" : 1.0, "common_noun" : 0},
+		{"id" : 9, "text" : "중국", "type" : "LCP_COUNTRY", "begin" : 43, "end" : 43, "weight" : 0.749819, "common_noun" : 0},
+		{"id" : 10, "text" : "흑사병", "type" : "TMM_DISEASE", "begin" : 47, "end" : 48, "weight" : 0.454291, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -5130,7 +5126,7 @@
 		{"id" : 28, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 29, "end" : 29},
 		{"id" : 29, "text" : "쓰이위엔", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 134, "begin" : 30, "end" : 30},
 		{"id" : 30, "text" : "등", "type" : "NNB", "scode" : "05", "weight" : 2.00226, "position" : 147, "begin" : 31, "end" : 31},
-		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 150, "begin" : 32, "end" : 32},
+		{"id" : 31, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 150, "begin" : 32, "end" : 32},
 		{"id" : 32, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 153, "begin" : 33, "end" : 33},
 		{"id" : 33, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 156, "begin" : 34, "end" : 34},
 		{"id" : 34, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 159, "begin" : 35, "end" : 35}
@@ -5165,7 +5161,7 @@
 		{"id" : 5, "text" : "광둥 성", "type" : "LCP_PROVINCE", "begin" : 22, "end" : 23, "weight" : 0.506252, "common_noun" : 0},
 		{"id" : 6, "text" : "광시", "type" : "LCP_PROVINCE", "begin" : 25, "end" : 25, "weight" : 0.235288, "common_noun" : 0},
 		{"id" : 7, "text" : "허난 성", "type" : "LCP_PROVINCE", "begin" : 27, "end" : 28, "weight" : 0.70732, "common_noun" : 0},
-		{"id" : 8, "text" : "쓰이위엔", "type" : "OGG_ECONOMY", "begin" : 30, "end" : 30, "weight" : 0.243273, "common_noun" : 0}
+		{"id" : 8, "text" : "쓰이위엔", "type" : "LCP_PROVINCE", "begin" : 30, "end" : 30, "weight" : 1.0, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -5241,7 +5237,7 @@
 		{"id" : 9, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 48, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "원나라", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 55, "begin" : 10, "end" : 11},
 		{"id" : 11, "text" : "시대", "type" : "NNG", "scode" : "02", "weight" : 12.1, "position" : 65, "begin" : 12, "end" : 12},
-		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 65, "begin" : 13, "end" : 13},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 13, "end" : 13},
 		{"id" : 13, "text" : "었", "type" : "EP", "scode" : "00", "weight" : 1, "position" : 65, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "으며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 74, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "몽골", "type" : "NNP", "scode" : "00", "weight" : 0, "position" : 81, "begin" : 16, "end" : 16},

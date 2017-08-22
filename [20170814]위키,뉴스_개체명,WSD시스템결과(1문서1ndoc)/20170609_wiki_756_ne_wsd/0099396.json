@@ -31,7 +31,7 @@
 		{"id" : 2, "text" : "주)", "type" : "", "begin" : 3, "end" : 4}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "잭슨빌", "type" : "LC_OTHERS", "begin" : 0, "end" : 0, "weight" : 0.184756, "common_noun" : 0},
+		{"id" : 0, "text" : "잭슨빌", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "플로리다 주", "type" : "LCP_PROVINCE", "begin" : 2, "end" : 3, "weight" : 0.396653, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -83,7 +83,7 @@
 		{"id" : 9, "text" : "많", "type" : "VA", "scode" : "00", "weight" : 0, "position" : 60, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "은", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "도시", "type" : "NNG", "scode" : "03", "weight" : 4.4, "position" : 67, "begin" : 11, "end" : 11},
-		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 73, "begin" : 12, "end" : 12},
+		{"id" : 12, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 73, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 76, "begin" : 13, "end" : 13},
 		{"id" : 14, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 79, "begin" : 14, "end" : 14}
 	],
@@ -98,7 +98,7 @@
 		{"id" : 7, "text" : "도시이다.", "type" : "", "begin" : 11, "end" : 14}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "잭슨빌", "type" : "PS_NAME", "begin" : 0, "end" : 0, "weight" : 0.224355, "common_noun" : 0},
+		{"id" : 0, "text" : "잭슨빌", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 2, "end" : 2, "weight" : 0.938186, "common_noun" : 0},
 		{"id" : 2, "text" : "플로리다 주", "type" : "LCP_PROVINCE", "begin" : 3, "end" : 4, "weight" : 0.495103, "common_noun" : 0}
 	],
@@ -158,7 +158,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "미국", "type" : "LCP_COUNTRY", "begin" : 0, "end" : 0, "weight" : 0.837631, "common_noun" : 0},
-		{"id" : 1, "text" : "열셋째", "type" : "QT_COUNT", "begin" : 4, "end" : 5, "weight" : 0.280443, "common_noun" : 0}
+		{"id" : 1, "text" : "열셋째", "type" : "QT_ORDER", "begin" : 4, "end" : 5, "weight" : 1, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -207,7 +207,7 @@
 		{"id" : 2, "text" : "의", "type" : "JKG", "scode" : "00", "weight" : 1, "position" : 10, "begin" : 2, "end" : 2},
 		{"id" : 3, "text" : "군청", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 14, "begin" : 3, "end" : 3},
 		{"id" : 4, "text" : "소재지", "type" : "NNG", "scode" : "00", "weight" : 0, "position" : 21, "begin" : 4, "end" : 5},
-		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 30, "begin" : 6, "end" : 6},
+		{"id" : 5, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 30, "begin" : 6, "end" : 6},
 		{"id" : 6, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 7, "end" : 7},
 		{"id" : 7, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 36, "begin" : 8, "end" : 8},
 		{"id" : 8, "text" : "인구", "type" : "NNG", "scode" : "01", "weight" : 2.2, "position" : 38, "begin" : 9, "end" : 9},
@@ -218,7 +218,7 @@
 		{"id" : 13, "text" : "기준", "type" : "NNG", "scode" : "03", "weight" : 2.2, "position" : 63, "begin" : 14, "end" : 14},
 		{"id" : 14, "text" : "821,784", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 70, "begin" : 15, "end" : 15},
 		{"id" : 15, "text" : "명", "type" : "NNB", "scode" : "03", "weight" : 2, "position" : 77, "begin" : 16, "end" : 16},
-		{"id" : 16, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 80, "begin" : 17, "end" : 17},
+		{"id" : 16, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 80, "begin" : 17, "end" : 17},
 		{"id" : 17, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 83, "begin" : 18, "end" : 18},
 		{"id" : 18, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 86, "begin" : 19, "end" : 19}
 	],
@@ -234,8 +234,9 @@
 		{"id" : 8, "text" : "821,784명이다.", "type" : "", "begin" : 15, "end" : 19}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "2010년", "type" : "DT_YEAR", "begin" : 11, "end" : 12, "weight" : 0.881557, "common_noun" : 0},
-		{"id" : 1, "text" : "821,784명", "type" : "QT_MAN_COUNT", "begin" : 15, "end" : 16, "weight" : 0.575107, "common_noun" : 0}
+		{"id" : 0, "text" : "듀발", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
+		{"id" : 1, "text" : "2010년", "type" : "DT_YEAR", "begin" : 11, "end" : 12, "weight" : 0.881557, "common_noun" : 0},
+		{"id" : 2, "text" : "821,784명", "type" : "QT_MAN_COUNT", "begin" : 15, "end" : 16, "weight" : 0.575107, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
@@ -374,7 +375,7 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "잭슨빌", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 0.21086, "common_noun" : 0},
-		{"id" : 1, "text" : "NFL 풋볼", "type" : "CV_SPORTS", "begin" : 10, "end" : 11, "weight" : 0.189354, "common_noun" : 0},
+		{"id" : 1, "text" : "NFL 풋볼", "type" : "EV_SPORTS", "begin" : 10, "end" : 11, "weight" : 1, "common_noun" : 0},
 		{"id" : 2, "text" : "잭슨빌 재규어스", "type" : "OGG_SPORTS", "begin" : 13, "end" : 14, "weight" : 0.226041, "common_noun" : 0}
 	],
 	"chunk" : [
@@ -430,21 +431,21 @@
 		{"id" : 4, "text" : "2,264.5", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 23, "begin" : 4, "end" : 4},
 		{"id" : 5, "text" : "km", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 31, "begin" : 5, "end" : 5},
 		{"id" : 6, "text" : "²", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 33, "begin" : 6, "end" : 6},
-		{"id" : 7, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 35, "begin" : 7, "end" : 7},
+		{"id" : 7, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 35, "begin" : 7, "end" : 7},
 		{"id" : 8, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 38, "begin" : 8, "end" : 8},
 		{"id" : 9, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 41, "begin" : 9, "end" : 9},
 		{"id" : 10, "text" : "이", "type" : "MM", "scode" : "05", "weight" : 1, "position" : 43, "begin" : 10, "end" : 10},
 		{"id" : 11, "text" : "중", "type" : "NNB", "scode" : "04", "weight" : 2.2, "position" : 47, "begin" : 11, "end" : 11},
 		{"id" : 12, "text" : "13.34", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 51, "begin" : 12, "end" : 12},
 		{"id" : 13, "text" : "%", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 13, "end" : 13},
-		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 56, "begin" : 14, "end" : 14},
+		{"id" : 14, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "302.1", "type" : "SN", "scode" : "00", "weight" : 1, "position" : 61, "begin" : 16, "end" : 16},
 		{"id" : 17, "text" : "km", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 67, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "²", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 69, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "가", "type" : "JKS", "scode" : "00", "weight" : 1, "position" : 71, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "물", "type" : "NNG", "scode" : "01", "weight" : 1, "position" : 75, "begin" : 20, "end" : 20},
-		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 78, "begin" : 21, "end" : 21},
+		{"id" : 21, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 78, "begin" : 21, "end" : 21},
 		{"id" : 22, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 81, "begin" : 22, "end" : 22},
 		{"id" : 23, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 84, "begin" : 23, "end" : 23}
 	],
@@ -461,7 +462,7 @@
 		{"id" : 9, "text" : "물이다.", "type" : "", "begin" : 20, "end" : 23}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "잭슨빌", "type" : "LC_OTHERS", "begin" : 0, "end" : 0, "weight" : 0.27365, "common_noun" : 0},
+		{"id" : 0, "text" : "잭슨빌", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "2,264.5 km²", "type" : "QT_SIZE", "begin" : 4, "end" : 6, "weight" : 0.501836, "common_noun" : 0},
 		{"id" : 2, "text" : "13.34%�", "type" : "QT_PERCENTAGE", "begin" : 12, "end" : 15, "weight" : 0.679064, "common_noun" : 0},
 		{"id" : 3, "text" : "302.1 km²", "type" : "QT_SIZE", "begin" : 16, "end" : 18, "weight" : 0.258723, "common_noun" : 0}
@@ -531,7 +532,7 @@
 		{"id" : 17, "text" : "덥", "type" : "VA", "scode" : "01", "weight" : 2.2, "position" : 90, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "ㄴ", "type" : "ETM", "scode" : "00", "weight" : 1, "position" : 90, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : "편", "type" : "NNB", "scode" : "04", "weight" : 1.53333, "position" : 97, "begin" : 19, "end" : 19},
-		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 100, "begin" : 20, "end" : 20},
+		{"id" : 20, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 100, "begin" : 20, "end" : 20},
 		{"id" : 21, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 103, "begin" : 21, "end" : 21},
 		{"id" : 22, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 106, "begin" : 22, "end" : 22}
 	],
@@ -548,7 +549,7 @@
 		{"id" : 9, "text" : "편이다.", "type" : "", "begin" : 19, "end" : 22}
 	],
 	"NE" : [
-		{"id" : 0, "text" : "잭슨빌", "type" : "LC_OTHERS", "begin" : 0, "end" : 0, "weight" : 0.162666, "common_noun" : 0},
+		{"id" : 0, "text" : "잭슨빌", "type" : "LCP_CITY", "begin" : 0, "end" : 0, "weight" : 1, "common_noun" : 0},
 		{"id" : 1, "text" : "온난 습윤 기후", "type" : "TM_CLIMATE", "begin" : 2, "end" : 4, "weight" : 0.454953, "common_noun" : 0},
 		{"id" : 2, "text" : "겨울", "type" : "DT_SEASON", "begin" : 9, "end" : 9, "weight" : 0.571529, "common_noun" : 0},
 		{"id" : 3, "text" : "여름", "type" : "DT_SEASON", "begin" : 14, "end" : 14, "weight" : 0.460227, "common_noun" : 0}
@@ -636,7 +637,7 @@
 		{"id" : 14, "text" : ";", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 53, "begin" : 14, "end" : 14},
 		{"id" : 15, "text" : "°", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 54, "begin" : 15, "end" : 15},
 		{"id" : 16, "text" : "C", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 56, "begin" : 16, "end" : 16},
-		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 57, "begin" : 17, "end" : 17},
+		{"id" : 17, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 57, "begin" : 17, "end" : 17},
 		{"id" : 18, "text" : "며", "type" : "EC", "scode" : "00", "weight" : 1, "position" : 60, "begin" : 18, "end" : 18},
 		{"id" : 19, "text" : ",", "type" : "SP", "scode" : "00", "weight" : 1, "position" : 63, "begin" : 19, "end" : 19},
 		{"id" : 20, "text" : "최저", "type" : "NNG", "scode" : "01", "weight" : 3.2, "position" : 65, "begin" : 20, "end" : 20},
@@ -659,7 +660,7 @@
 		{"id" : 37, "text" : ";", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 129, "begin" : 38, "end" : 38},
 		{"id" : 38, "text" : "°", "type" : "SW", "scode" : "00", "weight" : 1, "position" : 130, "begin" : 39, "end" : 39},
 		{"id" : 39, "text" : "C", "type" : "SL", "scode" : "00", "weight" : 1, "position" : 132, "begin" : 40, "end" : 40},
-		{"id" : 40, "text" : "이", "type" : "VCP", "scode" : "01", "weight" : 1, "position" : 133, "begin" : 41, "end" : 41},
+		{"id" : 40, "text" : "이", "type" : "VCP", "scode" : "00", "weight" : 1, "position" : 133, "begin" : 41, "end" : 41},
 		{"id" : 41, "text" : "다", "type" : "EF", "scode" : "00", "weight" : 1, "position" : 136, "begin" : 42, "end" : 42},
 		{"id" : 42, "text" : ".", "type" : "SF", "scode" : "00", "weight" : 1, "position" : 139, "begin" : 43, "end" : 43}
 	],
@@ -682,9 +683,9 @@
 	],
 	"NE" : [
 		{"id" : 0, "text" : "1942년 7월 21일", "type" : "DT_OTHERS", "begin" : 4, "end" : 9, "weight" : 0.869298, "common_noun" : 0},
-		{"id" : 1, "text" : "43&", "type" : "QT_COUNT", "begin" : 11, "end" : 12, "weight" : 0.40689, "common_noun" : 0},
+		{"id" : 1, "text" : "43&", "type" : "QT_TEMPERATURE", "begin" : 11, "end" : 12, "weight" : 0.40689, "common_noun" : 0},
 		{"id" : 2, "text" : "1985년 1월 21일", "type" : "DT_OTHERS", "begin" : 24, "end" : 29, "weight" : 0.823893, "common_noun" : 0},
-		{"id" : 3, "text" : "14&", "type" : "QT_ORDER", "begin" : 35, "end" : 36, "weight" : 0.140402, "common_noun" : 0}
+		{"id" : 3, "text" : "14&", "type" : "QT_TEMPERATURE", "begin" : 35, "end" : 36, "weight" : 0.140402, "common_noun" : 0}
 	],
 	"chunk" : [
 	],
