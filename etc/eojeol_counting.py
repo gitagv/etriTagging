@@ -1,8 +1,11 @@
 # # morp count
 # # create by Kitak Park.
+from pymongo import MongoClient
 
-import pymongo
-connection = pymongo.MongoClient("203.255.81.137", 27017)
+connection = MongoClient('mongodb://root:nlp44342@203.255.81.71')
+
+etri = connection.etri_legal_WSD_NE
+original = etri.original
 etri = connection.etri
 documents = etri.documents
 
