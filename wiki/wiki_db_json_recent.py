@@ -1,16 +1,17 @@
 from pymongo import MongoClient
 
-client = MongoClient('mongodb://root:nlp44342@203.255.81.71')
+client = MongoClient('mongodb://root:nlp44342@203.255.81.46')
 
-db = client.etri_patent_wsd_ne
+db = client.etri_wiki
 
-col = db['Group1']
+col = db['submit']
+
 def main():
     for a in col.find():
         temp = ""
         # titleText = a['title']['text']
         titleText = a['title']['text']
-        fileName = titleText
+        fileName = titleText + '.json'
         file = open(fileName, 'w', encoding='utf-8')
         print(titleText)
 
@@ -215,70 +216,6 @@ def main():
                     temp += ' },\n'
             temp += '\t],\n'
 
-            sSize = len(b['phrase_dependency'])
-            temp += '\t"phrase_dependency" : [\n'
-            for c in b['phrase_dependency']:
-                temp += '\t\t{"id" : '
-                temp += str(c['id'])
-                temp += ', "label" : "'
-                temp += c['label']
-                temp += '", "text" : "'
-                if str(c['text']).count('"') > 0:
-                    temp += str(c['text']).replace('"', '\\"')
-                else:
-                    temp += c['text']
-                temp += '", "begin" : '
-                temp += str(c['begin'])
-                temp += ', "end" : '
-                temp += str(c['end'])
-                temp += ', "key_begin" : '
-                temp += str(c['key_begin'])
-                temp += ', "head_phrase" : '
-                temp += str(c['head_phrase'])
-                temp += ', "sub_phrase" : ['
-                dSize = len(c['sub_phrase'])
-                for dCount, d in enumerate(c['sub_phrase']):
-                    temp += str(d)
-                    if dSize - 1 == dCount:
-                        continue
-                    else:
-                        temp += ', '
-                temp += '], "weight" : '
-                temp += str(c['weight'])
-                dSize = len(c['element'])
-                if dSize == 0:
-                    temp += ', "element" : ['
-                else:
-                    temp += ', \n\t\t\t"element" : [\n\t\t\t'
-                    for dCount, d in enumerate(c['element']):
-                        if dCount == 0:
-                            temp += '\t{ "text" : "'
-                        else:
-                            temp += '\t\t\t\t{ "text" : "'
-                        if str(d['text']).count('"') > 0:
-                            temp += str(d['text']).replace('"', '\\"')
-                        else:
-                            temp += d['text']
-                        temp += '", "label" : "'
-                        temp += d['label']
-                        temp += '", "begin" : '
-                        temp += str(d['begin'])
-                        temp += ', "end" : '
-                        temp += str(d['end'])
-                        temp += ', "ne_type" : "'
-                        temp += d['ne_type']
-                        temp += '" '
-                        if dSize - 1 == dCount:
-                            temp += '}\n\t\t\t'
-                        else:
-                            temp += '},\n'
-                temp += ']'
-
-                if sSize-1 == c['id']:
-                    temp += ' }\n'
-                else:
-                    temp += ' },\n'
-            temp += '\t],\n'
 
             sSize = len(b['SRL'])
             temp += '\t"SRL" : [\n'

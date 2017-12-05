@@ -2,8 +2,8 @@ from pymongo import MongoClient
 
 client = MongoClient('mongodb://root:nlp44342@203.255.81.71')
 # etri = client.etri_patent_morp
-etri = client.etri_patent_wsd_ne
-submit = etri['Group1']
+etri = client.etri_wiki_word
+submit = etri['submit']
 
 for s in submit.find():
     for sentence in s['sentence']:
@@ -16,6 +16,7 @@ for s in submit.find():
         for id, wsd in enumerate(sentence['wsd']):
             if wsd['id'] != id:
                 print(s['title']['text'], sentence['id'], wsd['id'])
+                wsd.update()
         for id, ne in enumerate(sentence['ne']):
             if ne['id'] != id:
                 print(s['title']['text'], sentence['id'], ne['id'])
